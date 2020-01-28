@@ -1,0 +1,46 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11000000.0		25279.567		0.08		25279.5673		-15
+2		27534.974		25279.567		0.046		25279.5673		-15
+3		28394.247		25279.567		0.057		25279.5673		-15
+4		27534.974		25279.567		0.064		25279.5673		-15
+5		29208.239		25279.567		0.078		25279.5673		-15
+6		27534.974		25279.567		0.096		25279.5673		-15
+7		27686.223		23124.318		0.097		23124.3177		max_(min_(pos(sum_(input1)), le(len_(input1), neg(-1))), -56)
+8		28168.568		23124.318		0.114		23124.3177		max_(min_(pos(sum_(input1)), le(len_(input1), neg(-1))), -56)
+9		28801.243		22845.752		0.136		22845.7515		div(add(sum_(input1), False), 65)
+10		27686.223		22845.752		0.149		22845.7515		div(add(sum_(input1), False), 65)
+11		29706.764		22845.752		0.189		22845.7515		div(add(sum_(input1), False), 65)
+12		27686.223		22845.536		0.181		22845.536299999996		div(add(sum_(input1), -1), 65)
+13		27624.974		22403.716		0.192		22403.716300000004		max_(min_(pos(sum_(input1)), len_(input1)), -56)
+14		29208.239		21736.093		0.208		21736.0931		div(add(sum_(input1), and_(int2bool(neg(65)), False)), float2int(abs_(abs_(floordiv(2, div(abs_(0.11899965932025913), neg(2)))))))
+15		29178.243		21736.093		0.215		21736.0931		div(add(sum_(input1), and_(int2bool(neg(65)), False)), float2int(abs_(abs_(floordiv(2, div(abs_(0.11899965932025913), neg(2)))))))
+16		29706.764		21736.093		0.208		21736.0931		div(add(sum_(input1), and_(int2bool(neg(65)), False)), float2int(abs_(abs_(floordiv(2, div(abs_(0.11899965932025913), neg(2)))))))
+17		29021.692		21760.245		0.22		21736.0931		div(add(sum_(input1), and_(int2bool(neg(65)), False)), float2int(abs_(abs_(floordiv(2, div(abs_(0.11899965932025913), neg(2)))))))
+18		31613.472		21761.769		0.212		21736.0931		div(add(sum_(input1), and_(int2bool(neg(65)), False)), float2int(abs_(abs_(floordiv(2, div(abs_(0.11899965932025913), neg(2)))))))
+19		28895.136		21761.769		0.239		21736.0931		div(add(sum_(input1), and_(int2bool(neg(65)), False)), float2int(abs_(abs_(floordiv(2, div(abs_(0.11899965932025913), neg(2)))))))
+20		28837.136		21761.769		0.228		21736.0931		div(add(sum_(input1), and_(int2bool(neg(65)), False)), float2int(abs_(abs_(floordiv(2, div(abs_(0.11899965932025913), neg(2)))))))
+21		28168.568		21724.479		0.244		21724.479		div(do_print(add(sum_(input1), and_(int2bool(False), True)), 2), float2int(abs_(abs_(-42))))
+22		29706.764		0.0		0.262		0.0		div(add(sum_(input1), int2bool(False)), float2int(abs_(len_(input1))))
+Solution found.
+def vector_average(input1):
+    return div(add(sum_(input1), int2bool(False)), float2int(abs_(len_(input1))))
+
+Simplifying genome of length 27.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0.0
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

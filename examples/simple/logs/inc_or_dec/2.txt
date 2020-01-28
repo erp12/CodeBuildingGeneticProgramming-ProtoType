@@ -1,0 +1,62 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.076		20		i
+2		102.0		20		0.049		20		i
+3		102.0		20		0.077		20		i
+4		35.0		20		0.071		20		i
+5		20.0		20		0.084		20		i
+6		20.0		20		0.078		20		i
+7		20.0		20		0.085		20		i
+8		20.0		20		0.085		20		i
+9		20.0		20		0.094		20		i
+10		20.0		20		0.094		20		i
+11		20.0		20		0.117		20		i
+12		20.0		20		0.103		20		i
+13		20.0		20		0.115		20		i
+14		20.0		20		0.124		20		i
+15		20.0		19		0.124		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+16		20.0		19		0.12		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+17		20.0		19		0.121		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+18		20.0		19		0.124		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+19		20.0		19		0.124		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+20		28.5		19		0.125		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+21		20.0		19		0.132		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+22		20.0		19		0.138		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+23		21.0		19		0.135		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+24		24.0		19		0.138		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+25		21.0		19		0.133		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+26		36.0		19		0.152		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+27		20.0		19		0.16		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+28		36.0		19		0.16		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+29		24.0		19		0.169		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+30		36.0		19		0.184		19		float2int(sub(do_print(i, -1), floordiv(abs_(i), 10)))
+31		36.0		18		0.178		18		round_(sub(i, bool2int(ne(-1, neg(abs_(sub(2, i)))))), 0)
+32		36.0		10		0.174		10		round_(sub(i, bool2int(dec)), 0)
+33		38.0		10		0.184		10		round_(sub(i, bool2int(dec)), 0)
+34		37.5		10		0.162		10		round_(sub(i, bool2int(dec)), 0)
+35		38.0		10		0.169		10		round_(sub(i, bool2int(dec)), 0)
+36		38.0		10		0.183		10		round_(sub(i, bool2int(dec)), 0)
+37		49.0		10		0.178		10		round_(sub(i, bool2int(dec)), 0)
+38		49.0		10		0.171		10		round_(sub(i, bool2int(dec)), 0)
+39		65.0		10		0.186		10		round_(sub(i, bool2int(dec)), 0)
+40		65.0		10		0.19		10		round_(sub(i, bool2int(dec)), 0)
+41		64.5		10		0.171		10		round_(sub(i, bool2int(dec)), 0)
+42		66.0		10		0.174		10		round_(sub(i, bool2int(dec)), 0)
+43		102.0		0		0.124		0		min_(sub(i, -1), if_(dec, sub(-1, neg(i)), 10))
+Solution found.
+def inc_or_dec(i, dec):
+    return min_(sub(i, -1), if_(dec, sub(-1, neg(i)), 10))
+Simplifying genome of length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def inc_or_dec(i, dec):
+    return min_(sub(i, -1), if_(dec, sub(-1, neg(i)), 10))

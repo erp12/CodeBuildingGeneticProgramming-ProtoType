@@ -1,0 +1,65 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.078		20		i
+2		104.0		20		0.054		20		i
+3		108.0		20		0.071		20		i
+4		104.0		20		0.077		20		i
+5		104.0		20		0.086		20		i
+6		102.0		20		0.075		20		i
+7		102.0		20		0.075		20		i
+8		102.0		10		0.09		10		sub(i, min_(1, print_tap(bool2int(dec))))
+9		102.0		10		0.077		10		sub(i, min_(1, print_tap(bool2int(dec))))
+10		102.0		10		0.083		10		sub(i, min_(1, print_tap(bool2int(dec))))
+11		102.0		10		0.068		10		sub(i, min_(1, print_tap(bool2int(dec))))
+12		104.0		10		0.074		10		sub(i, min_(1, print_tap(bool2int(dec))))
+13		102.0		10		0.085		10		sub(i, min_(1, print_tap(bool2int(dec))))
+14		104.0		10		0.075		10		sub(i, min_(1, print_tap(bool2int(dec))))
+15		104.0		10		0.076		10		sub(i, min_(1, print_tap(bool2int(dec))))
+16		104.0		10		0.083		10		sub(i, min_(1, print_tap(bool2int(dec))))
+17		102.0		10		0.069		10		sub(i, min_(1, print_tap(bool2int(dec))))
+18		103.5		10		0.097		10		sub(i, min_(1, print_tap(bool2int(dec))))
+19		102.0		10		0.097		10		sub(i, min_(1, print_tap(bool2int(dec))))
+20		102.0		10		0.103		10		sub(i, min_(1, print_tap(bool2int(dec))))
+21		102.0		10		0.099		10		sub(i, min_(1, print_tap(bool2int(dec))))
+22		102.0		10		0.103		10		sub(i, min_(1, print_tap(bool2int(dec))))
+23		100.0		10		0.091		10		sub(i, min_(1, print_tap(bool2int(dec))))
+24		100.0		10		0.082		10		sub(i, min_(1, print_tap(bool2int(dec))))
+25		93.5		10		0.091		10		sub(i, min_(1, print_tap(bool2int(dec))))
+26		61.0		10		0.087		10		sub(i, min_(1, print_tap(bool2int(dec))))
+27		70.0		10		0.102		10		sub(i, min_(1, print_tap(bool2int(dec))))
+28		61.0		10		0.086		10		sub(i, min_(1, print_tap(bool2int(dec))))
+29		64.0		10		0.093		10		sub(i, min_(1, print_tap(bool2int(dec))))
+30		65.5		10		0.111		10		sub(i, min_(1, print_tap(bool2int(dec))))
+31		60.0		10		0.101		10		sub(i, min_(1, print_tap(bool2int(dec))))
+32		86.0		10		0.118		10		sub(i, min_(1, print_tap(bool2int(dec))))
+33		60.0		10		0.126		10		sub(i, min_(1, print_tap(bool2int(dec))))
+34		61.0		10		0.119		10		sub(i, min_(1, print_tap(bool2int(dec))))
+35		70.0		10		0.135		10		sub(i, min_(1, print_tap(bool2int(dec))))
+36		88.0		10		0.135		10		sub(i, min_(1, print_tap(bool2int(dec))))
+37		89.0		10		0.146		10		sub(i, min_(1, print_tap(bool2int(dec))))
+38		76.0		10		0.145		10		sub(i, min_(1, print_tap(bool2int(dec))))
+39		100.0		10		0.148		10		sub(i, min_(1, print_tap(bool2int(dec))))
+40		68.0		10		0.159		10		sub(i, min_(1, print_tap(bool2int(dec))))
+41		50.0		10		0.145		10		sub(i, min_(1, print_tap(bool2int(dec))))
+42		64.0		10		0.135		10		sub(i, min_(1, print_tap(bool2int(dec))))
+43		58.0		0		0.149		0		sub(i, println_tap(pos(if_(pos(neg(println_tap(dec))), bool2int(dec), -1))))
+Solution found.
+def inc_or_dec(i, dec):
+    return sub(i, println_tap(pos(if_(pos(neg(println_tap(dec))), bool2int(dec), -1))))
+Simplifying genome of length 41.
+Simplified to length 33.
+Simplified to length 26.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified genome: length=7 error=0
+def inc_or_dec(i, dec):
+    return sub(i, if_(dec, bool2int(dec), -1))

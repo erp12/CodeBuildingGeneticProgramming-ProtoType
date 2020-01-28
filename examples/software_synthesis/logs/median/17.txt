@@ -1,0 +1,147 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		3865.0		2207		0.117		2207		max_(input3, input2)
+2		2601.0		2207		0.085		2207		max_(input3, input2)
+3		2601.0		2185		0.107		2185		max_(float2int(float2int(add(print_do(int2float(-1), 0.6790234759742234), sub(1, input2)))), input3)
+4		2601.0		2185		0.119		2185		max_(float2int(float2int(add(print_do(int2float(-1), 0.6790234759742234), sub(1, input2)))), input3)
+5		2821.0		1809		0.152		1809		max_(float2int(min_(add(print_do(add(0.950519029432053, int2float(-1)), 0.6790234759742234), 1), input2)), input3)
+6		2601.0		1807		0.147		1807		max_(float2int(min_(add(mul(add(0.950519029432053, int2float(-1)), print_do(-45, 0.6790234759742234)), 1), input2)), input3)
+7		2601.0		1076		0.196		1076		max_(float2int(add(print_do(mul(-1, print_do(min_(-1, add(int2float(10), 60)), 0.6790234759742234)), 1), min_(input2, input1))), input3)
+8		2601.0		1035		0.225		1035		max_(min_(input2, input1), input3)
+9		2467.0		1035		0.165		1035		max_(min_(input2, input1), input3)
+10		2402.0		1035		0.181		1035		max_(min_(input2, input1), input3)
+11		2402.0		1035		0.179		1035		max_(min_(input2, input1), input3)
+12		2409.0		1035		0.177		1035		max_(min_(input2, input1), input3)
+13		2268.0		1035		0.151		1035		max_(min_(input2, input1), input3)
+14		2268.0		1035		0.154		1035		max_(min_(input2, input1), input3)
+15		2268.0		1035		0.137		1035		max_(min_(input2, input1), input3)
+16		2268.0		1035		0.129		1035		max_(min_(input2, input1), input3)
+17		2263.0		1035		0.14		1035		max_(min_(input2, input1), input3)
+18		2268.0		1035		0.147		1035		max_(min_(input2, input1), input3)
+19		2267.0		1035		0.125		1035		max_(min_(input2, input1), input3)
+20		2268.0		1035		0.146		1035		max_(min_(input2, input1), input3)
+21		2268.0		1035		0.141		1035		max_(min_(input2, input1), input3)
+22		2268.0		1035		0.162		1035		max_(min_(input2, input1), input3)
+23		2268.0		1035		0.153		1035		max_(min_(input2, input1), input3)
+24		2268.0		1035		0.15		1035		max_(min_(input2, input1), input3)
+25		2268.0		1035		0.161		1035		max_(min_(input2, input1), input3)
+26		2268.0		1035		0.134		1035		max_(min_(input2, input1), input3)
+27		2268.0		1035		0.148		1035		max_(min_(input2, input1), input3)
+28		2014.0		1035		0.131		1035		max_(min_(input2, input1), input3)
+29		2268.0		1035		0.15		1035		max_(min_(input2, input1), input3)
+30		2268.0		1035		0.139		1035		max_(min_(input2, input1), input3)
+31		2268.0		1035		0.152		1035		max_(min_(input2, input1), input3)
+32		2268.0		1035		0.145		1035		max_(min_(input2, input1), input3)
+33		2246.0		1035		0.146		1035		max_(min_(input2, input1), input3)
+34		2243.5		1035		0.133		1035		max_(min_(input2, input1), input3)
+35		2211.5		1035		0.154		1035		max_(min_(input2, input1), input3)
+36		2248.0		1035		0.169		1035		max_(min_(input2, input1), input3)
+37		2268.0		1035		0.166		1035		max_(min_(input2, input1), input3)
+38		2268.0		1035		0.177		1035		max_(min_(input2, input1), input3)
+39		2402.0		1035		0.172		1035		max_(min_(input2, input1), input3)
+40		2252.5		1035		0.177		1035		max_(min_(input2, input1), input3)
+41		2268.0		1035		0.186		1035		max_(min_(input2, input1), input3)
+42		2402.0		1035		0.192		1035		max_(min_(input2, input1), input3)
+43		2379.0		1035		0.188		1035		max_(min_(input2, input1), input3)
+44		2321.0		1035		0.204		1035		max_(min_(input2, input1), input3)
+45		2402.0		1035		0.174		1035		max_(min_(input2, input1), input3)
+46		2467.0		1035		0.191		1035		max_(min_(input2, input1), input3)
+47		2268.0		1035		0.18		1035		max_(min_(input2, input1), input3)
+48		2402.0		1035		0.2		1035		max_(min_(input2, input1), input3)
+49		2268.0		1035		0.178		1035		max_(min_(input2, input1), input3)
+50		2268.0		1035		0.175		1035		max_(min_(input2, input1), input3)
+51		2402.0		1035		0.192		1035		max_(min_(input2, input1), input3)
+52		2263.5		1035		0.168		1035		max_(min_(input2, input1), input3)
+53		2259.0		1035		0.165		1035		max_(min_(input2, input1), input3)
+54		2207.0		1035		0.181		1035		max_(min_(input2, input1), input3)
+55		2402.0		1035		0.184		1035		max_(min_(input2, input1), input3)
+56		2402.0		1035		0.191		1035		max_(min_(input2, input1), input3)
+57		2207.0		1035		0.185		1035		max_(min_(input2, input1), input3)
+58		2268.0		1035		0.179		1035		max_(min_(input2, input1), input3)
+59		2224.5		1035		0.166		1035		max_(min_(input2, input1), input3)
+60		2207.0		1035		0.169		1035		max_(min_(input2, input1), input3)
+61		2207.0		1035		0.151		1035		max_(min_(input2, input1), input3)
+62		2207.0		1035		0.175		1035		max_(min_(input2, input1), input3)
+63		2207.0		1035		0.154		1035		max_(min_(input2, input1), input3)
+64		2131.0		1035		0.166		1035		max_(min_(input2, input1), input3)
+65		2259.0		1035		0.166		1035		max_(min_(input2, input1), input3)
+66		2193.5		1035		0.153		1035		max_(min_(input2, input1), input3)
+67		2244.0		1035		0.172		1035		max_(min_(input2, input1), input3)
+68		2259.0		1035		0.148		1035		max_(min_(input2, input1), input3)
+69		2207.0		1035		0.153		1035		max_(min_(input2, input1), input3)
+70		2285.5		1035		0.168		1035		max_(min_(input2, input1), input3)
+71		2268.0		1035		0.166		1035		max_(min_(input2, input1), input3)
+72		2268.0		1035		0.169		1035		max_(min_(input2, input1), input3)
+73		2268.0		1035		0.168		1035		max_(min_(input2, input1), input3)
+74		2207.0		1035		0.164		1035		max_(min_(input2, input1), input3)
+75		2268.0		1035		0.163		1035		max_(min_(input2, input1), input3)
+76		2207.0		1035		0.149		1035		max_(min_(input2, input1), input3)
+77		2207.0		1035		0.169		1035		max_(min_(input2, input1), input3)
+78		2029.5		1035		0.164		1035		max_(min_(input2, input1), input3)
+79		2207.0		1035		0.159		1035		max_(min_(input2, input1), input3)
+80		2207.0		1035		0.152		1035		max_(min_(input2, input1), input3)
+81		2200.0		1035		0.174		1035		max_(min_(input2, input1), input3)
+82		2207.0		1035		0.174		1035		max_(min_(input2, input1), input3)
+83		2207.0		1035		0.174		1035		max_(min_(input2, input1), input3)
+84		2259.0		1035		0.171		1035		max_(min_(input2, input1), input3)
+85		2268.0		1035		0.174		1035		max_(min_(input2, input1), input3)
+86		2264.5		1035		0.198		1035		max_(min_(input2, input1), input3)
+87		2261.0		1035		0.202		1035		max_(min_(input2, input1), input3)
+88		2254.5		1035		0.186		1035		max_(min_(input2, input1), input3)
+89		2268.0		1035		0.187		1035		max_(min_(input2, input1), input3)
+90		2321.0		1035		0.195		1035		max_(min_(input2, input1), input3)
+91		2268.0		1035		0.191		1035		max_(min_(input2, input1), input3)
+92		2268.0		1035		0.196		1035		max_(min_(input2, input1), input3)
+93		2386.0		1035		0.221		1035		max_(min_(input2, input1), input3)
+94		2268.0		1035		0.222		1035		max_(min_(input2, input1), input3)
+95		2207.0		1035		0.192		1035		max_(min_(input2, input1), input3)
+96		2260.0		1035		0.221		1035		max_(min_(input2, input1), input3)
+97		2259.0		1035		0.204		1035		max_(min_(input2, input1), input3)
+98		2268.0		1035		0.203		1035		max_(min_(input2, input1), input3)
+99		2268.0		1035		0.212		1035		max_(min_(input2, input1), input3)
+100		2207.0		1035		0.205		1035		max_(min_(input2, input1), input3)
+101		2268.0		1035		0.21		1035		max_(min_(input2, input1), input3)
+102		2261.0		1035		0.214		1035		max_(min_(input2, input1), input3)
+103		2264.5		1035		0.22		1035		max_(min_(input2, input1), input3)
+104		2402.0		1035		0.249		1035		max_(min_(input2, input1), input3)
+105		2321.0		1035		0.217		1035		max_(min_(input2, input1), input3)
+106		2266.5		1035		0.245		1035		max_(min_(input2, input1), input3)
+107		2268.0		1035		0.248		1035		max_(min_(input2, input1), input3)
+108		2268.0		0		0.245		0		max_(min_(max_(input2, input1), input3), min_(input1, input2))
+Solution found.
+def median(input1, input2, input3):
+    return max_(min_(max_(input2, input1), input3), min_(input1, input2))
+
+Simplifying genome of length 31.
+Simplified genome: length=31 error=0
+def median(input1, input2, input3):
+    return max_(min_(max_(input2, input1), input3), min_(input1, input2))
+
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Final Test Error: 0

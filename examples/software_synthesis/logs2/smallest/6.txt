@@ -1,0 +1,32 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		105.0		61.0		0.019		61.0		do_print(sub(input4, 10), input2)
+2		70.0		61.0		0.017		61.0		do_print(sub(input4, 10), input2)
+3		68.0		48.0		0.018		48.0		add(float2int(input4), div(-1, print_tap(min_(input4, input3))))
+4		66.0		21.0		0.038		21.0		add(float2int(input4), print_tap(min_(input4, min_(input2, input3))))
+5		45.0		19.0		0.063		19.0		add(float2int(input4), div(neg(print_tap(min_(input4, min_(input1, input2)))), input3))
+6		45.0		19.0		0.093		19.0		add(float2int(input4), div(neg(print_tap(min_(input4, min_(input1, input2)))), input3))
+7		41.0		19.0		0.088		19.0		add(float2int(input4), div(neg(print_tap(min_(input4, min_(input1, input2)))), input3))
+8		43.5		0.0		0.082		0.0		add(float2int(input4), print_tap(min_(input4, min_(min_(input2, input1), input3))))
+Solution found.
+def smallest(input1, input2, input3, input4):
+    return add(float2int(input4), print_tap(min_(input4, min_(min_(input2, input1), input3))))
+
+Simplifying genome of length 38.
+Simplified to length 33.
+Simplified to length 30.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified genome: length=10 error=0.0
+def smallest(input1, input2, input3, input4):
+    return eq(input4, print_tap(min_(input4, min_(min_(input2, input1), input3))))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

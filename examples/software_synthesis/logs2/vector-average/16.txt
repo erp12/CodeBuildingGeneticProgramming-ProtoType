@@ -1,0 +1,59 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11000000.0		30216.809		0.099		30216.808800000003		24
+2		31352.244		30216.809		0.073		30216.808800000003		24
+3		33291.158		30199.532		0.103		30199.532		max_(lt(False, sum_(input1)), False)
+4		33450.765		30199.532		0.119		30199.532		max_(lt(False, sum_(input1)), False)
+5		34433.728		30199.532		0.142		30199.532		max_(lt(False, sum_(input1)), False)
+6		35323.948		30199.532		0.162		30199.532		max_(lt(False, sum_(input1)), False)
+7		37073.165		30199.532		0.2		30199.532		max_(lt(False, sum_(input1)), False)
+8		38551.106		30216.809		0.207		30199.532		max_(lt(False, sum_(input1)), False)
+9		37308.156		30199.532		0.215		30199.532		max_(lt(False, sum_(input1)), False)
+10		36786.174		30216.809		0.224		30199.532		max_(lt(False, sum_(input1)), False)
+11		37447.404		30216.809		0.214		30199.532		max_(lt(False, sum_(input1)), False)
+12		36195.216		30216.809		0.24		30199.532		max_(lt(False, sum_(input1)), False)
+13		36069.582		30204.532		0.249		30199.532		max_(lt(False, sum_(input1)), False)
+14		41516.517		30216.809		0.256		30199.532		max_(lt(False, sum_(input1)), False)
+15		43951.106		30216.809		0.234		30199.532		max_(lt(False, sum_(input1)), False)
+16		37447.404		30216.809		0.268		30199.532		max_(lt(False, sum_(input1)), False)
+17		34590.544		30204.532		0.235		30199.532		max_(lt(False, sum_(input1)), False)
+18		40538.312		30203.977		0.23		30199.532		max_(lt(False, sum_(input1)), False)
+19		41431.106		26249.257		0.234		26249.257099999995		min_(pos(float2int(97)), max_(sum_(input1), 2))
+20		38551.106		26249.257		0.237		26249.257099999995		min_(pos(float2int(97)), max_(sum_(input1), 2))
+21		45009.042		26249.257		0.227		26249.257099999995		min_(pos(float2int(97)), max_(sum_(input1), 2))
+22		41085.017		26196.257		0.222		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+23		39702.429		26196.257		0.224		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+24		41446.175		26196.257		0.213		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+25		45313.677		26196.257		0.214		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+26		38527.443		30173.811		0.223		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+27		41516.517		29637.532		0.236		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+28		37267.404		30159.093		0.214		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+29		37208.503		28109.109		0.207		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+30		36980.859		30173.811		0.222		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+31		36087.945		30153.731		0.221		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+32		36087.945		30153.731		0.211		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+33		40653.517		27689.201		0.203		26196.257099999995		min_(pos(float2int(97)), max_(sum_(input1), True))
+34		38340.919		26091.257		0.204		26091.257099999995		min_(97, max_(sum_(input1), print_tap(-1)))
+35		37208.503		26091.257		0.213		26091.257099999995		min_(97, max_(sum_(input1), print_tap(-1)))
+36		34859.453		27689.201		0.2		26091.257099999995		min_(97, max_(sum_(input1), print_tap(-1)))
+37		37208.503		27232.486		0.198		26091.257099999995		min_(97, max_(sum_(input1), print_tap(-1)))
+38		36642.275		30153.731		0.194		26091.257099999995		min_(97, max_(sum_(input1), print_tap(-1)))
+39		36087.945		30153.731		0.207		26091.257099999995		min_(97, max_(sum_(input1), print_tap(-1)))
+40		37955.733		26821.444		0.204		26091.257099999995		min_(97, max_(sum_(input1), print_tap(-1)))
+41		37804.417		26821.444		0.212		26091.257099999995		min_(97, max_(sum_(input1), print_tap(-1)))
+42		41039.861		26821.444		0.216		26091.257099999995		min_(97, max_(sum_(input1), print_tap(-1)))
+43		35386.54		0.0		0.198		0.0		div(sum_(input1), len_(input1))
+Solution found.
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+Simplifying genome of length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 5.
+Simplified genome: length=5 error=0.0
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

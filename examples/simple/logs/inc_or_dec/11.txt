@@ -1,0 +1,41 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.08		20		i
+2		102.0		20		0.056		20		i
+3		102.0		10		0.064		10		float2int(add(i, bool2int(print_tap(not_(print_do(int2float(i), dec))))))
+4		91.5		10		0.09		10		float2int(add(i, bool2int(print_tap(not_(print_do(int2float(i), dec))))))
+5		30.0		10		0.107		10		float2int(add(i, bool2int(print_tap(not_(print_do(int2float(i), dec))))))
+6		20.0		10		0.104		10		float2int(add(i, bool2int(print_tap(not_(print_do(int2float(i), dec))))))
+7		30.0		10		0.131		10		float2int(add(i, bool2int(print_tap(not_(print_do(int2float(i), dec))))))
+8		30.0		10		0.129		10		float2int(add(i, bool2int(print_tap(not_(print_do(int2float(i), dec))))))
+9		30.0		10		0.12		10		float2int(add(i, bool2int(print_tap(not_(print_do(int2float(i), dec))))))
+10		30.0		10		0.123		10		float2int(add(i, bool2int(print_tap(not_(print_do(int2float(i), dec))))))
+11		30.0		9		0.134		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+12		58.0		9		0.151		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+13		57.0		9		0.139		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+14		43.5		9		0.154		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+15		31.0		9		0.162		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+16		30.0		9		0.152		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+17		30.0		9		0.165		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+18		38.5		9		0.183		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+19		51.5		9		0.192		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+20		57.0		9		0.182		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+21		58.0		9		0.191		9		float2int(add(int2bool(i), float2int(print_tap(sub(int2float(i), dec)))))
+22		53.0		0		0.178		0		float2int(add(not_(dec), add(i, div(pos(div(-1, 1)), dec))))
+Solution found.
+def inc_or_dec(i, dec):
+    return float2int(add(not_(dec), add(i, div(pos(div(-1, 1)), dec))))
+Simplifying genome of length 26.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified genome: length=9 error=0
+def inc_or_dec(i, dec):
+    return float2int(add(not_(dec), add(i, div(-1, dec))))

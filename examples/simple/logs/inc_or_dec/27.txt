@@ -1,0 +1,43 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.073		20		i
+2		100.0		20		0.053		20		i
+3		102.0		20		0.079		20		i
+4		100.0		10		0.073		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+5		20.0		10		0.063		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+6		20.0		10		0.066		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+7		20.0		10		0.081		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+8		20.0		10		0.087		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+9		20.0		10		0.086		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+10		30.0		10		0.091		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+11		30.0		10		0.08		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+12		49.5		10		0.093		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+13		50.0		10		0.112		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+14		50.0		10		0.113		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+15		30.0		10		0.112		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+16		56.0		10		0.116		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+17		30.0		10		0.106		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+18		35.0		10		0.103		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+19		30.0		10		0.11		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+20		46.5		10		0.124		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+21		30.0		10		0.147		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+22		54.5		10		0.148		10		do_print(add(bool2int(int2bool(not_(dec))), i), 10)
+23		50.0		0		0.132		0		add(bool2int(or_(not_(dec), neg(float2bool(97)))), i)
+Solution found.
+def inc_or_dec(i, dec):
+    return add(bool2int(or_(not_(dec), neg(float2bool(97)))), i)
+Simplifying genome of length 33.
+Simplified to length 30.
+Simplified to length 29.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 15.
+Simplified to length 13.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified genome: length=9 error=0
+def inc_or_dec(i, dec):
+    return add(bool2int(or_(not_(dec), neg(float2bool(97)))), i)

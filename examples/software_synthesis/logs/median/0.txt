@@ -1,0 +1,57 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		4291.0		2548		0.089		2548		print_tap(println_tap(input3))
+2		2742.0		2520		0.071		2520		max_(input3, println_tap(input1))
+3		2742.0		1422		0.085		1422		min_(input2, max_(input3, input1))
+4		2742.0		1422		0.09		1422		min_(input2, max_(input3, input1))
+5		2891.0		1422		0.098		1422		min_(input2, max_(input3, input1))
+6		2548.0		1422		0.11		1422		min_(input2, max_(input3, input1))
+7		2520.0		1422		0.128		1422		min_(input2, max_(input3, input1))
+8		2548.0		1405		0.15		1405		min_(abs_(input2), max_(input3, input1))
+9		2520.0		1405		0.147		1405		min_(abs_(input2), max_(input3, input1))
+10		2362.0		1320		0.145		1320		max_(input2, min_(input3, input1))
+11		2362.0		1320		0.139		1320		max_(input2, min_(input3, input1))
+12		2362.0		1044		0.158		1044		min_(max_(min_(input2, input3), input1), abs_(abs_(input2)))
+13		2362.0		1042		0.161		1042		max_(min_(input1, input2), input3)
+14		1558.0		939		0.15		939		min_(print_tap(max_(min_(input1, input2), input3)), abs_(println_tap(float2int(input1))))
+15		1859.0		414		0.157		414		min_(max_(min_(input1, input2), input3), abs_(max_(-75, println_tap(input2))))
+16		1851.0		414		0.163		414		min_(max_(min_(input1, input2), input3), abs_(max_(-75, println_tap(input2))))
+17		1847.5		414		0.169		414		min_(max_(min_(input1, input2), input3), abs_(max_(-75, println_tap(input2))))
+18		2332.0		0		0.182		0		min_(max_(min_(input1, input2), input3), max_(input1, float2int(input2)))
+Solution found.
+def median(input1, input2, input3):
+    return min_(max_(min_(input1, input2), input3), max_(input1, float2int(input2)))
+
+Simplifying genome of length 27.
+Simplified genome: length=27 error=0
+def median(input1, input2, input3):
+    return min_(max_(min_(input1, input2), input3), max_(input1, float2int(input2)))
+
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Final Test Error: 0

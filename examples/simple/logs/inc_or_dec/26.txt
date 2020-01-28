@@ -1,0 +1,34 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.062		20		i
+2		94.0		20		0.057		20		i
+3		94.0		10		0.063		10		sub(i, bool2int(not_(not_(dec))))
+4		102.0		10		0.133		10		sub(i, bool2int(not_(not_(dec))))
+5		80.0		10		0.161		10		sub(i, bool2int(not_(not_(dec))))
+6		88.5		10		0.16		10		sub(i, bool2int(not_(not_(dec))))
+7		70.0		10		0.144		10		sub(i, bool2int(not_(not_(dec))))
+8		70.0		10		0.164		10		sub(i, bool2int(not_(not_(dec))))
+9		72.0		0		0.183		0		do_print(sub(i, if_(dec, bool2int(not_(println_tap(not_(dec)))), -1)), len_(str_(int2bool(add(-1, -1)))))
+Solution found.
+def inc_or_dec(i, dec):
+    return do_print(sub(i, if_(dec, bool2int(not_(println_tap(not_(dec)))), -1)), len_(str_(int2bool(add(-1, -1)))))
+Simplifying genome of length 71.
+Simplified to length 44.
+Simplified to length 34.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 11.
+Simplified to length 10.
+Simplified genome: length=10 error=0
+def inc_or_dec(i, dec):
+    return sub(i, if_(dec, bool2int(not_(str_(-1).isdecimal())), -1))

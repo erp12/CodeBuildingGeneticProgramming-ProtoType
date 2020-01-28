@@ -1,0 +1,41 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11000000.0		30149.677		0.095		30149.677099999997		min_(add(abs_(mul(-1, 27)), 10), add(False, neg(10)))
+2		31686.65		30149.677		0.052		30149.677099999997		min_(add(abs_(mul(-1, 27)), 10), add(False, neg(10)))
+3		31686.65		30149.677		0.061		30149.677099999997		min_(add(abs_(mul(-1, 27)), 10), add(False, neg(10)))
+4		33649.118		30149.677		0.081		30149.677099999997		min_(add(abs_(mul(-1, 27)), 10), add(False, neg(10)))
+5		33649.118		30085.441		0.103		30085.4413		min_(max_(sum_(input1), abs_(div(div(float2bool(0), 2), 0))), println_tap(2))
+6		33649.118		30149.677		0.141		30085.4413		min_(max_(sum_(input1), abs_(div(div(float2bool(0), 2), 0))), println_tap(2))
+7		34177.158		29429.064		0.125		29429.064199999997		min_(max_(-14, sum_(input1)), div(div(float2bool(0), 2), println_tap(2)))
+8		34227.158		14433.963		0.142		14433.962500000001		div(max_(max_(-14, sum_(input1)), abs_(div(0, 0))), len_(input1))
+9		44259.049		14127.272		0.116		14127.2719		div(max_(-14, sum_(input1)), abs_(add(div(0, 0), len_(input1))))
+10		33341.999		0.0		0.143		0.0		div(sum_(input1), abs_(add(div(0, 0), len_(input1))))
+Solution found.
+def vector_average(input1):
+    return div(sum_(input1), abs_(add(div(0, 0), len_(input1))))
+
+Simplifying genome of length 42.
+Simplified to length 40.
+Simplified to length 37.
+Simplified to length 36.
+Simplified to length 32.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 25.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 12.
+Simplified to length 10.
+Simplified to length 8.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0.0
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

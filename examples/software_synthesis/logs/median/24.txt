@@ -1,0 +1,140 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		4125.0		2408		0.093		2408		input3
+2		2535.0		2189		0.06		2189		min_(input3, abs_(input2))
+3		2530.0		2143		0.06		2143		min_(abs_(input3), input1)
+4		2530.0		2143		0.061		2143		min_(abs_(input3), input1)
+5		2535.0		1871		0.083		1871		max_(input3, input2)
+6		2535.0		1871		0.103		1871		max_(input3, input2)
+7		2535.0		1871		0.112		1871		max_(input3, input2)
+8		2535.0		1067		0.102		1067		max_(input3, min_(input2, input1))
+9		2551.0		1067		0.113		1067		max_(input3, min_(input2, input1))
+10		2556.5		804		0.117		804		max_(min_(float2int(input3), input1), input2)
+11		2535.0		804		0.131		804		max_(min_(float2int(input3), input1), input2)
+12		2535.0		804		0.099		804		max_(min_(float2int(input3), input1), input2)
+13		2535.0		804		0.101		804		max_(min_(float2int(input3), input1), input2)
+14		2535.0		804		0.121		804		max_(min_(float2int(input3), input1), input2)
+15		2535.0		804		0.129		804		max_(min_(float2int(input3), input1), input2)
+16		2535.0		804		0.131		804		max_(min_(float2int(input3), input1), input2)
+17		2535.0		804		0.145		804		max_(min_(float2int(input3), input1), input2)
+18		2535.0		804		0.134		804		max_(min_(float2int(input3), input1), input2)
+19		2535.0		804		0.158		804		max_(min_(float2int(input3), input1), input2)
+20		2535.0		804		0.145		804		max_(min_(float2int(input3), input1), input2)
+21		2535.0		804		0.147		804		max_(min_(float2int(input3), input1), input2)
+22		2535.0		804		0.132		804		max_(min_(float2int(input3), input1), input2)
+23		2535.0		804		0.152		804		max_(min_(float2int(input3), input1), input2)
+24		2535.0		804		0.144		804		max_(min_(float2int(input3), input1), input2)
+25		2535.0		804		0.158		804		max_(min_(float2int(input3), input1), input2)
+26		2535.0		804		0.144		804		max_(min_(float2int(input3), input1), input2)
+27		2535.0		804		0.157		804		max_(min_(float2int(input3), input1), input2)
+28		2535.0		804		0.146		804		max_(min_(float2int(input3), input1), input2)
+29		2530.0		804		0.149		804		max_(min_(float2int(input3), input1), input2)
+30		2530.0		804		0.151		804		max_(min_(float2int(input3), input1), input2)
+31		2535.0		804		0.168		804		max_(min_(float2int(input3), input1), input2)
+32		2535.0		804		0.169		804		max_(min_(float2int(input3), input1), input2)
+33		2535.0		804		0.174		804		max_(min_(float2int(input3), input1), input2)
+34		2535.0		804		0.204		804		max_(min_(float2int(input3), input1), input2)
+35		2535.0		804		0.194		804		max_(min_(float2int(input3), input1), input2)
+36		2535.0		804		0.174		804		max_(min_(float2int(input3), input1), input2)
+37		2535.0		804		0.182		804		max_(min_(float2int(input3), input1), input2)
+38		2535.0		804		0.202		804		max_(min_(float2int(input3), input1), input2)
+39		2535.0		804		0.207		804		max_(min_(float2int(input3), input1), input2)
+40		2535.0		804		0.204		804		max_(min_(float2int(input3), input1), input2)
+41		2535.0		804		0.203		804		max_(min_(float2int(input3), input1), input2)
+42		2535.0		804		0.197		804		max_(min_(float2int(input3), input1), input2)
+43		2535.0		804		0.211		804		max_(min_(float2int(input3), input1), input2)
+44		2420.0		804		0.18		804		max_(min_(float2int(input3), input1), input2)
+45		2530.0		804		0.195		804		max_(min_(float2int(input3), input1), input2)
+46		2497.5		804		0.2		804		max_(min_(float2int(input3), input1), input2)
+47		2530.0		804		0.222		804		max_(min_(float2int(input3), input1), input2)
+48		2530.0		804		0.207		804		max_(min_(float2int(input3), input1), input2)
+49		2530.0		804		0.199		804		max_(min_(float2int(input3), input1), input2)
+50		2530.0		804		0.193		804		max_(min_(float2int(input3), input1), input2)
+51		2530.0		804		0.213		804		max_(min_(float2int(input3), input1), input2)
+52		2408.0		804		0.198		804		max_(min_(float2int(input3), input1), input2)
+53		2408.0		804		0.198		804		max_(min_(float2int(input3), input1), input2)
+54		2497.5		804		0.214		804		max_(min_(float2int(input3), input1), input2)
+55		2408.0		804		0.195		804		max_(min_(float2int(input3), input1), input2)
+56		2408.0		804		0.206		804		max_(min_(float2int(input3), input1), input2)
+57		2408.0		804		0.196		804		max_(min_(float2int(input3), input1), input2)
+58		2408.0		804		0.215		804		max_(min_(float2int(input3), input1), input2)
+59		2408.0		804		0.221		804		max_(min_(float2int(input3), input1), input2)
+60		2408.0		804		0.191		804		max_(min_(float2int(input3), input1), input2)
+61		2408.0		804		0.207		804		max_(min_(float2int(input3), input1), input2)
+62		2316.5		804		0.192		804		max_(min_(float2int(input3), input1), input2)
+63		2408.0		804		0.206		804		max_(min_(float2int(input3), input1), input2)
+64		2408.0		804		0.207		804		max_(min_(float2int(input3), input1), input2)
+65		2408.0		804		0.21		804		max_(min_(float2int(input3), input1), input2)
+66		2272.0		804		0.207		804		max_(min_(float2int(input3), input1), input2)
+67		2277.0		804		0.195		804		max_(min_(float2int(input3), input1), input2)
+68		2029.0		804		0.185		804		max_(min_(float2int(input3), input1), input2)
+69		2374.5		804		0.193		804		max_(min_(float2int(input3), input1), input2)
+70		2408.0		804		0.214		804		max_(min_(float2int(input3), input1), input2)
+71		2408.0		804		0.188		804		max_(min_(float2int(input3), input1), input2)
+72		2272.0		804		0.183		804		max_(min_(float2int(input3), input1), input2)
+73		2408.0		804		0.199		804		max_(min_(float2int(input3), input1), input2)
+74		2408.0		804		0.218		804		max_(min_(float2int(input3), input1), input2)
+75		2297.0		804		0.207		804		max_(min_(float2int(input3), input1), input2)
+76		2277.0		804		0.213		804		max_(min_(float2int(input3), input1), input2)
+77		2272.0		804		0.217		804		max_(min_(float2int(input3), input1), input2)
+78		2029.0		804		0.217		804		max_(min_(float2int(input3), input1), input2)
+79		2272.0		804		0.226		804		max_(min_(float2int(input3), input1), input2)
+80		2272.0		804		0.227		804		max_(min_(float2int(input3), input1), input2)
+81		2272.0		804		0.203		804		max_(min_(float2int(input3), input1), input2)
+82		2272.0		804		0.201		804		max_(min_(float2int(input3), input1), input2)
+83		2272.0		804		0.192		804		max_(min_(float2int(input3), input1), input2)
+84		2158.0		804		0.206		804		max_(min_(float2int(input3), input1), input2)
+85		2272.0		804		0.219		804		max_(min_(float2int(input3), input1), input2)
+86		2029.0		804		0.202		804		max_(min_(float2int(input3), input1), input2)
+87		1871.0		804		0.209		804		max_(min_(float2int(input3), input1), input2)
+88		2235.0		804		0.218		804		max_(min_(float2int(input3), input1), input2)
+89		2272.0		804		0.238		804		max_(min_(float2int(input3), input1), input2)
+90		2277.0		804		0.255		804		max_(min_(float2int(input3), input1), input2)
+91		2408.0		710		0.235		710		min_(max_(input3, input1), max_(input2, add(input1, add(neg(33), input3))))
+92		2408.0		710		0.256		710		min_(max_(input3, input1), max_(input2, add(input1, add(neg(33), input3))))
+93		2272.0		710		0.24		710		min_(max_(input3, input1), max_(input2, add(input1, add(neg(33), input3))))
+94		2397.0		710		0.274		710		min_(max_(input3, input1), max_(input2, add(input1, add(neg(33), input3))))
+95		2408.0		710		0.302		710		min_(max_(input3, input1), max_(input2, add(input1, add(neg(33), input3))))
+96		2408.0		710		0.293		710		min_(max_(input3, input1), max_(input2, add(input1, add(neg(33), input3))))
+97		2408.0		710		0.28		710		min_(max_(input3, input1), max_(input2, add(input1, add(neg(33), input3))))
+98		2408.0		710		0.304		710		min_(max_(input3, input1), max_(input2, add(input1, add(neg(33), input3))))
+99		2408.0		710		0.303		710		min_(max_(input3, input1), max_(input2, add(input1, add(neg(33), input3))))
+100		2529.5		710		0.298		710		min_(max_(input3, input1), max_(input2, add(input1, add(neg(33), input3))))
+101		2408.0		0		0.333		0		float2int(min_(max_(input3, input1), max_(input2, println_tap(min_(input1, input3)))))
+Solution found.
+def median(input1, input2, input3):
+    return float2int(min_(max_(input3, input1), max_(input2, println_tap(min_(input1, input3)))))
+
+Simplifying genome of length 48.
+Simplified genome: length=48 error=0
+def median(input1, input2, input3):
+    return float2int(min_(max_(input3, input1), max_(input2, println_tap(min_(input1, input3)))))
+
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Final Test Error: 0

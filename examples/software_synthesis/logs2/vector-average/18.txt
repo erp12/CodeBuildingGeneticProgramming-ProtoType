@@ -1,0 +1,160 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11000000.0		23476.515		0.093		23476.515400000004		add(float2int(2), 1)
+2		25964.743		23476.515		0.062		23476.515400000004		add(float2int(2), 1)
+3		26594.155		23476.515		0.092		23476.515400000004		add(float2int(2), 1)
+4		26559.187		23429.08		0.116		23429.080400000003		max_(print_tap(int2bool(in_(input1, println_tap(0.7458314124131722)))), bool2float(gt(sum_(println_tap(input1)), sub(57, float2int(10)))))
+5		26864.155		20125.175		0.128		20125.175199999998		mod(70, max_(-45, sum_(input1)))
+6		26214.007		17214.307		0.181		17214.306900000003		div(mod(10, sum_(print_tap(println_tap(input1)))), mul(2, len_(input1)))
+7		26663.35		19605.108		0.164		17214.306900000003		div(mod(10, sum_(print_tap(println_tap(input1)))), mul(2, len_(input1)))
+8		26663.35		19605.108		0.19		17214.306900000003		div(mod(10, sum_(print_tap(println_tap(input1)))), mul(2, len_(input1)))
+9		26864.155		19605.108		0.196		17214.306900000003		div(mod(10, sum_(print_tap(println_tap(input1)))), mul(2, len_(input1)))
+10		26864.155		19605.108		0.211		17214.306900000003		div(mod(10, sum_(print_tap(println_tap(input1)))), mul(2, len_(input1)))
+11		26882.153		19605.108		0.222		17214.306900000003		div(mod(10, sum_(print_tap(println_tap(input1)))), mul(2, len_(input1)))
+12		27010.061		19605.108		0.211		17214.306900000003		div(mod(10, sum_(print_tap(println_tap(input1)))), mul(2, len_(input1)))
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+While evaluating <function getitem at 0x11854dea0> with {'s1': '10', 'ndx': 93} found IndexError: string index out of range
+13		27521.333		19605.108		0.221		17214.306900000003		div(mod(10, sum_(print_tap(println_tap(input1)))), mul(2, len_(input1)))
+14		29701.849		19605.108		0.216		17214.306900000003		div(mod(10, sum_(print_tap(println_tap(input1)))), mul(2, len_(input1)))
+15		26940.742		19605.108		0.234		17214.306900000003		div(mod(10, sum_(print_tap(println_tap(input1)))), mul(2, len_(input1)))
+16		27010.061		10990.363		0.257		10990.3634		floordiv(min_(print_do(1, 0.27738056684390944), sum_(input1)), print_tap(len_(input1)))
+17		25353.559		53.363		0.221		53.36340000000017		floordiv(sum_(input1), print_tap(len_(input1)))
+18		24414.083		50.597		0.159		50.59720000000016		floordiv(float2int(print_do(1, sum_(input1))), len_(input1))
+19		24414.083		50.597		0.167		50.59720000000016		floordiv(float2int(print_do(1, sum_(input1))), len_(input1))
+20		24574.89		50.597		0.201		50.59720000000016		floordiv(float2int(print_do(1, sum_(input1))), len_(input1))
+21		25014.887		0.0		0.169		0.0		div(sum_(println_tap(input1)), len_(print_do(2, input1)))
+Solution found.
+def vector_average(input1):
+    return div(sum_(println_tap(input1)), len_(print_do(2, input1)))
+
+Simplifying genome of length 51.
+Simplified to length 44.
+Simplified to length 43.
+Simplified to length 38.
+Simplified to length 37.
+Simplified to length 29.
+Simplified to length 28.
+Simplified to length 24.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 14.
+Simplified to length 12.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0.0
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

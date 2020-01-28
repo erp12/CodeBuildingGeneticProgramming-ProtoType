@@ -1,0 +1,37 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.079		20		i
+2		104.0		20		0.058		20		i
+3		102.0		20		0.077		20		i
+4		100.5		10		0.076		10		sub(i, bool2int(and_(dec, pos(int2bool(-48)))))
+5		20.0		10		0.088		10		sub(i, bool2int(and_(dec, pos(int2bool(-48)))))
+6		20.0		10		0.081		10		sub(i, bool2int(and_(dec, pos(int2bool(-48)))))
+7		20.0		10		0.086		10		sub(i, bool2int(and_(dec, pos(int2bool(-48)))))
+8		20.0		10		0.084		10		sub(i, bool2int(and_(dec, pos(int2bool(-48)))))
+9		20.0		9		0.089		9		float2int(pos(sub(sub(sub(sub(i, bool2int(dec)), -1), 0.8472878957498835), dec)))
+10		20.0		0		0.116		0		float2int(pos(sub(sub(sub(i, bool2int(dec)), -1), dec)))
+Solution found.
+def inc_or_dec(i, dec):
+    return float2int(pos(sub(sub(sub(i, bool2int(dec)), -1), dec)))
+Simplifying genome of length 51.
+Simplified to length 50.
+Simplified to length 42.
+Simplified to length 41.
+Simplified to length 39.
+Simplified to length 38.
+Simplified to length 37.
+Simplified to length 30.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 14.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def inc_or_dec(i, dec):
+    return float2int(sub(sub(sub(i, -1), dec), dec))

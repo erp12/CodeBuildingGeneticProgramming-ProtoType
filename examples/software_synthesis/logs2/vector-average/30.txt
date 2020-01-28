@@ -1,0 +1,45 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11000000.0		29937.221		0.091		29937.220699999998		23
+2		32415.483		29937.221		0.064		29937.220699999998		23
+3		32415.483		29937.221		0.077		29937.220699999998		23
+4		32415.483		29937.221		0.091		29937.220699999998		23
+5		32205.484		29937.221		0.115		29937.220699999998		23
+6		31917.432		27656.021		0.161		27656.020699999994		floordiv(sum_(input1), abs_(float2int(-66)))
+7		32373.483		26103.623		0.213		26103.622899999995		println_tap(max_(println_tap(min_(93, sum_(input1))), False))
+8		32959.73		25018.683		0.22		25018.6829		round_(floordiv(sum_(input1), 14), abs_(float2int(-66)))
+9		33202.565		25018.683		0.235		25018.6829		round_(floordiv(sum_(input1), 14), abs_(float2int(-66)))
+10		34192.749		25018.683		0.252		25018.6829		round_(floordiv(sum_(input1), 14), abs_(float2int(-66)))
+11		32698.82		25018.683		0.276		25018.6829		round_(floordiv(sum_(input1), 14), abs_(float2int(-66)))
+12		33046.565		25018.683		0.323		25018.6829		round_(floordiv(sum_(input1), 14), abs_(float2int(-66)))
+13		32464.339		25018.683		0.327		25018.6829		round_(floordiv(sum_(input1), 14), abs_(float2int(-66)))
+14		34206.249		24864.174		0.322		24864.174099999997		max_(floordiv(sum_(input1), 14), min_(float2int(-66), 1))
+15		33330.709		24864.174		0.35		24864.174099999997		max_(floordiv(sum_(input1), 14), min_(float2int(-66), 1))
+16		33276.69		24864.174		0.352		24864.174099999997		max_(floordiv(sum_(input1), 14), min_(float2int(-66), 1))
+17		32583.692		16183.436		0.34		16183.4361		println_tap(println_tap(min_(div(sum_(input1), abs_(len_(input1))), 2)))
+18		32302.82		0.0		0.279		0.0		println_tap(println_tap(div(println_tap(sum_(input1)), abs_(len_(input1)))))
+Solution found.
+def vector_average(input1):
+    return println_tap(println_tap(div(println_tap(sum_(input1)), abs_(len_(input1)))))
+
+Simplifying genome of length 56.
+Simplified to length 54.
+Simplified to length 43.
+Simplified to length 36.
+Simplified to length 30.
+Simplified to length 29.
+Simplified to length 27.
+Simplified to length 23.
+Simplified to length 15.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0.0
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

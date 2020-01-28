@@ -1,0 +1,125 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		4451.0		1960		0.091		1960		input1
+2		2954.0		1960		0.073		1960		input1
+3		2940.5		1960		0.084		1960		input1
+4		2866.0		1960		0.093		1960		input1
+5		2866.0		1742		0.098		1742		min_(input1, abs_(input3))
+6		2981.0		1742		0.094		1742		min_(input1, abs_(input3))
+7		2981.0		1742		0.121		1742		min_(input1, abs_(input3))
+8		2981.0		1742		0.12		1742		min_(input1, abs_(input3))
+9		2981.0		1742		0.131		1742		min_(input1, abs_(input3))
+10		2984.0		1154		0.145		1154		max_(min_(input3, input2), input1)
+11		2807.0		806		0.123		806		min_(max_(input2, input3), input1)
+12		1994.0		806		0.125		806		min_(max_(input2, input3), input1)
+13		1960.0		806		0.121		806		min_(max_(input2, input3), input1)
+14		1960.0		806		0.138		806		min_(max_(input2, input3), input1)
+15		1994.0		806		0.129		806		min_(max_(input2, input3), input1)
+16		1960.0		806		0.12		806		min_(max_(input2, input3), input1)
+17		1960.0		806		0.125		806		min_(max_(input2, input3), input1)
+18		1960.0		806		0.146		806		min_(max_(input2, input3), input1)
+19		1960.0		806		0.144		806		min_(max_(input2, input3), input1)
+20		1960.0		806		0.142		806		min_(max_(input2, input3), input1)
+21		1960.0		806		0.128		806		min_(max_(input2, input3), input1)
+22		1977.0		806		0.145		806		min_(max_(input2, input3), input1)
+23		1793.0		806		0.157		806		min_(max_(input2, input3), input1)
+24		1977.0		806		0.137		806		min_(max_(input2, input3), input1)
+25		2129.5		806		0.161		806		min_(max_(input2, input3), input1)
+26		1960.0		806		0.146		806		min_(max_(input2, input3), input1)
+27		1993.5		806		0.149		806		min_(max_(input2, input3), input1)
+28		2312.0		806		0.153		806		min_(max_(input2, input3), input1)
+29		1994.0		806		0.145		806		min_(max_(input2, input3), input1)
+30		1960.0		806		0.159		806		min_(max_(input2, input3), input1)
+31		1960.0		806		0.166		806		min_(max_(input2, input3), input1)
+32		1960.0		806		0.143		806		min_(max_(input2, input3), input1)
+33		1960.0		806		0.165		806		min_(max_(input2, input3), input1)
+34		1960.0		806		0.153		806		min_(max_(input2, input3), input1)
+35		1994.0		806		0.154		806		min_(max_(input2, input3), input1)
+36		1960.0		806		0.146		806		min_(max_(input2, input3), input1)
+37		1960.0		806		0.148		806		min_(max_(input2, input3), input1)
+38		1994.0		806		0.159		806		min_(max_(input2, input3), input1)
+39		1960.0		806		0.153		806		min_(max_(input2, input3), input1)
+40		1960.0		806		0.148		806		min_(max_(input2, input3), input1)
+41		1994.0		806		0.162		806		min_(max_(input2, input3), input1)
+42		1994.0		806		0.153		806		min_(max_(input2, input3), input1)
+43		1994.0		806		0.159		806		min_(max_(input2, input3), input1)
+44		1994.0		806		0.165		806		min_(max_(input2, input3), input1)
+45		1960.0		806		0.166		806		min_(max_(input2, input3), input1)
+46		1960.0		806		0.176		806		min_(max_(input2, input3), input1)
+47		1994.0		806		0.165		806		min_(max_(input2, input3), input1)
+48		1960.0		806		0.157		806		min_(max_(input2, input3), input1)
+49		1960.0		806		0.156		806		min_(max_(input2, input3), input1)
+50		1994.0		806		0.164		806		min_(max_(input2, input3), input1)
+51		1994.0		806		0.173		806		min_(max_(input2, input3), input1)
+52		1960.0		806		0.138		806		min_(max_(input2, input3), input1)
+53		1994.0		806		0.155		806		min_(max_(input2, input3), input1)
+54		1994.0		806		0.164		806		min_(max_(input2, input3), input1)
+55		1960.0		806		0.147		806		min_(max_(input2, input3), input1)
+56		1992.0		806		0.154		806		min_(max_(input2, input3), input1)
+57		1978.0		806		0.143		806		min_(max_(input2, input3), input1)
+58		1793.0		806		0.149		806		min_(max_(input2, input3), input1)
+59		2026.0		806		0.155		806		min_(max_(input2, input3), input1)
+60		1960.0		806		0.14		806		min_(max_(input2, input3), input1)
+61		1793.0		806		0.151		806		min_(max_(input2, input3), input1)
+62		1992.0		806		0.152		806		min_(max_(input2, input3), input1)
+63		1960.0		756		0.16		756		min_(max_(input2, input3), max_(input1, -78))
+64		1960.0		756		0.171		756		min_(max_(input2, input3), max_(input1, -78))
+65		1793.0		756		0.168		756		min_(max_(input2, input3), max_(input1, -78))
+66		1960.0		756		0.172		756		min_(max_(input2, input3), max_(input1, -78))
+67		1994.0		756		0.195		756		min_(max_(input2, input3), max_(input1, -78))
+68		1994.0		756		0.205		756		min_(max_(input2, input3), max_(input1, -78))
+69		2003.0		756		0.193		756		min_(max_(input2, input3), max_(input1, -78))
+70		1994.0		756		0.19		756		min_(max_(input2, input3), max_(input1, -78))
+71		1994.0		756		0.203		756		min_(max_(input2, input3), max_(input1, -78))
+72		1994.0		756		0.19		756		min_(max_(input2, input3), max_(input1, -78))
+73		1960.0		756		0.192		756		min_(max_(input2, input3), max_(input1, -78))
+74		1994.0		756		0.2		756		min_(max_(input2, input3), max_(input1, -78))
+75		2032.0		756		0.208		756		min_(max_(input2, input3), max_(input1, -78))
+76		1994.0		756		0.213		756		min_(max_(input2, input3), max_(input1, -78))
+77		1994.0		756		0.195		756		min_(max_(input2, input3), max_(input1, -78))
+78		2017.5		756		0.207		756		min_(max_(input2, input3), max_(input1, -78))
+79		1994.0		756		0.189		756		min_(max_(input2, input3), max_(input1, -78))
+80		2224.0		756		0.215		756		min_(max_(input2, input3), max_(input1, -78))
+81		1994.0		756		0.217		756		min_(max_(input2, input3), max_(input1, -78))
+82		1978.5		756		0.207		756		min_(max_(input2, input3), max_(input1, -78))
+83		2117.0		756		0.224		756		min_(max_(input2, input3), max_(input1, -78))
+84		1994.0		756		0.216		756		min_(max_(input2, input3), max_(input1, -78))
+85		2037.5		756		0.203		756		min_(max_(input2, input3), max_(input1, -78))
+86		2045.5		0		0.204		0		min_(max_(input3, println_tap(min_(input1, input2))), max_(input1, print_tap(input2)))
+Solution found.
+def median(input1, input2, input3):
+    return min_(max_(input3, println_tap(min_(input1, input2))), max_(input1, print_tap(input2)))
+
+Simplifying genome of length 32.
+Simplified genome: length=32 error=0
+def median(input1, input2, input3):
+    return min_(max_(input3, println_tap(min_(input1, input2))), max_(input1, print_tap(input2)))
+
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Final Test Error: 0

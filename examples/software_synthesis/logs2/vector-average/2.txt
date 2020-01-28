@@ -1,0 +1,42 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11000000.0		33231.556		0.096		33231.5563		-12
+2		34504.753		30966.753		0.046		30966.7527		pos(abs_(mul(61, ge(max_(sum_(input1), float2int(-63)), mul(1, int2float(0))))))
+3		64923.732		30966.753		0.07		30966.7527		pos(abs_(mul(61, ge(max_(sum_(input1), float2int(-63)), mul(1, int2float(0))))))
+4		64923.732		30966.753		0.072		30966.7527		pos(abs_(mul(61, ge(max_(sum_(input1), float2int(-63)), mul(1, int2float(0))))))
+5		64923.732		30905.753		0.081		30905.7527		pos(mul(61, float2bool(max_(sum_(input1), float2int(mul(1, 0))))))
+6		64923.732		29920.26		0.095		29920.259900000005		println_tap(div(sum_(print_tap(input1)), 10))
+7		64916.888		29920.26		0.107		29920.259900000005		println_tap(div(sum_(print_tap(input1)), 10))
+8		64923.732		29920.26		0.118		29920.259900000005		println_tap(div(sum_(print_tap(input1)), 10))
+9		64923.732		29920.26		0.12		29920.259900000005		println_tap(div(sum_(print_tap(input1)), 10))
+10		54201.773		29920.26		0.125		29920.259900000005		println_tap(div(sum_(print_tap(input1)), 10))
+11		64923.732		28874.561		0.126		28874.5614		div(println_tap(div(sum_(print_tap(input1)), 2)), 10)
+12		64923.732		28874.561		0.135		28874.5614		div(println_tap(div(sum_(print_tap(input1)), 2)), 10)
+13		44785.476		28874.561		0.148		28874.5614		div(println_tap(div(sum_(print_tap(input1)), 2)), 10)
+14		50738.789		28295.437		0.176		28295.436899999997		println_tap(max_(-71, mul(sum_(print_tap(input1)), round_(0.09549434083626729, 10))))
+15		50738.789		28874.561		0.178		28295.436899999997		println_tap(max_(-71, mul(sum_(print_tap(input1)), round_(0.09549434083626729, 10))))
+16		39488.791		28874.561		0.198		28295.436899999997		println_tap(max_(-71, mul(sum_(print_tap(input1)), round_(0.09549434083626729, 10))))
+17		41728.786		24327.071		0.2		24327.071000000004		div(min_(div(print_tap(sum_(print_tap(input1))), round_(2, 2)), do_print(1, -59)), len_(input1))
+18		46928.753		28874.561		0.207		24327.071000000004		div(min_(div(print_tap(sum_(print_tap(input1))), round_(2, 2)), do_print(1, -59)), len_(input1))
+19		47153.94		28874.561		0.214		24327.071000000004		div(min_(div(print_tap(sum_(print_tap(input1))), round_(2, 2)), do_print(1, -59)), len_(input1))
+20		46928.753		28874.561		0.221		24327.071000000004		div(min_(div(print_tap(sum_(print_tap(input1))), round_(2, 2)), do_print(1, -59)), len_(input1))
+21		46986.753		28836.53		0.212		24327.071000000004		div(min_(div(print_tap(sum_(print_tap(input1))), round_(2, 2)), do_print(1, -59)), len_(input1))
+22		50737.481		28836.53		0.217		24327.071000000004		div(min_(div(print_tap(sum_(print_tap(input1))), round_(2, 2)), do_print(1, -59)), len_(input1))
+23		46928.753		28836.53		0.222		24327.071000000004		div(min_(div(print_tap(sum_(print_tap(input1))), round_(2, 2)), do_print(1, -59)), len_(input1))
+24		50738.789		28836.53		0.228		24327.071000000004		div(min_(div(print_tap(sum_(print_tap(input1))), round_(2, 2)), do_print(1, -59)), len_(input1))
+25		41142.816		0.0		0.214		0.0		div(print_tap(sum_(input1)), len_(input1))
+Solution found.
+def vector_average(input1):
+    return div(print_tap(sum_(input1)), len_(input1))
+
+Simplifying genome of length 13.
+Simplified to length 12.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 5.
+Simplified genome: length=5 error=0.0
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

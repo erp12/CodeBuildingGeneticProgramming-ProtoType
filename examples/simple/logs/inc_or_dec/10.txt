@@ -1,0 +1,69 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.08		20		println_tap(i)
+2		104.0		10		0.057		10		sub(i, bool2int(dec))
+3		102.0		10		0.072		10		sub(i, bool2int(dec))
+4		61.0		10		0.076		10		sub(i, bool2int(dec))
+5		60.0		10		0.063		10		sub(i, bool2int(dec))
+6		20.0		10		0.058		10		sub(i, bool2int(dec))
+7		55.0		10		0.067		10		sub(i, bool2int(dec))
+8		30.0		10		0.065		10		sub(i, bool2int(dec))
+9		55.0		10		0.066		10		sub(i, bool2int(dec))
+10		55.0		10		0.078		10		sub(i, bool2int(dec))
+11		40.0		10		0.08		10		sub(i, bool2int(dec))
+12		30.0		10		0.078		10		sub(i, bool2int(dec))
+13		20.0		10		0.074		10		sub(i, bool2int(dec))
+14		20.0		10		0.087		10		sub(i, bool2int(dec))
+15		20.0		10		0.08		10		sub(i, bool2int(dec))
+16		20.0		10		0.087		10		sub(i, bool2int(dec))
+17		20.0		10		0.089		10		sub(i, bool2int(dec))
+18		20.0		10		0.09		10		sub(i, bool2int(dec))
+19		20.0		10		0.088		10		sub(i, bool2int(dec))
+20		20.0		10		0.086		10		sub(i, bool2int(dec))
+21		20.0		10		0.09		10		sub(i, bool2int(dec))
+22		20.0		10		0.076		10		sub(i, bool2int(dec))
+23		20.0		10		0.083		10		sub(i, bool2int(dec))
+24		20.0		10		0.09		10		sub(i, bool2int(dec))
+25		20.0		10		0.09		10		sub(i, bool2int(dec))
+26		20.0		10		0.094		10		sub(i, bool2int(dec))
+27		20.0		10		0.088		10		sub(i, bool2int(dec))
+28		20.0		10		0.094		10		sub(i, bool2int(dec))
+29		20.0		10		0.093		10		sub(i, bool2int(dec))
+30		20.0		10		0.093		10		sub(i, bool2int(dec))
+31		20.0		10		0.107		10		sub(i, bool2int(dec))
+32		20.0		10		0.087		10		sub(i, bool2int(dec))
+33		20.0		10		0.105		10		sub(i, bool2int(dec))
+34		20.0		10		0.093		10		sub(i, bool2int(dec))
+35		30.0		10		0.093		10		sub(i, bool2int(dec))
+36		41.5		10		0.112		10		sub(i, bool2int(dec))
+37		54.0		9		0.109		9		add(i, float2int(sub(int2bool(i), dec)))
+38		52.0		1		0.11		1		add(i, float2int(sub(int2bool(i), mul(2, dec))))
+39		94.0		0		0.114		0		add(i, float2int(sub(int2bool(True), mul(2, dec))))
+Solution found.
+def inc_or_dec(i, dec):
+    return add(i, float2int(sub(int2bool(True), mul(2, dec))))
+Simplifying genome of length 64.
+Simplified to length 63.
+Simplified to length 60.
+Simplified to length 58.
+Simplified to length 46.
+Simplified to length 45.
+Simplified to length 43.
+Simplified to length 42.
+Simplified to length 34.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 16.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def inc_or_dec(i, dec):
+    return add(i, float2int(sub(True, mul(2, dec))))

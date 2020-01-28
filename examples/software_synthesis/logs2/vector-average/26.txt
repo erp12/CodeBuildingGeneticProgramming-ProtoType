@@ -1,0 +1,146 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11000000.0		29052.295		0.087		29052.2948		sub(49, len_(input1))
+2		30315.27		29052.295		0.055		29052.2948		sub(49, len_(input1))
+3		30159.346		29052.295		0.066		29052.2948		sub(49, len_(input1))
+4		30271.27		29052.295		0.063		29052.2948		sub(49, len_(input1))
+5		30315.27		29052.295		0.072		29052.2948		sub(49, len_(input1))
+6		30315.27		29052.295		0.082		29052.2948		sub(49, len_(input1))
+7		30315.27		29052.295		0.097		29052.2948		sub(49, len_(input1))
+8		30465.424		28542.364		0.119		28542.363699999998		min_(max_(-1, pos(sum_(input1))), add(14, False))
+9		30775.442		28542.364		0.125		28542.363699999998		min_(max_(-1, pos(sum_(input1))), add(14, False))
+10		33443.207		29052.295		0.127		28542.363699999998		min_(max_(-1, pos(sum_(input1))), add(14, False))
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+While evaluating <function mul at 0x118b27268> with {'s': 'False', 'i': 0.0} found TypeError: can't multiply sequence by non-int of type 'float'
+11		34592.26		29052.295		0.136		28542.363699999998		min_(max_(-1, pos(sum_(input1))), add(14, False))
+12		37831.733		27422.139		0.13		27422.1386		div(sum_(input1), pos(sub(85, println_tap(float2bool(float2int(println_tap(10)))))))
+13		35296.26		0.0		0.162		0.0		div(sum_(input1), len_(input1))
+Solution found.
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+Simplifying genome of length 57.
+Simplified to length 52.
+Simplified to length 40.
+Simplified to length 27.
+Simplified to length 17.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 11.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0.0
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

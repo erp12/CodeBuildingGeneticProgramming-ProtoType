@@ -1,0 +1,62 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		4082.0		1941		0.11		1941		input2
+2		2542.0		1847		0.07		1847		max_(input3, print_do(input2, str_(input1)))
+3		2542.0		1847		0.072		1847		max_(input3, print_do(input2, str_(input1)))
+4		2542.0		976		0.092		976		max_(input3, min_(input2, input1))
+5		2359.0		976		0.12		976		max_(input3, min_(input2, input1))
+6		2359.0		976		0.129		976		max_(input3, min_(input2, input1))
+7		2356.0		601		0.163		601		min_(max_(input3, input2), input1)
+8		2359.0		601		0.179		601		min_(max_(input3, input2), input1)
+9		2167.0		601		0.152		601		min_(max_(input3, input2), input1)
+10		1941.0		601		0.194		601		min_(max_(input3, input2), input1)
+11		2167.0		601		0.193		601		min_(max_(input3, input2), input1)
+12		2126.5		601		0.184		601		min_(max_(input3, input2), input1)
+13		2167.0		599		0.215		599		min_(max_(input3, min_(input1, input2)), add(1, input1))
+14		2167.0		599		0.222		599		min_(max_(input3, min_(input1, input2)), add(1, input1))
+15		2167.0		601		0.232		599		min_(max_(input3, min_(input1, input2)), add(1, input1))
+16		1976.0		600		0.229		599		min_(max_(input3, min_(input1, input2)), add(1, input1))
+17		2167.0		599		0.238		599		min_(max_(input3, min_(input1, input2)), add(1, input1))
+18		2167.0		599		0.257		599		min_(max_(input3, min_(input1, input2)), add(1, input1))
+19		2103.0		487		0.272		487		min_(max_(input3, min_(input1, input2)), max_(add(input1, abs_(input3)), input2))
+20		2167.0		487		0.273		487		min_(max_(input3, min_(input1, input2)), max_(add(input1, abs_(input3)), input2))
+21		1941.0		13		0.287		13		min_(max_(input3, min_(input1, input2)), max_(add(input1, 1), input2))
+22		2074.0		13		0.302		13		min_(max_(input3, min_(input1, input2)), max_(add(input1, 1), input2))
+23		1941.0		0		0.302		0		pos(min_(max_(input3, min_(input1, input2)), max_(input1, input2)))
+Solution found.
+def median(input1, input2, input3):
+    return pos(min_(max_(input3, min_(input1, input2)), max_(input1, input2)))
+
+Simplifying genome of length 32.
+Simplified genome: length=32 error=0
+def median(input1, input2, input3):
+    return pos(min_(max_(input3, min_(input1, input2)), max_(input1, input2)))
+
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Final Test Error: 0

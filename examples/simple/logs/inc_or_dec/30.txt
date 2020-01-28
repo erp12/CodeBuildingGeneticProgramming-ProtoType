@@ -1,0 +1,37 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		108.0		20		0.092		20		add(max_(pos(-86), -1), i)
+2		104.0		20		0.076		20		add(max_(pos(-86), -1), i)
+3		57.0		20		0.103		20		add(max_(pos(-86), -1), i)
+4		55.0		20		0.103		20		add(max_(pos(-86), -1), i)
+5		47.0		20		0.105		20		add(max_(pos(-86), -1), i)
+6		47.0		20		0.13		20		add(max_(pos(-86), -1), i)
+7		49.0		19		0.135		19		min_(i, add(i, mod(pos(-1), i)))
+8		44.0		19		0.156		19		min_(i, add(i, mod(pos(-1), i)))
+9		57.0		19		0.185		19		min_(i, add(i, mod(pos(-1), i)))
+10		65.0		19		0.215		19		min_(i, add(i, mod(pos(-1), i)))
+11		64.0		19		0.211		19		min_(i, add(i, mod(pos(-1), i)))
+12		66.0		11		0.224		11		float2int(sub(i, max_(dec, div(-1, i))))
+13		57.0		10		0.213		10		float2int(sub(i, add(dec, div(-1, i))))
+14		41.5		9		0.22		9		float2int(sub(i, add(dec, div(-1, le(0.24066718002395415, i)))))
+15		21.0		9		0.202		9		float2int(sub(i, add(dec, div(-1, le(0.24066718002395415, i)))))
+16		23.0		1		0.191		1		float2int(sub(i, add(dec, div(-1, sub(float2bool(i), pos(dec))))))
+17		21.0		0		0.174		0		float2int(sub(i, add(dec, div(-1, max_(0, sub(float2bool(i), pos(dec)))))))
+Solution found.
+def inc_or_dec(i, dec):
+    return float2int(sub(i, add(dec, div(-1, max_(0, sub(float2bool(i), pos(dec)))))))
+Simplifying genome of length 32.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified genome: length=13 error=0
+def inc_or_dec(i, dec):
+    return float2int(sub(i, add(dec, div(-1, max_(0, sub(float2bool(i), dec))))))

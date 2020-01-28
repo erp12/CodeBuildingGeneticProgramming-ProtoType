@@ -1,0 +1,66 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		105.0		60.0		0.02		60.0		str_(print_do(input1, 0))
+2		74.0		60.0		0.016		60.0		str_(print_do(input1, 0))
+3		69.0		60.0		0.013		60.0		str_(print_do(input1, 0))
+4		69.0		60.0		0.011		60.0		str_(print_do(input1, 0))
+5		69.0		60.0		0.014		60.0		str_(print_do(input1, 0))
+6		69.0		60.0		0.014		60.0		str_(print_do(input1, 0))
+7		69.0		60.0		0.014		60.0		str_(print_do(input1, 0))
+8		69.0		60.0		0.013		60.0		str_(print_do(input1, 0))
+9		69.0		35.0		0.017		35.0		not_(ge(add(-50, True), eq(ne(1, float2int(mod(0, add(str_(do_print(float2bool(0), min_(input1, input3))).isdigit(), input1)))), True)))
+10		73.0		35.0		0.024		35.0		not_(ge(add(-50, True), eq(ne(1, float2int(mod(0, add(str_(do_print(float2bool(0), min_(input1, input3))).isdigit(), input1)))), True)))
+11		74.0		35.0		0.027		35.0		not_(ge(add(-50, True), eq(ne(1, float2int(mod(0, add(str_(do_print(float2bool(0), min_(input1, input3))).isdigit(), input1)))), True)))
+12		69.0		35.0		0.039		35.0		not_(ge(add(-50, True), eq(ne(1, float2int(mod(0, add(str_(do_print(float2bool(0), min_(input1, input3))).isdigit(), input1)))), True)))
+13		69.0		35.0		0.053		35.0		not_(ge(add(-50, True), eq(ne(1, float2int(mod(0, add(str_(do_print(float2bool(0), min_(input1, input3))).isdigit(), input1)))), True)))
+14		74.0		35.0		0.037		35.0		not_(ge(add(-50, True), eq(ne(1, float2int(mod(0, add(str_(do_print(float2bool(0), min_(input1, input3))).isdigit(), input1)))), True)))
+15		73.0		15.0		0.038		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+16		74.0		15.0		0.051		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+17		72.0		15.0		0.064		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+18		75.5		15.0		0.052		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+19		104.5		15.0		0.052		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+20		104.0		15.0		0.051		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+21		103.0		15.0		0.058		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+22		103.0		15.0		0.07		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+23		80.0		15.0		0.067		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+24		74.0		15.0		0.057		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+25		80.0		15.0		0.059		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+26		88.0		15.0		0.073		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+27		78.5		15.0		0.072		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+28		72.0		15.0		0.063		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+29		73.5		15.0		0.066		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+30		69.0		15.0		0.065		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+31		78.0		15.0		0.07		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+32		69.0		15.0		0.068		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+33		74.0		15.0		0.066		15.0		bool2int(not_(ge(add(-50, pos(float2bool(min_(2, eq(min_(ne(int2bool(1), float2int(input1)), True), str_(neg(do_print(float2bool(0), min_(input2, min_(input1, input3))))).isupper()))))), float2bool(0))))
+34		69.0		0.0		0.066		0.0		str_(add(input1, gt(-2, le(2, gt(bool2int(le(int2float(input2), float2bool(pos(bool2int(float2bool(do_print(input3, min_(input2, min_(input1, min_(input3, input4)))))))))), 1)))))
+Solution found.
+def smallest(input1, input2, input3, input4):
+    return str_(add(input1, gt(-2, le(2, gt(bool2int(le(int2float(input2), float2bool(pos(bool2int(float2bool(do_print(input3, min_(input2, min_(input1, min_(input3, input4)))))))))), 1)))))
+
+Simplifying genome of length 75.
+Simplified to length 52.
+Simplified to length 49.
+Simplified to length 47.
+Simplified to length 42.
+Simplified to length 40.
+Simplified to length 35.
+Simplified to length 34.
+Simplified to length 33.
+Simplified to length 31.
+Simplified to length 27.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 11.
+Simplified genome: length=11 error=0.0
+def smallest(input1, input2, input3, input4):
+    return ne(input2, do_print(input3, min_(input2, min_(input1, min_(input3, input4)))))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

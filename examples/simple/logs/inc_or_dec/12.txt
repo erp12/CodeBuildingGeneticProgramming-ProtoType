@@ -1,0 +1,38 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.081		20		i
+2		104.0		20		0.055		20		i
+3		102.0		20		0.075		20		i
+4		95.5		15		0.08		15		do_print(if_(dec, i, float2int(max_(mod(1, i), i))), 10)
+5		20.0		15		0.095		15		do_print(if_(dec, i, float2int(max_(mod(1, i), i))), 10)
+6		20.0		15		0.102		15		do_print(if_(dec, i, float2int(max_(mod(1, i), i))), 10)
+7		36.0		15		0.12		15		do_print(if_(dec, i, float2int(max_(mod(1, i), i))), 10)
+8		20.0		10		0.125		10		float2int(sub(i, mul(True, max_(dec, gt(-1, 10)))))
+9		20.0		10		0.1		10		float2int(sub(i, mul(True, max_(dec, gt(-1, 10)))))
+10		21.0		10		0.09		10		float2int(sub(i, mul(True, max_(dec, gt(-1, 10)))))
+11		30.0		10		0.105		10		float2int(sub(i, mul(True, max_(dec, gt(-1, 10)))))
+12		50.0		10		0.128		10		float2int(sub(i, mul(True, max_(dec, gt(-1, 10)))))
+13		70.0		10		0.127		10		float2int(sub(i, mul(True, max_(dec, gt(-1, 10)))))
+14		50.0		10		0.122		10		float2int(sub(i, mul(True, max_(dec, gt(-1, 10)))))
+15		50.0		10		0.141		10		float2int(sub(i, mul(True, max_(dec, gt(-1, 10)))))
+16		50.0		10		0.13		10		float2int(sub(i, mul(True, max_(dec, gt(-1, 10)))))
+17		50.0		0		0.151		0		float2int(sub(i, sub(mul(True, int2float(dec)), ge(0.5626892906591525, dec))))
+Solution found.
+def inc_or_dec(i, dec):
+    return float2int(sub(i, sub(mul(True, int2float(dec)), ge(0.5626892906591525, dec))))
+Simplifying genome of length 51.
+Simplified to length 43.
+Simplified to length 33.
+Simplified to length 31.
+Simplified to length 30.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 19.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def inc_or_dec(i, dec):
+    return float2int(sub(i, sub(dec, ge(0.5626892906591525, dec))))

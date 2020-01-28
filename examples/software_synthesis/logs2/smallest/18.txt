@@ -1,0 +1,22 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		105.0		65.0		0.014		65.0		print_do(input4, bool2int(str_(input2).isnumeric()))
+2		74.0		65.0		0.019		65.0		print_do(input4, bool2int(str_(input2).isnumeric()))
+3		74.0		65.0		0.022		65.0		print_do(input4, bool2int(str_(input2).isnumeric()))
+4		70.0		65.0		0.015		65.0		print_do(input4, bool2int(str_(input2).isnumeric()))
+5		70.0		43.0		0.016		43.0		print_do(min_(input4, input1), float2int(input2))
+6		74.0		38.0		0.04		38.0		print_do(min_(input4, input3), input1)
+7		65.0		25.0		0.059		25.0		print_do(min_(min_(input4, input1), float2int(input2)), input4)
+8		66.0		25.0		0.076		25.0		print_do(min_(min_(input4, input1), float2int(input2)), input4)
+9		66.0		18.0		0.073		18.0		print_do(min_(input3, min_(input4, input1)), float2int(input2))
+10		65.0		0.0		0.072		0.0		print_do(min_(input3, min_(min_(input4, input1), float2int(input2))), input4)
+Solution found.
+def smallest(input1, input2, input3, input4):
+    return print_do(min_(input3, min_(min_(input4, input1), float2int(input2))), input4)
+
+Simplifying genome of length 32.
+Simplified genome: length=32 error=0.0
+def smallest(input1, input2, input3, input4):
+    return print_do(min_(input3, min_(min_(input4, input1), float2int(input2))), input4)
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

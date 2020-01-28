@@ -1,0 +1,113 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		24400000.0		28.0		0.06		28.0		print_do(neg(input2.isnumeric()), ne(False, neg(input1.isupper())))
+2		41.5		28.0		0.125		28.0		print_do(neg(input2.isnumeric()), ne(False, neg(input1.isupper())))
+3		41.0		28.0		0.128		28.0		print_do(neg(input2.isnumeric()), ne(False, neg(input1.isupper())))
+4		40.0		25.0		0.154		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+5		40.0		25.0		0.168		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+6		42.0		25.0		0.198		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+7		42.0		25.0		0.237		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+8		44.0		25.0		0.246		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+9		43.0		25.0		0.264		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+10		42.0		25.0		0.264		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+11		44.0		25.0		0.271		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+12		45.0		25.0		0.305		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+13		44.0		25.0		0.286		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+14		44.0		25.0		0.307		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+15		42.0		25.0		0.32		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+16		46.0		25.0		0.332		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+17		46.0		25.0		0.337		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+18		45.0		25.0		0.336		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+19		45.0		25.0		0.305		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+20		45.0		25.0		0.313		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+21		45.0		25.0		0.314		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+22		43.0		25.0		0.293		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+23		45.0		25.0		0.289		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+24		42.0		25.0		0.322		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+25		44.0		25.0		0.35		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+26		44.0		25.0		0.342		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+27		45.0		25.0		0.348		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+28		42.0		25.0		0.353		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+29		43.0		25.0		0.34		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+30		44.0		25.0		0.337		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+31		41.5		25.0		0.333		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+32		42.0		25.0		0.332		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+33		42.0		25.0		0.356		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+34		42.0		26.0		0.352		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+35		40.0		26.0		0.333		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+36		42.0		26.0		0.356		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+37		41.0		26.0		0.34		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+38		40.0		26.0		0.333		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+39		42.0		26.0		0.355		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+40		41.5		26.0		0.35		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+41		41.0		26.0		0.339		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+42		42.0		26.0		0.344		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+43		41.0		26.0		0.327		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+44		40.0		26.0		0.332		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+45		40.0		26.0		0.361		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+46		40.0		26.0		0.352		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+47		39.0		26.0		0.353		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+48		39.0		26.0		0.363		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+49		39.0		26.0		0.336		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+50		39.0		26.0		0.353		25.0		eq(max_(1, mul(max_(True, 10), float2bool(int2float(input1.upper().isalnum())))), str_(input1.title()).isupper())
+51		39.0		23.0		0.351		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+52		41.0		23.0		0.372		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+53		39.0		23.0		0.371		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+54		40.0		23.0		0.346		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+55		38.0		23.0		0.365		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+56		39.0		23.0		0.385		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+57		39.5		23.0		0.385		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+58		37.0		23.0		0.407		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+59		37.0		23.0		0.409		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+60		36.0		23.0		0.401		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+61		36.0		23.0		0.42		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+62		36.0		23.0		0.439		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+63		37.0		23.0		0.403		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+64		38.0		23.0		0.43		23.0		eq(floordiv(9, len_(input1)), neg(ge(input2.upper().capitalize(), input2)))
+65		36.0		19.0		0.414		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+66		36.0		19.0		0.436		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+67		37.0		19.0		0.479		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+68		36.0		19.0		0.452		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+69		35.5		19.0		0.43		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+70		35.0		19.0		0.448		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+71		37.0		19.0		0.472		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+72		38.0		19.0		0.457		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+73		40.0		19.0		0.415		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+74		39.0		19.0		0.45		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+75		35.0		19.0		0.417		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+76		36.0		19.0		0.462		19.0		eq(floordiv(sub(10, len_(input3)), len_(input1)), le(bool2float(ge(input3, input1.swapcase())), sub(input1.islower(), len_(input2))))
+77		37.0		14.0		0.448		14.0		eq(neg(floordiv(pos(sub(ne(input2, str_(int2bool(print_tap(input3.isdecimal()))).capitalize()), len_(input3))), len_(input2))), add(bool2float(ge(input3, input1)), le(len_(input1), len_(input2))))
+78		35.0		14.0		0.433		14.0		eq(neg(floordiv(pos(sub(ne(input2, str_(int2bool(print_tap(input3.isdecimal()))).capitalize()), len_(input3))), len_(input2))), add(bool2float(ge(input3, input1)), le(len_(input1), len_(input2))))
+79		35.0		14.0		0.401		14.0		eq(neg(floordiv(pos(sub(ne(input2, str_(int2bool(print_tap(input3.isdecimal()))).capitalize()), len_(input3))), len_(input2))), add(bool2float(ge(input3, input1)), le(len_(input1), len_(input2))))
+80		34.0		9.0		0.384		9.0		print_tap(eq(print_do(input3.islower(), floordiv(mul(74, sub(10, sub(len_(input1), len_(input3)))), len_(input2))), le(len_(input1), len_(input2))))
+81		35.0		5.0		0.401		5.0		eq(neg(floordiv(sub(add(int2bool(print_tap(le(-17, True))), input2.isascii()), len_(str_(input3.lower()).capitalize())), len_(input2))), add(le(len_(input1), len_(input2)), input1.swapcase().count(input3)))
+82		32.0		0.0		0.354		0.0		eq(neg(floordiv(sub(print_do(input2.isascii(), int2bool(print_tap(le(-17, True)))), len_(str_(input3.lower()).capitalize())), len_(input2))), add(le(len_(input1), len_(input2)), input1.swapcase().count(input3)))
+Solution found.
+def compare_string_lengths(input1, input2, input3):
+    return eq(neg(floordiv(sub(print_do(input2.isascii(), int2bool(print_tap(le(-17, True)))), len_(str_(input3.lower()).capitalize())), len_(input2))), add(le(len_(input1), len_(input2)), input1.swapcase().count(input3)))
+
+Simplifying genome of length 49.
+Simplified to length 46.
+Simplified to length 45.
+Simplified to length 43.
+Simplified to length 42.
+Simplified to length 39.
+Simplified to length 37.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 30.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified genome: length=16 error=0.0
+def compare_string_lengths(input1, input2, input3):
+    return eq(neg(floordiv(len_(input3), len_(input2))), add(le(len_(input1), len_(input2)), input1.count(input3)))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 14.0

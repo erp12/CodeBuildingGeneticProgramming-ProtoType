@@ -1,0 +1,40 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.068		20		i
+2		52.0		20		0.044		20		i
+3		48.0		20		0.057		20		i
+4		20.0		20		0.069		20		i
+5		30.0		20		0.084		20		i
+6		40.0		10		0.092		10		float2int(sub(i, print_do(-1, mul(dec, do_print(1, do_print(-1, neg(float2int(2))))))))
+7		40.0		10		0.094		10		float2int(sub(i, print_do(-1, mul(dec, do_print(1, do_print(-1, neg(float2int(2))))))))
+8		52.0		10		0.103		10		float2int(sub(i, print_do(-1, mul(dec, do_print(1, do_print(-1, neg(float2int(2))))))))
+9		50.0		10		0.118		10		float2int(sub(i, print_do(-1, mul(dec, do_print(1, do_print(-1, neg(float2int(2))))))))
+10		49.5		10		0.112		10		float2int(sub(i, print_do(-1, mul(dec, do_print(1, do_print(-1, neg(float2int(2))))))))
+11		50.0		10		0.123		10		float2int(sub(i, print_do(-1, mul(dec, do_print(1, do_print(-1, neg(float2int(2))))))))
+12		50.0		10		0.127		10		float2int(sub(i, print_do(-1, mul(dec, do_print(1, do_print(-1, neg(float2int(2))))))))
+13		50.0		10		0.131		10		float2int(sub(i, print_do(-1, mul(dec, do_print(1, do_print(-1, neg(float2int(2))))))))
+14		30.0		9		0.14		9		float2int(sub(i, print_do(abs_(-1), sub(dec, abs_(div(-1, i))))))
+15		20.0		8		0.139		8		float2int(sub(i, print_do(abs_(-1), sub(dec, abs_(div(-1, floordiv(-1, i)))))))
+16		20.0		8		0.148		8		float2int(sub(i, print_do(abs_(-1), sub(dec, abs_(div(-1, floordiv(-1, i)))))))
+17		20.0		8		0.177		8		float2int(sub(i, print_do(abs_(-1), sub(dec, abs_(div(-1, floordiv(-1, i)))))))
+18		20.0		5		0.204		5		float2int(sub(i, print_do(println_tap(-1), sub(dec, abs_(le(dec, div(-1, i)))))))
+19		20.0		0		0.195		0		float2int(sub(i, print_do(println_tap(-1), sub(dec, abs_(le(dec, div(-1, floordiv(dec, floordiv(i, False)))))))))
+Solution found.
+def inc_or_dec(i, dec):
+    return float2int(sub(i, print_do(println_tap(-1), sub(dec, abs_(le(dec, div(-1, floordiv(dec, floordiv(i, False)))))))))
+Simplifying genome of length 54.
+Simplified to length 42.
+Simplified to length 36.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 28.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 14.
+Simplified to length 11.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def inc_or_dec(i, dec):
+    return float2int(sub(i, sub(dec, le(dec, False))))

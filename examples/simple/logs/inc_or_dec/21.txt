@@ -1,0 +1,38 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.084		20		i
+2		72.0		20		0.069		20		i
+3		102.0		20		0.093		20		i
+4		20.0		10		0.081		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+5		20.0		10		0.069		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+6		20.0		10		0.061		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+7		20.0		10		0.066		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+8		20.0		10		0.088		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+9		20.0		10		0.081		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+10		20.0		10		0.085		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+11		20.0		10		0.091		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+12		20.0		10		0.096		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+13		29.5		10		0.098		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+14		20.0		10		0.099		10		add(bool2int(gt(println_tap(eq(0, neg(dec))), eq(0.21818133422465547, lt(2, add(eq(abs_(0), float2bool(i)), pos(2)))))), i)
+15		27.5		0		0.099		0		add(i, println_tap(neg(print_tap(print_tap(println_tap(if_(not_(dec), -1, ne(i, lt(i, 2)))))))))
+Solution found.
+def inc_or_dec(i, dec):
+    return add(i, println_tap(neg(print_tap(print_tap(println_tap(if_(not_(dec), -1, ne(i, lt(i, 2)))))))))
+Simplifying genome of length 57.
+Simplified to length 54.
+Simplified to length 53.
+Simplified to length 50.
+Simplified to length 49.
+Simplified to length 41.
+Simplified to length 39.
+Simplified to length 36.
+Simplified to length 34.
+Simplified to length 31.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def inc_or_dec(i, dec):
+    return add(i, if_(dec, -1, ne(i, 2)))

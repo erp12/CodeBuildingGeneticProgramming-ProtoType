@@ -1,0 +1,27 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		105.0		62.0		0.013		62.0		print_tap(input1)
+2		68.0		62.0		0.018		62.0		print_tap(input1)
+3		68.0		62.0		0.021		62.0		print_tap(input1)
+4		68.0		62.0		0.018		62.0		print_tap(input1)
+5		68.0		41.0		0.03		41.0		add(int2bool(print_do(min_(input3, input1), max_(0, input4))), int2bool(input4))
+6		68.0		38.0		0.039		38.0		int2float(int2bool(print_do(min_(min_(input3, input1), float2int(max_(input4, int2bool(input4)))), float2int(0.08106859726870874))))
+7		60.0		20.0		0.05		20.0		int2float(print_do(min_(min_(input3, input1), float2int(max_(input4, input4))), float2int(0.08106859726870874)))
+8		60.0		20.0		0.073		20.0		int2float(print_do(min_(min_(input3, input1), float2int(max_(input4, input4))), float2int(0.08106859726870874)))
+9		59.0		0.0		0.061		0.0		add(print_do(min_(min_(min_(input2, input3), input1), input4), abs_(True)), int2bool(input4))
+Solution found.
+def smallest(input1, input2, input3, input4):
+    return add(print_do(min_(min_(min_(input2, input3), input1), input4), abs_(True)), int2bool(input4))
+
+Simplifying genome of length 26.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 9.
+Simplified genome: length=9 error=0.0
+def smallest(input1, input2, input3, input4):
+    return print_do(min_(min_(min_(input2, input3), input1), input4), True)
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

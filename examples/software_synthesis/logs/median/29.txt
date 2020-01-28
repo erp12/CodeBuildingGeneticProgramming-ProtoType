@@ -1,0 +1,59 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		4282.0		2282		0.094		2282		print_tap(print_tap(input2))
+2		2548.0		1992		0.08		1992		min_(input1, input3)
+3		2548.0		1920		0.089		1920		min_(max_(1, input1), input3)
+4		2793.0		1912		0.105		1912		min_(max_(0, input1), input3)
+5		2661.0		1218		0.133		1218		float2int(max_(min_(input3, input1), input2))
+6		2544.0		1218		0.141		1218		float2int(max_(min_(input3, input1), input2))
+7		2479.5		887		0.161		887		float2int(min_(input3, max_(input1, input2)))
+8		2431.0		887		0.173		887		float2int(min_(input3, max_(input1, input2)))
+9		2260.5		887		0.182		887		float2int(min_(input3, max_(input1, input2)))
+10		2282.0		887		0.182		887		float2int(min_(input3, max_(input1, input2)))
+11		2273.0		887		0.194		887		float2int(min_(input3, max_(input1, input2)))
+12		2282.0		887		0.192		887		float2int(min_(input3, max_(input1, input2)))
+13		2165.5		887		0.19		887		float2int(min_(input3, max_(input1, input2)))
+14		1992.0		887		0.192		887		float2int(min_(input3, max_(input1, input2)))
+15		1992.0		887		0.188		887		float2int(min_(input3, max_(input1, input2)))
+16		1992.0		887		0.199		887		float2int(min_(input3, max_(input1, input2)))
+17		2046.5		887		0.203		887		float2int(min_(input3, max_(input1, input2)))
+18		2090.0		887		0.218		887		float2int(min_(input3, max_(input1, input2)))
+19		2128.5		8		0.231		8		float2int(float2int(min_(max_(add(sub(print_tap(neg(println_tap(add(input2, 0.05350169263988214)))), 0), int2bool(False)), input1), max_(input3, min_(input2, input1)))))
+20		1951.0		0		0.268		0		float2int(float2int(min_(max_(add(sub(print_tap(neg(input2)), 0), int2bool(False)), input1), max_(input3, min_(input2, input1)))))
+Solution found.
+def median(input1, input2, input3):
+    return float2int(float2int(min_(max_(add(sub(print_tap(neg(input2)), 0), int2bool(False)), input1), max_(input3, min_(input2, input1)))))
+
+Simplifying genome of length 59.
+Simplified genome: length=59 error=0
+def median(input1, input2, input3):
+    return float2int(float2int(min_(max_(add(sub(print_tap(neg(input2)), 0), int2bool(False)), input1), max_(input3, min_(input2, input1)))))
+
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Final Test Error: 0

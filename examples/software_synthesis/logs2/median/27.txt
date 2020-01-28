@@ -1,0 +1,139 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		100.0		46.0		0.012		46.0		do_print(min_(72, 10), input1)
+2		52.0		44.0		0.015		44.0		print_tap(max_(input1, input2))
+3		52.0		44.0		0.026		44.0		print_tap(max_(input1, input2))
+4		52.0		43.0		0.03		43.0		print_tap(min_(max_(input3, input1), abs_(input2)))
+5		51.0		29.0		0.052		29.0		print_tap(min_(max_(input3, input1), input2))
+6		50.0		24.0		0.079		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+7		50.0		24.0		0.092		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+8		50.0		24.0		0.075		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+9		50.0		24.0		0.092		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+10		50.0		24.0		0.095		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+11		51.0		24.0		0.084		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+12		49.5		24.0		0.099		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+13		50.0		24.0		0.094		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+14		51.0		24.0		0.115		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+15		51.0		24.0		0.095		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+16		50.0		24.0		0.093		24.0		sub(print_tap(min_(max_(input3, input2), input1)), input2)
+17		50.0		22.0		0.088		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+18		48.0		22.0		0.105		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+19		50.0		22.0		0.109		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+20		51.0		22.0		0.116		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+21		50.0		22.0		0.112		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+22		50.0		22.0		0.116		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+23		50.0		22.0		0.112		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+24		52.0		22.0		0.119		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+25		52.0		22.0		0.11		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+26		51.0		22.0		0.114		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+27		51.0		22.0		0.122		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+28		51.0		22.0		0.107		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+29		52.0		22.0		0.105		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+30		51.0		22.0		0.115		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+31		52.0		22.0		0.11		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+32		52.0		22.0		0.096		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+33		52.0		22.0		0.119		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+34		51.0		22.0		0.099		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+35		52.0		22.0		0.107		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+36		51.0		22.0		0.121		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+37		53.0		22.0		0.114		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+38		51.0		22.0		0.108		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+39		51.5		22.0		0.129		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+40		51.0		22.0		0.116		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+41		52.0		22.0		0.108		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+42		53.0		22.0		0.127		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+43		50.0		22.0		0.113		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+44		51.0		22.0		0.118		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+45		52.0		22.0		0.127		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+46		53.0		22.0		0.12		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+47		51.0		22.0		0.129		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+48		52.0		22.0		0.116		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+49		52.0		22.0		0.123		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+50		51.0		22.0		0.129		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+51		52.0		22.0		0.125		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+52		52.0		22.0		0.114		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+53		51.0		22.0		0.126		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+54		52.0		22.0		0.122		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+55		52.0		22.0		0.124		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+56		51.0		22.0		0.119		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+57		50.0		22.0		0.108		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+58		51.0		22.0		0.123		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+59		51.0		22.0		0.119		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+60		52.0		22.0		0.118		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+61		52.0		22.0		0.127		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+62		53.0		22.0		0.118		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+63		52.0		22.0		0.111		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+64		53.0		22.0		0.124		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+65		53.0		22.0		0.133		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+66		52.0		22.0		0.1		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+67		52.0		22.0		0.136		22.0		print_tap(min_(max_(input3, input2), max_(input1, float2int(input2))))
+68		53.0		0.0		0.126		0.0		print_tap(min_(max_(input3, input1), max_(input2, min_(input1, float2int(input3)))))
+Solution found.
+def median(input1, input2, input3):
+    return print_tap(min_(max_(input3, input1), max_(input2, min_(input1, float2int(input3)))))
+
+Simplifying genome of length 54.
+Simplified to length 50.
+Simplified to length 48.
+Simplified to length 43.
+Simplified to length 38.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 29.
+Simplified to length 26.
+Simplified to length 24.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 12.
+Simplified to length 10.
+Simplified genome: length=10 error=0.0
+def median(input1, input2, input3):
+    return print_tap(min_(max_(input3, input1), max_(input2, min_(input1, input3))))
+
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Final Test Error: 0.0

@@ -1,0 +1,46 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.087		20		println_tap(i)
+2		104.0		20		0.049		20		println_tap(i)
+3		103.0		20		0.062		20		println_tap(i)
+4		57.0		20		0.075		20		println_tap(i)
+5		20.0		20		0.065		20		println_tap(i)
+6		20.0		20		0.064		20		println_tap(i)
+7		20.0		20		0.077		20		println_tap(i)
+8		20.0		20		0.088		20		println_tap(i)
+9		20.0		19		0.089		19		add(round_(bool2int(eq(i, bool2int(le(ne(floordiv(do_print(abs_(i), False), 1), False), float2bool(0.857751913670303))))), 1), i)
+10		20.0		19		0.098		19		add(round_(bool2int(eq(i, bool2int(le(ne(floordiv(do_print(abs_(i), False), 1), False), float2bool(0.857751913670303))))), 1), i)
+11		55.0		19		0.115		19		add(round_(bool2int(eq(i, bool2int(le(ne(floordiv(do_print(abs_(i), False), 1), False), float2bool(0.857751913670303))))), 1), i)
+12		55.0		10		0.138		10		float2int(add(i, mod(i, 2)))
+13		49.0		10		0.133		10		float2int(add(i, mod(i, 2)))
+14		49.0		10		0.129		10		float2int(add(i, mod(i, 2)))
+15		49.0		10		0.13		10		float2int(add(i, mod(i, 2)))
+16		94.0		10		0.154		10		float2int(add(i, mod(i, 2)))
+17		55.0		10		0.146		10		float2int(add(i, mod(i, 2)))
+18		65.5		10		0.149		10		float2int(add(i, mod(i, 2)))
+19		55.0		9		0.142		9		if_(float2bool(i), float2int(add(i, mod(i, 2))), -1)
+20		46.0		0		0.22		0		float2int(add(mod(i, 2), sub(i, and_(dec, println_tap(ge(not_(abs_(print_tap(False))), print_tap(min_(i, print_tap(1)))))))))
+Solution found.
+def inc_or_dec(i, dec):
+    return float2int(add(mod(i, 2), sub(i, and_(dec, println_tap(ge(not_(abs_(print_tap(False))), print_tap(min_(i, print_tap(1)))))))))
+Simplifying genome of length 83.
+Simplified to length 80.
+Simplified to length 77.
+Simplified to length 75.
+Simplified to length 73.
+Simplified to length 69.
+Simplified to length 65.
+Simplified to length 57.
+Simplified to length 50.
+Simplified to length 42.
+Simplified to length 33.
+Simplified to length 21.
+Simplified to length 18.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def inc_or_dec(i, dec):
+    return float2int(add(mod(i, 2), sub(i, dec)))

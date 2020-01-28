@@ -1,0 +1,20 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		5585.0		2113		0.108		2113		float2int(min_(input1, add(print_do(1, 1), input4)))
+2		5023.0		1637		0.151		1637		min_(println_tap(print_tap(input3)), do_print(97, input2))
+3		3104.0		475		0.197		475		min_(min_(println_tap(print_tap(input3)), do_print(max_(float2int(1), eq(sub(False, lt(min_(2, pos(input3)), println_tap(float2int(0.13310237908865952)))), str_(float2int(-1)).split_ws())), input2)), input1)
+4		2811.0		475		0.143		475		min_(min_(println_tap(print_tap(input3)), do_print(max_(float2int(1), eq(sub(False, lt(min_(2, pos(input3)), println_tap(float2int(0.13310237908865952)))), str_(float2int(-1)).split_ws())), input2)), input1)
+5		2811.0		475		0.156		475		min_(min_(println_tap(print_tap(input3)), do_print(max_(float2int(1), eq(sub(False, lt(min_(2, pos(input3)), println_tap(float2int(0.13310237908865952)))), str_(float2int(-1)).split_ws())), input2)), input1)
+6		3071.0		475		0.185		475		min_(min_(println_tap(print_tap(input3)), do_print(max_(float2int(1), eq(sub(False, lt(min_(2, pos(input3)), println_tap(float2int(0.13310237908865952)))), str_(float2int(-1)).split_ws())), input2)), input1)
+7		3598.0		475		0.142		475		min_(min_(println_tap(print_tap(input3)), do_print(max_(float2int(1), eq(sub(False, lt(min_(2, pos(input3)), println_tap(float2int(0.13310237908865952)))), str_(float2int(-1)).split_ws())), input2)), input1)
+8		2811.0		0		0.149		0		min_(min_(input4, println_tap(print_tap(min_(do_print(max_(1, 2), input2), pos(input3))))), println_tap(float2int(input1)))
+Solution found.
+def smallest(input1, input2, input3, input4):
+    return min_(min_(input4, println_tap(print_tap(min_(do_print(max_(1, 2), input2), pos(input3))))), println_tap(float2int(input1)))
+
+Simplifying genome of length 41.
+Simplified genome: length=41 error=0
+def smallest(input1, input2, input3, input4):
+    return min_(min_(input4, println_tap(print_tap(min_(do_print(max_(1, 2), input2), pos(input3))))), println_tap(float2int(input1)))
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

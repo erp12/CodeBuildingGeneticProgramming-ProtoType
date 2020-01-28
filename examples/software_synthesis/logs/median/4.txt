@@ -1,0 +1,100 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		4602.0		2012		0.103		2012		input2
+2		3335.0		2012		0.081		2012		input2
+3		3335.0		2012		0.087		2012		input2
+4		2959.0		1685		0.103		1685		min_(input2, abs_(input1))
+5		3017.0		1685		0.117		1685		min_(input2, abs_(input1))
+6		3335.0		1685		0.172		1685		min_(input2, abs_(input1))
+7		3335.0		1685		0.182		1685		min_(input2, abs_(input1))
+8		3335.0		1202		0.174		1202		max_(min_(input1, input3), input2)
+9		3335.0		1202		0.148		1202		max_(min_(input1, input3), input2)
+10		2869.0		810		0.133		810		pos(min_(max_(input1, input3), input2))
+11		2818.0		810		0.143		810		pos(min_(max_(input1, input3), input2))
+12		2529.0		810		0.147		810		pos(min_(max_(input1, input3), input2))
+13		2818.0		810		0.135		810		pos(min_(max_(input1, input3), input2))
+14		2717.5		810		0.152		810		pos(min_(max_(input1, input3), input2))
+15		2816.0		810		0.146		810		pos(min_(max_(input1, input3), input2))
+16		2529.0		810		0.166		810		pos(min_(max_(input1, input3), input2))
+17		2818.0		810		0.156		810		pos(min_(max_(input1, input3), input2))
+18		2678.5		810		0.174		810		pos(min_(max_(input1, input3), input2))
+19		2529.0		810		0.166		810		pos(min_(max_(input1, input3), input2))
+20		2818.0		810		0.167		810		pos(min_(max_(input1, input3), input2))
+21		2815.5		810		0.166		810		pos(min_(max_(input1, input3), input2))
+22		2715.5		810		0.154		810		pos(min_(max_(input1, input3), input2))
+23		2818.0		810		0.17		810		pos(min_(max_(input1, input3), input2))
+24		2514.5		810		0.171		810		pos(min_(max_(input1, input3), input2))
+25		2516.0		810		0.166		810		pos(min_(max_(input1, input3), input2))
+26		2529.0		810		0.173		810		pos(min_(max_(input1, input3), input2))
+27		2516.0		810		0.17		810		pos(min_(max_(input1, input3), input2))
+28		2455.0		810		0.17		810		pos(min_(max_(input1, input3), input2))
+29		2550.0		810		0.178		810		pos(min_(max_(input1, input3), input2))
+30		2455.0		810		0.136		810		pos(min_(max_(input1, input3), input2))
+31		2036.0		810		0.167		810		pos(min_(max_(input1, input3), input2))
+32		2516.0		810		0.177		810		pos(min_(max_(input1, input3), input2))
+33		2455.0		810		0.182		810		pos(min_(max_(input1, input3), input2))
+34		2516.0		810		0.175		810		pos(min_(max_(input1, input3), input2))
+35		2529.0		810		0.177		810		pos(min_(max_(input1, input3), input2))
+36		2516.0		810		0.17		810		pos(min_(max_(input1, input3), input2))
+37		2012.0		810		0.161		810		pos(min_(max_(input1, input3), input2))
+38		2529.0		810		0.195		810		pos(min_(max_(input1, input3), input2))
+39		2529.0		810		0.194		810		pos(min_(max_(input1, input3), input2))
+40		2516.0		810		0.188		810		pos(min_(max_(input1, input3), input2))
+41		2455.0		810		0.167		810		pos(min_(max_(input1, input3), input2))
+42		2516.0		810		0.164		810		pos(min_(max_(input1, input3), input2))
+43		2516.0		810		0.183		810		pos(min_(max_(input1, input3), input2))
+44		2455.0		810		0.175		810		pos(min_(max_(input1, input3), input2))
+45		2516.0		810		0.19		810		pos(min_(max_(input1, input3), input2))
+46		2516.0		810		0.178		810		pos(min_(max_(input1, input3), input2))
+47		2516.0		810		0.18		810		pos(min_(max_(input1, input3), input2))
+48		2516.0		810		0.19		810		pos(min_(max_(input1, input3), input2))
+49		2516.0		810		0.19		810		pos(min_(max_(input1, input3), input2))
+50		2455.0		810		0.173		810		pos(min_(max_(input1, input3), input2))
+51		2455.0		810		0.173		810		pos(min_(max_(input1, input3), input2))
+52		2012.0		810		0.178		810		pos(min_(max_(input1, input3), input2))
+53		2529.0		810		0.171		810		pos(min_(max_(input1, input3), input2))
+54		2516.0		810		0.176		810		pos(min_(max_(input1, input3), input2))
+55		2455.0		810		0.179		810		pos(min_(max_(input1, input3), input2))
+56		2516.0		708		0.183		708		max_(min_(pos(input2), input3), min_(input1, max_(input2, neg(input1))))
+57		2455.0		661		0.188		661		max_(min_(pos(input2), input3), min_(input1, max_(input2, do_print(input1, neg(66)))))
+58		2529.0		661		0.217		661		max_(min_(pos(input2), input3), min_(input1, max_(input2, do_print(input1, neg(66)))))
+59		2522.0		661		0.22		661		max_(min_(pos(input2), input3), min_(input1, max_(input2, do_print(input1, neg(66)))))
+60		2818.0		661		0.228		661		max_(min_(pos(input2), input3), min_(input1, max_(input2, do_print(input1, neg(66)))))
+61		2600.0		0		0.262		0		max_(min_(input2, input3), pos(min_(input1, max_(input3, input2))))
+Solution found.
+def median(input1, input2, input3):
+    return max_(min_(input2, input3), pos(min_(input1, max_(input3, input2))))
+
+Simplifying genome of length 46.
+Simplified genome: length=46 error=0
+def median(input1, input2, input3):
+    return max_(min_(input2, input3), pos(min_(input1, max_(input3, input2))))
+
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Final Test Error: 0

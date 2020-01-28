@@ -1,0 +1,25 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		5367.0		3564.0		0.12		3564.0		mod(input1, 2)
+2		4687.0		3406		0.086		3406		float2int(min_(int2bool(91), print_tap(input4)))
+3		4588.0		2022		0.121		2022		float2int(min_(input4, print_tap(input1)))
+4		4189.0		1877		0.165		1877		float2int(int2float(min_(input1, print_tap(input3))))
+5		3399.5		1051		0.183		1051		float2int(min_(input4, min_(input2, print_tap(input1))))
+6		2243.0		853		0.168		853		float2int(min_(input2, min_(input1, print_tap(input3))))
+7		2192.0		589		0.198		589		float2int(min_(input3, float2int(min_(input4, print_tap(input1)))))
+8		2134.0		589		0.199		589		float2int(min_(input3, float2int(min_(input4, print_tap(input1)))))
+9		2134.0		589		0.232		589		float2int(min_(input3, float2int(min_(input4, print_tap(input1)))))
+10		2061.0		589		0.215		589		float2int(min_(input3, float2int(min_(input4, print_tap(input1)))))
+11		2134.0		589		0.216		589		float2int(min_(input3, float2int(min_(input4, print_tap(input1)))))
+12		2169.0		38		0.248		38		min_(min_(float2int(max_(pos(pos(int2float(input1))), 53)), sub(1, do_print(input4, print_tap(print_tap(2))))), min_(input2, min_(input1, input3)))
+13		2022.5		0		0.27		0		float2int(min_(min_(float2int(max_(pos(int2float(input1)), 53)), do_print(input4, eq(1, 2))), min_(input2, min_(input1, input3))))
+Solution found.
+def smallest(input1, input2, input3, input4):
+    return float2int(min_(min_(float2int(max_(pos(int2float(input1)), 53)), do_print(input4, eq(1, 2))), min_(input2, min_(input1, input3))))
+
+Simplifying genome of length 47.
+Simplified genome: length=47 error=0
+def smallest(input1, input2, input3, input4):
+    return float2int(min_(min_(float2int(max_(pos(int2float(input1)), 53)), do_print(input4, eq(1, 2))), min_(input2, min_(input1, input3))))
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

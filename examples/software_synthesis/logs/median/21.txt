@@ -1,0 +1,84 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		4242.0		2093		0.11		2093		input1
+2		2620.0		1962		0.082		1962		min_(input2, input1)
+3		2350.0		1624		0.08		1624		min_(abs_(input2), input1)
+4		2350.0		1624		0.09		1624		min_(abs_(input2), input1)
+5		2350.0		1496		0.104		1496		min_(max_(input2, abs_(input3)), input1)
+6		2350.0		704		0.111		704		min_(max_(input2, input3), input1)
+7		2094.0		704		0.13		704		min_(max_(input2, input3), input1)
+8		2093.0		704		0.165		704		min_(max_(input2, input3), input1)
+9		2006.0		704		0.193		704		min_(max_(input2, input3), input1)
+10		1984.0		704		0.199		704		min_(max_(input2, input3), input1)
+11		1945.0		704		0.19		704		min_(max_(input2, input3), input1)
+12		2093.0		704		0.199		704		min_(max_(input2, input3), input1)
+13		1965.5		704		0.2		704		min_(max_(input2, input3), input1)
+14		2093.0		704		0.238		704		min_(max_(input2, input3), input1)
+15		2093.0		704		0.216		704		min_(max_(input2, input3), input1)
+16		2103.5		704		0.225		704		min_(max_(input2, input3), input1)
+17		2093.0		704		0.216		704		min_(max_(input2, input3), input1)
+18		2091.0		704		0.21		704		min_(max_(input2, input3), input1)
+19		2093.0		704		0.212		704		min_(max_(input2, input3), input1)
+20		2093.0		704		0.204		704		min_(max_(input2, input3), input1)
+21		2044.0		704		0.205		704		min_(max_(input2, input3), input1)
+22		2093.0		704		0.217		704		min_(max_(input2, input3), input1)
+23		1962.0		704		0.192		704		min_(max_(input2, input3), input1)
+24		1866.0		704		0.195		704		min_(max_(input2, input3), input1)
+25		2093.0		704		0.188		704		min_(max_(input2, input3), input1)
+26		1962.0		704		0.173		704		min_(max_(input2, input3), input1)
+27		1962.0		704		0.184		704		min_(max_(input2, input3), input1)
+28		1866.0		704		0.175		704		min_(max_(input2, input3), input1)
+29		1962.0		704		0.179		704		min_(max_(input2, input3), input1)
+30		1837.5		704		0.166		704		min_(max_(input2, input3), input1)
+31		2093.0		704		0.18		704		min_(max_(input2, input3), input1)
+32		1866.0		704		0.152		704		min_(max_(input2, input3), input1)
+33		1866.0		704		0.168		704		min_(max_(input2, input3), input1)
+34		1866.0		704		0.173		704		min_(max_(input2, input3), input1)
+35		1962.0		704		0.156		704		min_(max_(input2, input3), input1)
+36		1866.0		704		0.157		704		min_(max_(input2, input3), input1)
+37		1746.0		704		0.161		704		min_(max_(input2, input3), input1)
+38		1962.0		704		0.178		704		min_(max_(input2, input3), input1)
+39		1941.5		704		0.177		704		min_(max_(input2, input3), input1)
+40		1962.0		704		0.181		704		min_(max_(input2, input3), input1)
+41		1866.0		704		0.176		704		min_(max_(input2, input3), input1)
+42		1866.0		704		0.176		704		min_(max_(input2, input3), input1)
+43		1866.0		704		0.194		704		min_(max_(input2, input3), input1)
+44		1866.0		704		0.187		704		min_(max_(input2, input3), input1)
+45		1866.0		0		0.197		0		max_(min_(input2, input1), min_(max_(input2, min_(input3, input1)), input3))
+Solution found.
+def median(input1, input2, input3):
+    return max_(min_(input2, input1), min_(max_(input2, min_(input3, input1)), input3))
+
+Simplifying genome of length 30.
+Simplified genome: length=30 error=0
+def median(input1, input2, input3):
+    return max_(min_(input2, input1), min_(max_(input2, min_(input3, input1)), input3))
+
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Final Test Error: 0

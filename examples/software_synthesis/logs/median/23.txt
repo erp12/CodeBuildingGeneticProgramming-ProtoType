@@ -1,0 +1,85 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		4471.0		2543		0.109		2543		input1
+2		2644.0		2543		0.079		2543		input1
+3		2644.0		2214		0.089		2214		float2int(max_(print_do(min_(int2float(input3), int2bool(float2bool(bool2float(eq(0.781162477528623, input3))))), input2), input2))
+4		2644.0		2213		0.114		2213		float2int(max_(print_do(min_(int2float(input3), int2bool(ge(bool2float(eq(0.781162477528623, input3)), 1))), input2), int2float(input2)))
+5		2644.0		2143		0.133		2143		float2int(max_(print_do(pos(min_(print_tap(ge(pos(print_tap(input3)), True)), input3)), input2), input1))
+6		2663.0		2141		0.2		2141		float2int(max_(print_do(pos(min_(print_tap(True), input3)), 0.017130415453435188), input1))
+7		3375.0		2141		0.252		2141		float2int(max_(print_do(pos(min_(print_tap(True), input3)), 0.017130415453435188), input1))
+8		2905.0		2131		0.242		2131		float2int(max_(min_(input3, print_tap(print_tap(le(bool2float(print_tap(eq(input3, 88))), ge(input2, True))))), input1))
+9		3045.5		1335		0.265		1335		float2int(max_(do_print(abs_(print_tap(ge(pos(bool2float(pos(ne(-1, ge(0, input3))))), True))), min_(input3, pos(int2float(input1)))), float2int(mod(input2, int2bool(abs_(2))))))
+10		3254.0		1335		0.299		1335		float2int(max_(do_print(abs_(print_tap(ge(pos(bool2float(pos(ne(-1, ge(0, input3))))), True))), min_(input3, pos(int2float(input1)))), float2int(mod(input2, int2bool(abs_(2))))))
+11		3040.0		1335		0.32		1335		float2int(max_(do_print(abs_(print_tap(ge(pos(bool2float(pos(ne(-1, ge(0, input3))))), True))), min_(input3, pos(int2float(input1)))), float2int(mod(input2, int2bool(abs_(2))))))
+12		3378.5		1209		0.358		1209		float2int(println_tap(max_(println_tap(do_print(mul(neg(ge(pos(pos(print_tap(eq(-1, input3)))), True)), input2), pos(min_(input3, int2float(input1))))), input2)))
+13		3012.0		1124		0.345		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+14		3112.0		1124		0.365		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+15		2897.0		1124		0.38		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+16		2932.5		1124		0.401		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+17		2946.5		1124		0.419		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+18		2794.0		1124		0.424		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+19		2690.5		1124		0.396		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+20		2794.0		1124		0.397		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+21		2644.0		1124		0.339		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+22		2729.0		1124		0.341		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+23		2606.0		1124		0.311		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+24		2644.0		1124		0.315		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+25		2606.0		1124		0.277		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+26		2546.0		1124		0.287		1124		float2int(print_tap(int2float(min_(input3, max_(max_(input2, input1), input2)))))
+27		2543.0		990		0.267		990		float2int(print_tap(min_(max_(pos(input1), min_(input3, input2)), max_(input2, False))))
+28		2552.5		990		0.271		990		float2int(print_tap(min_(max_(pos(input1), min_(input3, input2)), max_(input2, False))))
+29		2546.0		990		0.28		990		float2int(print_tap(min_(max_(pos(input1), min_(input3, input2)), max_(input2, False))))
+30		2546.0		990		0.273		990		float2int(print_tap(min_(max_(pos(input1), min_(input3, input2)), max_(input2, False))))
+31		2543.0		990		0.264		990		float2int(print_tap(min_(max_(pos(input1), min_(input3, input2)), max_(input2, False))))
+32		2546.0		990		0.243		990		float2int(print_tap(min_(max_(pos(input1), min_(input3, input2)), max_(input2, False))))
+33		2546.0		906		0.26		906		float2int(print_tap(min_(max_(print_tap(1), int2float(input3)), max_(max_(pos(input1), pos(min_(input3, input2))), input1))))
+34		2543.0		906		0.233		906		float2int(print_tap(min_(max_(print_tap(1), int2float(input3)), max_(max_(pos(input1), pos(min_(input3, input2))), input1))))
+35		2543.0		906		0.263		906		float2int(print_tap(min_(max_(print_tap(1), int2float(input3)), max_(max_(pos(input1), pos(min_(input3, input2))), input1))))
+36		2543.0		906		0.265		906		float2int(print_tap(min_(max_(print_tap(1), int2float(input3)), max_(max_(pos(input1), pos(min_(input3, input2))), input1))))
+37		2543.0		906		0.281		906		float2int(print_tap(min_(max_(print_tap(1), int2float(input3)), max_(max_(pos(input1), pos(min_(input3, input2))), input1))))
+38		2543.0		906		0.294		906		float2int(print_tap(min_(max_(print_tap(1), int2float(input3)), max_(max_(pos(input1), pos(min_(input3, input2))), input1))))
+39		2543.0		336		0.31		336		float2int(print_tap(min_(pos(max_(mul(floordiv(True, input2), neg(print_do(-27, print_tap(1)))), int2float(input3))), max_(input1, min_(input3, input2)))))
+40		2605.5		336		0.348		336		float2int(print_tap(min_(pos(max_(mul(floordiv(True, input2), neg(print_do(-27, print_tap(1)))), int2float(input3))), max_(input1, min_(input3, input2)))))
+41		2644.0		336		0.341		336		float2int(print_tap(min_(pos(max_(mul(floordiv(True, input2), neg(print_do(-27, print_tap(1)))), int2float(input3))), max_(input1, min_(input3, input2)))))
+42		2644.0		336		0.36		336		float2int(print_tap(min_(pos(max_(mul(floordiv(True, input2), neg(print_do(-27, print_tap(1)))), int2float(input3))), max_(input1, min_(input3, input2)))))
+43		2644.0		336		0.362		336		float2int(print_tap(min_(pos(max_(mul(floordiv(True, input2), neg(print_do(-27, print_tap(1)))), int2float(input3))), max_(input1, min_(input3, input2)))))
+44		2704.0		336		0.382		336		float2int(print_tap(min_(pos(max_(mul(floordiv(True, input2), neg(print_do(-27, print_tap(1)))), int2float(input3))), max_(input1, min_(input3, input2)))))
+45		2780.5		182		0.412		182		float2int(min_(max_(int2float(input1), int2float(input3)), max_(min_(add(input1, input1), input3), pos(input2))))
+46		2816.0		0		0.47		0		float2int(print_tap(print_tap(min_(pos(pos(max_(print_do(floordiv(True, input2), mul(-27, print_tap(1))), input3))), max_(input1, min_(input3, input2))))))
+Solution found.
+def median(input1, input2, input3):
+    return float2int(print_tap(print_tap(min_(pos(pos(max_(print_do(floordiv(True, input2), mul(-27, print_tap(1))), input3))), max_(input1, min_(input3, input2))))))
+
+Simplifying genome of length 74.
+Simplified genome: length=74 error=0
+def median(input1, input2, input3):
+    return float2int(print_tap(print_tap(min_(pos(pos(max_(print_do(floordiv(True, input2), mul(-27, print_tap(1))), input3))), max_(input1, min_(input3, input2))))))
+
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Final Test Error: 0

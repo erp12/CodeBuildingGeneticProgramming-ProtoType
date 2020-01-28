@@ -1,0 +1,277 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11000000.0		27816.142		0.108		27816.141999999996		neg(0.942804011181956)
+2		30067.647		27816.142		0.061		27816.141999999996		neg(0.942804011181956)
+3		30698.329		27812.142		0.076		27812.142000000003		int2float(lt(2, len_(input1)))
+4		30192.329		27812.142		0.112		27812.142000000003		int2float(lt(2, len_(input1)))
+5		31178.329		27812.142		0.133		27812.142000000003		int2float(lt(2, len_(input1)))
+6		32270.709		27812.142		0.147		27812.142000000003		int2float(lt(2, len_(input1)))
+7		34910.86		27812.142		0.176		27812.142000000003		int2float(lt(2, len_(input1)))
+8		32108.709		27812.142		0.185		27812.142000000003		int2float(lt(2, len_(input1)))
+9		31698.526		27812.142		0.185		27812.142000000003		int2float(lt(2, len_(input1)))
+10		30722.329		27816.142		0.195		27812.142000000003		int2float(lt(2, len_(input1)))
+11		30937.871		27816.142		0.195		27812.142000000003		int2float(lt(2, len_(input1)))
+12		31226.329		27231.407		0.214		27231.40720000001		round_(len_(input1), float2int(sum_(input1)))
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': -65} found IndexError: string index out of range
+13		31484.656		27816.142		0.229		27231.40720000001		round_(len_(input1), float2int(sum_(input1)))
+14		31084.656		26271.936		0.256		26271.936400000002		print_tap(sub(println_tap(mul(38, floordiv(10, sum_(print_tap(input1))))), 2))
+15		31866.642		24072.648		0.215		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+16		31484.656		24072.648		0.225		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+17		30146.329		24072.648		0.252		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+18		30484.091		24072.648		0.237		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+19		31276.102		24072.648		0.256		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+20		34462.218		24072.648		0.23		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+21		34245.575		24072.648		0.219		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+22		35787.18		24072.648		0.226		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+23		31866.642		24072.648		0.213		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+24		32470.705		24072.648		0.222		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+25		32281.698		24072.648		0.219		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+26		35579.293		24072.648		0.199		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+27		35084.86		24072.648		0.197		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+28		35084.86		24072.648		0.189		24072.648000000005		floordiv(add(2, sum_(input1)), 38)
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+While evaluating <function getitem at 0x11c9d1ea0> with {'s1': '2', 'ndx': 1} found IndexError: string index out of range
+29		46455.65		23958.011		0.212		23958.011199999997		print_tap(div(sum_(println_tap(println_tap(input1))), abs_(float2int(print_tap(-27)))))
+30		37842.621		0.0		0.196		0.0		print_tap(div(sum_(println_tap(print_tap(println_tap(input1)))), len_(input1)))
+Solution found.
+def vector_average(input1):
+    return print_tap(div(sum_(println_tap(print_tap(println_tap(input1)))), len_(input1)))
+
+Simplifying genome of length 35.
+Simplified to length 34.
+Simplified to length 30.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 14.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0.0
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

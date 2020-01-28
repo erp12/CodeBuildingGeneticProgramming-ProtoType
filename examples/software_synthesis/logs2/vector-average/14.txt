@@ -1,0 +1,40 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11000000.0		28542.306		0.093		28542.306100000005		floordiv(1, abs_(div(float2bool(1), 10)))
+2		30520.972		25842.89		0.058		25842.890100000004		floordiv(sum_(input1), 10)
+3		30520.972		25842.89		0.084		25842.890100000004		floordiv(sum_(input1), 10)
+4		30049.472		25842.89		0.109		25842.890100000004		floordiv(sum_(input1), 10)
+5		45124.692		25842.89		0.127		25842.890100000004		floordiv(sum_(input1), 10)
+6		57424.067		25842.89		0.125		25842.890100000004		floordiv(sum_(input1), 10)
+7		57424.067		25842.89		0.144		25842.890100000004		floordiv(sum_(input1), 10)
+8		45124.692		25842.89		0.156		25842.890100000004		floordiv(sum_(input1), 10)
+9		42681.648		25841.86		0.178		25841.8598		div(sum_(input1), 10)
+10		41470.471		13223.903		0.174		13223.9028		div(sum_(input1), min_(len_(input1), sum_(input1)))
+11		29304.978		0.0		0.157		0.0		div(sum_(input1), len_(input1))
+Solution found.
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+Simplifying genome of length 47.
+Simplified to length 46.
+Simplified to length 41.
+Simplified to length 39.
+Simplified to length 38.
+Simplified to length 37.
+Simplified to length 34.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 19.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 12.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0.0
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

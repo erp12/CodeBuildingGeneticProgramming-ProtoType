@@ -1,0 +1,48 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		105.0		60.0		0.016		60.0		mul(eq(float2bool(abs_(-1)), print_tap(str_(input4)).title().lstrip_ws().lstrip_ws().lower()), float2int(pos(neg(input2))))
+2		68.0		60.0		0.019		60.0		mul(eq(float2bool(abs_(-1)), print_tap(str_(input4)).title().lstrip_ws().lstrip_ws().lower()), float2int(pos(neg(input2))))
+3		68.0		60.0		0.024		60.0		mul(eq(float2bool(abs_(-1)), print_tap(str_(input4)).title().lstrip_ws().lstrip_ws().lower()), float2int(pos(neg(input2))))
+4		68.0		60.0		0.019		60.0		mul(eq(float2bool(abs_(-1)), print_tap(str_(input4)).title().lstrip_ws().lstrip_ws().lower()), float2int(pos(neg(input2))))
+5		68.0		60.0		0.019		60.0		mul(eq(float2bool(abs_(-1)), print_tap(str_(input4)).title().lstrip_ws().lstrip_ws().lower()), float2int(pos(neg(input2))))
+6		68.0		60.0		0.026		60.0		mul(eq(float2bool(abs_(-1)), print_tap(str_(input4)).title().lstrip_ws().lstrip_ws().lower()), float2int(pos(neg(input2))))
+7		68.0		45.0		0.021		45.0		print_tap(min_(input1, input3))
+8		64.0		45.0		0.025		45.0		print_tap(min_(input1, input3))
+9		64.0		43.0		0.023		43.0		eq(float2bool(print_tap(min_(input2, input1))), input3)
+10		60.0		43.0		0.039		43.0		eq(float2bool(print_tap(min_(input2, input1))), input3)
+11		60.0		38.0		0.051		38.0		print_tap(min_(input4, input1))
+12		45.0		20.0		0.047		20.0		print_tap(min_(min_(input4, input1), input3))
+13		43.0		18.0		0.059		18.0		print_tap(min_(min_(input2, input4), input1))
+14		43.0		18.0		0.07		18.0		print_tap(min_(min_(input2, input4), input1))
+15		43.0		18.0		0.064		18.0		print_tap(min_(min_(input2, input4), input1))
+16		43.0		18.0		0.066		18.0		print_tap(min_(min_(input2, input4), input1))
+17		43.0		18.0		0.067		18.0		print_tap(min_(min_(input2, input4), input1))
+18		41.0		18.0		0.074		18.0		print_tap(min_(min_(input2, input4), input1))
+19		43.0		0.0		0.077		0.0		float2bool(print_tap(min_(min_(min_(input2, input4), input1), input3)))
+Solution found.
+def smallest(input1, input2, input3, input4):
+    return float2bool(print_tap(min_(min_(min_(input2, input4), input1), input3)))
+
+Simplifying genome of length 48.
+Simplified to length 47.
+Simplified to length 46.
+Simplified to length 44.
+Simplified to length 38.
+Simplified to length 35.
+Simplified to length 28.
+Simplified to length 26.
+Simplified to length 24.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified genome: length=10 error=0.0
+def smallest(input1, input2, input3, input4):
+    return le(print_tap(min_(min_(min_(input2, input4), input1), input3)), 2)
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

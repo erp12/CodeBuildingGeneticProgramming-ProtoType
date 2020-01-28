@@ -1,0 +1,80 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		4046.0		2289		0.098		2289		input3
+2		3186.0		2289.0		0.085		2289		input3
+3		3131.0		2289.0		0.117		2289		input3
+4		3190.0		1800		0.186		1800		max_(min_(do_print(0, input2), 10), input3)
+5		3190.0		1800		0.204		1800		max_(min_(do_print(0, input2), 10), input3)
+6		3150.0		1800		0.227		1800		max_(min_(do_print(0, input2), 10), input3)
+7		3193.0		1800		0.244		1800		max_(min_(do_print(0, input2), 10), input3)
+8		3145.0		1800		0.259		1800		max_(min_(do_print(0, input2), 10), input3)
+9		3190.0		1317		0.251		1317		max_(min_(input1, print_tap(float2int(input2))), input3)
+10		2940.0		972		0.27		972		float2int(min_(input3, max_(input1, input2)))
+11		2811.0		972		0.201		972		float2int(min_(input3, max_(input1, input2)))
+12		2693.0		972		0.208		972		float2int(min_(input3, max_(input1, input2)))
+13		2704.0		972		0.191		972		float2int(min_(input3, max_(input1, input2)))
+14		2751.0		972		0.201		972		float2int(min_(input3, max_(input1, input2)))
+15		2693.0		972		0.198		972		float2int(min_(input3, max_(input1, input2)))
+16		2693.0		972		0.204		972		float2int(min_(input3, max_(input1, input2)))
+17		2693.0		972		0.197		972		float2int(min_(input3, max_(input1, input2)))
+18		2693.0		972		0.195		972		float2int(min_(input3, max_(input1, input2)))
+19		2693.0		972		0.198		972		float2int(min_(input3, max_(input1, input2)))
+20		2693.0		972		0.212		972		float2int(min_(input3, max_(input1, input2)))
+21		2598.0		972		0.206		972		float2int(min_(input3, max_(input1, input2)))
+22		2693.0		972		0.205		972		float2int(min_(input3, max_(input1, input2)))
+23		2693.0		972		0.203		972		float2int(min_(input3, max_(input1, input2)))
+24		2598.0		972		0.196		972		float2int(min_(input3, max_(input1, input2)))
+25		2598.0		972		0.176		972		float2int(min_(input3, max_(input1, input2)))
+26		2539.0		972		0.181		972		float2int(min_(input3, max_(input1, input2)))
+27		2539.0		972		0.198		972		float2int(min_(input3, max_(input1, input2)))
+28		2598.0		972		0.211		972		float2int(min_(input3, max_(input1, input2)))
+29		2539.0		972		0.194		972		float2int(min_(input3, max_(input1, input2)))
+30		2539.0		972		0.181		972		float2int(min_(input3, max_(input1, input2)))
+31		2598.0		972		0.196		972		float2int(min_(input3, max_(input1, input2)))
+32		2539.0		972		0.179		972		float2int(min_(input3, max_(input1, input2)))
+33		2598.0		972		0.181		972		float2int(min_(input3, max_(input1, input2)))
+34		2539.0		972		0.204		972		float2int(min_(input3, max_(input1, input2)))
+35		2427.0		945		0.202		945		float2int(min_(max_(-1, input3), max_(input1, input2)))
+36		2539.0		945		0.224		945		float2int(min_(max_(-1, input3), max_(input1, input2)))
+37		2407.0		945		0.183		945		float2int(min_(max_(-1, input3), max_(input1, input2)))
+38		2407.0		945		0.212		945		float2int(min_(max_(-1, input3), max_(input1, input2)))
+39		2475.0		945		0.212		945		float2int(min_(max_(-1, input3), max_(input1, input2)))
+40		2514.0		945		0.211		945		float2int(min_(max_(-1, input3), max_(input1, input2)))
+41		2539.0		0		0.218		0		min_(max_(min_(pos(input3), input1), input2), max_(input3, input1))
+Solution found.
+def median(input1, input2, input3):
+    return min_(max_(min_(pos(input3), input1), input2), max_(input3, input1))
+
+Simplifying genome of length 47.
+Simplified genome: length=47 error=0
+def median(input1, input2, input3):
+    return min_(max_(min_(pos(input3), input1), input2), max_(input3, input1))
+
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0]
+Final Test Error: 0

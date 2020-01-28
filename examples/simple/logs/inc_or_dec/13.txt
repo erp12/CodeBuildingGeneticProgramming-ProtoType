@@ -1,0 +1,48 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.065		20		i
+2		102.0		20		0.048		20		i
+3		94.5		20		0.062		20		i
+4		86.0		20		0.072		20		i
+5		94.5		20		0.077		20		i
+6		102.0		20		0.075		20		i
+7		102.0		20		0.093		20		i
+8		49.0		20		0.086		20		i
+9		49.0		20		0.09		20		i
+10		49.0		20		0.091		20		i
+11		49.0		20		0.105		20		i
+12		61.0		20		0.106		20		i
+13		49.0		20		0.108		20		i
+14		49.0		20		0.13		20		i
+15		55.0		20		0.153		20		i
+16		57.0		20		0.152		20		i
+17		53.5		19		0.156		19		println_tap(float2int(sub(i, ne(-1, i))))
+18		55.0		16		0.176		16		float2int(max_(sub(i, int2bool(dec)), mod(int2bool(-1), add(i, False))))
+19		55.5		11		0.215		11		float2int(sub(i, mod(int2bool(int2bool(dec)), abs_(add(i, False)))))
+20		58.5		10		0.223		10		float2int(sub(i, abs_(add(False, dec))))
+21		50.0		10		0.188		10		float2int(sub(i, abs_(add(False, dec))))
+22		61.5		10		0.209		10		float2int(sub(i, abs_(add(False, dec))))
+23		57.0		10		0.216		10		float2int(sub(i, abs_(add(False, dec))))
+24		72.0		10		0.264		10		float2int(sub(i, abs_(add(False, dec))))
+25		72.5		10		0.25		10		float2int(sub(i, abs_(add(False, dec))))
+26		70.0		10		0.249		10		float2int(sub(i, abs_(add(False, dec))))
+27		73.0		10		0.26		10		float2int(sub(i, abs_(add(False, dec))))
+28		71.0		10		0.253		10		float2int(sub(i, abs_(add(False, dec))))
+29		65.5		0		0.248		0		println_tap(float2int(sub(sub(add(not_(False), i), dec), dec)))
+Solution found.
+def inc_or_dec(i, dec):
+    return println_tap(float2int(sub(sub(add(not_(False), i), dec), dec)))
+Simplifying genome of length 36.
+Simplified to length 31.
+Simplified to length 20.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified genome: length=7 error=0
+def inc_or_dec(i, dec):
+    return float2int(sub(add(not_(dec), i), dec))

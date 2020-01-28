@@ -1,0 +1,105 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		100.0		42.0		0.008		42.0		float2bool(print_tap(input2))
+2		58.0		42.0		0.013		42.0		float2bool(print_tap(input2))
+3		58.0		42.0		0.014		42.0		float2bool(print_tap(input2))
+4		58.0		42.0		0.017		42.0		float2bool(print_tap(input2))
+5		58.0		42.0		0.015		42.0		float2bool(print_tap(input2))
+6		58.0		42.0		0.013		42.0		float2bool(print_tap(input2))
+7		58.0		42.0		0.015		42.0		float2bool(print_tap(input2))
+8		55.0		42.0		0.014		42.0		float2bool(print_tap(input2))
+9		58.0		42.0		0.014		42.0		float2bool(print_tap(input2))
+10		58.0		42.0		0.029		42.0		float2bool(print_tap(input2))
+11		55.0		20.0		0.034		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+12		58.0		20.0		0.051		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+13		58.0		20.0		0.057		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+14		59.0		20.0		0.072		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+15		55.0		20.0		0.091		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+16		55.0		20.0		0.083		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+17		55.0		20.0		0.09		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+18		55.0		20.0		0.098		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+19		56.0		20.0		0.094		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+20		55.0		20.0		0.098		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+21		57.0		20.0		0.11		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+22		58.0		20.0		0.11		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+23		55.0		20.0		0.101		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+24		54.0		20.0		0.088		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+25		54.0		20.0		0.095		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+26		55.0		20.0		0.102		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+27		55.0		20.0		0.099		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+28		55.0		20.0		0.101		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+29		55.0		20.0		0.098		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+30		58.0		20.0		0.094		20.0		div(print_tap(min_(max_(input3, input1), input2)), input1)
+31		58.0		0.0		0.106		0.0		print_tap(max_(min_(max_(input3, input1), input2), min_(input3, input1)))
+Solution found.
+def median(input1, input2, input3):
+    return print_tap(max_(min_(max_(input3, input1), input2), min_(input3, input1)))
+
+Simplifying genome of length 69.
+Simplified to length 67.
+Simplified to length 66.
+Simplified to length 62.
+Simplified to length 54.
+Simplified to length 52.
+Simplified to length 51.
+Simplified to length 44.
+Simplified to length 32.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified genome: length=10 error=0.0
+def median(input1, input2, input3):
+    return print_tap(max_(min_(max_(input3, input1), input2), min_(input3, input1)))
+
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Final Test Error: 0.0

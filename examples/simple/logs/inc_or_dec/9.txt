@@ -1,0 +1,53 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.084		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+2		102.0		20		0.059		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+3		49.0		20		0.072		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+4		20.0		20		0.08		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+5		20.0		20		0.086		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+6		49.0		20		0.106		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+7		45.0		20		0.087		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+8		20.0		20		0.091		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+9		42.0		20		0.095		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+10		41.0		20		0.104		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+11		42.0		20		0.109		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+12		49.0		20		0.102		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+13		20.0		20		0.097		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+14		43.5		20		0.107		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+15		20.0		20		0.11		20		if_(lt(str_(int2bool(i)), str_(-85)), 10, i)
+16		47.0		10		0.116		10		float2int(sub(i, dec))
+17		20.0		10		0.098		10		float2int(sub(i, dec))
+18		42.0		10		0.105		10		float2int(sub(i, dec))
+19		36.0		10		0.093		10		float2int(sub(i, dec))
+20		45.0		10		0.097		10		float2int(sub(i, dec))
+21		20.5		10		0.101		10		float2int(sub(i, dec))
+22		30.0		10		0.112		10		float2int(sub(i, dec))
+23		45.0		10		0.111		10		float2int(sub(i, dec))
+24		43.5		10		0.117		10		float2int(sub(i, dec))
+25		49.0		10		0.124		10		float2int(sub(i, dec))
+26		21.0		10		0.111		10		float2int(sub(i, dec))
+27		30.0		10		0.117		10		float2int(sub(i, dec))
+28		21.0		10		0.132		10		float2int(sub(i, dec))
+29		40.0		10		0.129		10		float2int(sub(i, dec))
+30		50.0		10		0.13		10		float2int(sub(i, dec))
+31		50.0		10		0.152		10		float2int(sub(i, dec))
+32		50.0		10		0.149		10		float2int(sub(i, dec))
+33		50.0		0		0.156		0		float2int(sub(i, if_(print_tap(dec), 1, neg(int2bool(i)))))
+Solution found.
+def inc_or_dec(i, dec):
+    return float2int(sub(i, if_(print_tap(dec), 1, neg(int2bool(i)))))
+Simplifying genome of length 27.
+Simplified to length 25.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 16.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def inc_or_dec(i, dec):
+    return sub(i, if_(dec, 1, neg(int2bool(i))))

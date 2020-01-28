@@ -1,0 +1,31 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.075		20		i
+2		94.0		20		0.069		20		i
+3		20.0		20		0.076		20		i
+4		20.0		20		0.079		20		i
+5		20.0		20		0.072		20		i
+6		20.0		10		0.081		10		float2int(println_tap(add(mul(True, lt(dec, True)), add(i, abs_(and_(dec, str_(0).upper().islower()))))))
+7		66.0		10		0.134		10		float2int(println_tap(add(mul(True, lt(dec, True)), add(i, abs_(and_(dec, str_(0).upper().islower()))))))
+8		75.0		10		0.139		10		float2int(println_tap(add(mul(True, lt(dec, True)), add(i, abs_(and_(dec, str_(0).upper().islower()))))))
+9		65.0		0		0.144		0		float2int(add(mul(True, if_(dec, -1, True)), add(i, and_(str_(-11).upper().isalpha(), dec))))
+Solution found.
+def inc_or_dec(i, dec):
+    return float2int(add(mul(True, if_(dec, -1, True)), add(i, and_(str_(-11).upper().isalpha(), dec))))
+Simplifying genome of length 45.
+Simplified to length 44.
+Simplified to length 32.
+Simplified to length 25.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 7.
+Simplified to length 6.
+Simplified genome: length=6 error=0
+def inc_or_dec(i, dec):
+    return add(if_(dec, -1, True), i)

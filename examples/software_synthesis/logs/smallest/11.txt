@@ -1,0 +1,18 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		5596.0		2976		0.13		2976		min_(1, input1)
+2		5063.0		2002		0.088		2002		min_(input4, input1)
+3		4740.0		1727		0.092		1727		min_(1, min_(input4, input1))
+4		4731.0		684		0.113		684		min_(input4, min_(input1, input2))
+5		1628.0		584		0.123		584		min_(min_(input1, input2), input3)
+6		1217.0		0		0.114		0		min_(input3, min_(min_(input4, input2), input1))
+Solution found.
+def smallest(input1, input2, input3, input4):
+    return min_(input3, min_(min_(input4, input2), input1))
+
+Simplifying genome of length 35.
+Simplified genome: length=35 error=0
+def smallest(input1, input2, input3, input4):
+    return min_(input3, min_(min_(input4, input2), input1))
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

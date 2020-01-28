@@ -1,0 +1,49 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.078		20		i
+2		104.0		20		0.068		20		i
+3		104.0		20		0.083		20		i
+4		108.0		20		0.088		20		i
+5		104.0		20		0.116		20		i
+6		102.0		20		0.143		20		i
+7		98.0		19		0.114		19		max_(i, mul(10, float2int(mod(mod(1, 0.6131644287156914), i))))
+8		102.0		19		0.138		19		max_(i, mul(10, float2int(mod(mod(1, 0.6131644287156914), i))))
+9		102.0		19		0.149		19		max_(i, mul(10, float2int(mod(mod(1, 0.6131644287156914), i))))
+10		102.0		19		0.143		19		max_(i, mul(10, float2int(mod(mod(1, 0.6131644287156914), i))))
+11		100.0		19		0.141		19		max_(i, mul(10, float2int(mod(mod(1, 0.6131644287156914), i))))
+12		100.0		19		0.145		19		max_(i, mul(10, float2int(mod(mod(1, 0.6131644287156914), i))))
+13		96.0		19		0.138		19		max_(i, mul(10, float2int(mod(mod(1, 0.6131644287156914), i))))
+14		86.0		19		0.162		19		max_(i, mul(10, float2int(mod(mod(1, 0.6131644287156914), i))))
+15		57.0		15		0.185		15		float2int(add(i, floordiv(print_do(int2bool(print_tap(float2int(1))), str_(mod(2, dec))).isalnum(), add(i, -1))))
+16		49.0		10		0.201		10		float2int(add(i, mul(dec, print_do(floordiv(print_do(float2int(mod(2, dec)), 1), i), -1))))
+17		30.0		10		0.221		10		float2int(add(i, mul(dec, print_do(floordiv(print_do(float2int(mod(2, dec)), 1), i), -1))))
+18		30.0		10		0.163		10		float2int(add(i, mul(dec, print_do(floordiv(print_do(float2int(mod(2, dec)), 1), i), -1))))
+19		30.0		9		0.195		9		float2int(add(sub(i, dec), float2bool(floordiv(print_do(int2bool(print_tap(float2int(bool2float(println_tap(True))))), 10), mod(1, add(i, -1))))))
+20		72.0		9		0.225		9		float2int(add(sub(i, dec), float2bool(floordiv(print_do(int2bool(print_tap(float2int(bool2float(println_tap(True))))), 10), mod(1, add(i, -1))))))
+21		29.5		0		0.238		0		float2int(add(sub(i, dec), ne(int2bool(dec), int2bool(ge(int2bool(ge(print_tap(21), float2int(neg(mod(1, i))))), abs_(println_tap(True)))))))
+Solution found.
+def inc_or_dec(i, dec):
+    return float2int(add(sub(i, dec), ne(int2bool(dec), int2bool(ge(int2bool(ge(print_tap(21), float2int(neg(mod(1, i))))), abs_(println_tap(True)))))))
+Simplifying genome of length 75.
+Simplified to length 70.
+Simplified to length 58.
+Simplified to length 57.
+Simplified to length 43.
+Simplified to length 41.
+Simplified to length 33.
+Simplified to length 30.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 14.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified genome: length=9 error=0
+def inc_or_dec(i, dec):
+    return float2int(add(sub(i, dec), ne(dec, int2bool(21))))

@@ -1,0 +1,42 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11000000.0		25962.637		0.085		25962.637099999996		-7
+2		28703.444		25962.637		0.065		25962.637099999996		-7
+3		28703.444		24894.306		0.087		24894.306099999998		floordiv(add(max_(-1, sum_(input1)), False), 10)
+4		28703.444		24894.306		0.119		24894.306099999998		floordiv(add(max_(-1, sum_(input1)), False), 10)
+5		28353.093		24894.306		0.133		24894.306099999998		floordiv(add(max_(-1, sum_(input1)), False), 10)
+6		28703.444		11017.191		0.145		11017.191299999999		floordiv(add(max_(sum_(input1), False), int2bool(2)), len_(input1))
+7		27100.534		11014.192		0.16		11014.1917		add(println_tap(abs_(False)), floordiv(max_(sum_(input1), False), len_(input1)))
+8		26625.409		56.017		0.178		56.01730000000008		add(println_tap(abs_(False)), floordiv(sum_(input1), len_(input1)))
+9		25967.192		53.983		0.153		53.98269999999992		add(max_(False, pos(int2bool(1))), floordiv(sum_(input1), len_(input1)))
+10		25967.468		53.983		0.154		53.98269999999992		add(max_(False, pos(int2bool(1))), floordiv(sum_(input1), len_(input1)))
+11		25970.633		53.983		0.147		53.98269999999992		add(max_(False, pos(int2bool(1))), floordiv(sum_(input1), len_(input1)))
+12		25970.468		29.17		0.161		29.170299999999834		add(println_tap(floordiv(sum_(input1), len_(input1))), 0.5638659243067251)
+13		25968.192		29.17		0.194		29.170299999999834		add(println_tap(floordiv(sum_(input1), len_(input1))), 0.5638659243067251)
+14		25969.447		29.011		0.181		29.010899999999967		add(println_tap(floordiv(sum_(input1), len_(input1))), 0.5460605663701261)
+15		25970.468		29.011		0.175		29.010899999999967		add(println_tap(floordiv(sum_(input1), len_(input1))), 0.5460605663701261)
+16		25969.156		29.011		0.19		29.010899999999967		add(println_tap(floordiv(sum_(input1), len_(input1))), 0.5460605663701261)
+17		25970.633		29.011		0.198		29.010899999999967		add(println_tap(floordiv(sum_(input1), len_(input1))), 0.5460605663701261)
+18		25969.322		0.0		0.22		0.0		div(println_tap(sum_(input1)), len_(input1))
+Solution found.
+def vector_average(input1):
+    return div(println_tap(sum_(input1)), len_(input1))
+
+Simplifying genome of length 33.
+Simplified to length 29.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 22.
+Simplified to length 19.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 12.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0.0
+def vector_average(input1):
+    return div(sum_(input1), len_(input1))
+
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

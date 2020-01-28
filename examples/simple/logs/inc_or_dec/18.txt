@@ -1,0 +1,56 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.067		20		float2int(i)
+2		93.0		20		0.052		20		float2int(i)
+3		102.0		20		0.081		20		float2int(i)
+4		104.0		20		0.115		20		float2int(i)
+5		104.0		19		0.159		19		print_do(sub(2, -1), float2int(sub(float2bool(i), neg(float2int(int2float(i))))))
+6		103.0		9		0.16		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+7		102.0		9		0.189		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+8		102.0		9		0.199		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+9		104.0		9		0.19		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+10		104.0		9		0.186		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+11		102.0		9		0.215		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+12		102.0		9		0.186		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+13		102.0		9		0.193		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+14		102.0		9		0.181		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+15		102.0		9		0.195		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+16		102.0		9		0.208		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+17		102.0		9		0.188		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+18		102.0		9		0.19		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+19		102.0		9		0.213		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+20		101.0		9		0.194		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+21		102.0		9		0.196		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+22		102.0		9		0.189		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+23		102.0		9		0.223		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+24		102.0		9		0.218		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+25		101.0		9		0.223		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+26		102.0		9		0.214		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+27		101.5		9		0.229		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+28		102.0		9		0.235		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+29		102.0		9		0.224		9		if_(False, sub(2, -1), float2int(sub(sub(float2bool(i), dec), neg(float2int(int2float(i))))))
+30		102.0		1		0.225		1		do_print(float2int(sub(sub(ne(float2bool(float2int(i)), dec), dec), pos(neg(i)))), False)
+31		101.0		0		0.176		0		do_print(float2int(sub(do_print(sub(ne(float2bool(float2int(69)), dec), dec), i), pos(neg(i)))), False)
+Solution found.
+def inc_or_dec(i, dec):
+    return do_print(float2int(sub(do_print(sub(ne(float2bool(float2int(69)), dec), dec), i), pos(neg(i)))), False)
+Simplifying genome of length 50.
+Simplified to length 49.
+Simplified to length 45.
+Simplified to length 38.
+Simplified to length 37.
+Simplified to length 31.
+Simplified to length 29.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified genome: length=10 error=0
+def inc_or_dec(i, dec):
+    return float2int(sub(sub(ne(float2bool(69), dec), dec), neg(i)))

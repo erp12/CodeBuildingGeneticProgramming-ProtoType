@@ -1,0 +1,72 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		104.0		20		0.084		20		i
+2		102.0		20		0.057		20		i
+3		99.0		20		0.071		20		i
+4		102.0		20		0.087		20		i
+5		65.0		20		0.093		20		i
+6		26.0		20		0.087		20		i
+7		20.0		20		0.089		20		i
+8		22.0		20		0.087		20		i
+9		48.0		20		0.092		20		i
+10		24.5		20		0.092		20		i
+11		21.0		20		0.106		20		i
+12		40.0		20		0.101		20		i
+13		26.0		20		0.118		20		i
+14		44.5		20		0.105		20		i
+15		47.0		20		0.115		20		i
+16		47.0		20		0.106		20		i
+17		47.0		19		0.123		19		add(bool2int(ge(1, abs_(i))), i)
+18		22.0		19		0.111		19		add(bool2int(ge(1, abs_(i))), i)
+19		47.0		19		0.127		19		add(bool2int(ge(1, abs_(i))), i)
+20		21.0		19		0.128		19		add(bool2int(ge(1, abs_(i))), i)
+21		47.0		19		0.132		19		add(bool2int(ge(1, abs_(i))), i)
+22		47.0		14		0.133		14		add(bool2int(lt(dec, le(print_tap(-1), i))), i)
+23		47.0		10		0.146		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+24		20.0		10		0.132		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+25		21.0		10		0.132		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+26		21.0		10		0.151		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+27		36.0		10		0.095		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+28		30.0		10		0.099		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+29		30.0		10		0.093		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+30		24.0		10		0.093		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+31		30.0		10		0.1		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+32		36.0		10		0.116		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+33		36.0		10		0.102		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+34		36.0		10		0.137		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+35		30.0		10		0.125		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+36		21.0		10		0.134		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+37		30.0		10		0.138		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+38		22.0		10		0.164		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+39		30.0		10		0.173		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+40		30.0		10		0.162		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+41		21.0		10		0.17		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+42		30.0		10		0.187		10		add(bool2int(lt(dec, ge(le(print_tap(-1), 10), str_(1).isascii()))), i)
+43		30.0		9.0		0.182		9.0		add(i, neg(mod(-1, print_tap(float2int(min_(2, add(2, if_(dec, i, -38))))))))
+44		30.0		8		0.197		8		add(i, add(-1, float2int(mod(2, div(div(abs_(i), 2), not_(dec))))))
+45		25.0		0		0.201		0		add(i, add(-1, float2int(mod(2, div(len_(str_(div(abs_(i), 2))), not_(dec))))))
+Solution found.
+def inc_or_dec(i, dec):
+    return add(i, add(-1, float2int(mod(2, div(len_(str_(div(abs_(i), 2))), not_(dec))))))
+Simplifying genome of length 53.
+Simplified to length 46.
+Simplified to length 41.
+Simplified to length 38.
+Simplified to length 36.
+Simplified to length 30.
+Simplified to length 29.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified genome: length=9 error=0
+def inc_or_dec(i, dec):
+    return add(i, add(-1, float2int(div(2, not_(dec)))))

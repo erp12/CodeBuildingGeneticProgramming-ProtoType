@@ -1,0 +1,252 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		100.0		45.0		0.008		45.0		do_print(2, input3)
+2		49.0		45.0		0.008		45.0		do_print(2, input3)
+3		49.0		45.0		0.011		45.0		do_print(2, input3)
+4		49.0		45.0		0.009		45.0		do_print(2, input3)
+5		49.0		45.0		0.01		45.0		do_print(2, input3)
+6		49.0		45.0		0.017		45.0		do_print(2, input3)
+7		49.0		45.0		0.015		45.0		do_print(2, input3)
+8		49.0		45.0		0.015		45.0		do_print(2, input3)
+9		49.0		45.0		0.016		45.0		do_print(2, input3)
+10		49.0		45.0		0.02		45.0		do_print(2, input3)
+11		49.0		26.0		0.014		26.0		print_do(max_(input1, min_(input2, input3)), input1)
+12		49.0		26.0		0.041		26.0		print_do(max_(input1, min_(input2, input3)), input1)
+13		49.0		26.0		0.047		26.0		print_do(max_(input1, min_(input2, input3)), input1)
+14		52.0		26.0		0.07		26.0		print_do(max_(input1, min_(input2, input3)), input1)
+15		53.0		26.0		0.077		26.0		print_do(max_(input1, min_(input2, input3)), input1)
+16		52.0		23.0		0.085		23.0		print_do(max_(min_(input3, input1), input2), 0)
+17		54.0		23.0		0.085		23.0		print_do(max_(min_(input3, input1), input2), 0)
+18		51.0		23.0		0.079		23.0		print_do(max_(min_(input3, input1), input2), 0)
+19		49.0		22.0		0.082		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+20		49.0		22.0		0.085		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+21		50.0		22.0		0.085		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+22		51.0		22.0		0.08		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+23		69.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+24		50.5		22.0		0.09		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+25		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+26		49.0		22.0		0.072		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+27		49.0		22.0		0.087		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+28		49.0		22.0		0.089		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+29		49.0		22.0		0.095		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+30		49.0		22.0		0.083		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+31		49.0		22.0		0.095		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+32		49.0		22.0		0.087		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+33		49.0		22.0		0.091		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+34		49.0		22.0		0.079		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+35		49.0		22.0		0.089		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+36		49.0		22.0		0.095		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+37		49.0		22.0		0.092		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+38		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+39		49.0		22.0		0.085		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+40		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+41		49.0		22.0		0.086		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+42		49.0		22.0		0.072		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+43		49.0		22.0		0.084		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+44		49.0		22.0		0.07		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+45		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+46		51.0		22.0		0.082		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+47		49.0		22.0		0.09		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+48		49.0		22.0		0.079		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+49		49.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+50		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+51		49.0		22.0		0.081		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+52		49.0		22.0		0.082		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+53		49.0		22.0		0.099		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+54		49.0		22.0		0.082		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+55		49.0		22.0		0.088		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+56		49.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+57		49.0		22.0		0.085		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+58		49.0		22.0		0.085		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+59		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+60		49.0		22.0		0.079		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+61		49.0		22.0		0.097		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+62		49.0		22.0		0.091		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+63		49.0		22.0		0.088		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+64		49.0		22.0		0.083		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+65		49.0		22.0		0.09		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+66		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+67		49.0		22.0		0.083		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+68		48.0		22.0		0.08		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+69		49.0		22.0		0.09		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+70		49.0		22.0		0.08		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+71		49.0		22.0		0.084		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+72		49.0		22.0		0.074		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+73		49.0		22.0		0.098		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+74		49.0		22.0		0.083		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+75		49.0		22.0		0.087		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+76		49.0		22.0		0.09		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+77		49.0		22.0		0.085		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+78		49.0		22.0		0.085		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+79		49.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+80		49.0		22.0		0.096		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+81		49.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+82		49.0		22.0		0.081		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+83		49.0		22.0		0.081		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+84		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+85		49.0		22.0		0.074		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+86		49.0		22.0		0.07		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+87		49.0		22.0		0.084		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+88		49.0		22.0		0.081		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+89		49.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+90		49.0		22.0		0.086		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+91		49.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+92		49.0		22.0		0.079		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+93		49.0		22.0		0.081		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+94		49.0		22.0		0.084		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+95		49.0		22.0		0.083		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+96		49.0		22.0		0.082		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+97		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+98		49.0		22.0		0.074		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+99		49.0		22.0		0.079		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+100		49.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+101		49.0		22.0		0.081		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+102		49.0		22.0		0.072		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+103		49.0		22.0		0.081		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+104		49.0		22.0		0.073		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+105		49.0		22.0		0.079		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+106		49.0		22.0		0.082		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+107		49.0		22.0		0.084		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+108		49.0		22.0		0.084		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+109		49.0		22.0		0.093		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+110		49.0		22.0		0.081		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+111		49.0		22.0		0.073		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+112		49.0		22.0		0.074		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+113		48.5		22.0		0.082		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+114		49.0		22.0		0.073		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+115		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+116		49.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+117		49.0		22.0		0.076		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+118		48.0		22.0		0.076		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+119		49.0		22.0		0.082		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+120		49.0		22.0		0.076		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+121		49.0		22.0		0.077		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+122		49.0		22.0		0.074		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+123		49.0		22.0		0.086		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+124		49.0		22.0		0.081		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+125		49.0		22.0		0.071		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+126		49.0		22.0		0.071		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+127		49.0		22.0		0.086		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+128		49.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+129		49.0		22.0		0.079		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+130		49.0		22.0		0.087		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+131		49.0		22.0		0.075		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+132		49.0		22.0		0.08		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+133		48.0		22.0		0.076		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+134		49.0		22.0		0.077		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+135		49.0		22.0		0.076		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+136		49.0		22.0		0.073		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+137		49.0		22.0		0.071		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+138		49.0		22.0		0.085		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+139		49.0		22.0		0.089		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+140		49.0		22.0		0.078		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+141		49.0		22.0		0.087		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+142		49.0		22.0		0.073		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+143		49.0		22.0		0.084		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+144		49.0		22.0		0.077		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+145		49.0		22.0		0.083		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+146		49.0		22.0		0.088		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+147		49.0		22.0		0.088		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+148		49.0		22.0		0.081		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+149		49.0		22.0		0.085		22.0		print_do(min_(input3, max_(input2, input1)), input2)
+150		49.0		17.0		0.081		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+151		49.0		17.0		0.084		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+152		49.0		17.0		0.088		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+153		49.0		17.0		0.088		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+154		49.0		17.0		0.096		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+155		49.0		17.0		0.103		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+156		49.0		17.0		0.101		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+157		49.0		17.0		0.11		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+158		49.0		17.0		0.099		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+159		49.0		17.0		0.098		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+160		49.0		17.0		0.106		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+161		49.0		17.0		0.115		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+162		49.0		17.0		0.125		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+163		49.0		17.0		0.127		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+164		49.0		17.0		0.128		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+165		49.0		17.0		0.143		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+166		49.0		17.0		0.125		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+167		49.0		17.0		0.117		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+168		50.0		17.0		0.13		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+169		49.0		17.0		0.138		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+170		49.0		17.0		0.111		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+171		49.0		17.0		0.117		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+172		49.0		17.0		0.122		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+173		49.0		17.0		0.124		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+174		49.0		17.0		0.128		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+175		49.0		17.0		0.127		17.0		print_do(max_(min_(input1, float2int(input3)), min_(input2, abs_(input3))), str_(input1).isupper())
+176		49.0		15.0		0.141		15.0		print_do(max_(min_(input1, input3), min_(input2, mul(input1, gt(input2, input3)))), -1)
+177		66.0		15.0		0.138		15.0		print_do(max_(min_(input1, input3), min_(input2, mul(input1, gt(input2, input3)))), -1)
+178		74.5		0.0		0.135		0.0		print_do(max_(min_(input1, input3), min_(input2, pos(max_(input3, input1)))), input3)
+Solution found.
+def median(input1, input2, input3):
+    return print_do(max_(min_(input1, input3), min_(input2, pos(max_(input3, input1)))), input3)
+
+Simplifying genome of length 70.
+Simplified to length 63.
+Simplified to length 58.
+Simplified to length 54.
+Simplified to length 53.
+Simplified to length 46.
+Simplified to length 44.
+Simplified to length 37.
+Simplified to length 35.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified genome: length=11 error=0.0
+def median(input1, input2, input3):
+    return print_do(max_(min_(input1, input3), min_(input2, max_(input1, input3))), input1)
+
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Final Test Error: 0.0

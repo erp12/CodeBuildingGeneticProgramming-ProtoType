@@ -1,0 +1,140 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		100.0		40.0		0.015		40.0		gt(pos(0.6241525466887191), int2bool(print_tap(pos(input1))))
+2		65.0		40.0		0.017		40.0		gt(pos(0.6241525466887191), int2bool(print_tap(pos(input1))))
+3		53.0		40.0		0.03		40.0		gt(pos(0.6241525466887191), int2bool(print_tap(pos(input1))))
+4		56.0		19.0		0.03		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+5		56.0		19.0		0.053		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+6		51.0		19.0		0.065		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+7		53.0		19.0		0.058		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+8		51.0		19.0		0.068		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+9		53.0		19.0		0.067		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+10		53.0		19.0		0.072		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+11		53.0		19.0		0.066		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+12		53.0		19.0		0.076		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+13		56.5		19.0		0.076		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+14		61.0		19.0		0.072		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+15		60.0		19.0		0.085		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+16		68.0		19.0		0.087		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+17		60.0		19.0		0.08		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+18		65.0		19.0		0.078		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+19		65.0		19.0		0.076		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+20		65.0		19.0		0.081		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+21		62.0		19.0		0.071		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+22		62.0		19.0		0.071		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+23		62.0		19.0		0.078		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+24		60.0		19.0		0.086		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+25		60.0		19.0		0.083		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+26		60.0		19.0		0.085		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+27		62.5		19.0		0.089		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+28		60.0		19.0		0.089		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+29		62.0		19.0		0.081		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+30		60.0		19.0		0.092		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+31		62.0		19.0		0.091		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+32		63.0		19.0		0.082		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+33		62.0		19.0		0.084		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+34		60.0		19.0		0.093		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+35		54.0		19.0		0.091		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+36		60.0		19.0		0.084		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+37		56.0		19.0		0.074		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+38		56.0		19.0		0.091		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+39		59.0		19.0		0.078		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+40		60.0		19.0		0.088		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+41		60.0		19.0		0.082		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+42		60.0		19.0		0.094		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+43		60.0		19.0		0.095		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+44		60.0		19.0		0.09		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+45		60.0		19.0		0.09		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+46		60.0		19.0		0.094		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+47		56.0		19.0		0.104		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+48		56.0		19.0		0.103		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+49		61.0		19.0		0.109		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+50		56.5		19.0		0.099		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+51		52.0		19.0		0.093		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+52		58.5		19.0		0.092		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+53		59.0		19.0		0.115		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+54		56.0		19.0		0.1		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+55		56.0		19.0		0.104		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+56		60.0		19.0		0.101		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+57		58.0		19.0		0.091		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+58		56.0		19.0		0.106		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+59		56.0		19.0		0.117		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+60		56.0		19.0		0.117		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+61		54.0		19.0		0.12		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+62		56.0		19.0		0.114		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+63		58.5		19.0		0.11		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+64		56.0		19.0		0.117		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+65		57.5		19.0		0.117		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+66		56.0		19.0		0.113		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+67		60.0		19.0		0.132		19.0		min_(print_do(min_(input1, max_(input2, input3)), -1), floordiv(int2bool(1), int2float(float2bool(4))))
+68		59.5		0.0		0.11		0.0		bool2float(ne(print_do(max_(min_(input3, input2), min_(input1, max_(input3, input2))), -41), 1))
+Solution found.
+def median(input1, input2, input3):
+    return bool2float(ne(print_do(max_(min_(input3, input2), min_(input1, max_(input3, input2))), -41), 1))
+
+Simplifying genome of length 43.
+Simplified to length 39.
+Simplified to length 36.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 29.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified genome: length=13 error=0.0
+def median(input1, input2, input3):
+    return ne(print_do(max_(min_(input3, input2), min_(input1, max_(input3, input2))), -41), 1)
+
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Final Test Error: 0.0

@@ -1,3 +1,6 @@
+# Uncompressed Data
+*.csv
+
 # Editors
 .idea/
 Push4.iml
