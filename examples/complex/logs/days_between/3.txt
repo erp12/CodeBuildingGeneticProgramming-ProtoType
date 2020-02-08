@@ -1,0 +1,41 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		413818.0		260680		0.089		260680		mul(365, 10)
+2		379370.0		260680		0.038		260680		mul(365, 10)
+3		378650.0		260560		0.051		260560		mul(add(dt1.month(), 365), 10)
+4		379550.0		260560		0.074		260560		mul(add(dt1.month(), 365), 10)
+5		379550.0		260560		0.106		260560		mul(add(dt1.month(), 365), 10)
+6		379252.5		259400		0.136		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+7		379550.0		259400		0.15		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+8		379550.0		259400		0.202		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+9		403090.0		259400		0.222		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+10		404356.0		259400		0.248		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+11		406978.0		260354		0.276		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+12		398153.0		260354		0.297		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+13		404424.0		260354		0.337		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+14		406600.0		260354		0.338		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+15		401330.0		260354		0.317		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+16		413818.0		260354		0.197		259400		mul(sub(365, print_tap(dt2).hour()), 10)
+17		413818.0		0		0.199		0		abs_(sub(dt1, dt2).days())
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(sub(dt1, dt2).days())
+Simplifying genome of length 52.
+Simplified to length 45.
+Simplified to length 36.
+Simplified to length 34.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 15.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

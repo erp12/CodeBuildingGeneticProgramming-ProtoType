@@ -1,0 +1,43 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		371569.0		233514		0.075		233514		add(dt1.year(), 2)
+2		233590.0		223218		0.053		223218		add(dt1.year(), float2int(div(int2float(365), print_do(1, abs_(0.9839305302639525)))))
+3		362097.0		219242		0.088		219242		add(dt1.year(), float2int(div(int2float(365), print_do(1, do_print(0.5388814272306303, abs_(0.9839305302639525))))))
+4		363234.5		218330		0.115		218330		add(dt1.year(), float2int(div(int2float(365), sub(1, do_print(0.5388814272306303, abs_(0.9839305302639525))))))
+5		370569.0		218330		0.139		218330		add(dt1.year(), float2int(div(int2float(365), sub(1, do_print(0.5388814272306303, abs_(0.9839305302639525))))))
+6		370569.0		217104		0.188		217104		add(dt1.year(), mul(2, float2int(div(int2float(365), do_print(0.5388814272306303, abs_(0.9839305302639525))))))
+7		367707.0		217104		0.226		217104		add(dt1.year(), mul(2, float2int(div(int2float(365), do_print(0.5388814272306303, abs_(0.9839305302639525))))))
+8		368687.0		216848		0.261		216848		add(dt1.year(), float2int(div(365, print_do(str_(1), 0.2803415458091981))))
+9		361803.0		216848		0.275		216848		add(dt1.year(), float2int(div(365, print_do(str_(1), 0.2803415458091981))))
+10		364270.0		216678		0.294		216678		add(2, add(dt1.year(), float2int(div(365, abs_(0.3421833453739742)))))
+11		368812.5		216678		0.29		216678		add(2, add(dt1.year(), float2int(div(365, abs_(0.3421833453739742)))))
+12		363273.0		216678		0.287		216678		add(2, add(dt1.year(), float2int(div(365, abs_(0.3421833453739742)))))
+13		361999.0		216678		0.297		216678		add(2, add(dt1.year(), float2int(div(365, abs_(0.3421833453739742)))))
+14		365983.0		216678		0.301		216678		add(2, add(dt1.year(), float2int(div(365, abs_(0.3421833453739742)))))
+15		367542.5		216678		0.327		216678		add(2, add(dt1.year(), float2int(div(365, abs_(0.3421833453739742)))))
+16		361803.0		216678		0.325		216678		add(2, add(dt1.year(), float2int(div(365, abs_(0.3421833453739742)))))
+17		369074.0		216657		0.351		216657		add(dt1.year(), float2int(div(add(dt1.hour(), int2float(365)), sub(0.8527378872740008, do_print(print_tap(0.5388814272306303), 0.9839305302639525)))))
+18		367729.0		216657		0.332		216657		add(dt1.year(), float2int(div(add(dt1.hour(), int2float(365)), sub(0.8527378872740008, do_print(print_tap(0.5388814272306303), 0.9839305302639525)))))
+19		367687.0		216657		0.352		216657		add(dt1.year(), float2int(div(add(dt1.hour(), int2float(365)), sub(0.8527378872740008, do_print(print_tap(0.5388814272306303), 0.9839305302639525)))))
+20		368697.0		216678		0.334		216657		add(dt1.year(), float2int(div(add(dt1.hour(), int2float(365)), sub(0.8527378872740008, do_print(print_tap(0.5388814272306303), 0.9839305302639525)))))
+21		369954.0		216678		0.326		216657		add(dt1.year(), float2int(div(add(dt1.hour(), int2float(365)), sub(0.8527378872740008, do_print(print_tap(0.5388814272306303), 0.9839305302639525)))))
+22		371569.0		216767		0.247		216657		add(dt1.year(), float2int(div(add(dt1.hour(), int2float(365)), sub(0.8527378872740008, do_print(print_tap(0.5388814272306303), 0.9839305302639525)))))
+23		369209.0		0		0.144		0		abs_(sub(dt1, dt2).days())
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(sub(dt1, dt2).days())
+Simplifying genome of length 54.
+Simplified to length 34.
+Simplified to length 31.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 19.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

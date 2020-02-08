@@ -1,0 +1,73 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		39400000.0		19401752.0		0.002		19401752.0		println_tap(do_print(println_tap(wrap(println_tap(root.dirname()).abspath().abspath())), int2float(float2int(-1))))
+2		39400000.0		19400724.0		0.009		19400724.0		do_print(wrap(root), bool2float(or_(lt(-1, 2), False)))
+3		19400724.0		19400724.0		0.005		19400724.0		do_print(wrap(root), bool2float(or_(lt(-1, 2), False)))
+4		19400724.0		19400724.0		0.006		19400724.0		do_print(wrap(root), bool2float(or_(lt(-1, 2), False)))
+5		19400724.0		11702103.0		0.006		11702103.0		println_tap(add(wrap(println_tap(root.dirname()).abspath()), wrap(root)))
+6		19400724.0		11701994.0		0.01		11701994.0		println_tap(add(wrap(println_tap(root.abspath().dirname()).abspath()), wrap(root)))
+7		19400724.0		11701075.0		0.021		11701075.0		add(wrap(root), println_tap(wrap(root)))
+8		19400724.0		11701075.0		0.012		11701075.0		add(wrap(root), println_tap(wrap(root)))
+9		19400724.0		11701075.0		0.015		11701075.0		add(wrap(root), println_tap(wrap(root)))
+10		19400724.0		11701075.0		0.017		11701075.0		add(wrap(root), println_tap(wrap(root)))
+11		19400724.0		5701415.0		0.019		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+12		11701331.0		5701415.0		0.02		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+13		11701394.0		5701415.0		0.031		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+14		11701355.0		5701415.0		0.029		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+15		11701355.0		5701415.0		0.033		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+16		11701355.0		5701415.0		0.036		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+17		11701355.0		5701415.0		0.041		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+18		19400724.0		5701415.0		0.051		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+19		19400724.0		5701415.0		0.051		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+20		19400724.0		5701415.0		0.061		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+21		19400724.0		5701415.0		0.059		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+22		19400724.0		5701415.0		0.084		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+23		19400724.0		5701415.0		0.116		5701415.0		add(add(wrap(root), println_tap(wrap(root))), wrap(print_do(-1, root)))
+24		19400724.0		5701414.0		0.13		5701414.0		add(add(wrap(root), wrap(root.join(SimplePath(root.basename())))), wrap(root))
+25		19400672.0		5701414.0		0.143		5701414.0		add(add(wrap(root), wrap(root.join(SimplePath(root.basename())))), wrap(root))
+26		19400685.0		5701369.0		0.141		5701369.0		add(add(wrap(root), wrap(root.join(SimplePath(getitem(str_(float2bool(mod(bool2float(True), add(0.8990677963808104, floordiv(False, 0.7664226021844125))))), lt(2, 10)))))), wrap(print_do(int2bool(-1), root)))
+27		14301808.5		5701367.0		0.179		5701367.0		add(add(wrap(root), wrap(root.join(SimplePath(getitem(str_(float2bool(mod(True, int2bool(le(0.8990677963808104, floordiv(False, 0.7664226021844125)))))), 2))))), wrap(print_do(int2bool(-1), root)))
+28		19400724.0		5701364.0		0.187		5701364.0		add(add(wrap(println_tap(root)), wrap(root.join(SimplePath(getitem(str_(float2bool(mod(bool2float(True), 0.8990677963808104))), neg(lt(2, 10))))))), wrap(print_do(int2bool(-1), root)))
+29		19400724.0		5701364.0		0.198		5701364.0		add(add(wrap(println_tap(root)), wrap(root.join(SimplePath(getitem(str_(float2bool(mod(bool2float(True), 0.8990677963808104))), neg(lt(2, 10))))))), wrap(print_do(int2bool(-1), root)))
+30		19400724.0		5701364.0		0.219		5701364.0		add(add(wrap(println_tap(root)), wrap(root.join(SimplePath(getitem(str_(float2bool(mod(bool2float(True), 0.8990677963808104))), neg(lt(2, 10))))))), wrap(print_do(int2bool(-1), root)))
+31		19400724.0		5701364.0		0.198		5701364.0		add(add(wrap(println_tap(root)), wrap(root.join(SimplePath(getitem(str_(float2bool(mod(bool2float(True), 0.8990677963808104))), neg(lt(2, 10))))))), wrap(print_do(int2bool(-1), root)))
+32		19400724.0		5701364.0		0.194		5701364.0		add(add(wrap(println_tap(root)), wrap(root.join(SimplePath(getitem(str_(float2bool(mod(bool2float(True), 0.8990677963808104))), neg(lt(2, 10))))))), wrap(print_do(int2bool(-1), root)))
+33		19400724.0		5701364.0		0.187		5701364.0		add(add(wrap(println_tap(root)), wrap(root.join(SimplePath(getitem(str_(float2bool(mod(bool2float(True), 0.8990677963808104))), neg(lt(2, 10))))))), wrap(print_do(int2bool(-1), root)))
+34		19400724.0		1204430.0		0.179		1204430.0		add(map(lambda _0: SimplePath(getitem(mul(str_(bool2float(True)).join(filenames), 10), mul(2, 10))), filenames), wrap(root.join(print_do(int2bool(-1), root))))
+35		19400724.0		1612		0.203		1612		map(lambda _0: root, filenames)
+36		19400724.0		1612		0.147		1612		map(lambda _0: root, filenames)
+37		19400724.0		1612		0.126		1612		map(lambda _0: root, filenames)
+38		19400724.0		1612		0.132		1612		map(lambda _0: root, filenames)
+39		19400724.0		1612		0.117		1612		map(lambda _0: root, filenames)
+40		19400724.0		1388		0.111		1388		map(lambda _0: root.join(SimplePath(getitem(mul(str_(bool2float(int2bool(True))).join(do_print(filenames, println_tap(0.620826447436496))).title(), 10), 2))), filenames)
+41		19400722.0		0		0.125		0		map(lambda _0: root.join(SimplePath(mul(_0, float2bool(10)))), filenames)
+Solution found.
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(mul(_0, float2bool(10)))), filenames)
+Simplifying genome of length 93.
+Simplified to length 91.
+Simplified to length 85.
+Simplified to length 81.
+Simplified to length 62.
+Simplified to length 61.
+Simplified to length 56.
+Simplified to length 54.
+Simplified to length 51.
+Simplified to length 45.
+Simplified to length 36.
+Simplified to length 35.
+Simplified to length 34.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0)), filenames)

@@ -1,0 +1,102 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11700000.0		1326		0.009		1326		input1
+2		1326.0		1326		0.012		1326		input1
+3		1326.0		1326		0.014		1326		input1
+4		1326.0		1326		0.013		1326		input1
+5		1326.0		1326		0.014		1326		input1
+6		1326.0		1326		0.018		1326		input1
+7		1326.0		1326		0.017		1326		input1
+8		1326.0		1326		0.015		1326		input1
+9		1326.0		1326		0.014		1326		input1
+10		1326.0		1326		0.016		1326		input1
+11		1326.0		1326		0.015		1326		input1
+12		1326.0		1326		0.017		1326		input1
+13		1326.0		1326		0.013		1326		input1
+14		1326.0		1326		0.017		1326		input1
+15		1326.0		1326		0.014		1326		input1
+16		1326.0		1326		0.015		1326		input1
+17		1326.0		1326		0.013		1326		input1
+18		1326.0		1326		0.015		1326		input1
+19		1326.0		1326		0.018		1326		input1
+20		1326.0		1326		0.02		1326		input1
+21		1326.0		1326		0.014		1326		input1
+22		1326.0		1326		0.016		1326		input1
+23		1326.0		1326		0.013		1326		input1
+24		1326.0		1326		0.014		1326		input1
+25		1326.0		1326		0.017		1326		input1
+26		1326.0		1326		0.017		1326		input1
+27		1326.0		1326		0.021		1326		input1
+28		1326.0		1326		0.017		1326		input1
+29		1326.0		1326		0.018		1326		input1
+30		1326.0		1326		0.019		1326		input1
+31		1326.0		1326		0.021		1326		input1
+32		1326.0		1326		0.014		1326		input1
+33		1326.0		1326		0.015		1326		input1
+34		1326.0		1326		0.015		1326		input1
+35		1326.0		1326		0.015		1326		input1
+36		1326.0		1326		0.015		1326		input1
+37		1326.0		1326		0.018		1326		input1
+38		1326.0		1326		0.02		1326		input1
+39		1326.0		1326		0.02		1326		input1
+40		1326.0		1326		0.018		1326		input1
+41		1326.0		1326		0.022		1326		input1
+42		1326.0		1326		0.017		1326		input1
+43		1326.0		1326		0.022		1326		input1
+44		1326.0		1326		0.016		1326		input1
+45		1326.0		1326		0.025		1326		input1
+46		1326.0		1326		0.025		1326		input1
+47		1326.0		1326		0.03		1326		input1
+48		1326.0		1326		0.034		1326		input1
+49		1326.0		1326		0.028		1326		input1
+50		1326.0		1326		0.029		1326		input1
+51		1326.0		1326		0.025		1326		input1
+52		1326.0		1326		0.026		1326		input1
+53		1326.0		1326		0.025		1326		input1
+54		1326.0		1326		0.036		1326		input1
+55		1326.0		1326		0.028		1326		input1
+56		1326.0		1326		0.025		1326		input1
+57		1326.0		1326		0.026		1326		input1
+58		1326.0		1326		0.033		1326		input1
+59		1326.0		1326		0.036		1326		input1
+60		1326.0		1326		0.036		1326		input1
+61		1326.0		1326		0.042		1326		input1
+62		1326.0		1326		0.038		1326		input1
+63		1326.0		1326		0.035		1326		input1
+64		1326.0		1326		0.034		1326		input1
+65		1326.0		1326		0.039		1326		input1
+66		1326.0		1326		0.033		1326		input1
+67		1326.0		1326		0.036		1326		input1
+68		1326.0		1326		0.037		1326		input1
+69		1326.0		1326		0.033		1326		input1
+70		1326.0		1268		0.043		1268		map(lambda _0: float2int(add(not_(True), ge(mod(not_(not_(int2bool(print_do(1, -1)))), _0), add(-1, 2)))), input1)
+71		1326.0		0		0.039		0		map(lambda _0: float2int(add(max_(not_(True), _0), ne(0, mod(not_(not_(int2bool(print_do(False, 1)))), le(-1, add(-1, 2)))))), input1)
+Solution found.
+def negative_to_zero(input1):
+    return map(lambda _0: float2int(add(max_(not_(True), _0), ne(0, mod(not_(not_(int2bool(print_do(False, 1)))), le(-1, add(-1, 2)))))), input1)
+
+Simplifying genome of length 72.
+Simplified to length 70.
+Simplified to length 64.
+Simplified to length 58.
+Simplified to length 38.
+Simplified to length 36.
+Simplified to length 35.
+Simplified to length 34.
+Simplified to length 33.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified genome: length=9 error=0
+def negative_to_zero(input1):
+    return map(lambda _0: float2int(max_(not_(True), _0)), input1)
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

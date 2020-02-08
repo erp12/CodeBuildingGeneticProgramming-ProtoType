@@ -1,0 +1,91 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		30300000.0		403		0.004		403		lst
+2		403.0		403		0.005		403		lst
+3		403.0		403		0.007		403		lst
+4		403.0		403		0.007		403		lst
+5		403.0		403		0.006		403		lst
+6		403.0		403		0.006		403		lst
+7		403.0		403		0.009		403		lst
+8		403.0		403		0.008		403		lst
+9		403.0		403		0.008		403		lst
+10		403.0		403		0.01		403		lst
+11		403.0		403		0.009		403		lst
+12		403.0		403		0.009		403		lst
+13		403.0		403		0.009		403		lst
+14		403.0		403		0.011		403		lst
+15		403.0		403		0.013		403		lst
+16		403.0		403		0.016		403		lst
+17		403.0		396		0.019		396		filter(lambda _0: not_(eq(print_tap(abs_(-9)), _0)), lst)
+18		403.0		393		0.036		393		filter(lambda _0: not_(eq(print_tap(_0), println_tap(int2float(-9)))), lst)
+19		1000381.0		390		0.054		390		filter(lambda _0: not_(eq(print_tap(sub(abs_(abs_(-9)), 10)), _0)), lst)
+20		300397.0		389		0.071		389		filter(lambda _0: not_(eq(print_tap(sub(abs_(abs_(-9)), 2)), _0)), lst)
+21		1400371.0		389		0.073		389		filter(lambda _0: not_(eq(print_tap(sub(abs_(abs_(-9)), 2)), _0)), lst)
+22		5200362.0		389		0.093		389		filter(lambda _0: not_(eq(print_tap(sub(abs_(abs_(-9)), 2)), _0)), lst)
+23		2500371.0		389		0.094		389		filter(lambda _0: not_(eq(print_tap(sub(abs_(abs_(-9)), 2)), _0)), lst)
+24		11600268.0		216		0.094		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+25		12200207.0		216		0.099		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+26		12700180.0		216		0.086		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+27		12700180.0		216		0.081		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+28		12700180.0		216		0.078		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+29		12200212.0		216		0.089		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+30		13500228.0		216		0.082		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+31		12200205.0		216		0.082		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+32		12700279.0		216		0.088		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+33		13450227.5		216		0.073		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+34		12200212.0		216		0.092		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+35		12700180.0		216		0.085		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+36		12700180.0		216		0.082		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+37		12900216.5		216		0.079		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+38		11800216.5		216		0.088		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+39		13250168.5		216		0.085		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+40		12900172.0		216		0.089		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+41		14800321.0		216		0.09		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+42		13500228.0		216		0.091		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+43		13500228.0		216		0.081		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+44		12700229.5		216		0.094		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+45		12600159.5		216		0.1		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+46		12850143.0		216		0.118		216		print_tap(filter(lambda _0: not_(print_tap(abs_(lt(_0, println_tap(lower))))), lst))
+47		12600159.5		215		0.116		215		filter(lambda _0: eq(abs_(gt(_0, upper)), le(ne(neg(-1), _0), False)), lst)
+48		12700279.0		215		0.106		215		filter(lambda _0: eq(abs_(gt(_0, upper)), le(ne(neg(-1), _0), False)), lst)
+49		12900216.5		215		0.121		215		filter(lambda _0: eq(abs_(gt(_0, upper)), le(ne(neg(-1), _0), False)), lst)
+50		13500227.5		213		0.123		213		filter(lambda _0: eq(gt(_0, upper), div(le(ne(True, _0), False), -1)), lst)
+51		12200210.5		206		0.119		206		filter(lambda _0: eq(gt(_0, upper), eq(_0, print_tap(-9))), lst)
+52		12900261.0		206		0.125		206		filter(lambda _0: eq(gt(_0, upper), eq(_0, print_tap(-9))), lst)
+53		12700180.0		206		0.128		206		filter(lambda _0: eq(gt(_0, upper), eq(_0, print_tap(-9))), lst)
+54		13200244.0		206		0.131		206		filter(lambda _0: eq(gt(_0, upper), eq(_0, print_tap(-9))), lst)
+55		13500228.0		206		0.137		206		filter(lambda _0: eq(gt(_0, upper), eq(_0, print_tap(-9))), lst)
+56		13500227.0		206		0.155		206		filter(lambda _0: eq(gt(_0, upper), eq(_0, print_tap(-9))), lst)
+57		12850143.0		206		0.135		206		filter(lambda _0: eq(gt(_0, upper), eq(_0, print_tap(-9))), lst)
+58		13700278.0		0		0.11		0		print_tap(filter(lambda _0: eq(gt(_0, upper), abs_(lt(_0, print_tap(lower)))), lst))
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return print_tap(filter(lambda _0: eq(gt(_0, upper), abs_(lt(_0, print_tap(lower)))), lst))
+Simplifying genome of length 48.
+Simplified to length 47.
+Simplified to length 45.
+Simplified to length 44.
+Simplified to length 42.
+Simplified to length 39.
+Simplified to length 37.
+Simplified to length 35.
+Simplified to length 33.
+Simplified to length 30.
+Simplified to length 28.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: eq(gt(_0, upper), lt(_0, lower)), lst)

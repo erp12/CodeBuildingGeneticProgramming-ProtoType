@@ -1,25 +1,44 @@
 Gen		Median		MAD		Best		Div		Run Best		Code
-1		5367.0		3564.0		0.12		3564.0		mod(input1, 2)
-2		4687.0		3406		0.086		3406		float2int(min_(int2bool(91), print_tap(input4)))
-3		4588.0		2022		0.121		2022		float2int(min_(input4, print_tap(input1)))
-4		4189.0		1877		0.165		1877		float2int(int2float(min_(input1, print_tap(input3))))
-5		3399.5		1051		0.183		1051		float2int(min_(input4, min_(input2, print_tap(input1))))
-6		2243.0		853		0.168		853		float2int(min_(input2, min_(input1, print_tap(input3))))
-7		2192.0		589		0.198		589		float2int(min_(input3, float2int(min_(input4, print_tap(input1)))))
-8		2134.0		589		0.199		589		float2int(min_(input3, float2int(min_(input4, print_tap(input1)))))
-9		2134.0		589		0.232		589		float2int(min_(input3, float2int(min_(input4, print_tap(input1)))))
-10		2061.0		589		0.215		589		float2int(min_(input3, float2int(min_(input4, print_tap(input1)))))
-11		2134.0		589		0.216		589		float2int(min_(input3, float2int(min_(input4, print_tap(input1)))))
-12		2169.0		38		0.248		38		min_(min_(float2int(max_(pos(pos(int2float(input1))), 53)), sub(1, do_print(input4, print_tap(print_tap(2))))), min_(input2, min_(input1, input3)))
-13		2022.5		0		0.27		0		float2int(min_(min_(float2int(max_(pos(int2float(input1)), 53)), do_print(input4, eq(1, 2))), min_(input2, min_(input1, input3))))
+1		105.0		55.0		0.022		55.0		max_(0, print_do(input4, -1))
+2		69.0		55.0		0.024		55.0		max_(0, print_do(input4, -1))
+3		63.0		35.0		0.046		35.0		max_(bool2float(int2bool(eq(div(floordiv(input3, int2float(int2bool(60))), mod(bool2int(not_(True)), max_(print_do(min_(input1, input4), 2), input2))), 10))), 10)
+4		77.0		35.0		0.094		35.0		max_(bool2float(int2bool(eq(div(floordiv(input3, int2float(int2bool(60))), mod(bool2int(not_(True)), max_(print_do(min_(input1, input4), 2), input2))), 10))), 10)
+5		77.0		29.0		0.108		29.0		max_(bool2float(eq(div(floordiv(floordiv(int2float(60), sub(True, mod(bool2int(not_(True)), 1))), -71), print_do(min_(input4, input3), input2)), 10)), neg(1))
+6		75.0		29.0		0.105		29.0		max_(bool2float(eq(div(floordiv(floordiv(int2float(60), sub(True, mod(bool2int(not_(True)), 1))), -71), print_do(min_(input4, input3), input2)), 10)), neg(1))
+7		68.0		12.0		0.091		12.0		bool2float(int2bool(eq(abs_(mod(input3, int2float(int2bool(max_(60, mod(bool2int(False), bool2int(not_(True)))))))), max_(print_do(min_(min_(input3, input4), input1), input2), 10))))
+8		80.0		0.0		0.108		0.0		abs_(mod(input3, max_(float2bool(60), float2bool(mod(bool2int(False), ge(bool2int(not_(True)), max_(print_do(min_(min_(min_(input3, input4), input1), input2), 10), neg(2))))))))
 Solution found.
 def smallest(input1, input2, input3, input4):
-    return float2int(min_(min_(float2int(max_(pos(int2float(input1)), 53)), do_print(input4, eq(1, 2))), min_(input2, min_(input1, input3))))
+    return abs_(mod(input3, max_(float2bool(60), float2bool(mod(bool2int(False), ge(bool2int(not_(True)), max_(print_do(min_(min_(min_(input3, input4), input1), input2), 10), neg(2))))))))
 
-Simplifying genome of length 47.
-Simplified genome: length=47 error=0
+Simplifying genome of length 66.
+Simplified to length 52.
+Simplified to length 51.
+Simplified to length 50.
+Simplified to length 46.
+Simplified to length 45.
+Simplified to length 43.
+Simplified to length 40.
+Simplified to length 36.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 21.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified genome: length=10 error=0.0
 def smallest(input1, input2, input3, input4):
-    return float2int(min_(min_(float2int(max_(pos(int2float(input1)), 53)), do_print(input4, eq(1, 2))), min_(input2, min_(input1, input3))))
+    return float2bool(print_do(min_(min_(min_(input3, input4), input1), input2), 10))
 
-[0 0 0 ... 0 0 0]
-Final Test Error: 0
+[0. 0. 0. ... 0. 0. 0.]
+Final Test Error: 0.0

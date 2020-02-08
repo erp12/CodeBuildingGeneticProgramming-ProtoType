@@ -1,0 +1,57 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		37500000.0		17700715.0		0.004		17700715.0		wrap(print_tap(root))
+2		17700715.0		17700715.0		0.003		17700715.0		wrap(print_tap(root))
+3		17700715.0		17700715.0		0.004		17700715.0		wrap(print_tap(root))
+4		17700715.0		17700715.0		0.004		17700715.0		wrap(print_tap(root))
+5		17700715.0		17700715.0		0.005		17700715.0		wrap(print_tap(root))
+6		17700715.0		17700715.0		0.005		17700715.0		wrap(print_tap(root))
+7		17700715.0		17700715.0		0.008		17700715.0		wrap(print_tap(root))
+8		17700721.0		17700678.0		0.013		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+9		17700721.0		17700678.0		0.021		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+10		17700721.0		17700678.0		0.02		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+11		17700721.0		17700678.0		0.024		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+12		17700721.0		17700678.0		0.03		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+13		17700721.0		17700678.0		0.027		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+14		17700721.0		17700678.0		0.032		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+15		17700744.0		17700678.0		0.037		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+16		17700738.0		17700678.0		0.04		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+17		17700740.0		17700678.0		0.038		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+18		17700740.0		17700678.0		0.043		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+19		17700738.0		17700678.0		0.055		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+20		17700742.0		17700678.0		0.058		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+21		17700967.0		17700678.0		0.062		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+22		17701282.5		17700678.0		0.061		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+23		17701249.0		17700678.0		0.052		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+24		17701249.0		17700678.0		0.061		17700678.0		wrap(print_tap(root.join(SimplePath(root.basename()).dirname())))
+25		17701249.0		10401686.0		0.056		10401686.0		add(wrap(root), wrap(SimplePath(root.basename())))
+26		17700720.0		10401041.0		0.049		10401041.0		add(wrap(root), wrap(root))
+27		17700715.0		10401004.0		0.058		10401004.0		add(wrap(root.join(SimplePath(root.basename()).dirname())), wrap(root))
+28		17700715.0		10401004.0		0.063		10401004.0		add(wrap(root.join(SimplePath(root.basename()).dirname())), wrap(root))
+29		17700715.0		4306		0.064		4306		map(lambda _0: print_tap(SimplePath(print_tap(mul(str_(2), bool2int(True))))), filenames)
+30		17701950.5		1473		0.06		1473		map(lambda _0: root, filenames)
+31		37500000.0		1364		0.048		1364		map(lambda _0: root.join(print_tap(SimplePath(print_tap(mul(str_(2), bool2int(True)))))), filenames)
+32		37500000.0		0		0.047		0		map(lambda _0: root.join(print_tap(SimplePath(_0))), filenames)
+Solution found.
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(print_tap(SimplePath(_0))), filenames)
+Simplifying genome of length 54.
+Simplified to length 52.
+Simplified to length 44.
+Simplified to length 37.
+Simplified to length 34.
+Simplified to length 32.
+Simplified to length 29.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 13.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0)), filenames)

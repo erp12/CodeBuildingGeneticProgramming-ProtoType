@@ -1,0 +1,131 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		25500000.0		443		0.005		443		print_tap(lst)
+2		443.0		443		0.006		443		print_tap(lst)
+3		443.0		443		0.006		443		print_tap(lst)
+4		443.0		443		0.005		443		print_tap(lst)
+5		443.0		443		0.005		443		print_tap(lst)
+6		443.0		443		0.005		443		print_tap(lst)
+7		443.0		443		0.006		443		print_tap(lst)
+8		443.0		443		0.007		443		print_tap(lst)
+9		443.0		443		0.007		443		print_tap(lst)
+10		443.0		443		0.009		443		print_tap(lst)
+11		443.0		443		0.013		443		print_tap(lst)
+12		443.0		443		0.017		443		print_tap(lst)
+13		8000292.0		443		0.028		443		print_tap(lst)
+14		8000292.0		443		0.038		443		print_tap(lst)
+15		9300187.0		270		0.051		270		filter(lambda _0: ge(upper, _0), lst)
+16		700203.0		270		0.063		270		filter(lambda _0: ge(upper, _0), lst)
+17		700203.0		270		0.072		270		filter(lambda _0: ge(upper, _0), lst)
+18		700203.0		270		0.073		270		filter(lambda _0: ge(upper, _0), lst)
+19		1350386.0		206		0.077		206		filter(lambda _0: ge(_0, lower), lst)
+20		5400204.0		206		0.078		206		filter(lambda _0: ge(_0, lower), lst)
+21		6800270.0		206		0.074		206		filter(lambda _0: ge(_0, lower), lst)
+22		7200266.0		206		0.077		206		filter(lambda _0: ge(_0, lower), lst)
+23		5400204.0		206		0.077		206		filter(lambda _0: ge(_0, lower), lst)
+24		6300267.0		206		0.079		206		filter(lambda _0: ge(_0, lower), lst)
+25		7650293.0		206		0.083		206		filter(lambda _0: ge(_0, lower), lst)
+26		6300267.0		206		0.087		206		filter(lambda _0: ge(_0, lower), lst)
+27		6600250.0		206		0.087		206		filter(lambda _0: ge(_0, lower), lst)
+28		9300187.0		206		0.099		206		filter(lambda _0: ge(_0, lower), lst)
+29		4400307.0		206		0.097		206		filter(lambda _0: ge(_0, lower), lst)
+30		6800270.0		206		0.097		206		filter(lambda _0: ge(_0, lower), lst)
+31		7200266.0		206		0.093		206		filter(lambda _0: ge(_0, lower), lst)
+32		6350264.5		206		0.099		206		filter(lambda _0: ge(_0, lower), lst)
+33		7200266.0		206		0.105		206		filter(lambda _0: ge(_0, lower), lst)
+34		6600250.0		206		0.109		206		filter(lambda _0: ge(_0, lower), lst)
+35		6800270.0		206		0.11		206		filter(lambda _0: ge(_0, lower), lst)
+36		6800270.0		206		0.105		206		filter(lambda _0: ge(_0, lower), lst)
+37		7500231.0		206		0.097		206		filter(lambda _0: ge(_0, lower), lst)
+38		8200183.0		206		0.094		206		filter(lambda _0: ge(_0, lower), lst)
+39		7400279.0		206		0.106		206		filter(lambda _0: ge(_0, lower), lst)
+40		8000271.0		206		0.098		206		filter(lambda _0: ge(_0, lower), lst)
+41		7900263.0		206		0.094		206		filter(lambda _0: ge(_0, lower), lst)
+42		7400279.0		206		0.095		206		filter(lambda _0: ge(_0, lower), lst)
+43		6950281.5		206		0.099		206		filter(lambda _0: ge(_0, lower), lst)
+44		8400151.0		206		0.097		206		filter(lambda _0: ge(_0, lower), lst)
+45		6800270.0		206		0.093		206		filter(lambda _0: ge(_0, lower), lst)
+46		7450255.0		206		0.098		206		filter(lambda _0: ge(_0, lower), lst)
+47		7150254.5		206		0.095		206		filter(lambda _0: ge(_0, lower), lst)
+48		7700273.0		206		0.094		206		filter(lambda _0: ge(_0, lower), lst)
+49		8400151.0		206		0.098		206		filter(lambda _0: ge(_0, lower), lst)
+50		7300280.5		206		0.095		206		filter(lambda _0: ge(_0, lower), lst)
+51		8200169.5		206		0.097		206		filter(lambda _0: ge(_0, lower), lst)
+52		7300280.5		206		0.108		206		filter(lambda _0: ge(_0, lower), lst)
+53		8800238.5		206		0.085		206		filter(lambda _0: ge(_0, lower), lst)
+54		9300189.0		206		0.092		206		filter(lambda _0: ge(_0, lower), lst)
+55		8400151.0		206		0.088		206		filter(lambda _0: ge(_0, lower), lst)
+56		8000272.5		206		0.092		206		filter(lambda _0: ge(_0, lower), lst)
+57		8200156.0		206		0.081		206		filter(lambda _0: ge(_0, lower), lst)
+58		9300189.0		206		0.092		206		filter(lambda _0: ge(_0, lower), lst)
+59		8300198.5		206		0.104		206		filter(lambda _0: ge(_0, lower), lst)
+60		7400279.0		206		0.098		206		filter(lambda _0: ge(_0, lower), lst)
+61		7200266.0		201		0.111		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+62		8200216.5		201		0.118		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+63		15050154.5		201		0.101		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+64		15150157.0		201		0.119		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+65		15500155.0		201		0.117		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+66		15500155.0		201		0.113		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+67		15500155.0		201		0.112		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+68		15500155.0		201		0.127		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+69		15500155.0		201		0.124		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+70		15500155.0		201		0.136		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+71		11450219.5		201		0.125		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+72		15500155.0		201		0.117		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+73		13350185.5		201		0.103		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+74		14200107.0		201		0.094		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+75		14200159.5		201		0.101		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+76		11650189.5		206		0.11		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+77		15400108.0		206		0.092		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+78		14300137.0		206		0.107		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+79		14350154.5		206		0.101		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+80		15400108.0		206		0.107		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+81		9700295.5		206		0.112		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+82		10400198.0		206		0.11		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+83		8250262.5		206		0.115		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+84		8250245.5		206		0.111		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+85		8150180.0		206		0.121		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+86		7800299.5		206		0.106		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+87		6800295.0		206		0.121		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+88		8800239.0		206		0.116		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+89		8750230.0		206		0.109		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+90		8800239.0		206		0.11		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+91		9650138.5		206		0.117		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+92		7700111.0		206		0.109		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+93		7200266.0		206		0.113		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+94		8200175.0		206		0.113		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+95		8600170.0		206		0.108		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+96		9350212.0		206		0.11		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+97		7600274.5		206		0.111		201		print_tap(filter(lambda _0: ne(str_(println_tap(_0)).startswith(str_(lower).title()), le(lower, _0)), lst))
+98		9400153.0		0		0.11		0		filter(lambda _0: and_(ge(print_tap(upper), _0), le(lower, _0)), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: and_(ge(print_tap(upper), _0), le(lower, _0)), lst)
+Simplifying genome of length 52.
+Simplified to length 51.
+Simplified to length 50.
+Simplified to length 41.
+Simplified to length 39.
+Simplified to length 37.
+Simplified to length 34.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: and_(ge(upper, _0), le(lower, _0)), lst)

@@ -1,0 +1,60 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		417952.0		273583		0.081		273583		mul(365, dt2.month())
+2		383652.0		235822		0.066		235822		mul(365, round_(10, dt2.month()))
+3		383652.0		235822		0.062		235822		mul(365, round_(10, dt2.month()))
+4		402782.0		235822		0.088		235822		mul(365, round_(10, dt2.month()))
+5		392540.0		233930		0.109		233930		mul(11, 365)
+6		383652.0		233930		0.112		233930		mul(11, 365)
+7		383652.0		233930		0.123		233930		mul(11, 365)
+8		383652.0		233930		0.154		233930		mul(11, 365)
+9		383652.0		233930		0.169		233930		mul(11, 365)
+10		383652.0		233930		0.189		233930		mul(11, 365)
+11		389846.0		233930		0.209		233930		mul(11, 365)
+12		383652.0		233930		0.223		233930		mul(11, 365)
+13		383652.0		233930		0.244		233930		mul(11, 365)
+14		402164.0		233930		0.267		233930		mul(11, 365)
+15		383652.0		233930		0.282		233930		mul(11, 365)
+16		383652.0		234131		0.278		233930		mul(11, 365)
+17		383652.0		234131		0.292		233930		mul(11, 365)
+18		395997.0		234131		0.313		233930		mul(11, 365)
+19		383652.0		234131		0.296		233930		mul(11, 365)
+20		390568.0		234131		0.346		233930		mul(11, 365)
+21		391396.0		234106		0.333		233930		mul(11, 365)
+22		390622.0		233930		0.35		233930		mul(11, 365)
+23		388556.0		233676		0.38		233676		mul(add(print_tap(dt2).year(), dt1.month()), print_tap(2))
+24		383652.0		233676		0.364		233676		mul(add(print_tap(dt2).year(), dt1.month()), print_tap(2))
+25		395120.0		233676		0.376		233676		mul(add(print_tap(dt2).year(), dt1.month()), print_tap(2))
+26		383652.0		233676		0.368		233676		mul(add(print_tap(dt2).year(), dt1.month()), print_tap(2))
+27		383652.0		233676		0.374		233676		mul(add(print_tap(dt2).year(), dt1.month()), print_tap(2))
+28		383652.0		233676		0.359		233676		mul(add(print_tap(dt2).year(), dt1.month()), print_tap(2))
+29		390568.0		233574		0.383		233574		mul(add(dt2.minute(), 365), 10)
+30		390568.0		233978		0.359		233574		mul(add(dt2.minute(), 365), 10)
+31		383652.0		234048		0.345		233574		mul(add(dt2.minute(), 365), 10)
+32		393853.0		232600		0.399		232600		mul(10, add(dt1.minute(), max_(print_tap(-1), 365)))
+33		387543.0		233958		0.376		232600		mul(10, add(dt1.minute(), max_(print_tap(-1), 365)))
+34		389643.0		233903		0.379		232600		mul(10, add(dt1.minute(), max_(print_tap(-1), 365)))
+35		401688.0		0		0.351		0		abs_(sub(dt1, dt2).days())
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(sub(dt1, dt2).days())
+Simplifying genome of length 59.
+Simplified to length 56.
+Simplified to length 55.
+Simplified to length 52.
+Simplified to length 41.
+Simplified to length 39.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 29.
+Simplified to length 28.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

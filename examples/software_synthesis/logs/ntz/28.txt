@@ -1,0 +1,254 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11700000.0		1165		0.014		1165		input1
+2		1165.0		1165		0.009		1165		input1
+3		1165.0		1165		0.008		1165		input1
+4		1165.0		1165		0.009		1165		input1
+5		1165.0		1165		0.009		1165		input1
+6		1165.0		1165		0.01		1165		input1
+7		1165.0		1165		0.007		1165		input1
+8		1165.0		1165		0.006		1165		input1
+9		1165.0		1165		0.007		1165		input1
+10		1165.0		1165		0.007		1165		input1
+11		1165.0		1165		0.008		1165		input1
+12		1165.0		1165		0.007		1165		input1
+13		1165.0		1165		0.007		1165		input1
+14		1165.0		1165		0.007		1165		input1
+15		1165.0		1165		0.009		1165		input1
+16		1165.0		1165		0.009		1165		input1
+17		1165.0		1165		0.007		1165		input1
+18		1165.0		1165		0.007		1165		input1
+19		1165.0		1165		0.008		1165		input1
+20		1165.0		1165		0.009		1165		input1
+21		1165.0		1165		0.007		1165		input1
+22		1165.0		1165		0.006		1165		input1
+23		1165.0		1165		0.008		1165		input1
+24		1165.0		1165		0.006		1165		input1
+25		1165.0		1165		0.009		1165		input1
+26		1165.0		1165		0.007		1165		input1
+27		1165.0		1165		0.008		1165		input1
+28		1165.0		1165		0.008		1165		input1
+29		1165.0		1165		0.006		1165		input1
+30		1165.0		1165		0.007		1165		input1
+31		1165.0		1165		0.008		1165		input1
+32		1165.0		1165		0.008		1165		input1
+33		1165.0		1165		0.006		1165		input1
+34		1165.0		1165		0.008		1165		input1
+35		1165.0		1165		0.007		1165		input1
+36		1165.0		1165		0.007		1165		input1
+37		1165.0		1165		0.008		1165		input1
+38		1165.0		1165		0.006		1165		input1
+39		1165.0		1165		0.006		1165		input1
+40		1165.0		1165		0.006		1165		input1
+41		1165.0		1165		0.006		1165		input1
+42		1165.0		1165		0.006		1165		input1
+43		1165.0		1165		0.006		1165		input1
+44		1165.0		1165		0.006		1165		input1
+45		1165.0		1165		0.007		1165		input1
+46		1165.0		1165		0.007		1165		input1
+47		1165.0		1165		0.008		1165		input1
+48		1165.0		1165		0.006		1165		input1
+49		1165.0		1165		0.007		1165		input1
+50		1165.0		1165		0.009		1165		input1
+51		1165.0		1165		0.007		1165		input1
+52		1165.0		1165		0.007		1165		input1
+53		1165.0		1165		0.007		1165		input1
+54		1165.0		1165		0.007		1165		input1
+55		1165.0		1165		0.007		1165		input1
+56		1165.0		1165		0.007		1165		input1
+57		1165.0		1165		0.006		1165		input1
+58		1165.0		1165		0.007		1165		input1
+59		1165.0		1165		0.008		1165		input1
+60		1165.0		1165		0.006		1165		input1
+61		1165.0		1165		0.006		1165		input1
+62		1165.0		1165		0.007		1165		input1
+63		1165.0		1165		0.005		1165		input1
+64		1165.0		1165		0.007		1165		input1
+65		1165.0		1165		0.005		1165		input1
+66		1165.0		1165		0.007		1165		input1
+67		1165.0		1165		0.005		1165		input1
+68		1165.0		1165		0.007		1165		input1
+69		1165.0		1165		0.008		1165		input1
+70		1165.0		1165		0.007		1165		input1
+71		1165.0		1165		0.008		1165		input1
+72		1165.0		1165		0.006		1165		input1
+73		1165.0		1165		0.004		1165		input1
+74		1165.0		1165		0.006		1165		input1
+75		1165.0		1165		0.006		1165		input1
+76		1165.0		1165		0.01		1165		input1
+77		1165.0		1165		0.008		1165		input1
+78		1165.0		1165		0.008		1165		input1
+79		1165.0		1165		0.005		1165		input1
+80		1165.0		1165		0.007		1165		input1
+81		1165.0		1165		0.007		1165		input1
+82		1165.0		1165		0.008		1165		input1
+83		1165.0		1165		0.006		1165		input1
+84		1165.0		1165		0.007		1165		input1
+85		1165.0		1165		0.006		1165		input1
+86		1165.0		1165		0.009		1165		input1
+87		1165.0		1165		0.005		1165		input1
+88		1165.0		1165		0.006		1165		input1
+89		1165.0		1165		0.007		1165		input1
+90		1165.0		1165		0.007		1165		input1
+91		1165.0		1165		0.006		1165		input1
+92		1165.0		1165		0.008		1165		input1
+93		1165.0		1165		0.006		1165		input1
+94		1165.0		1165		0.007		1165		input1
+95		1165.0		1165		0.007		1165		input1
+96		1165.0		1165		0.005		1165		input1
+97		1165.0		1165		0.008		1165		input1
+98		1165.0		1165		0.008		1165		input1
+99		1165.0		1165		0.007		1165		input1
+100		1165.0		1165		0.006		1165		input1
+101		1165.0		1165		0.006		1165		input1
+102		1165.0		1165		0.009		1165		input1
+103		1165.0		1165		0.006		1165		input1
+104		1165.0		1165		0.006		1165		input1
+105		1165.0		1165		0.009		1165		input1
+106		1165.0		1165		0.009		1165		input1
+107		1165.0		1165		0.007		1165		input1
+108		1165.0		1165		0.008		1165		input1
+109		1165.0		1165		0.006		1165		input1
+110		1165.0		1165		0.008		1165		input1
+111		1165.0		1165		0.008		1165		input1
+112		1165.0		1165		0.007		1165		input1
+113		1165.0		1165		0.009		1165		input1
+114		1165.0		1165		0.006		1165		input1
+115		1165.0		1165		0.009		1165		input1
+116		1165.0		1165		0.007		1165		input1
+117		1165.0		1165		0.005		1165		input1
+118		1165.0		1165		0.006		1165		input1
+119		1165.0		1165		0.009		1165		input1
+120		1165.0		1165		0.006		1165		input1
+121		1165.0		1165		0.008		1165		input1
+122		1165.0		1165		0.007		1165		input1
+123		1165.0		1165		0.004		1165		input1
+124		1165.0		1165		0.01		1165		input1
+125		1165.0		1165		0.007		1165		input1
+126		1165.0		1165		0.007		1165		input1
+127		1165.0		1165		0.01		1165		input1
+128		1165.0		1165		0.009		1165		input1
+129		1165.0		1165		0.005		1165		input1
+130		1165.0		1165		0.006		1165		input1
+131		1165.0		1165		0.011		1165		input1
+132		1165.0		1165		0.01		1165		input1
+133		1165.0		1165		0.011		1165		input1
+134		1165.0		1165		0.011		1165		input1
+135		1165.0		1165		0.012		1165		input1
+136		1165.0		1165		0.011		1165		input1
+137		1165.0		1165		0.011		1165		input1
+138		1165.0		1165		0.016		1165		input1
+139		1165.0		1165		0.016		1165		input1
+140		1165.0		1165		0.014		1165		input1
+141		1165.0		1165		0.019		1165		input1
+142		1165.0		1165		0.013		1165		input1
+143		1165.0		1165		0.017		1165		input1
+144		1165.0		1165		0.016		1165		input1
+145		1165.0		1165		0.011		1165		input1
+146		1165.0		1165		0.01		1165		input1
+147		1165.0		1165		0.016		1165		input1
+148		1172.0		1165		0.021		1165		input1
+149		1172.0		1165		0.024		1165		input1
+150		1172.0		1165		0.029		1165		input1
+151		1172.0		1165		0.03		1165		input1
+152		1172.0		1165		0.036		1165		input1
+153		1172.0		1165		0.031		1165		input1
+154		1226.0		1165		0.037		1165		input1
+155		1226.0		1165		0.039		1165		input1
+156		2319.0		1165		0.05		1165		input1
+157		1232.0		1165		0.054		1165		input1
+158		1232.0		1164		0.054		1164		if_(ge(2, len_(input1)), wrap(0), input1)
+159		2167.0		1162		0.059		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+160		2167.0		1162		0.061		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+161		2291.0		1162		0.064		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+162		2323.0		1162		0.067		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+163		1339.0		1162		0.063		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+164		1857.0		1162		0.067		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+165		1609.0		1162		0.073		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+166		1339.0		1162		0.08		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+167		1339.0		1162		0.079		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+168		1857.0		1162		0.083		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+169		2167.0		1162		0.083		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+170		1526.0		1162		0.079		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+171		1782.0		1162		0.085		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+172		1782.0		1162		0.096		1162		if_(gt(2, len_(input1)), wrap(0), input1)
+173		2256.0		1161		0.107		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+174		2363.0		1161		0.105		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+175		2327.0		1161		0.105		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+176		1789.0		1161		0.111		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+177		2335.0		1161		0.115		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+178		2363.0		1161		0.105		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+179		2337.0		1161		0.104		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+180		2359.5		1161		0.116		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+181		2363.0		1161		0.115		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+182		2363.0		1161		0.125		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+183		2359.5		1161		0.118		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+184		2363.0		1161		0.122		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+185		2352.5		1161		0.108		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+186		2264.0		1161		0.114		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+187		2363.0		1161		0.112		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+188		2363.0		1161		0.127		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+189		2354.0		1161		0.117		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+190		2363.0		1161		0.114		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+191		2363.0		1161		0.11		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+192		2363.0		1161		0.111		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+193		2363.0		1161		0.109		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+194		1697.0		1161		0.105		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+195		1758.0		1161		0.117		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+196		2340.5		1161		0.127		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+197		2358.5		1161		0.115		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+198		2363.0		1161		0.118		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+199		2354.0		1161		0.11		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+200		2328.5		1161		0.112		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+201		2335.0		1161		0.107		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+202		2363.0		1161		0.118		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+203		2350.5		1161		0.123		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+204		2267.5		1161		0.126		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+205		1763.0		1161		0.12		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+206		2339.5		1161		0.132		1161		if_(ge(0, bool2int(ne(abs_(lt(0, 81)), len_(input1)))), wrap(0), input1)
+207		2363.0		1160		0.123		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+208		2354.0		1160		0.129		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+209		2310.0		1160		0.122		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+210		2363.0		1160		0.122		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+211		2363.0		1160		0.119		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+212		2363.0		1160		0.144		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+213		2362.0		1160		0.125		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+214		2363.0		1160		0.117		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+215		2363.0		1160		0.11		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+216		2363.0		1160		0.109		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+217		2363.0		1160		0.112		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+218		2363.0		1160		0.106		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+219		2363.0		1160		0.112		1160		if_(neg(pos(not_(neg(lt(0, mod(81, add(len_(input1), len_(str_(10))))))))), wrap(0), input1)
+220		2008.5		1154		0.075		1154		if_(println_tap(lt(0, mod(81, add(2, len_(input1))))), input1, map(lambda _0: min_(34, mod(_0, _0)), input1))
+221		1353.0		1113		0.103		1113		if_(pos(not_(lt(0, mod(81, len_(input1))))), map(lambda _0: mod(_0, round_(0, _0)), input1), println_tap(input1))
+222		1342.0		0		0.086		0		if_(ne(float2int(10), pos(lt(0, mod(81, add(add(2, -1), 0))))), print_do(input1, map(lambda _0: round_(max_(_0, 0), _0), input1)), println_tap(input1))
+Solution found.
+def negative_to_zero(input1):
+    return if_(ne(float2int(10), pos(lt(0, mod(81, add(add(2, -1), 0))))), print_do(input1, map(lambda _0: round_(max_(_0, 0), _0), input1)), println_tap(input1))
+
+Simplifying genome of length 76.
+Simplified to length 66.
+Simplified to length 54.
+Simplified to length 34.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 29.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified genome: length=7 error=0
+def negative_to_zero(input1):
+    return map(lambda _0: max_(0, _0), input1)
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

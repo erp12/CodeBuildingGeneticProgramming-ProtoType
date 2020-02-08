@@ -1,0 +1,102 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		29500000.0		418		0.005		418		lst
+2		418.0		418		0.006		418		lst
+3		418.0		418		0.005		418		lst
+4		418.0		418		0.01		418		lst
+5		418.0		418		0.009		418		lst
+6		418.0		418		0.012		418		lst
+7		418.0		418		0.014		418		lst
+8		418.0		418		0.014		418		lst
+9		418.0		418		0.015		418		lst
+10		418.0		418		0.016		418		lst
+11		418.0		418		0.024		418		lst
+12		418.0		418		0.022		418		lst
+13		418.0		418		0.021		418		lst
+14		418.0		418		0.024		418		lst
+15		418.0		418		0.029		418		lst
+16		418.0		418		0.027		418		lst
+17		418.0		418		0.024		418		lst
+18		418.0		418		0.025		418		lst
+19		418.0		418		0.03		418		lst
+20		418.0		418		0.03		418		lst
+21		400406.0		418		0.043		418		lst
+22		400406.0		418		0.04		418		lst
+23		1100410.0		406		0.044		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+24		10100280.0		406		0.049		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+25		10100247.0		406		0.059		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+26		5550355.5		406		0.063		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+27		1400421.0		406		0.071		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+28		1250415.5		406		0.072		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+29		1100410.0		406		0.065		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+30		1700366.0		406		0.076		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+31		7400272.0		406		0.073		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+32		1850373.0		406		0.08		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+33		1700366.0		406		0.076		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+34		6550298.0		406		0.082		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+35		4900337.0		406		0.085		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+36		7500266.0		406		0.084		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+37		7500266.0		406		0.087		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+38		7500266.0		406		0.095		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+39		9700466.5		406		0.091		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+40		10700221.0		406		0.09		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+41		11550224.5		406		0.115		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+42		12000212.0		406		0.113		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+43		12250250.5		406		0.105		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+44		13150268.5		406		0.092		406		if_(eq(lower, sub(True, floordiv(-1, pos(len_(str_(neg(True))))))), wrap(lower), lst)
+45		12000213.0		204		0.117		204		filter(lambda _0: abs_(println_tap(le(lower, print_do(upper, _0)))), lst)
+46		19500195.0		204		0.085		204		filter(lambda _0: abs_(println_tap(le(lower, print_do(upper, _0)))), lst)
+47		19500195.0		204		0.081		204		filter(lambda _0: abs_(println_tap(le(lower, print_do(upper, _0)))), lst)
+48		19500195.0		204		0.073		204		filter(lambda _0: abs_(println_tap(le(lower, print_do(upper, _0)))), lst)
+49		12100241.5		204		0.075		204		filter(lambda _0: abs_(println_tap(le(lower, print_do(upper, _0)))), lst)
+50		19500195.0		204		0.078		204		filter(lambda _0: abs_(println_tap(le(lower, print_do(upper, _0)))), lst)
+51		12000213.0		204		0.081		204		filter(lambda _0: abs_(println_tap(le(lower, print_do(upper, _0)))), lst)
+52		12200241.0		204		0.079		204		filter(lambda _0: abs_(println_tap(le(lower, print_do(upper, _0)))), lst)
+53		11800308.0		204		0.082		204		filter(lambda _0: abs_(println_tap(le(lower, print_do(upper, _0)))), lst)
+54		10000258.0		204		0.088		204		filter(lambda _0: abs_(println_tap(le(lower, print_do(upper, _0)))), lst)
+55		12000213.0		202		0.111		202		filter(lambda _0: println_tap(and_(ne(lower, upper), neg(le(lower, _0)))), lst)
+56		12000213.0		202		0.112		202		filter(lambda _0: println_tap(and_(ne(lower, upper), neg(le(lower, _0)))), lst)
+57		11900213.0		202		0.118		202		filter(lambda _0: println_tap(and_(ne(lower, upper), neg(le(lower, _0)))), lst)
+58		11550252.5		202		0.128		202		filter(lambda _0: println_tap(and_(ne(lower, upper), neg(le(lower, _0)))), lst)
+59		9650282.5		202		0.116		202		filter(lambda _0: println_tap(and_(ne(lower, upper), neg(le(lower, _0)))), lst)
+60		7500266.0		202		0.124		202		filter(lambda _0: println_tap(and_(ne(lower, upper), neg(le(lower, _0)))), lst)
+61		7500266.0		202		0.126		202		filter(lambda _0: println_tap(and_(ne(lower, upper), neg(le(lower, _0)))), lst)
+62		9600288.5		198		0.15		198		filter(lambda _0: and_(ne(2, _0), abs_(neg(le(lower, _0)))), lst)
+63		12100209.0		198		0.132		198		filter(lambda _0: and_(ne(2, _0), abs_(neg(le(lower, _0)))), lst)
+64		11650269.0		198		0.137		198		filter(lambda _0: and_(ne(2, _0), abs_(neg(le(lower, _0)))), lst)
+65		12100241.5		198		0.133		198		filter(lambda _0: and_(ne(2, _0), abs_(neg(le(lower, _0)))), lst)
+66		12200270.0		198		0.149		198		filter(lambda _0: and_(ne(2, _0), abs_(neg(le(lower, _0)))), lst)
+67		16400133.0		0		0.133		0		filter(lambda _0: println_tap(println_tap(neg(and_(ge(_0, lower), ge(upper, _0))))), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: println_tap(println_tap(neg(and_(ge(_0, lower), ge(upper, _0))))), lst)
+Simplifying genome of length 121.
+Simplified to length 104.
+Simplified to length 102.
+Simplified to length 77.
+Simplified to length 74.
+Simplified to length 69.
+Simplified to length 50.
+Simplified to length 49.
+Simplified to length 48.
+Simplified to length 45.
+Simplified to length 39.
+Simplified to length 36.
+Simplified to length 34.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 29.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: and_(ge(_0, lower), ge(upper, _0)), lst)

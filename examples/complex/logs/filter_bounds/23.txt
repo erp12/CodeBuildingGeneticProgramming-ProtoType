@@ -1,0 +1,71 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		30900000.0		439		0.004		439		lst
+2		439.0		439		0.008		439		lst
+3		439.0		439		0.006		439		lst
+4		439.0		439		0.009		439		lst
+5		439.0		439		0.014		439		lst
+6		439.0		439		0.016		439		lst
+7		439.0		439		0.017		439		lst
+8		439.0		439		0.026		439		lst
+9		439.0		439		0.024		439		lst
+10		439.0		439		0.026		439		lst
+11		439.0		439		0.023		439		lst
+12		439.0		439		0.025		439		lst
+13		439.0		439		0.027		439		lst
+14		439.0		439		0.031		439		lst
+15		439.0		439		0.039		439		lst
+16		439.0		439		0.038		439		lst
+17		439.0		439		0.043		439		lst
+18		439.0		433		0.044		433		filter(lambda _0: ne(eq(str_(lower).isdigit(), lower), do_print(_0, print_tap(print_tap(lst)))), lst)
+19		13700231.0		429		0.062		429		filter(lambda _0: ne(eq(lower, lower), do_print(_0, ne(print_tap(0.8344199255479858), print_tap(lst)))), lst)
+20		13700228.0		255		0.075		255		filter(lambda _0: eq(gt(lower, _0), print_tap(str_(lst).isnumeric())), lst)
+21		13700231.0		255		0.106		255		filter(lambda _0: eq(gt(lower, _0), print_tap(str_(lst).isnumeric())), lst)
+22		13700231.0		255		0.118		255		filter(lambda _0: eq(gt(lower, _0), print_tap(str_(lst).isnumeric())), lst)
+23		13700229.0		247		0.152		247		filter(lambda _0: eq(gt(lower, _0), print_tap(eq(upper, str_(do_print(_0, lst)).isnumeric()))), lst)
+24		13700228.5		247		0.15		247		filter(lambda _0: eq(gt(lower, _0), print_tap(eq(upper, str_(do_print(_0, lst)).isnumeric()))), lst)
+25		13700231.0		237		0.16		237		filter(lambda _0: eq(gt(lower, _0), int2float(not_(do_print(ne(_0, len_(lst)), in_(lst, 10))))), print_tap(lst))
+26		14400129.0		237		0.141		237		filter(lambda _0: eq(gt(lower, _0), int2float(not_(do_print(ne(_0, len_(lst)), in_(lst, 10))))), print_tap(lst))
+27		17300190.0		237		0.148		237		filter(lambda _0: eq(gt(lower, _0), int2float(not_(do_print(ne(_0, len_(lst)), in_(lst, 10))))), print_tap(lst))
+28		13700231.0		237		0.155		237		filter(lambda _0: eq(gt(lower, _0), int2float(not_(do_print(ne(_0, len_(lst)), in_(lst, 10))))), print_tap(lst))
+29		15850239.0		234		0.155		234		filter(lambda _0: eq(neg(int2bool(gt(lower, _0))), int2float(not_(do_print(ne(_0, len_(lst)), 0)))), println_tap(lst))
+30		16850190.5		234		0.141		234		filter(lambda _0: eq(neg(int2bool(gt(lower, _0))), int2float(not_(do_print(ne(_0, len_(lst)), 0)))), println_tap(lst))
+31		17300210.0		234		0.154		234		filter(lambda _0: eq(neg(int2bool(gt(lower, _0))), int2float(not_(do_print(ne(_0, len_(lst)), 0)))), println_tap(lst))
+32		19500201.0		234		0.152		234		filter(lambda _0: eq(neg(int2bool(gt(lower, _0))), int2float(not_(do_print(ne(_0, len_(lst)), 0)))), println_tap(lst))
+33		19500201.0		229		0.149		229		filter(lambda _0: le(_0, do_print(println_tap(upper), int2bool(do_print(0, lst)))), print_do(eq(do_print(lower, floordiv(2, eq(-95, bool2float(neg(True))))), print_tap(upper)), if_(neg(False), lst, print_do(lower, lst))))
+34		19200139.0		0		0.162		0		filter(lambda _0: eq(gt(lower, _0), bool2int(lt(upper, print_do(in_(lst, min_(False, 1)), _0)))), print_do(gt(max_(print_tap(str_(str_(True).upper().lstrip_ws().title())).isupper(), -1), bool2float(str_(-1).isupper())), lst))
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: eq(gt(lower, _0), bool2int(lt(upper, print_do(in_(lst, min_(False, 1)), _0)))), print_do(gt(max_(print_tap(str_(str_(True).upper().lstrip_ws().title())).isupper(), -1), bool2float(str_(-1).isupper())), lst))
+Simplifying genome of length 90.
+Simplified to length 86.
+Simplified to length 85.
+Simplified to length 78.
+Simplified to length 65.
+Simplified to length 60.
+Simplified to length 54.
+Simplified to length 53.
+Simplified to length 52.
+Simplified to length 47.
+Simplified to length 43.
+Simplified to length 39.
+Simplified to length 35.
+Simplified to length 34.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 28.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: eq(gt(lower, _0), lt(upper, _0)), lst)

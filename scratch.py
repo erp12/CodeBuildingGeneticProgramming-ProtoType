@@ -1,15 +1,13 @@
 from __future__ import annotations
 
-import typing as t
-import pytypes as pt
-
-from pathlib import Path
+import pathlib
+import os.path as path
 
 
-def fn(x: int, s: str, **kwargs) -> t.List[str]:
-    return [s] * x
+ROOT = "examples/complex/logs/filter_bounds"
 
 
 if __name__ == "__main__":
-    print(t.get_type_hints(fn))
-    print(pt.get_type_hints(fn))
+    for i in range(31):
+        full = path.join(ROOT, str(i) + ".txt")
+        pathlib.Path(full).touch()

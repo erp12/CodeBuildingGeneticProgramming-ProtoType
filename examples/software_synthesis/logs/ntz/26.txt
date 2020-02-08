@@ -1,0 +1,331 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11700000.0		1251		0.014		1251		input1
+2		1251.0		1251		0.007		1251		input1
+3		1251.0		1251		0.007		1251		input1
+4		1251.0		1251		0.008		1251		input1
+5		1251.0		1251		0.01		1251		input1
+6		1251.0		1251		0.009		1251		input1
+7		1251.0		1251		0.009		1251		input1
+8		1251.0		1251		0.009		1251		input1
+9		1251.0		1251		0.009		1251		input1
+10		1251.0		1251		0.007		1251		input1
+11		1251.0		1251		0.01		1251		input1
+12		1251.0		1251		0.013		1251		input1
+13		1251.0		1251		0.011		1251		input1
+14		1251.0		1251		0.01		1251		input1
+15		1251.0		1251		0.012		1251		input1
+16		1251.0		1251		0.015		1251		input1
+17		1251.0		1251		0.012		1251		input1
+18		1251.0		1251		0.016		1251		input1
+19		1251.0		1251		0.014		1251		input1
+20		1251.0		1251		0.011		1251		input1
+21		1251.0		1251		0.014		1251		input1
+22		1251.0		1251		0.013		1251		input1
+23		1251.0		1251		0.016		1251		input1
+24		1251.0		1251		0.011		1251		input1
+25		1251.0		1251		0.011		1251		input1
+26		1251.0		1251		0.012		1251		input1
+27		1251.0		1251		0.011		1251		input1
+28		1251.0		1251		0.012		1251		input1
+29		1251.0		1251		0.014		1251		input1
+30		1251.0		1251		0.009		1251		input1
+31		1251.0		1251		0.019		1251		input1
+32		1251.0		1251		0.012		1251		input1
+33		1251.0		1251		0.01		1251		input1
+34		1251.0		1251		0.015		1251		input1
+35		1251.0		1251		0.012		1251		input1
+36		1251.0		1251		0.016		1251		input1
+37		1251.0		1251		0.012		1251		input1
+38		1251.0		1251		0.018		1251		input1
+39		1251.0		1251		0.014		1251		input1
+40		1251.0		1251		0.019		1251		input1
+41		1251.0		1251		0.017		1251		input1
+42		1251.0		1251		0.013		1251		input1
+43		1251.0		1251		0.02		1251		input1
+44		1251.0		1251		0.017		1251		input1
+45		1251.0		1251		0.017		1251		input1
+46		1251.0		1251		0.014		1251		input1
+47		1251.0		1251		0.013		1251		input1
+48		1251.0		1251		0.01		1251		input1
+49		1251.0		1251		0.015		1251		input1
+50		1251.0		1251		0.018		1251		input1
+51		1251.0		1251		0.018		1251		input1
+52		1251.0		1251		0.019		1251		input1
+53		1251.0		1251		0.021		1251		input1
+54		1251.0		1251		0.021		1251		input1
+55		1251.0		1251		0.025		1251		input1
+56		1251.0		1251		0.024		1251		input1
+57		1251.0		1251		0.018		1251		input1
+58		1251.0		1251		0.022		1251		input1
+59		1251.0		1251		0.024		1251		input1
+60		1251.0		1251		0.022		1251		input1
+61		1251.0		1251		0.024		1251		input1
+62		1251.0		1251		0.022		1251		input1
+63		1251.0		1251		0.024		1251		input1
+64		1251.0		1251		0.019		1251		input1
+65		1251.0		1251		0.026		1251		input1
+66		1251.0		1251		0.022		1251		input1
+67		1251.0		1251		0.024		1251		input1
+68		1251.0		1251		0.026		1251		input1
+69		1251.0		1251		0.025		1251		input1
+70		1251.0		1251		0.02		1251		input1
+71		1251.0		1251		0.016		1251		input1
+72		1251.0		1251		0.026		1251		input1
+73		1251.0		1251		0.02		1251		input1
+74		1251.0		1251		0.023		1251		input1
+75		1251.0		1251		0.019		1251		input1
+76		1251.0		1251		0.022		1251		input1
+77		1251.0		1251		0.022		1251		input1
+78		1251.0		1251		0.022		1251		input1
+79		1251.0		1251		0.016		1251		input1
+80		1251.0		1251		0.021		1251		input1
+81		1251.0		1251		0.023		1251		input1
+82		1251.0		1251		0.031		1251		input1
+83		1251.0		1251		0.02		1251		input1
+84		1251.0		1251		0.028		1251		input1
+85		1251.0		1251		0.027		1251		input1
+86		1251.0		1251		0.031		1251		input1
+87		1251.0		1251		0.029		1251		input1
+88		1251.0		1251		0.031		1251		input1
+89		1251.0		1251		0.029		1251		input1
+90		1251.0		1251		0.034		1251		input1
+91		1251.0		1251		0.037		1251		input1
+92		1251.0		1251		0.037		1251		input1
+93		1251.0		1251		0.038		1251		input1
+94		1251.0		1251		0.037		1251		input1
+95		1251.0		1251		0.034		1251		input1
+96		1251.0		1251		0.04		1251		input1
+97		1251.0		1251		0.04		1251		input1
+98		1251.0		1251		0.04		1251		input1
+99		1251.0		1251		0.034		1251		input1
+100		1251.0		1251		0.03		1251		input1
+101		1251.0		1251		0.033		1251		input1
+102		1251.0		1251		0.034		1251		input1
+103		1251.0		1251		0.036		1251		input1
+104		1251.0		1251		0.041		1251		input1
+105		1251.0		1251		0.048		1251		input1
+106		1251.0		1251		0.039		1251		input1
+107		1251.0		1251		0.036		1251		input1
+108		1251.0		1251		0.033		1251		input1
+109		1251.0		1251		0.043		1251		input1
+110		1251.0		1251		0.034		1251		input1
+111		1251.0		1251		0.04		1251		input1
+112		1251.0		1251		0.036		1251		input1
+113		1251.0		1251		0.032		1251		input1
+114		1251.0		1251		0.033		1251		input1
+115		1251.0		1251		0.034		1251		input1
+116		1251.0		1251		0.036		1251		input1
+117		1251.0		1251		0.036		1251		input1
+118		1251.0		1251		0.039		1251		input1
+119		1251.0		1251		0.029		1251		input1
+120		1251.0		1251		0.036		1251		input1
+121		1251.0		1251		0.035		1251		input1
+122		1251.0		1251		0.032		1251		input1
+123		1251.0		1251		0.039		1251		input1
+124		1251.0		1251		0.04		1251		input1
+125		1251.0		1251		0.035		1251		input1
+126		1251.0		1251		0.032		1251		input1
+127		1251.0		1251		0.032		1251		input1
+128		1251.0		1251		0.039		1251		input1
+129		1251.0		1251		0.033		1251		input1
+130		1251.0		1251		0.038		1251		input1
+131		1251.0		1251		0.045		1251		input1
+132		1251.0		1251		0.044		1251		input1
+133		1251.0		1251		0.046		1251		input1
+134		1251.0		1251		0.035		1251		input1
+135		1251.0		1251		0.033		1251		input1
+136		1251.0		1251		0.038		1251		input1
+137		1251.0		1251		0.031		1251		input1
+138		1251.0		1251		0.033		1251		input1
+139		1251.0		1251		0.034		1251		input1
+140		1251.0		1251		0.029		1251		input1
+141		1251.0		1251		0.04		1251		input1
+142		1251.0		1251		0.037		1251		input1
+143		1251.0		1251		0.038		1251		input1
+144		1251.0		1251		0.035		1251		input1
+145		1251.0		1251		0.032		1251		input1
+146		1251.0		1251		0.034		1251		input1
+147		1251.0		1251		0.032		1251		input1
+148		1251.0		1251		0.033		1251		input1
+149		1251.0		1251		0.037		1251		input1
+150		1251.0		1251		0.029		1251		input1
+151		1251.0		1251		0.024		1251		input1
+152		1251.0		1251		0.027		1251		input1
+153		1251.0		1251		0.035		1251		input1
+154		1251.0		1251		0.038		1251		input1
+155		1251.0		1251		0.034		1251		input1
+156		1251.0		1251		0.035		1251		input1
+157		1251.0		1251		0.039		1251		input1
+158		1251.0		1251		0.037		1251		input1
+159		1251.0		1251		0.031		1251		input1
+160		1251.0		1251		0.031		1251		input1
+161		1251.0		1251		0.03		1251		input1
+162		1251.0		1251		0.033		1251		input1
+163		1251.0		1251		0.032		1251		input1
+164		1251.0		1251		0.032		1251		input1
+165		1251.0		1251		0.029		1251		input1
+166		1251.0		1251		0.031		1251		input1
+167		1251.0		1251		0.035		1251		input1
+168		1251.0		1251		0.027		1251		input1
+169		1251.0		1251		0.032		1251		input1
+170		1251.0		1251		0.033		1251		input1
+171		1251.0		1251		0.031		1251		input1
+172		1251.0		1251		0.026		1251		input1
+173		1251.0		1251		0.034		1251		input1
+174		1251.0		1251		0.032		1251		input1
+175		1251.0		1251		0.022		1251		input1
+176		1251.0		1251		0.034		1251		input1
+177		1251.0		1251		0.033		1251		input1
+178		1251.0		1251		0.027		1251		input1
+179		1251.0		1251		0.031		1251		input1
+180		1251.0		1251		0.036		1251		input1
+181		1251.0		1251		0.036		1251		input1
+182		1251.0		1251		0.033		1251		input1
+183		1251.0		1251		0.038		1251		input1
+184		1251.0		1251		0.03		1251		input1
+185		1251.0		1251		0.03		1251		input1
+186		1251.0		1251		0.036		1251		input1
+187		1251.0		1251		0.034		1251		input1
+188		1251.0		1251		0.035		1251		input1
+189		1251.0		1251		0.042		1251		input1
+190		1251.0		1251		0.04		1251		input1
+191		1251.0		1251		0.044		1251		input1
+192		1251.0		1251		0.037		1251		input1
+193		1251.0		1251		0.042		1251		input1
+194		1251.0		1251		0.041		1251		input1
+195		1251.0		1251		0.043		1251		input1
+196		1251.0		1251		0.047		1251		input1
+197		1251.0		1251		0.041		1251		input1
+198		1251.0		1251		0.045		1251		input1
+199		1251.0		1251		0.039		1251		input1
+200		1251.0		1251		0.053		1251		input1
+201		1251.0		1251		0.045		1251		input1
+202		1251.0		1251		0.047		1251		input1
+203		1251.0		1251		0.054		1251		input1
+204		1251.0		1251		0.047		1251		input1
+205		1251.0		1251		0.048		1251		input1
+206		1251.0		1251		0.048		1251		input1
+207		1251.0		1251		0.049		1251		input1
+208		1251.0		1251		0.061		1251		input1
+209		1251.0		1251		0.05		1251		input1
+210		1251.0		1251		0.055		1251		input1
+211		1251.0		1251		0.05		1251		input1
+212		1251.0		1251		0.048		1251		input1
+213		1251.0		1251		0.045		1251		input1
+214		1251.0		1251		0.05		1251		input1
+215		1251.0		1251		0.043		1251		input1
+216		1251.0		1251		0.038		1251		input1
+217		1251.0		1251		0.051		1251		input1
+218		1251.0		1251		0.054		1251		input1
+219		1260.0		1250		0.062		1250		if_(pos(pos(in_(input1, -1))), add(wrap(println_tap(0)), wrap(print_tap(0))), input1)
+220		2290.0		1250		0.072		1250		if_(pos(pos(in_(input1, -1))), add(wrap(println_tap(0)), wrap(print_tap(0))), input1)
+221		2244.0		1250		0.075		1250		if_(pos(pos(in_(input1, -1))), add(wrap(println_tap(0)), wrap(print_tap(0))), input1)
+222		2272.0		1248		0.077		1248		if_(in_(input1, pos(do_print(-3, input1))), add(wrap(println_tap(0)), println_tap(wrap(0))), input1)
+223		2244.0		1248		0.083		1248		if_(in_(input1, pos(do_print(-3, input1))), add(wrap(println_tap(0)), println_tap(wrap(0))), input1)
+224		2244.0		1248		0.084		1248		if_(in_(input1, pos(do_print(-3, input1))), add(wrap(println_tap(0)), println_tap(wrap(0))), input1)
+225		2290.0		1248		0.093		1248		if_(in_(input1, pos(do_print(-3, input1))), add(wrap(println_tap(0)), println_tap(wrap(0))), input1)
+226		2270.0		1248		0.085		1248		if_(in_(input1, pos(do_print(-3, input1))), add(wrap(println_tap(0)), println_tap(wrap(0))), input1)
+227		2244.0		1248		0.1		1248		if_(in_(input1, pos(do_print(-3, input1))), add(wrap(println_tap(0)), println_tap(wrap(0))), input1)
+228		2270.0		1248		0.096		1248		if_(in_(input1, pos(do_print(-3, input1))), add(wrap(println_tap(0)), println_tap(wrap(0))), input1)
+229		2244.0		1248		0.085		1248		if_(in_(input1, pos(do_print(-3, input1))), add(wrap(println_tap(0)), println_tap(wrap(0))), input1)
+230		2244.0		1247		0.097		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+231		2245.0		1247		0.094		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+232		2274.5		1247		0.093		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+233		2244.0		1247		0.087		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+234		2244.0		1247		0.103		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+235		2265.0		1247		0.097		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+236		2244.0		1247		0.105		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+237		2245.0		1247		0.083		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+238		2255.5		1247		0.091		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+239		2292.0		1247		0.094		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+240		2292.0		1247		0.095		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+241		2290.0		1247		0.102		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+242		2292.0		1247		0.1		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+243		2291.0		1247		0.1		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+244		2290.0		1247		0.099		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+245		2292.0		1247		0.098		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+246		2285.0		1247		0.093		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+247		2270.0		1247		0.091		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+248		2290.0		1247		0.1		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+249		2292.0		1247		0.092		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+250		2290.0		1247		0.1		1247		if_(in_(input1, sub(-86, pos(-3))), add(wrap(println_tap(0)), println_tap(println_tap(wrap(0)))), input1)
+251		2281.5		1245		0.094		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+252		2290.0		1245		0.085		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+253		2244.0		1245		0.098		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+254		2270.0		1245		0.098		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+255		2244.0		1245		0.1		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+256		2244.0		1245		0.095		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+257		2244.0		1245		0.103		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+258		2290.0		1245		0.094		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+259		2244.0		1245		0.099		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+260		2265.0		1245		0.091		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+261		2290.0		1245		0.091		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+262		2270.0		1245		0.087		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+263		2285.0		1245		0.099		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+264		2290.0		1245		0.079		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+265		2267.5		1245		0.093		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+266		2290.0		1245		0.082		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+267		2292.0		1245		0.081		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+268		2270.0		1245		0.074		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+269		2290.0		1245		0.079		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+270		2267.0		1245		0.095		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+271		2290.0		1245		0.074		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+272		2290.0		1245		0.09		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+273		2290.0		1245		0.087		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+274		2292.0		1245		0.086		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+275		2292.0		1245		0.093		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+276		2292.0		1245		0.092		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+277		2245.0		1245		0.086		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+278		2290.0		1245		0.093		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+279		2290.0		1245		0.084		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+280		2290.0		1245		0.091		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+281		2292.0		1245		0.098		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+282		2290.0		1245		0.096		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+283		2266.5		1245		0.099		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+284		2244.0		1245		0.096		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+285		2244.0		1245		0.094		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+286		2292.0		1245		0.098		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+287		2290.0		1245		0.097		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+288		2286.5		1245		0.086		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+289		2290.0		1245		0.091		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+290		2292.0		1245		0.091		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+291		2290.0		1245		0.092		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+292		2279.0		1245		0.084		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+293		2270.0		1245		0.084		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+294		2278.0		1245		0.083		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+295		2270.0		1245		0.082		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+296		2244.0		1245		0.083		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+297		2283.5		1245		0.096		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+298		2244.0		1245		0.09		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+299		2244.0		1245		0.074		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+300		2279.5		1245		0.088		1245		if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+No solution found.
+def negative_to_zero(input1):
+    return if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+
+Simplifying genome of length 49.
+Simplified to length 47.
+Simplified to length 44.
+Simplified to length 41.
+Simplified to length 37.
+Simplified to length 36.
+Simplified to length 34.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 14.
+Simplified genome: length=14 error=1245
+def negative_to_zero(input1):
+    return if_(in_(input1, sub(-86, add(-3, -1))), add(wrap(0), wrap(0)), input1)
+
+[0 1 1 ... 7 7 0]
+Final Test Error: 12363

@@ -1,0 +1,77 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11700000.0		1085		0.01		1085		input1
+2		1085.0		1085		0.009		1085		input1
+3		1085.0		1085		0.008		1085		input1
+4		1085.0		1085		0.012		1085		input1
+5		1085.0		1085		0.011		1085		input1
+6		1085.0		1085		0.009		1085		input1
+7		1085.0		1085		0.009		1085		input1
+8		1085.0		1085		0.009		1085		input1
+9		1085.0		1085		0.009		1085		input1
+10		1085.0		1085		0.009		1085		input1
+11		1085.0		1085		0.009		1085		input1
+12		1085.0		1085		0.009		1085		input1
+13		1085.0		1085		0.008		1085		input1
+14		1085.0		1085		0.009		1085		input1
+15		1085.0		1085		0.01		1085		input1
+16		1085.0		1085		0.009		1085		input1
+17		1085.0		1085		0.01		1085		input1
+18		1085.0		1085		0.011		1085		input1
+19		1085.0		1085		0.009		1085		input1
+20		1085.0		1085		0.011		1085		input1
+21		1085.0		1085		0.012		1085		input1
+22		1085.0		1085		0.012		1085		input1
+23		1085.0		1085		0.012		1085		input1
+24		1085.0		1085		0.017		1085		input1
+25		1531.0		1085		0.011		1085		input1
+26		1085.0		1085		0.016		1085		input1
+27		1085.0		1085		0.013		1085		input1
+28		1085.0		1085		0.014		1085		input1
+29		1085.0		1085		0.014		1085		input1
+30		1531.0		1085		0.014		1085		input1
+31		1531.0		1085		0.015		1085		input1
+32		1085.0		1085		0.014		1085		input1
+33		1531.0		1085		0.013		1085		input1
+34		1085.0		1085		0.017		1085		input1
+35		1085.0		1085		0.01		1085		input1
+36		1531.0		1085		0.011		1085		input1
+37		1085.0		1085		0.012		1085		input1
+38		1085.0		1085		0.011		1085		input1
+39		1085.0		1085		0.008		1085		input1
+40		1085.0		1085		0.015		1085		input1
+41		1085.0		1085		0.012		1085		input1
+42		1085.0		1085		0.014		1085		input1
+43		1085.0		1085		0.009		1085		input1
+44		1085.0		1085		0.013		1085		input1
+45		1085.0		1085		0.012		1085		input1
+46		1531.0		1085		0.014		1085		input1
+47		1085.0		1085		0.017		1085		input1
+48		1085.0		1085		0.012		1085		input1
+49		1531.0		1085		0.012		1085		input1
+50		1085.0		1085		0.011		1085		input1
+51		1085.0		0		0.013		0		map(lambda _0: max_(_0, 0), input1)
+Solution found.
+def negative_to_zero(input1):
+    return map(lambda _0: max_(_0, 0), input1)
+
+Simplifying genome of length 53.
+Simplified to length 47.
+Simplified to length 44.
+Simplified to length 42.
+Simplified to length 29.
+Simplified to length 23.
+Simplified to length 20.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 11.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified genome: length=7 error=0
+def negative_to_zero(input1):
+    return map(lambda _0: max_(_0, 0), input1)
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

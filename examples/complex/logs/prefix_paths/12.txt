@@ -1,0 +1,57 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		37700000.0		18300694.0		0.003		18300694.0		wrap(root)
+2		18300694.0		18300694.0		0.004		18300694.0		wrap(root)
+3		18300694.0		18300694.0		0.004		18300694.0		wrap(root)
+4		18300694.0		18300694.0		0.006		18300694.0		wrap(root)
+5		18300694.0		18300694.0		0.007		18300694.0		wrap(root)
+6		18300891.0		18300694.0		0.009		18300694.0		wrap(root)
+7		18300694.0		18300694.0		0.011		18300694.0		wrap(root)
+8		18300946.0		18300694.0		0.013		18300694.0		wrap(root)
+9		18300941.0		18300694.0		0.014		18300694.0		wrap(root)
+10		18300891.0		18300694.0		0.013		18300694.0		wrap(root)
+11		18300694.0		18300694.0		0.013		18300694.0		wrap(root)
+12		18300891.0		18300694.0		0.015		18300694.0		wrap(root)
+13		18300694.0		18300694.0		0.013		18300694.0		wrap(root)
+14		18300946.0		18300694.0		0.016		18300694.0		wrap(root)
+15		18300978.0		18300666.0		0.016		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+16		18302235.0		18300666.0		0.018		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+17		27000270.0		18300666.0		0.023		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+18		18302322.0		18300666.0		0.029		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+19		18302549.0		18300666.0		0.026		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+20		27000270.0		18300666.0		0.031		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+21		27000270.0		18300666.0		0.028		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+22		18302435.5		18300666.0		0.028		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+23		18302235.0		18300666.0		0.029		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+24		18302235.0		18300666.0		0.037		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+25		18302235.0		18300666.0		0.033		18300666.0		println_tap(wrap(root.join(SimplePath(str_(0)))))
+26		18302235.0		3881		0.035		3881		print_do(wrap(root), map(lambda _0: SimplePath(str_(0)), filenames))
+27		18300720.0		1508		0.04		1508		println_tap(print_do(wrap(root), map(lambda _0: root, filenames)))
+28		18300694.0		1415		0.035		1415		println_tap(print_do(wrap(root), map(lambda _0: root.join(SimplePath(str_(0))), filenames)))
+29		18300694.0		0		0.041		0		println_tap(print_do(root, map(lambda _0: root.join(SimplePath(str_(_0))), filenames)))
+Solution found.
+def prefix_files(root, filenames):
+    return println_tap(print_do(root, map(lambda _0: root.join(SimplePath(str_(_0))), filenames)))
+Simplifying genome of length 80.
+Simplified to length 75.
+Simplified to length 65.
+Simplified to length 59.
+Simplified to length 55.
+Simplified to length 48.
+Simplified to length 47.
+Simplified to length 45.
+Simplified to length 41.
+Simplified to length 33.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0)), filenames)

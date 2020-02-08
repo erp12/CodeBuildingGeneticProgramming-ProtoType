@@ -1,0 +1,62 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		27500000.0		389		0.005		389		lst
+2		389.0		389		0.004		389		lst
+3		389.0		389		0.007		389		lst
+4		389.0		389		0.008		389		lst
+5		389.0		389		0.007		389		lst
+6		389.0		389		0.012		389		lst
+7		389.0		389		0.023		389		lst
+8		389.0		389		0.028		389		lst
+9		10900202.0		380		0.039		380		filter(lambda _0: ne(sub(floordiv(1, mod(2, 1)), True), _0), lst)
+10		10900202.0		380		0.062		380		filter(lambda _0: ne(sub(floordiv(1, mod(2, 1)), True), _0), lst)
+11		10900202.0		222		0.077		222		filter(lambda _0: eq(0, gt(_0, upper)), lst)
+12		10900203.0		222		0.073		222		filter(lambda _0: eq(0, gt(_0, upper)), lst)
+13		10600234.0		198		0.078		198		filter(lambda _0: ge(do_print(_0, -1), lower), lst)
+14		10400233.0		198		0.07		198		filter(lambda _0: ge(do_print(_0, -1), lower), lst)
+15		10900202.0		198		0.073		198		filter(lambda _0: ge(do_print(_0, -1), lower), lst)
+16		10900203.0		198		0.076		198		filter(lambda _0: ge(do_print(_0, -1), lower), lst)
+17		10600234.0		198		0.086		198		filter(lambda _0: ge(do_print(_0, -1), lower), lst)
+18		10900202.0		198		0.097		198		filter(lambda _0: ge(do_print(_0, -1), lower), lst)
+19		11200176.0		198		0.111		198		filter(lambda _0: ge(do_print(_0, -1), lower), lst)
+20		10900203.0		198		0.119		198		filter(lambda _0: ge(do_print(_0, -1), lower), lst)
+21		10900262.0		195		0.115		195		filter(lambda _0: gt(ge(_0, lower), eq(-1, lower)), lst)
+22		10900262.0		195		0.137		195		filter(lambda _0: gt(ge(_0, lower), eq(-1, lower)), lst)
+23		12400105.0		195		0.129		195		filter(lambda _0: gt(ge(_0, lower), eq(-1, lower)), lst)
+24		10900262.0		195		0.134		195		filter(lambda _0: gt(ge(_0, lower), eq(-1, lower)), lst)
+25		13700172.0		195		0.153		195		filter(lambda _0: gt(ge(_0, lower), eq(-1, lower)), lst)
+26		13100119.5		195		0.153		195		filter(lambda _0: gt(ge(_0, lower), eq(-1, lower)), lst)
+27		13700177.0		193		0.165		193		filter(lambda _0: eq(le(gt(lower, _0), ge(_0, upper)), ne(sub(float2int(10), True), _0)), lst)
+28		13700177.0		193		0.163		193		filter(lambda _0: eq(le(gt(lower, _0), ge(_0, upper)), ne(sub(float2int(10), True), _0)), lst)
+29		14950133.5		190		0.178		190		filter(lambda _0: eq(le(gt(lower, _0), ge(_0, upper)), ne(float2int(10), _0)), lst)
+30		12900160.0		0		0.182		0		filter(lambda _0: eq(eq(gt(lower, _0), ge(_0, upper)), ne(upper, print_tap(_0))), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: eq(eq(gt(lower, _0), ge(_0, upper)), ne(upper, print_tap(_0))), lst)
+Simplifying genome of length 60.
+Simplified to length 59.
+Simplified to length 54.
+Simplified to length 53.
+Simplified to length 52.
+Simplified to length 45.
+Simplified to length 44.
+Simplified to length 41.
+Simplified to length 40.
+Simplified to length 39.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified genome: length=15 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: eq(eq(gt(lower, _0), ge(_0, upper)), ne(upper, _0)), lst)

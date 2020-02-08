@@ -1,0 +1,45 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11700000.0		1240		0.007		1240		input1
+2		1240.0		1240		0.008		1240		input1
+3		1240.0		1240		0.01		1240		input1
+4		1240.0		1240		0.012		1240		input1
+5		1246.0		1240		0.011		1240		input1
+6		1246.0		1240		0.012		1240		input1
+7		1246.0		1240		0.011		1240		input1
+8		1246.0		1240		0.011		1240		input1
+9		1246.0		1240		0.01		1240		input1
+10		1246.0		1240		0.013		1240		input1
+11		1246.0		1240		0.008		1240		input1
+12		1246.0		1240		0.013		1240		input1
+13		1246.0		1240		0.012		1240		input1
+14		1246.0		1240		0.01		1240		input1
+15		1246.0		0		0.012		0		map(lambda _0: max_(_0, 0), if_(False, input1, if_(not_(float2bool(0.28505566036117425)), print_do(neg(le(-63, True)), do_print(input1, input1)), input1)))
+Solution found.
+def negative_to_zero(input1):
+    return map(lambda _0: max_(_0, 0), if_(False, input1, if_(not_(float2bool(0.28505566036117425)), print_do(neg(le(-63, True)), do_print(input1, input1)), input1)))
+
+Simplifying genome of length 68.
+Simplified to length 58.
+Simplified to length 53.
+Simplified to length 42.
+Simplified to length 38.
+Simplified to length 35.
+Simplified to length 27.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 8.
+Simplified to length 7.
+Simplified genome: length=7 error=0
+def negative_to_zero(input1):
+    return map(lambda _0: max_(_0, 0), input1)
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

@@ -1,0 +1,104 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		30500000.0		463		0.006		463		lst
+2		463.0		463		0.006		463		lst
+3		463.0		463		0.008		463		lst
+4		463.0		463		0.008		463		lst
+5		463.0		463		0.011		463		lst
+6		463.0		463		0.015		463		lst
+7		463.0		463		0.02		463		lst
+8		463.0		463		0.029		463		lst
+9		800438.0		463		0.041		463		lst
+10		2000430.0		463		0.047		463		lst
+11		9100272.0		463		0.068		463		lst
+12		8900277.0		463		0.072		463		lst
+13		13700231.0		451		0.084		451		if_(pos(ne(int2bool(0), upper)), lst, filter(lambda _0: eq(True, div(eq(False, _0), True)), print_do(0.6703893222530354, lst)))
+14		9400308.0		442		0.105		442		filter(lambda _0: not_(eq(lower, _0)), print_tap(lst))
+15		13700233.0		231		0.096		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+16		10100283.0		231		0.081		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+17		11400307.0		231		0.076		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+18		13000298.0		231		0.084		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+19		14600191.0		231		0.099		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+20		13700233.0		231		0.096		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+21		15200218.0		231		0.092		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+22		15000252.0		231		0.097		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+23		13700233.0		231		0.097		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+24		15700239.5		231		0.109		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+25		13700231.0		231		0.11		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+26		15300220.0		231		0.106		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+27		14100298.0		231		0.106		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+28		17400204.0		231		0.115		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+29		17150210.5		231		0.131		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+30		18950206.0		231		0.149		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+31		18250217.0		231		0.166		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+32		19000206.0		231		0.149		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+33		18000208.0		231		0.149		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+34		18900200.0		231		0.158		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+35		17550192.5		231		0.152		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+36		17050205.0		231		0.166		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+37		18550222.5		231		0.169		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+38		18900200.0		231		0.161		231		filter(lambda _0: ge(_0, print_tap(lower)), lst)
+39		18250217.0		224		0.169		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+40		19700205.0		224		0.178		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+41		19900206.0		224		0.196		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+42		19700205.0		224		0.207		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+43		19900206.0		224		0.203		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+44		19750215.0		224		0.183		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+45		19850205.5		224		0.19		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+46		19700205.5		224		0.19		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+47		19700205.0		224		0.201		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+48		19850184.0		224		0.213		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+49		19900205.0		224		0.175		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+50		19800204.5		224		0.173		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+51		20100212.0		224		0.182		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+52		20000217.0		224		0.2		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+53		20100210.0		224		0.178		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+54		20100218.0		224		0.173		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+55		19700206.0		224		0.184		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+56		19700206.0		224		0.183		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+57		19700205.0		224		0.187		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+58		19700206.0		224		0.186		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+59		19750217.0		224		0.168		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+60		19700206.0		224		0.175		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+61		19700206.0		224		0.174		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+62		19700206.0		224		0.18		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+63		19700205.5		224		0.188		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+64		19700206.0		224		0.186		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+65		19500203.5		224		0.191		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+66		19700206.0		224		0.204		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+67		19700206.0		224		0.182		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+68		19700205.0		224		0.196		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+69		19700206.0		224		0.185		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+70		19700206.0		224		0.164		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+71		19700206.0		224		0.195		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+72		19500201.0		224		0.194		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+73		19550205.5		224		0.214		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+74		19500205.0		224		0.215		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+75		19700205.0		224		0.18		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+76		19700206.0		224		0.228		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+77		19700205.5		224		0.204		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+78		19700205.0		224		0.216		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+79		19700205.0		224		0.199		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+80		19700206.0		224		0.202		224		filter(lambda _0: eq(neg(ne(eq(eq(bool2int(gt(True, ge(_0, _0))), sub(-1, False)), upper), False)), bool2int(lt(_0, lower))), lst)
+81		19300199.0		0		0.204		0		filter(lambda _0: neg(eq(lt(upper, _0), lt(_0, lower))), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: neg(eq(lt(upper, _0), lt(_0, lower))), lst)
+Simplifying genome of length 38.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: eq(lt(upper, _0), lt(_0, lower)), lst)

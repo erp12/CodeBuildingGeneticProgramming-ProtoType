@@ -1,0 +1,195 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		26600000.0		386		0.004		386		lst
+2		386.0		386		0.005		386		lst
+3		386.0		386		0.005		386		lst
+4		386.0		386		0.006		386		lst
+5		386.0		386		0.006		386		lst
+6		386.0		386		0.005		386		lst
+7		386.0		386		0.005		386		lst
+8		386.0		386		0.006		386		lst
+9		386.0		386		0.007		386		lst
+10		386.0		386		0.006		386		lst
+11		386.0		386		0.007		386		lst
+12		386.0		386		0.01		386		lst
+13		386.0		378		0.019		378		if_(eq(sub(len_(lst), 10), upper), wrap(upper), lst)
+14		3300340.0		378		0.039		378		if_(eq(sub(len_(lst), 10), upper), wrap(upper), lst)
+15		6800257.0		378		0.047		378		if_(eq(sub(len_(lst), 10), upper), wrap(upper), lst)
+16		6800257.0		378		0.058		378		if_(eq(sub(len_(lst), 10), upper), wrap(upper), lst)
+17		6000331.0		378		0.067		378		if_(eq(sub(len_(lst), 10), upper), wrap(upper), lst)
+18		6000331.0		372		0.08		372		if_(in_(lst, div(not_(float2bool(sub(len_(lst), abs_(10)))), int2float(10))), wrap(upper), lst)
+19		6800258.0		372		0.077		372		if_(in_(lst, div(not_(float2bool(sub(len_(lst), abs_(10)))), int2float(10))), wrap(upper), lst)
+20		6800257.0		377		0.084		372		if_(in_(lst, div(not_(float2bool(sub(len_(lst), abs_(10)))), int2float(10))), wrap(upper), lst)
+21		6800258.0		377		0.088		372		if_(in_(lst, div(not_(float2bool(sub(len_(lst), abs_(10)))), int2float(10))), wrap(upper), lst)
+22		4800254.0		372		0.101		372		if_(in_(lst, div(not_(float2bool(sub(len_(lst), abs_(10)))), int2float(10))), wrap(upper), lst)
+23		6800258.0		377		0.094		372		if_(in_(lst, div(not_(float2bool(sub(len_(lst), abs_(10)))), int2float(10))), wrap(upper), lst)
+24		5000280.0		372		0.103		372		if_(in_(lst, div(not_(float2bool(sub(len_(lst), abs_(10)))), int2float(10))), wrap(upper), lst)
+25		6800257.0		351		0.107		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+26		6800257.0		351		0.106		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+27		6000331.0		351		0.094		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+28		6800257.0		351		0.104		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+29		6800257.0		351		0.111		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+30		6100307.0		351		0.125		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+31		5500285.0		351		0.128		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+32		6100307.0		351		0.138		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+33		4800267.0		351		0.128		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+34		4800267.0		351		0.127		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+35		4400336.0		351		0.128		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+36		4800256.0		351		0.134		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+37		4400331.0		351		0.135		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+38		6800257.0		351		0.135		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+39		6000290.0		351		0.13		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+40		6000319.0		351		0.122		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+41		6200283.0		351		0.122		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+42		4800260.5		351		0.133		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+43		4800270.0		351		0.135		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+44		5000280.0		351		0.135		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+45		3050361.5		351		0.129		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+46		4400336.0		351		0.14		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+47		4400336.0		351		0.139		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+48		4400335.0		351		0.142		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+49		4400336.0		351		0.137		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+50		4550308.0		351		0.15		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+51		4750272.5		351		0.15		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+52		4400335.0		351		0.152		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+53		4950289.0		351		0.143		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+54		4800267.0		351		0.148		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+55		4400337.0		351		0.155		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+56		2800417.0		351		0.166		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+57		4400331.0		351		0.162		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+58		4800267.0		351		0.159		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+59		4400335.0		351		0.162		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+60		6200283.0		351		0.165		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+61		6050320.5		351		0.153		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+62		5100269.0		351		0.151		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+63		5100269.0		351		0.153		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+64		4400332.5		351		0.138		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+65		5100263.0		351		0.137		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+66		6000290.0		351		0.146		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+67		4400332.0		351		0.139		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+68		2700334.0		351		0.135		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+69		4400332.0		351		0.151		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+70		4400336.0		351		0.142		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+71		2800417.0		351		0.144		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+72		4400333.0		351		0.153		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+73		2800414.5		351		0.135		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+74		4400332.5		351		0.139		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+75		4400332.0		351		0.13		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+76		4400332.0		351		0.132		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+77		4300348.0		351		0.138		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+78		4400332.0		351		0.139		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+79		3300340.0		351		0.136		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+80		3800289.0		351		0.142		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+81		4400332.0		351		0.158		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+82		2800415.0		351		0.148		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+83		2800415.0		351		0.149		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+84		2700301.0		351		0.139		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+85		4400333.0		351		0.147		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+86		3450300.5		351		0.129		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+87		4200269.5		351		0.135		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+88		3300342.0		351		0.128		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+89		4300348.0		351		0.137		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+90		3300340.0		351		0.141		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+91		4800268.5		351		0.146		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+92		2800417.0		351		0.155		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+93		6150293.0		351		0.144		351		if_(int2bool(do_print(str_(lower).isnumeric(), upper)), wrap(upper), print_tap(lst))
+94		4400332.0		350		0.147		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+95		3300340.0		350		0.158		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+96		6800258.0		350		0.139		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+97		6800257.0		350		0.149		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+98		6400250.5		350		0.158		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+99		6800258.0		351		0.139		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+100		6650247.0		351		0.139		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+101		6800258.0		355		0.139		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+102		6800258.0		351		0.142		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+103		6800258.0		351		0.141		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+104		6800258.0		351		0.151		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+105		6800261.0		351		0.135		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+106		10100207.0		351		0.134		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+107		6800257.0		351		0.145		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+108		6800257.0		351		0.153		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+109		6800262.0		351		0.16		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+110		6800261.5		351		0.141		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+111		6800257.0		351		0.163		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+112		6800261.0		351		0.162		350		if_(mul(str_(lower), len_(lst)).isnumeric(), wrap(upper), lst)
+113		6800257.0		290		0.126		290		add(filter(lambda _0: lt(lower, _0), lst), wrap(upper))
+114		10800199.0		193		0.116		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+115		10800203.0		193		0.105		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+116		10800199.0		193		0.104		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+117		10800203.0		193		0.08		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+118		10900253.0		193		0.099		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+119		10800199.0		193		0.097		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+120		10800203.0		193		0.086		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+121		10800203.0		193		0.082		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+122		10800199.0		193		0.085		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+123		10800199.0		193		0.087		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+124		11250246.0		193		0.09		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+125		10800203.0		193		0.103		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+126		11000251.0		193		0.094		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+127		11250241.0		193		0.1		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+128		11100257.0		193		0.095		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+129		12200175.0		193		0.089		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+130		12700142.0		193		0.103		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+131		11400235.0		193		0.104		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+132		12050272.5		193		0.105		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+133		15500275.0		193		0.114		193		filter(lambda _0: le(lower, do_print(_0, add(str_(False).isspace(), ne(float2int(float2int(10)), upper)))), lst)
+134		15200138.0		192		0.124		192		filter(lambda _0: in_(wrap(and_(str_(0).endswith(str_(lower)), True)), gt(lower, _0)), lst)
+135		16300174.0		192		0.123		192		filter(lambda _0: in_(wrap(and_(str_(0).endswith(str_(lower)), True)), gt(lower, _0)), lst)
+136		16450168.5		192		0.124		192		filter(lambda _0: in_(wrap(and_(str_(0).endswith(str_(lower)), True)), gt(lower, _0)), lst)
+137		15750161.5		192		0.125		192		filter(lambda _0: in_(wrap(and_(str_(0).endswith(str_(lower)), True)), gt(lower, _0)), lst)
+138		16600166.0		192		0.128		192		filter(lambda _0: in_(wrap(and_(str_(0).endswith(str_(lower)), True)), gt(lower, _0)), lst)
+139		16500201.0		192		0.136		192		filter(lambda _0: in_(wrap(and_(str_(0).endswith(str_(lower)), True)), gt(lower, _0)), lst)
+140		16550183.5		192		0.147		192		filter(lambda _0: in_(wrap(and_(str_(0).endswith(str_(lower)), True)), gt(lower, _0)), lst)
+141		16600166.0		191		0.145		191		filter(lambda _0: in_(println_tap(wrap(eq(upper, str_(lower)))), neg(gt(lower, _0))), lst)
+142		16500146.5		189		0.147		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+143		16400124.0		189		0.166		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+144		16300110.0		189		0.159		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+145		16500184.0		190		0.176		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+146		16600166.0		192		0.157		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+147		16600166.0		190		0.165		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+148		16200166.0		191		0.17		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+149		16000184.0		191		0.163		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+150		15600191.0		189		0.18		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+151		16300174.0		191		0.169		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+152		16600166.0		191		0.191		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+153		16600166.0		191		0.184		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+154		16500159.0		191		0.13		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+155		16600166.0		191		0.117		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+156		16600166.0		191		0.105		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+157		16450159.5		191		0.113		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+158		16600166.0		191		0.117		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+159		16600166.0		191		0.122		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+160		16600166.0		193		0.127		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+161		16600166.0		190		0.119		189		filter(lambda _0: le(in_(println_tap(wrap(upper)), -1), neg(gt(print_do(lower, lower), _0))), lst)
+162		16500151.0		0		0.126		0		print_do(int2bool(10), println_tap(filter(lambda _0: in_(print_tap(wrap(lt(upper, _0))), gt(lower, _0)), lst)))
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return print_do(int2bool(10), println_tap(filter(lambda _0: in_(print_tap(wrap(lt(upper, _0))), gt(lower, _0)), lst)))
+Simplifying genome of length 78.
+Simplified to length 72.
+Simplified to length 66.
+Simplified to length 65.
+Simplified to length 58.
+Simplified to length 57.
+Simplified to length 50.
+Simplified to length 47.
+Simplified to length 43.
+Simplified to length 39.
+Simplified to length 36.
+Simplified to length 35.
+Simplified to length 34.
+Simplified to length 28.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified genome: length=12 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: in_(wrap(lt(upper, _0)), gt(lower, _0)), lst)

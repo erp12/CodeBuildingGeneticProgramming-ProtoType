@@ -1,0 +1,37 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11700000.0		1241		0.008		1241		input1
+2		1241.0		1241		0.009		1241		input1
+3		1241.0		1241		0.008		1241		input1
+4		1241.0		1241		0.009		1241		input1
+5		1241.0		1241		0.01		1241		input1
+6		1241.0		1241		0.013		1241		input1
+7		1241.0		0		0.015		0		map(lambda _0: max_(_0, 0), input1)
+Solution found.
+def negative_to_zero(input1):
+    return map(lambda _0: max_(_0, 0), input1)
+
+Simplifying genome of length 53.
+Simplified to length 46.
+Simplified to length 43.
+Simplified to length 42.
+Simplified to length 41.
+Simplified to length 37.
+Simplified to length 35.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 30.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 8.
+Simplified to length 7.
+Simplified genome: length=7 error=0
+def negative_to_zero(input1):
+    return map(lambda _0: max_(_0, 0), input1)
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

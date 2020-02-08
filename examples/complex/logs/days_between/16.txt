@@ -1,0 +1,42 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		380890.0		234417		0.076		234417		pos(println_tap(print_do(neg(neg(10)), dt1)).year())
+2		347282.0		219018		0.121		219018		sub(print_tap(dt1).minute(), pos(add(neg(mul(365, abs_(10))), dt2.month())))
+3		377792.0		215158		0.234		215158		sub(float2int(abs_(pos(add(neg(mul(365, abs_(10))), dt2.month())))), 365)
+4		378174.5		215078		0.35		215078		sub(float2int(abs_(pos(add(add(neg(mul(365, abs_(10))), 10), dt2.month())))), 365)
+5		378831.0		215078		0.415		215078		sub(float2int(abs_(pos(add(add(neg(mul(365, abs_(10))), 10), dt2.month())))), 365)
+6		379111.5		214918		0.434		214918		sub(float2int(abs_(pos(add(dt1.minute(), add(neg(mul(365, 10)), dt2.month()))))), 365)
+7		379815.5		214918		0.42		214918		sub(float2int(abs_(pos(add(dt1.minute(), add(neg(mul(365, 10)), dt2.month()))))), 365)
+8		377928.5		214066		0.414		214066		sub(dt2.year(), add(pos(-1), neg(mul(dt2.hour(), abs_(78)))))
+9		378519.0		215168		0.433		214066		sub(dt2.year(), add(pos(-1), neg(mul(dt2.hour(), abs_(78)))))
+10		377792.0		212096		0.447		212096		sub(dt2.year(), neg(mul(dt2.day(), 78)))
+11		377729.0		36504		0.439		36504		add(abs_(sub(dt2, dt1).days()), 365)
+12		377870.0		212096		0.439		36504		add(abs_(sub(dt2, dt1).days()), 365)
+13		373358.0		214960		0.416		36504		add(abs_(sub(dt2, dt1).days()), 365)
+14		373457.0		214074		0.431		36504		add(abs_(sub(dt2, dt1).days()), 365)
+15		376281.0		214066		0.406		36504		add(abs_(sub(dt2, dt1).days()), 365)
+16		377792.0		214960		0.424		36504		add(abs_(sub(dt2, dt1).days()), 365)
+17		378159.0		215169		0.432		36504		add(abs_(sub(dt2, dt1).days()), 365)
+18		377692.0		215003		0.405		36504		add(abs_(sub(dt2, dt1).days()), 365)
+19		376590.0		215003		0.419		36504		add(abs_(sub(dt2, dt1).days()), 365)
+20		377710.5		215003		0.439		36504		add(abs_(sub(dt2, dt1).days()), 365)
+21		376380.0		215003		0.45		36504		add(abs_(sub(dt2, dt1).days()), 365)
+22		374668.0		214642		0.431		36504		add(abs_(sub(dt2, dt1).days()), 365)
+23		380790.0		215090		0.345		36504		add(abs_(sub(dt2, dt1).days()), 365)
+24		377870.0		100		0.139		100		abs_(sub(dt2, dt1).days())
+25		361948.0		0		0.197		0		abs_(sub(dt1, print_tap(dt2)).days())
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(sub(dt1, print_tap(dt2)).days())
+Simplifying genome of length 46.
+Simplified to length 39.
+Simplified to length 34.
+Simplified to length 31.
+Simplified to length 25.
+Simplified to length 14.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 8.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):

@@ -1,0 +1,138 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		37200000.0		17600691.0		0.004		17600691.0		wrap(root)
+2		17600691.0		17600691.0		0.005		17600691.0		wrap(root)
+3		17600691.0		17600691.0		0.003		17600691.0		wrap(root)
+4		17600691.0		17600691.0		0.004		17600691.0		wrap(root)
+5		17600691.0		17600691.0		0.004		17600691.0		wrap(root)
+6		17600691.0		17600691.0		0.005		17600691.0		wrap(root)
+7		17600691.0		10301064.0		0.004		10301064.0		add(wrap(root), wrap(root))
+8		17600691.0		10301064.0		0.007		10301064.0		add(wrap(root), wrap(root))
+9		17600691.0		10301064.0		0.005		10301064.0		add(wrap(root), wrap(root))
+10		17600691.0		10301064.0		0.007		10301064.0		add(wrap(root), wrap(root))
+11		17600691.0		10301064.0		0.007		10301064.0		add(wrap(root), wrap(root))
+12		17600691.0		10301064.0		0.009		10301064.0		add(wrap(root), wrap(root))
+13		17600691.0		10301064.0		0.008		10301064.0		add(wrap(root), wrap(root))
+14		17600691.0		10301064.0		0.007		10301064.0		add(wrap(root), wrap(root))
+15		17600691.0		10301064.0		0.007		10301064.0		add(wrap(root), wrap(root))
+16		17600691.0		10301064.0		0.01		10301064.0		add(wrap(root), wrap(root))
+17		17600691.0		10301064.0		0.01		10301064.0		add(wrap(root), wrap(root))
+18		17600691.0		10301064.0		0.01		10301064.0		add(wrap(root), wrap(root))
+19		17600691.0		10301064.0		0.012		10301064.0		add(wrap(root), wrap(root))
+20		17600691.0		10301064.0		0.009		10301064.0		add(wrap(root), wrap(root))
+21		17600691.0		10301064.0		0.01		10301064.0		add(wrap(root), wrap(root))
+22		17600691.0		10301064.0		0.007		10301064.0		add(wrap(root), wrap(root))
+23		17600691.0		10301064.0		0.006		10301064.0		add(wrap(root), wrap(root))
+24		17600691.0		10301064.0		0.009		10301064.0		add(wrap(root), wrap(root))
+25		17600691.0		10301064.0		0.009		10301064.0		add(wrap(root), wrap(root))
+26		17600691.0		10301064.0		0.014		10301064.0		add(wrap(root), wrap(root))
+27		17600691.0		10301064.0		0.014		10301064.0		add(wrap(root), wrap(root))
+28		17600691.0		10301064.0		0.015		10301064.0		add(wrap(root), wrap(root))
+29		17600691.0		10301064.0		0.019		10301064.0		add(wrap(root), wrap(root))
+30		17600691.0		10301064.0		0.017		10301064.0		add(wrap(root), wrap(root))
+31		17600691.0		10301064.0		0.027		10301064.0		add(wrap(root), wrap(root))
+32		17600691.0		10301064.0		0.026		10301064.0		add(wrap(root), wrap(root))
+33		17600691.0		10301064.0		0.026		10301064.0		add(wrap(root), wrap(root))
+34		17600691.0		5402068.0		0.038		5402068.0		add(add(print_tap(wrap(root.dirname())), wrap(SimplePath(getitem(str_(True), bool2int(print_tap(True)))))), wrap(print_tap(print_tap(root))))
+35		17600691.0		5402057.0		0.06		5402057.0		add(add(wrap(root.dirname()), wrap(SimplePath(str_(True)))), wrap(print_tap(print_tap(root))))
+36		17600691.0		5401537.0		0.07		5401537.0		add(add(wrap(root.dirname()), wrap(root)), wrap(print_tap(print_tap(root))))
+37		17600691.0		5401537.0		0.071		5401537.0		add(add(wrap(root.dirname()), wrap(root)), wrap(print_tap(print_tap(root))))
+38		17600691.0		5401537.0		0.085		5401537.0		add(add(wrap(root.dirname()), wrap(root)), wrap(print_tap(print_tap(root))))
+39		17600691.0		5401305.0		0.09		5401305.0		add(add(do_print(wrap(root), 2), wrap(root)), wrap(print_tap(root)))
+40		17600691.0		5401305.0		0.075		5401305.0		add(add(do_print(wrap(root), 2), wrap(root)), wrap(print_tap(root)))
+41		17600691.0		5401305.0		0.078		5401305.0		add(add(do_print(wrap(root), 2), wrap(root)), wrap(print_tap(root)))
+42		17600691.0		5401305.0		0.09		5401305.0		add(add(do_print(wrap(root), 2), wrap(root)), wrap(print_tap(root)))
+43		17600691.0		5401305.0		0.088		5401305.0		add(add(do_print(wrap(root), 2), wrap(root)), wrap(print_tap(root)))
+44		17600691.0		5401305.0		0.081		5401305.0		add(add(do_print(wrap(root), 2), wrap(root)), wrap(print_tap(root)))
+45		17600691.0		5401305.0		0.083		5401305.0		add(add(do_print(wrap(root), 2), wrap(root)), wrap(print_tap(root)))
+46		17600691.0		5401305.0		0.086		5401305.0		add(add(do_print(wrap(root), 2), wrap(root)), wrap(print_tap(root)))
+47		17600691.0		1901528.0		0.078		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+48		17600691.0		1901528.0		0.083		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+49		17600691.0		1901528.0		0.079		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+50		17600691.0		1901528.0		0.077		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+51		17600691.0		1901528.0		0.087		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+52		17600691.0		1901528.0		0.087		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+53		17600691.0		1901528.0		0.072		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+54		17600691.0		1901528.0		0.085		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+55		17600691.0		1901528.0		0.091		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+56		17600691.0		1901528.0		0.083		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+57		17600691.0		1901528.0		0.077		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+58		17600691.0		1901528.0		0.082		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+59		17600691.0		1901528.0		0.087		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+60		17600691.0		1901528.0		0.09		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+61		17600691.0		1901528.0		0.109		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+62		17600691.0		1901528.0		0.11		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+63		14400970.5		1901528.0		0.115		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+64		10301707.0		1901528.0		0.117		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+65		10301708.0		1901528.0		0.111		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+66		17600691.0		1901528.0		0.105		1901528.0		add(add(do_print(add(do_print(wrap(root), -1), wrap(root)), str_(False)), wrap(root)), wrap(root))
+67		10301594.0		1705		0.122		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+68		11201015.0		1705		0.128		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+69		17600691.0		1705		0.114		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+70		17600691.0		1705		0.121		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+71		17600654.0		1705		0.127		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+72		17600691.0		1705		0.126		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+73		17600654.0		1705		0.142		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+74		17600688.0		1705		0.136		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+75		13700889.0		1705		0.14		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+76		17600691.0		1705		0.126		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+77		17600677.0		1705		0.126		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+78		17600654.0		1705		0.144		1705		add(add(add(add(print_do(le(le(min_(max_(bool2int(False), 1), False), 2), True), wrap(root)), wrap(root)), wrap(root)), wrap(root)), wrap(root))
+79		17600654.0		1684		0.154		1684		add(add(add(print_do(pos(min_(mul(pos(min_(False, 11)), False), round_(False, root.isabs()))), add(wrap(root), wrap(root))), wrap(root.join(SimplePath(str_(neg(neg(pos(0)))))))), wrap(root)), wrap(root))
+80		17600691.0		1684		0.16		1684		add(add(add(print_do(pos(min_(mul(pos(min_(False, 11)), False), round_(False, root.isabs()))), add(wrap(root), wrap(root))), wrap(root.join(SimplePath(str_(neg(neg(pos(0)))))))), wrap(root)), wrap(root))
+81		17600691.0		1684		0.164		1684		add(add(add(print_do(pos(min_(mul(pos(min_(False, 11)), False), round_(False, root.isabs()))), add(wrap(root), wrap(root))), wrap(root.join(SimplePath(str_(neg(neg(pos(0)))))))), wrap(root)), wrap(root))
+82		17600654.0		1684		0.157		1684		add(add(add(print_do(pos(min_(mul(pos(min_(False, 11)), False), round_(False, root.isabs()))), add(wrap(root), wrap(root))), wrap(root.join(SimplePath(str_(neg(neg(pos(0)))))))), wrap(root)), wrap(root))
+83		17600654.0		1673		0.167		1673		add(add(add(add(wrap(root), wrap(println_tap(root.join(SimplePath(str_(neg(0))))))), wrap(print_tap(root))), wrap(root)), wrap(root))
+84		15450807.0		1673		0.167		1673		add(add(add(add(wrap(root), wrap(println_tap(root.join(SimplePath(str_(neg(0))))))), wrap(print_tap(root))), wrap(root)), wrap(root))
+85		17600691.0		1673		0.169		1673		add(add(add(add(wrap(root), wrap(println_tap(root.join(SimplePath(str_(neg(0))))))), wrap(print_tap(root))), wrap(root)), wrap(root))
+86		17600691.0		1673		0.188		1673		add(add(add(add(wrap(root), wrap(println_tap(root.join(SimplePath(str_(neg(0))))))), wrap(print_tap(root))), wrap(root)), wrap(root))
+87		17600685.0		1673		0.189		1673		add(add(add(add(wrap(root), wrap(println_tap(root.join(SimplePath(str_(neg(0))))))), wrap(print_tap(root))), wrap(root)), wrap(root))
+88		17600654.0		1673		0.182		1673		add(add(add(add(wrap(root), wrap(println_tap(root.join(SimplePath(str_(neg(0))))))), wrap(print_tap(root))), wrap(root)), wrap(root))
+89		17600691.0		1673		0.199		1673		add(add(add(add(wrap(root), wrap(println_tap(root.join(SimplePath(str_(neg(0))))))), wrap(print_tap(root))), wrap(root)), wrap(root))
+90		17600688.0		1673		0.198		1673		add(add(add(add(wrap(root), wrap(println_tap(root.join(SimplePath(str_(neg(0))))))), wrap(print_tap(root))), wrap(root)), wrap(root))
+91		17600691.0		1649		0.22		1649		add(add(map(lambda _0: root, filenames), wrap(root)), wrap(root))
+92		17600637.0		1435		0.216		1435		map(lambda _0: root, filenames)
+93		17600691.0		1435		0.181		1435		map(lambda _0: root, filenames)
+94		17600654.0		1435		0.18		1435		map(lambda _0: root, filenames)
+95		17600691.0		1435		0.164		1435		map(lambda _0: root, filenames)
+96		17600691.0		1435		0.184		1435		map(lambda _0: root, filenames)
+97		17600691.0		1435		0.172		1435		map(lambda _0: root, filenames)
+98		17600691.0		1435		0.153		1435		map(lambda _0: root, filenames)
+99		17600691.0		1435		0.17		1435		map(lambda _0: root, filenames)
+100		17600691.0		1435		0.149		1435		map(lambda _0: root, filenames)
+101		17600691.0		1435		0.14		1435		map(lambda _0: root, filenames)
+102		17600691.0		1435		0.127		1435		map(lambda _0: root, filenames)
+103		17600691.0		1435		0.1		1435		map(lambda _0: root, filenames)
+104		17600691.0		1435		0.097		1435		map(lambda _0: root, filenames)
+105		17600691.0		0		0.103		0		map(lambda _0: root.join(println_tap(SimplePath(_0))), filenames)
+Solution found.
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(println_tap(SimplePath(_0))), filenames)
+Simplifying genome of length 107.
+Simplified to length 98.
+Simplified to length 94.
+Simplified to length 84.
+Simplified to length 76.
+Simplified to length 70.
+Simplified to length 69.
+Simplified to length 68.
+Simplified to length 65.
+Simplified to length 59.
+Simplified to length 53.
+Simplified to length 39.
+Simplified to length 36.
+Simplified to length 27.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0)), filenames)

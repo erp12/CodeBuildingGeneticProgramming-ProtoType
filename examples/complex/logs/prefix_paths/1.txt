@@ -1,0 +1,137 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		34900000.0		15600648.0		0.002		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+2		15600648.0		15600648.0		0.005		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+3		15600648.0		15600648.0		0.004		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+4		15600648.0		15600648.0		0.004		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+5		15600648.0		15600648.0		0.004		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+6		15600648.0		15600648.0		0.005		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+7		15600648.0		15600648.0		0.004		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+8		15600648.0		15600648.0		0.005		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+9		15600648.0		15600648.0		0.006		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+10		15600648.0		15600648.0		0.006		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+11		15600648.0		15600648.0		0.009		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+12		15600852.0		15600648.0		0.009		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+13		15600852.0		15600648.0		0.012		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+14		15600852.0		15600648.0		0.014		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+15		15600852.0		15600648.0		0.016		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+16		15600852.0		15600648.0		0.021		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+17		15600852.0		15600648.0		0.02		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+18		15600852.0		15600648.0		0.025		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+19		15600852.0		15600648.0		0.023		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+20		15600852.0		15600648.0		0.019		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+21		15600852.0		15600648.0		0.019		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+22		15600852.0		15600648.0		0.023		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+23		15600852.0		15600648.0		0.018		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+24		15600852.0		15600648.0		0.018		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+25		15600868.0		15600648.0		0.023		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+26		15600868.0		15600648.0		0.023		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+27		15600860.0		15600648.0		0.021		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+28		15600852.0		15600648.0		0.02		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+29		15600852.0		15600648.0		0.027		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+30		15600868.0		15600648.0		0.022		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+31		15600852.0		15600648.0		0.024		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+32		15600868.0		15600648.0		0.024		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+33		15600852.0		15600648.0		0.024		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+34		15600852.0		15600648.0		0.021		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+35		15600852.0		15600648.0		0.029		15600648.0		print_do(str_(1), print_do(int2float(0), wrap(root)))
+36		15600852.0		15600611.0		0.026		15600611.0		wrap(root.join(SimplePath(str_(neg(bool2int(False))))))
+37		15600648.0		15600611.0		0.035		15600611.0		wrap(root.join(SimplePath(str_(neg(bool2int(False))))))
+38		15600648.0		9600958.0		0.046		9600958.0		add(wrap(root), wrap(root))
+39		15600648.0		9600921.0		0.053		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+40		15600648.0		9600921.0		0.062		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+41		15600648.0		9600921.0		0.06		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+42		15600648.0		9600921.0		0.077		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+43		15600648.0		9600921.0		0.077		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+44		15600648.0		9600921.0		0.117		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+45		15600648.0		9600921.0		0.092		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+46		15600648.0		9600921.0		0.119		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+47		15600648.0		9600921.0		0.121		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+48		15600648.0		9600921.0		0.122		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+49		15600648.0		9600921.0		0.127		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+50		15600648.0		9600921.0		0.141		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+51		15600648.0		9600921.0		0.124		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+52		15600648.0		9600921.0		0.135		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+53		15600648.0		9600921.0		0.131		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+54		15600648.0		9600921.0		0.13		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+55		15600648.0		9600921.0		0.129		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+56		15600648.0		9600921.0		0.13		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+57		15600648.0		9600921.0		0.132		9600921.0		add(wrap(root.join(SimplePath(str_(1)))), wrap(root))
+58		15600648.0		9600905.0		0.137		9600905.0		add(wrap(root.join(SimplePath(getitem(str_(ne(wrap(bool2float(println_tap(str_(println_tap(root)).lower()).islower())), 0.8428455435843589)), 2).lower()))), wrap(root))
+59		15600648.0		9600905.0		0.134		9600905.0		add(wrap(root.join(SimplePath(getitem(str_(ne(wrap(bool2float(println_tap(str_(println_tap(root)).lower()).islower())), 0.8428455435843589)), 2).lower()))), wrap(root))
+60		15600648.0		9600905.0		0.14		9600905.0		add(wrap(root.join(SimplePath(getitem(str_(ne(wrap(bool2float(println_tap(str_(println_tap(root)).lower()).islower())), 0.8428455435843589)), 2).lower()))), wrap(root))
+61		15600648.0		9600905.0		0.13		9600905.0		add(wrap(root.join(SimplePath(getitem(str_(ne(wrap(bool2float(println_tap(str_(println_tap(root)).lower()).islower())), 0.8428455435843589)), 2).lower()))), wrap(root))
+62		15600648.0		9600905.0		0.144		9600905.0		add(wrap(root.join(SimplePath(getitem(str_(ne(wrap(bool2float(println_tap(str_(println_tap(root)).lower()).islower())), 0.8428455435843589)), 2).lower()))), wrap(root))
+63		15600648.0		9600905.0		0.155		9600905.0		add(wrap(root.join(SimplePath(getitem(str_(ne(wrap(bool2float(println_tap(str_(println_tap(root)).lower()).islower())), 0.8428455435843589)), 2).lower()))), wrap(root))
+64		15600648.0		9600905.0		0.131		9600905.0		add(wrap(root.join(SimplePath(getitem(str_(ne(wrap(bool2float(println_tap(str_(println_tap(root)).lower()).islower())), 0.8428455435843589)), 2).lower()))), wrap(root))
+65		15600648.0		9600902.0		0.122		9600902.0		add(wrap(root.join(SimplePath(getitem(str_(ne(0, mod(str_(2).isascii(), 0.8428455435843589))), -1).lower()))), wrap(root))
+66		15600648.0		9600902.0		0.144		9600902.0		add(wrap(root.join(SimplePath(getitem(str_(ne(0, mod(str_(2).isascii(), 0.8428455435843589))), -1).lower()))), wrap(root))
+67		15600816.0		9600902.0		0.142		9600902.0		add(wrap(root.join(SimplePath(getitem(str_(ne(0, mod(str_(2).isascii(), 0.8428455435843589))), -1).lower()))), wrap(root))
+68		15600648.0		9600905.0		0.131		9600902.0		add(wrap(root.join(SimplePath(getitem(str_(ne(0, mod(str_(2).isascii(), 0.8428455435843589))), -1).lower()))), wrap(root))
+69		15600671.0		9600905.0		0.14		9600902.0		add(wrap(root.join(SimplePath(getitem(str_(ne(0, mod(str_(2).isascii(), 0.8428455435843589))), -1).lower()))), wrap(root))
+70		15600648.0		9600905.0		0.149		9600902.0		add(wrap(root.join(SimplePath(getitem(str_(ne(0, mod(str_(2).isascii(), 0.8428455435843589))), -1).lower()))), wrap(root))
+71		15600732.0		9600902.0		0.15		9600902.0		add(wrap(root.join(SimplePath(getitem(str_(ne(0, mod(str_(2).isascii(), 0.8428455435843589))), -1).lower()))), wrap(root))
+72		15600852.0		4601274.0		0.148		4601274.0		add(wrap(root), add(wrap(root), wrap(root)))
+73		15600648.0		4601274.0		0.113		4601274.0		add(wrap(root), add(wrap(root), wrap(root)))
+74		15600648.0		4601274.0		0.132		4601274.0		add(wrap(root), add(wrap(root), wrap(root)))
+75		15600648.0		4601274.0		0.124		4601274.0		add(wrap(root), add(wrap(root), wrap(root)))
+76		15600648.0		4601274.0		0.125		4601274.0		add(wrap(root), add(wrap(root), wrap(root)))
+77		15600648.0		1501502.0		0.115		1501502.0		add(wrap(root), add(add(wrap(root), wrap(root)), wrap(root)))
+78		15600648.0		1501502.0		0.128		1501502.0		add(wrap(root), add(add(wrap(root), wrap(root)), wrap(root)))
+79		15600648.0		1501502.0		0.119		1501502.0		add(wrap(root), add(add(wrap(root), wrap(root)), wrap(root)))
+80		15600648.0		1501502.0		0.131		1501502.0		add(wrap(root), add(add(wrap(root), wrap(root)), wrap(root)))
+81		15600648.0		1501502.0		0.117		1501502.0		add(wrap(root), add(add(wrap(root), wrap(root)), wrap(root)))
+82		15600648.0		1501502.0		0.129		1501502.0		add(wrap(root), add(add(wrap(root), wrap(root)), wrap(root)))
+83		15600648.0		1501502.0		0.123		1501502.0		add(wrap(root), add(add(wrap(root), wrap(root)), wrap(root)))
+84		15600648.0		1501502.0		0.139		1501502.0		add(wrap(root), add(add(wrap(root), wrap(root)), wrap(root)))
+85		15600648.0		1501502.0		0.126		1501502.0		add(wrap(root), add(add(wrap(root), wrap(root)), wrap(root)))
+86		15600648.0		1501502.0		0.152		1501502.0		add(wrap(root), add(add(wrap(root), wrap(root)), wrap(root)))
+87		15600648.0		1672		0.141		1672		add(wrap(root), add(wrap(root), add(wrap(root), add(wrap(root), wrap(root)))))
+88		15600648.0		1672		0.145		1672		add(wrap(root), add(wrap(root), add(wrap(root), add(wrap(root), wrap(root)))))
+89		15600648.0		1672		0.135		1672		add(wrap(root), add(wrap(root), add(wrap(root), add(wrap(root), wrap(root)))))
+90		15600648.0		1672		0.147		1672		add(wrap(root), add(wrap(root), add(wrap(root), add(wrap(root), wrap(root)))))
+91		15600648.0		1672		0.166		1672		add(wrap(root), add(wrap(root), add(wrap(root), add(wrap(root), wrap(root)))))
+92		15600648.0		1672		0.154		1672		add(wrap(root), add(wrap(root), add(wrap(root), add(wrap(root), wrap(root)))))
+93		15600648.0		1672		0.163		1672		add(wrap(root), add(wrap(root), add(wrap(root), add(wrap(root), wrap(root)))))
+94		15600648.0		1486		0.141		1486		add(wrap(root), println_tap(map(lambda _0: root, filenames)))
+95		15600648.0		1379		0.132		1379		println_tap(map(lambda _0: root, filenames))
+96		15600648.0		1379		0.117		1379		println_tap(map(lambda _0: root, filenames))
+97		15600648.0		1379		0.121		1379		println_tap(map(lambda _0: root, filenames))
+98		15600648.0		1379		0.105		1379		println_tap(map(lambda _0: root, filenames))
+99		15600648.0		1379		0.118		1379		println_tap(map(lambda _0: root, filenames))
+100		15600648.0		1379		0.109		1379		println_tap(map(lambda _0: root, filenames))
+101		15600648.0		1379		0.109		1379		println_tap(map(lambda _0: root, filenames))
+102		15600648.0		1379		0.091		1379		println_tap(map(lambda _0: root, filenames))
+103		15600648.0		1379		0.091		1379		println_tap(map(lambda _0: root, filenames))
+104		15600648.0		1277		0.102		1277		map(lambda _0: root.join(SimplePath(mul(_0, -3).title())), filenames)
+105		15600648.0		0		0.096		0		map(lambda _0: root.join(SimplePath(_0)), filenames)
+Solution found.
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0)), filenames)
+Simplifying genome of length 137.
+Simplified to length 128.
+Simplified to length 114.
+Simplified to length 112.
+Simplified to length 110.
+Simplified to length 95.
+Simplified to length 89.
+Simplified to length 72.
+Simplified to length 61.
+Simplified to length 54.
+Simplified to length 50.
+Simplified to length 46.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 26.
+Simplified to length 21.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0)), filenames)

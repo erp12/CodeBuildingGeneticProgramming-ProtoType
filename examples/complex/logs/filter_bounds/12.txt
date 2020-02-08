@@ -1,0 +1,90 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		26200000.0		406		0.004		406		lst
+2		406.0		406		0.006		406		lst
+3		406.0		406		0.006		406		lst
+4		406.0		406		0.006		406		lst
+5		406.0		406		0.006		406		lst
+6		406.0		406		0.006		406		lst
+7		406.0		406		0.008		406		lst
+8		406.0		406		0.009		406		lst
+9		406.0		406		0.012		406		lst
+10		406.0		395		0.016		395		if_(ne(lower, upper), lst, wrap(upper))
+11		406.0		395		0.024		395		if_(ne(lower, upper), lst, wrap(upper))
+12		406.0		395		0.034		395		if_(ne(lower, upper), lst, wrap(upper))
+13		406.0		395		0.04		395		if_(ne(lower, upper), lst, wrap(upper))
+14		100395.0		395		0.038		395		if_(ne(lower, upper), lst, wrap(upper))
+15		100395.0		395		0.044		395		if_(ne(lower, upper), lst, wrap(upper))
+16		300401.0		395		0.057		395		if_(ne(lower, upper), lst, wrap(upper))
+17		400379.0		395		0.061		395		if_(ne(lower, upper), lst, wrap(upper))
+18		450390.0		395		0.072		395		if_(ne(lower, upper), lst, wrap(upper))
+19		5800245.0		232		0.078		232		filter(lambda _0: abs_(not_(lt(_0, lower))), lst)
+20		9100208.0		232		0.078		232		filter(lambda _0: abs_(not_(lt(_0, lower))), lst)
+21		5500285.0		232		0.098		232		filter(lambda _0: abs_(not_(lt(_0, lower))), lst)
+22		9700238.0		207		0.097		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+23		5800245.0		207		0.088		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+24		7300298.0		207		0.092		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+25		5900197.0		207		0.092		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+26		5900197.0		207		0.084		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+27		6050314.5		207		0.103		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+28		7300207.0		207		0.098		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+29		8600268.0		207		0.111		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+30		6500198.0		207		0.11		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+31		6500308.0		207		0.111		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+32		9300186.0		207		0.107		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+33		9900271.0		207		0.109		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+34		9300186.0		207		0.106		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+35		10100190.0		207		0.122		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+36		9900271.0		207		0.119		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+37		9900271.0		207		0.13		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+38		10100193.0		207		0.127		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+39		10100190.0		207		0.116		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+40		10100190.0		207		0.129		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+41		10800162.5		207		0.142		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+42		9900271.0		207		0.141		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+43		9900271.0		207		0.127		207		filter(lambda _0: abs_(not_(lt(upper, _0))), lst)
+44		10100190.0		203		0.141		203		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, str_(lower)))), lst)
+45		9700249.0		203		0.157		203		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, str_(lower)))), lst)
+46		11650207.0		203		0.143		203		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, str_(lower)))), lst)
+47		10100190.0		203		0.152		203		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, str_(lower)))), lst)
+48		10100190.0		203		0.173		203		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, str_(lower)))), lst)
+49		10100193.0		203		0.183		203		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, str_(lower)))), lst)
+50		9900271.0		203		0.169		203		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, str_(lower)))), lst)
+51		10100193.0		203		0.175		203		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, str_(lower)))), lst)
+52		10800196.0		203		0.183		203		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, str_(lower)))), lst)
+53		13800200.0		201		0.168		201		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, len_(str_(lower))))), lst)
+54		10400243.0		201		0.178		201		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, len_(str_(lower))))), lst)
+55		11000198.0		200		0.176		200		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, len_(str_(-1))))), lst)
+56		11700199.5		200		0.178		200		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, len_(str_(-1))))), lst)
+57		10700242.5		200		0.184		200		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, len_(str_(-1))))), lst)
+58		10600204.5		200		0.167		200		filter(lambda _0: not_(or_(lt(upper, _0), eq(_0, len_(str_(-1))))), lst)
+59		10100190.0		0		0.171		0		filter(lambda _0: not_(or_(lt(upper, _0), lt(_0, lower))), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: not_(or_(lt(upper, _0), lt(_0, lower))), lst)
+Simplifying genome of length 91.
+Simplified to length 80.
+Simplified to length 76.
+Simplified to length 69.
+Simplified to length 68.
+Simplified to length 67.
+Simplified to length 56.
+Simplified to length 38.
+Simplified to length 34.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified genome: length=12 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: not_(or_(lt(upper, _0), lt(_0, lower))), lst)

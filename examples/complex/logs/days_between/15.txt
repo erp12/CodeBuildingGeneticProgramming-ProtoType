@@ -1,0 +1,38 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		392158.0		252836		0.086		252836		dt2.year()
+2		252843.0		252836		0.031		252836		dt2.year()
+3		330633.0		229928		0.044		229928		float2int(mul(print_do(0.3484602915706768, dt1).year(), 2))
+4		330633.0		229928		0.066		229928		float2int(mul(print_do(0.3484602915706768, dt1).year(), 2))
+5		355190.5		225654		0.09		225654		float2int(floordiv(dt2.year(), sub(True, 0.3484602915706768)))
+6		391008.0		225654		0.117		225654		float2int(floordiv(dt2.year(), sub(True, 0.3484602915706768)))
+7		391158.0		225654		0.117		225654		float2int(floordiv(dt2.year(), sub(True, 0.3484602915706768)))
+8		391958.0		225654		0.152		225654		float2int(floordiv(dt2.year(), sub(True, 0.3484602915706768)))
+9		391713.5		224324		0.194		224324		float2int(mul(abs_(mul(dt2.year(), 2)), println_tap(print_tap(println_tap(0.8255979557557774)))))
+10		391355.0		224290		0.22		224290		float2int(mul(abs_(mul(println_tap(print_tap(dt1)).year(), 2)), println_tap(0.8255979557557774)))
+11		391158.0		224290		0.226		224290		float2int(mul(abs_(mul(println_tap(print_tap(dt1)).year(), 2)), println_tap(0.8255979557557774)))
+12		391958.0		224290		0.254		224290		float2int(mul(abs_(mul(println_tap(print_tap(dt1)).year(), 2)), println_tap(0.8255979557557774)))
+13		391658.0		224290		0.274		224290		float2int(mul(abs_(mul(println_tap(print_tap(dt1)).year(), 2)), println_tap(0.8255979557557774)))
+14		391487.0		224290		0.284		224290		float2int(mul(abs_(mul(println_tap(print_tap(dt1)).year(), 2)), println_tap(0.8255979557557774)))
+15		391658.0		224290		0.281		224290		float2int(mul(abs_(mul(println_tap(print_tap(dt1)).year(), 2)), println_tap(0.8255979557557774)))
+16		390895.0		49		0.198		49		abs_(float2int(add(sub(dt1, dt2).days(), print_tap(0.8255979557557774))))
+17		252843.0		0		0.092		0		abs_(float2int(sub(dt1, dt2).days()))
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(float2int(sub(dt1, dt2).days()))
+Simplifying genome of length 65.
+Simplified to length 42.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

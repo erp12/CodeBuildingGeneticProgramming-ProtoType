@@ -1,0 +1,54 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		362779.0		221237		0.08		221237		dt2.year()
+2		221318.0		205033		0.042		205033		add(dt2.year(), 365)
+3		325453.0		198605		0.088		198605		len_(mul(str_(wrap(eq(dt1, dt2))), 365))
+4		325453.0		184813		0.114		184813		add(mul(10, 365), pos(1))
+5		320847.0		184813		0.165		184813		add(mul(10, 365), pos(1))
+6		324895.0		184813		0.202		184813		add(mul(10, 365), pos(1))
+7		327145.0		184813		0.226		184813		add(mul(10, 365), pos(1))
+8		327239.0		184813		0.266		184813		add(mul(10, 365), pos(1))
+9		327145.0		184813		0.284		184813		add(mul(10, 365), pos(1))
+10		327239.0		184603		0.328		184603		sub(add(mul(10, 365), dt1.second()), 10)
+11		327239.0		184770		0.324		184603		sub(add(mul(10, 365), dt1.second()), 10)
+12		341883.0		184093		0.373		184093		add(mul(add(365, neg(dt2.second())), 10), pos(365))
+13		327239.0		183843		0.387		183843		abs_(mul(add(365, dt1.second()), 10))
+14		330983.0		36494		0.388		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+15		327239.0		184770		0.42		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+16		332033.0		184603		0.422		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+17		334159.0		184770		0.434		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+18		338110.0		184745		0.442		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+19		328273.0		184813		0.438		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+20		340971.0		184770		0.442		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+21		348967.0		184603		0.452		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+22		352779.0		184813		0.467		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+23		356279.0		184813		0.441		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+24		351676.0		184813		0.45		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+25		336516.0		184725		0.455		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+26		330144.0		184725		0.461		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+27		344428.0		184813		0.426		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+28		352579.0		184725		0.43		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+29		334642.0		184813		0.434		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+30		362143.0		37500		0.314		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+31		362101.0		184813		0.145		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+32		362779.0		172488		0.154		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+33		362681.0		120003		0.184		36494		println_tap(add(abs_(if_(not_(and_(True, not_(int2bool(1)))), sub(dt2, dt1).days(), 10)), 365))
+34		327239.0		127		0.257		127		max_(abs_(sub(dt2, dt1).days()), mul(println_tap(dt2).hour(), abs_(10)))
+35		327239.0		0		0.274		0		max_(abs_(sub(dt1, dt2).days()), 10)
+Solution found.
+def days_between(dt1, dt1):
+    return max_(abs_(sub(dt1, dt2).days()), 10)
+Simplifying genome of length 42.
+Simplified to length 29.
+Simplified to length 28.
+Simplified to length 23.
+Simplified to length 19.
+Simplified to length 12.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

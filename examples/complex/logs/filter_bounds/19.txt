@@ -1,0 +1,86 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		26300000.0		412		0.007		412		do_print(lst, bool2float(True))
+2		412.0		412		0.005		412		do_print(lst, bool2float(True))
+3		412.0		412		0.005		412		do_print(lst, bool2float(True))
+4		412.0		412		0.005		412		do_print(lst, bool2float(True))
+5		412.0		412		0.005		412		do_print(lst, bool2float(True))
+6		412.0		412		0.005		412		do_print(lst, bool2float(True))
+7		412.0		412		0.006		412		do_print(lst, bool2float(True))
+8		412.0		412		0.007		412		do_print(lst, bool2float(True))
+9		412.0		412		0.006		412		do_print(lst, bool2float(True))
+10		412.0		412		0.005		412		do_print(lst, bool2float(True))
+11		412.0		412		0.007		412		do_print(lst, bool2float(True))
+12		412.0		412		0.007		412		do_print(lst, bool2float(True))
+13		412.0		412		0.006		412		do_print(lst, bool2float(True))
+14		412.0		412		0.008		412		do_print(lst, bool2float(True))
+15		412.0		412		0.007		412		do_print(lst, bool2float(True))
+16		412.0		412		0.011		412		do_print(lst, bool2float(True))
+17		412.0		412		0.012		412		do_print(lst, bool2float(True))
+18		412.0		412		0.013		412		do_print(lst, bool2float(True))
+19		412.0		412		0.012		412		do_print(lst, bool2float(True))
+20		412.0		412		0.013		412		do_print(lst, bool2float(True))
+21		412.0		412		0.012		412		do_print(lst, bool2float(True))
+22		412.0		412		0.015		412		do_print(lst, bool2float(True))
+23		412.0		412		0.016		412		do_print(lst, bool2float(True))
+24		412.0		412		0.018		412		do_print(lst, bool2float(True))
+25		412.0		412		0.018		412		do_print(lst, bool2float(True))
+26		412.0		412		0.019		412		do_print(lst, bool2float(True))
+27		662.0		412		0.02		412		do_print(lst, bool2float(True))
+28		412.0		412		0.024		412		do_print(lst, bool2float(True))
+29		566.0		412		0.029		412		do_print(lst, bool2float(True))
+30		412.0		412		0.031		412		do_print(lst, bool2float(True))
+31		566.0		397		0.035		397		if_(lt(lower, upper), lst, wrap(upper))
+32		761.0		397		0.039		397		if_(lt(lower, upper), lst, wrap(upper))
+33		3800326.0		397		0.042		397		if_(lt(lower, upper), lst, wrap(upper))
+34		6100250.0		397		0.046		397		if_(lt(lower, upper), lst, wrap(upper))
+35		6100250.0		397		0.053		397		if_(lt(lower, upper), lst, wrap(upper))
+36		6100250.0		397		0.074		397		if_(lt(lower, upper), lst, wrap(upper))
+37		9300290.0		212		0.083		212		filter(lambda _0: not_(gt(lower, _0)), lst)
+38		9100195.0		212		0.098		212		filter(lambda _0: not_(gt(lower, _0)), lst)
+39		9500187.0		212		0.094		212		filter(lambda _0: not_(gt(lower, _0)), lst)
+40		9500187.0		212		0.106		212		filter(lambda _0: not_(gt(lower, _0)), lst)
+41		9500187.0		212		0.094		212		filter(lambda _0: not_(gt(lower, _0)), lst)
+42		9100193.0		212		0.096		212		filter(lambda _0: not_(gt(lower, _0)), lst)
+43		9450190.0		212		0.103		212		filter(lambda _0: not_(gt(lower, _0)), lst)
+44		9200230.0		212		0.113		212		filter(lambda _0: not_(gt(lower, _0)), lst)
+45		9100190.5		212		0.103		212		filter(lambda _0: not_(gt(lower, _0)), lst)
+46		9600185.0		212		0.099		212		filter(lambda _0: not_(gt(lower, _0)), lst)
+47		10200265.0		202		0.116		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+48		9500187.0		202		0.106		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+49		9500187.0		202		0.099		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+50		9100188.0		202		0.115		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+51		9500187.0		202		0.121		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+52		9550227.0		202		0.124		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+53		9600213.0		202		0.126		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+54		11600131.0		202		0.123		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+55		11000243.0		202		0.123		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+56		9900221.5		206		0.118		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+57		9900162.5		206		0.132		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+58		9500187.0		204		0.131		202		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(bool2float(in_(lst, 10)), _0))), lst)
+59		9500187.0		201		0.136		201		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(_0, len_(str_(upper))))), lst)
+60		10200265.0		201		0.156		201		filter(lambda _0: gt(str_(le(lower, _0)), str_(eq(_0, len_(str_(upper))))), lst)
+61		8450273.0		0		0.157		0		filter(lambda _0: gt(str_(le(lower, _0)), str_(int2bool(gt(_0, upper)))), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: gt(str_(le(lower, _0)), str_(int2bool(gt(_0, upper)))), lst)
+Simplifying genome of length 97.
+Simplified to length 56.
+Simplified to length 48.
+Simplified to length 46.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: gt(le(lower, _0), gt(_0, upper)), lst)

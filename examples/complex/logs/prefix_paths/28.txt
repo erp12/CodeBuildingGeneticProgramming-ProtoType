@@ -1,0 +1,78 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		36400000.0		17000665.0		0.002		17000665.0		wrap(print_tap(do_print(root, 10)))
+2		17000665.0		17000665.0		0.005		17000665.0		wrap(print_tap(do_print(root, 10)))
+3		17000665.0		17000665.0		0.004		17000665.0		wrap(print_tap(do_print(root, 10)))
+4		17000665.0		17000665.0		0.005		17000665.0		wrap(print_tap(do_print(root, 10)))
+5		17000665.0		17000665.0		0.004		17000665.0		wrap(print_tap(do_print(root, 10)))
+6		17000665.0		17000665.0		0.004		17000665.0		wrap(print_tap(do_print(root, 10)))
+7		17000665.0		17000665.0		0.008		17000665.0		wrap(print_tap(do_print(root, 10)))
+8		17000665.0		10001015.0		0.011		10001015.0		print_do(floordiv(floordiv(gt(False, True), True), int2bool(2)), add(wrap(do_print(root, str_(str_(SimplePath(root.basename().upper()).basename().swapcase().isalpha())))), wrap(root)))
+9		17000665.0		4901293.0		0.027		4901293.0		print_do(gt(max_(str_(int2bool(10)).islower(), print_tap(True)), True), add(add(wrap(root), wrap(root)), wrap(root)))
+10		17000665.0		4901293.0		0.04		4901293.0		print_do(gt(max_(str_(int2bool(10)).islower(), print_tap(True)), True), add(add(wrap(root), wrap(root)), wrap(root)))
+11		17000665.0		4901293.0		0.037		4901293.0		print_do(gt(max_(str_(int2bool(10)).islower(), print_tap(True)), True), add(add(wrap(root), wrap(root)), wrap(root)))
+12		17000665.0		4901293.0		0.051		4901293.0		print_do(gt(max_(str_(int2bool(10)).islower(), print_tap(True)), True), add(add(wrap(root), wrap(root)), wrap(root)))
+13		17000665.0		4901293.0		0.058		4901293.0		print_do(gt(max_(str_(int2bool(10)).islower(), print_tap(True)), True), add(add(wrap(root), wrap(root)), wrap(root)))
+14		17000665.0		4901293.0		0.049		4901293.0		print_do(gt(max_(str_(int2bool(10)).islower(), print_tap(True)), True), add(add(wrap(root), wrap(root)), wrap(root)))
+15		17000665.0		1501520.0		0.049		1501520.0		print_do(bool2float(gt(min_(max_(str_(str_(lt(True, False))).islower(), True), 10), True)), add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)))
+16		17000665.0		1501520.0		0.058		1501520.0		print_do(bool2float(gt(min_(max_(str_(str_(lt(True, False))).islower(), True), 10), True)), add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)))
+17		17000665.0		1501520.0		0.056		1501520.0		print_do(bool2float(gt(min_(max_(str_(str_(lt(True, False))).islower(), True), 10), True)), add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)))
+18		17000665.0		1501520.0		0.061		1501520.0		print_do(bool2float(gt(min_(max_(str_(str_(lt(True, False))).islower(), True), 10), True)), add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)))
+19		17000665.0		1501520.0		0.066		1501520.0		print_do(bool2float(gt(min_(max_(str_(str_(lt(True, False))).islower(), True), 10), True)), add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)))
+20		17000665.0		1501520.0		0.074		1501520.0		print_do(bool2float(gt(min_(max_(str_(str_(lt(True, False))).islower(), True), 10), True)), add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)))
+21		17000665.0		1501520.0		0.089		1501520.0		print_do(bool2float(gt(min_(max_(str_(str_(lt(True, False))).islower(), True), 10), True)), add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)))
+22		17000665.0		1501520.0		0.098		1501520.0		print_do(bool2float(gt(min_(max_(str_(str_(lt(True, False))).islower(), True), 10), True)), add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)))
+23		17000665.0		1501520.0		0.099		1501520.0		print_do(bool2float(gt(min_(max_(str_(str_(lt(True, False))).islower(), True), 10), True)), add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)))
+24		17000665.0		1690		0.102		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+25		17000665.0		1690		0.092		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+26		17000660.0		1690		0.105		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+27		17000665.0		1690		0.111		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+28		17000665.0		1690		0.127		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+29		17000665.0		1690		0.109		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+30		17000665.0		1690		0.105		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+31		17000665.0		1690		0.094		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+32		17000665.0		1690		0.114		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+33		17000665.0		1690		0.112		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+34		17000665.0		1690		0.112		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+35		17000665.0		1690		0.109		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+36		17000665.0		1690		0.107		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+37		17000665.0		1690		0.111		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+38		17000665.0		1690		0.111		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+39		17000665.0		1690		0.113		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+40		17000665.0		1690		0.105		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+41		17000665.0		1690		0.116		1690		print_tap(add(add(add(add(wrap(root), wrap(root)), wrap(root)), wrap(root)), wrap(root)))
+42		17000665.0		1412		0.121		1412		map(lambda _0: root, filenames)
+43		10001286.5		1412		0.084		1412		map(lambda _0: root, filenames)
+44		17000665.0		1412		0.087		1412		map(lambda _0: root, filenames)
+45		17000665.0		1412		0.077		1412		map(lambda _0: root, filenames)
+46		17000665.0		1412		0.076		1412		map(lambda _0: root, filenames)
+47		17000665.0		1412		0.077		1412		map(lambda _0: root, filenames)
+48		17000665.0		1412		0.077		1412		map(lambda _0: root, filenames)
+49		17000665.0		1412		0.07		1412		map(lambda _0: root, filenames)
+50		17000833.0		1412		0.066		1412		map(lambda _0: root, filenames)
+51		17000665.0		0		0.064		0		map(lambda _0: root.join(SimplePath(_0)), filenames)
+Solution found.
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0)), filenames)
+Simplifying genome of length 120.
+Simplified to length 98.
+Simplified to length 93.
+Simplified to length 91.
+Simplified to length 82.
+Simplified to length 69.
+Simplified to length 60.
+Simplified to length 38.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 16.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0)), filenames)

@@ -1,0 +1,52 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		356737.0		239158		0.081		239158		pos(dt2.year())
+2		239401.0		233999		0.038		233999		mul(10, float2int(max_(365, print_tap(min_(gt(False, int2bool(eq(0.8351957184623017, True))), 0)))))
+3		323487.0		233999		0.061		233999		mul(10, float2int(max_(365, print_tap(min_(gt(False, int2bool(eq(0.8351957184623017, True))), 0)))))
+4		323487.0		229417		0.079		229417		mul(365, mod(39, pos(10)))
+5		352851.0		229417		0.117		229417		mul(365, mod(39, pos(10)))
+6		355737.0		229417		0.157		229417		mul(365, mod(39, pos(10)))
+7		356637.0		229417		0.199		229417		mul(365, mod(39, pos(10)))
+8		356537.0		229417		0.2		229417		mul(365, mod(39, pos(10)))
+9		356637.0		229417		0.224		229417		mul(365, mod(39, pos(10)))
+10		356537.0		229417		0.249		229417		mul(365, mod(39, pos(10)))
+11		356078.5		229238		0.246		229238		sub(add(dt2.year(), 365), mul(dt2.day(), -42))
+12		353903.0		228279		0.281		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+13		354045.0		229238		0.291		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+14		347737.0		229238		0.291		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+15		352851.0		229238		0.3		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+16		354747.0		229238		0.331		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+17		342530.0		228279		0.345		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+18		347737.0		229238		0.356		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+19		349229.0		228923		0.35		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+20		343185.0		229238		0.35		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+21		346723.5		229238		0.361		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+22		342701.5		229154		0.379		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+23		352606.0		229238		0.367		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+24		350968.0		229238		0.385		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+25		350409.0		229154		0.362		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+26		352709.0		229238		0.371		228279		float2int(println_tap(mul(365, mod(mul(2, 39), pos(10)))))
+27		351361.5		226649		0.385		226649		add(mul(println_tap(mul(2, print_tap(10))), dt2.minute()), mul(39, 60))
+28		349029.0		226649		0.4		226649		add(mul(println_tap(mul(2, print_tap(10))), dt2.minute()), mul(39, 60))
+29		340146.5		100		0.263		100		abs_(sub(dt2, dt1).days())
+30		275616.0		100		0.087		100		abs_(sub(dt2, dt1).days())
+31		275616.0		0		0.107		0		abs_(add(sub(dt2, dt1).days(), 1))
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(add(sub(dt2, dt1).days(), 1))
+Simplifying genome of length 44.
+Simplified to length 39.
+Simplified to length 35.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 21.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 12.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified genome: length=7 error=0
+def days_between(dt1, dt2):
+    return abs_(add(sub(dt2, dt1).days(), 1))

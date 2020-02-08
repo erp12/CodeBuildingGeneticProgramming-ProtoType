@@ -1,0 +1,64 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		399567.0		253305		0.09		253305		pos(dt1.year())
+2		253591.0		253305		0.034		253305		pos(dt1.year())
+3		253591.0		231295		0.039		231295		float2int(float2int(mul(10, 365)))
+4		253591.0		231295		0.045		231295		float2int(float2int(mul(10, 365)))
+5		372301.0		231295		0.128		231295		float2int(float2int(mul(10, 365)))
+6		397966.0		230659		0.26		230659		float2int(mul(365, sub(int2float(10), 0.673123728610475)))
+7		397966.0		230659		0.312		230659		float2int(mul(365, sub(int2float(10), 0.673123728610475)))
+8		398749.0		230659		0.331		230659		float2int(mul(365, sub(int2float(10), 0.673123728610475)))
+9		398968.0		230659		0.342		230659		float2int(mul(365, sub(int2float(10), 0.673123728610475)))
+10		398567.0		230659		0.38		230659		float2int(mul(365, sub(int2float(10), 0.673123728610475)))
+11		399367.0		231069		0.378		230659		float2int(mul(365, sub(int2float(10), 0.673123728610475)))
+12		398567.0		229661		0.396		229661		float2int(float2int(mul(10, sub(if_(True, 365, print_do(ne(True, not_(int2bool(2))), dt1).second()), int2float(dt1.hour())))))
+13		398679.0		229661		0.422		229661		float2int(float2int(mul(10, sub(if_(True, 365, print_do(ne(True, not_(int2bool(2))), dt1).second()), int2float(dt1.hour())))))
+14		398567.0		230841		0.413		229661		float2int(float2int(mul(10, sub(if_(True, 365, print_do(ne(True, not_(int2bool(2))), dt1).second()), int2float(dt1.hour())))))
+15		397567.0		231069		0.419		229661		float2int(float2int(mul(10, sub(if_(True, 365, print_do(ne(True, not_(int2bool(2))), dt1).second()), int2float(dt1.hour())))))
+16		398378.5		230881		0.427		229661		float2int(float2int(mul(10, sub(if_(True, 365, print_do(ne(True, not_(int2bool(2))), dt1).second()), int2float(dt1.hour())))))
+17		398567.0		230881		0.393		229661		float2int(float2int(mul(10, sub(if_(True, 365, print_do(ne(True, not_(int2bool(2))), dt1).second()), int2float(dt1.hour())))))
+18		397477.0		230861		0.41		229661		float2int(float2int(mul(10, sub(if_(True, 365, print_do(ne(True, not_(int2bool(2))), dt1).second()), int2float(dt1.hour())))))
+19		398581.0		229267		0.387		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+20		398767.0		229267		0.372		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+21		398567.0		229267		0.399		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+22		398567.0		229267		0.377		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+23		398567.0		229267		0.372		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+24		398197.5		229267		0.361		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+25		398567.0		229267		0.386		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+26		394560.0		229267		0.372		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+27		398567.0		229267		0.369		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+28		398567.0		229267		0.361		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+29		398016.5		229267		0.384		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+30		398467.0		229267		0.331		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+31		398228.0		229267		0.395		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+32		398567.0		229267		0.362		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+33		398525.0		229267		0.348		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+34		397916.5		229267		0.383		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+35		396696.0		229267		0.361		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+36		398567.0		229267		0.353		229267		mul(10, sub(365, print_tap(print_do(float2int(add(69, int2float(print_tap(365)))), dt2).minute())))
+37		399567.0		100		0.265		100		abs_(sub(dt2, if_(False, dt2, dt1)).days())
+38		398397.5		0		0.111		0		abs_(sub(if_(False, dt2, dt1), dt2).days())
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(sub(if_(False, dt2, dt1), dt2).days())
+Simplifying genome of length 69.
+Simplified to length 55.
+Simplified to length 53.
+Simplified to length 50.
+Simplified to length 44.
+Simplified to length 38.
+Simplified to length 33.
+Simplified to length 26.
+Simplified to length 23.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 9.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

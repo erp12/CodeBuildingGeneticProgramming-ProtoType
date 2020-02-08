@@ -1,0 +1,98 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		28200000.0		424		0.005		424		lst
+2		424.0		424		0.005		424		lst
+3		424.0		424		0.006		424		lst
+4		424.0		424		0.006		424		lst
+5		424.0		424		0.007		424		lst
+6		424.0		424		0.007		424		lst
+7		424.0		424		0.009		424		lst
+8		424.0		424		0.011		424		lst
+9		424.0		424		0.008		424		lst
+10		424.0		424		0.01		424		lst
+11		424.0		424		0.006		424		lst
+12		424.0		424		0.006		424		lst
+13		424.0		424		0.007		424		lst
+14		424.0		424		0.011		424		lst
+15		424.0		424		0.01		424		lst
+16		424.0		424		0.011		424		lst
+17		424.0		424		0.011		424		lst
+18		424.0		424		0.011		424		lst
+19		424.0		424		0.01		424		lst
+20		424.0		424		0.012		424		lst
+21		424.0		424		0.011		424		lst
+22		424.0		424		0.011		424		lst
+23		424.0		424		0.01		424		lst
+24		424.0		424		0.014		424		lst
+25		424.0		424		0.014		424		lst
+26		424.0		424		0.012		424		lst
+27		424.0		417		0.013		417		filter(lambda _0: ne(lower, _0), lst)
+28		424.0		417		0.02		417		filter(lambda _0: ne(lower, _0), lst)
+29		100244.0		415		0.03		415		filter(lambda _0: ne(lower, lt(lower, _0)), lst)
+30		100244.0		247		0.037		247		filter(lambda _0: le(lower, _0), lst)
+31		100244.0		247		0.044		247		filter(lambda _0: le(lower, _0), lst)
+32		100244.0		200		0.044		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+33		100244.0		200		0.064		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+34		934.0		200		0.058		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+35		100244.0		200		0.074		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+36		200421.0		200		0.076		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+37		6000284.0		200		0.075		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+38		5400302.5		200		0.077		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+39		5800262.0		200		0.077		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+40		7300216.0		200		0.081		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+41		3000355.0		200		0.083		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+42		6000284.0		200		0.083		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+43		6000284.0		200		0.08		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+44		5700293.0		200		0.077		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+45		6000284.0		200		0.068		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+46		7100189.0		200		0.075		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+47		6000284.0		200		0.076		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+48		10900289.0		200		0.085		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+49		7100188.0		200		0.088		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+50		6800281.5		200		0.091		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+51		6750280.0		200		0.089		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+52		6000284.0		200		0.089		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+53		6000284.0		200		0.094		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+54		6000284.0		200		0.093		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+55		5900250.5		200		0.092		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+56		6700272.0		200		0.084		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+57		7700240.0		200		0.09		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+58		6550279.0		200		0.088		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+59		7400234.5		200		0.092		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+60		8400204.0		200		0.091		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+61		8100271.0		200		0.096		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+62		6950238.0		200		0.094		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+63		7700240.0		200		0.113		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+64		7900228.5		200		0.093		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+65		10300292.0		200		0.099		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+66		10500286.5		200		0.104		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+67		9000287.0		200		0.107		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+68		10300292.0		200		0.12		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+69		7950235.5		200		0.11		200		filter(lambda _0: not_(lt(upper, _0)), lst)
+70		10900289.0		180		0.12		180		filter(lambda _0: not_(lt(upper, _0)), filter(lambda _0: do_print(ne(upper, print_do(len_(str_(1)), lower)), _0), lst))
+71		7250142.5		0		0.108		0		filter(lambda _0: eq(le(_0, upper), le(lower, _0)), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: eq(le(_0, upper), le(lower, _0)), lst)
+Simplifying genome of length 58.
+Simplified to length 53.
+Simplified to length 45.
+Simplified to length 42.
+Simplified to length 40.
+Simplified to length 37.
+Simplified to length 35.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 30.
+Simplified to length 28.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 12.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: eq(le(_0, upper), le(lower, _0)), lst)

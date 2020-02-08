@@ -1,0 +1,126 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		28600000.0		457		0.006		457		lst
+2		457.0		457		0.005		457		lst
+3		457.0		457		0.006		457		lst
+4		457.0		457		0.004		457		lst
+5		457.0		457		0.005		457		lst
+6		457.0		457		0.006		457		lst
+7		457.0		457		0.007		457		lst
+8		457.0		457		0.007		457		lst
+9		457.0		457		0.005		457		lst
+10		457.0		457		0.008		457		lst
+11		457.0		457		0.007		457		lst
+12		457.0		457		0.007		457		lst
+13		457.0		457		0.01		457		lst
+14		457.0		457		0.01		457		lst
+15		457.0		457		0.009		457		lst
+16		457.0		457		0.011		457		lst
+17		457.0		457		0.01		457		lst
+18		457.0		457		0.009		457		lst
+19		457.0		457		0.01		457		lst
+20		457.0		457		0.011		457		lst
+21		457.0		457		0.012		457		lst
+22		457.0		457		0.012		457		lst
+23		457.0		457		0.014		457		lst
+24		457.0		457		0.014		457		lst
+25		457.0		457		0.023		457		lst
+26		457.0		457		0.023		457		lst
+27		457.0		457		0.023		457		lst
+28		457.0		457		0.023		457		lst
+29		457.0		457		0.025		457		lst
+30		457.0		445		0.03		445		if_(in_(lst, 10), print_tap(wrap(lower)), lst)
+31		600427.0		444		0.035		444		if_(in_(lst, 10), print_tap(wrap(upper)), lst)
+32		1400416.0		444		0.05		444		if_(in_(lst, 10), print_tap(wrap(upper)), lst)
+33		2200415.0		444		0.059		444		if_(in_(lst, 10), print_tap(wrap(upper)), lst)
+34		2200415.0		444		0.059		444		if_(in_(lst, 10), print_tap(wrap(upper)), lst)
+35		4000355.0		444		0.063		444		if_(in_(lst, 10), print_tap(wrap(upper)), lst)
+36		2900342.0		444		0.072		444		if_(in_(lst, 10), print_tap(wrap(upper)), lst)
+37		2900341.0		444		0.078		444		if_(in_(lst, 10), print_tap(wrap(upper)), lst)
+38		2900342.0		444		0.078		444		if_(in_(lst, 10), print_tap(wrap(upper)), lst)
+39		4700375.0		444		0.082		444		if_(in_(lst, 10), print_tap(wrap(upper)), lst)
+40		3900368.0		444		0.084		444		if_(in_(lst, 10), print_tap(wrap(upper)), lst)
+41		4300396.0		215		0.085		215		filter(lambda _0: ge(upper, _0), lst)
+42		457.0		215		0.074		215		filter(lambda _0: ge(upper, _0), lst)
+43		100211.0		215		0.071		215		filter(lambda _0: ge(upper, _0), lst)
+44		100211.0		215		0.088		215		filter(lambda _0: ge(upper, _0), lst)
+45		100211.0		215		0.074		215		filter(lambda _0: ge(upper, _0), lst)
+46		100211.0		215		0.074		215		filter(lambda _0: ge(upper, _0), lst)
+47		500256.0		215		0.077		215		filter(lambda _0: ge(upper, _0), lst)
+48		100211.0		215		0.073		215		filter(lambda _0: ge(upper, _0), lst)
+49		500256.0		215		0.085		215		filter(lambda _0: ge(upper, _0), lst)
+50		500256.0		215		0.071		215		filter(lambda _0: ge(upper, _0), lst)
+51		500256.0		215		0.077		215		filter(lambda _0: ge(upper, _0), lst)
+52		500256.0		215		0.074		215		filter(lambda _0: ge(upper, _0), lst)
+53		1350432.0		215		0.073		215		filter(lambda _0: ge(upper, _0), lst)
+54		500256.0		215		0.088		215		filter(lambda _0: ge(upper, _0), lst)
+55		500256.0		215		0.074		215		filter(lambda _0: ge(upper, _0), lst)
+56		500256.0		215		0.086		215		filter(lambda _0: ge(upper, _0), lst)
+57		500256.0		215		0.087		215		filter(lambda _0: ge(upper, _0), lst)
+58		2900336.0		215		0.09		215		filter(lambda _0: ge(upper, _0), lst)
+59		2200410.0		215		0.087		215		filter(lambda _0: ge(upper, _0), lst)
+60		500256.0		215		0.08		215		filter(lambda _0: ge(upper, _0), lst)
+61		6800288.0		215		0.083		215		filter(lambda _0: ge(upper, _0), lst)
+62		500256.0		215		0.081		215		filter(lambda _0: ge(upper, _0), lst)
+63		500256.0		215		0.084		215		filter(lambda _0: ge(upper, _0), lst)
+64		500256.0		215		0.087		215		filter(lambda _0: ge(upper, _0), lst)
+65		500256.0		215		0.092		215		filter(lambda _0: ge(upper, _0), lst)
+66		500256.0		215		0.085		215		filter(lambda _0: ge(upper, _0), lst)
+67		400248.0		215		0.093		215		filter(lambda _0: ge(upper, _0), lst)
+68		400248.0		215		0.1		215		filter(lambda _0: ge(upper, _0), lst)
+69		600255.0		215		0.109		215		filter(lambda _0: ge(upper, _0), lst)
+70		400248.0		215		0.108		215		filter(lambda _0: ge(upper, _0), lst)
+71		6800253.0		215		0.113		215		filter(lambda _0: ge(upper, _0), lst)
+72		600353.0		215		0.117		215		filter(lambda _0: ge(upper, _0), lst)
+73		3200039.0		215		0.109		215		filter(lambda _0: ge(upper, _0), lst)
+74		200439.0		215		0.134		215		filter(lambda _0: ge(upper, _0), lst)
+75		750253.0		215		0.135		215		filter(lambda _0: ge(upper, _0), lst)
+76		900253.0		215		0.133		215		filter(lambda _0: ge(upper, _0), lst)
+77		500256.0		215		0.133		215		filter(lambda _0: ge(upper, _0), lst)
+78		1700176.0		210		0.145		210		filter(lambda _0: pos(ne(gt(_0, println_tap(upper)), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+79		3200039.0		210		0.142		210		filter(lambda _0: pos(ne(gt(_0, println_tap(upper)), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+80		3200039.0		210		0.138		210		filter(lambda _0: pos(ne(gt(_0, println_tap(upper)), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+81		3200039.0		210		0.137		210		filter(lambda _0: pos(ne(gt(_0, println_tap(upper)), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+82		3200039.0		210		0.151		210		filter(lambda _0: pos(ne(gt(_0, println_tap(upper)), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+83		1700176.0		210		0.154		210		filter(lambda _0: pos(ne(gt(_0, println_tap(upper)), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+84		3200039.0		210		0.143		210		filter(lambda _0: pos(ne(gt(_0, println_tap(upper)), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+85		3200039.0		210		0.149		210		filter(lambda _0: pos(ne(gt(_0, println_tap(upper)), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+86		3200039.0		209		0.162		209		filter(lambda _0: pos(lt(gt(_0, upper), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+87		3200039.0		209		0.156		209		filter(lambda _0: pos(lt(gt(_0, upper), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+88		3200039.0		209		0.158		209		filter(lambda _0: pos(lt(gt(_0, upper), int2bool(ne(print_tap(lt(float2bool(10), True)), _0)))), lst)
+89		3200039.0		0		0.178		0		filter(lambda _0: ne(lt(_0, println_tap(lower)), le(_0, upper)), do_print(lst, str_(False).isdigit()))
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: ne(lt(_0, println_tap(lower)), le(_0, upper)), do_print(lst, str_(False).isdigit()))
+Simplifying genome of length 112.
+Simplified to length 99.
+Simplified to length 85.
+Simplified to length 81.
+Simplified to length 78.
+Simplified to length 70.
+Simplified to length 61.
+Simplified to length 60.
+Simplified to length 58.
+Simplified to length 56.
+Simplified to length 49.
+Simplified to length 48.
+Simplified to length 44.
+Simplified to length 35.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 29.
+Simplified to length 27.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: ne(lt(_0, lower), le(_0, upper)), lst)

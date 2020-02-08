@@ -1,0 +1,191 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11700000.0		1300		0.012		1300		input1
+2		1300.0		1300		0.01		1300		input1
+3		1300.0		1300		0.009		1300		input1
+4		1300.0		1300		0.008		1300		input1
+5		1300.0		1300		0.009		1300		input1
+6		1300.0		1300		0.016		1300		input1
+7		1300.0		1300		0.014		1300		input1
+8		1300.0		1300		0.013		1300		input1
+9		1300.0		1300		0.015		1300		input1
+10		1300.0		1300		0.011		1300		input1
+11		1300.0		1300		0.014		1300		input1
+12		1300.0		1300		0.015		1300		input1
+13		1300.0		1300		0.015		1300		input1
+14		1300.0		1300		0.013		1300		input1
+15		1300.0		1300		0.016		1300		input1
+16		1300.0		1300		0.018		1300		input1
+17		1300.0		1300		0.014		1300		input1
+18		1300.0		1300		0.014		1300		input1
+19		1300.0		1300		0.015		1300		input1
+20		1300.0		1300		0.018		1300		input1
+21		1300.0		1300		0.017		1300		input1
+22		1300.0		1300		0.018		1300		input1
+23		1300.0		1300		0.022		1300		input1
+24		1300.0		1300		0.017		1300		input1
+25		1300.0		1300		0.014		1300		input1
+26		1300.0		1300		0.016		1300		input1
+27		1300.0		1300		0.017		1300		input1
+28		1300.0		1300		0.022		1300		input1
+29		1300.0		1300		0.02		1300		input1
+30		1300.0		1300		0.019		1300		input1
+31		1300.0		1300		0.025		1300		input1
+32		1300.0		1300		0.018		1300		input1
+33		1300.0		1300		0.019		1300		input1
+34		1300.0		1300		0.02		1300		input1
+35		1300.0		1300		0.024		1300		input1
+36		1300.0		1300		0.018		1300		input1
+37		1300.0		1300		0.024		1300		input1
+38		1300.0		1300		0.024		1300		input1
+39		1300.0		1300		0.025		1300		input1
+40		1300.0		1300		0.019		1300		input1
+41		1300.0		1300		0.022		1300		input1
+42		1300.0		1300		0.022		1300		input1
+43		1300.0		1300		0.022		1300		input1
+44		1300.0		1300		0.017		1300		input1
+45		1300.0		1300		0.017		1300		input1
+46		1300.0		1300		0.024		1300		input1
+47		1300.0		1300		0.024		1300		input1
+48		1300.0		1300		0.021		1300		input1
+49		1300.0		1300		0.019		1300		input1
+50		1300.0		1300		0.024		1300		input1
+51		1300.0		1300		0.023		1300		input1
+52		1300.0		1300		0.021		1300		input1
+53		1300.0		1300		0.025		1300		input1
+54		1300.0		1300		0.023		1300		input1
+55		1300.0		1300		0.018		1300		input1
+56		1300.0		1300		0.022		1300		input1
+57		1300.0		1300		0.018		1300		input1
+58		1300.0		1300		0.019		1300		input1
+59		1300.0		1300		0.022		1300		input1
+60		1300.0		1300		0.018		1300		input1
+61		1300.0		1300		0.026		1300		input1
+62		1300.0		1300		0.017		1300		input1
+63		1300.0		1300		0.021		1300		input1
+64		1300.0		1300		0.02		1300		input1
+65		1300.0		1300		0.023		1300		input1
+66		1300.0		1300		0.017		1300		input1
+67		1300.0		1300		0.023		1300		input1
+68		1300.0		1300		0.019		1300		input1
+69		1300.0		1300		0.019		1300		input1
+70		1300.0		1300		0.021		1300		input1
+71		1300.0		1300		0.024		1300		input1
+72		1300.0		1300		0.02		1300		input1
+73		1300.0		1300		0.018		1300		input1
+74		1300.0		1300		0.021		1300		input1
+75		1300.0		1300		0.019		1300		input1
+76		1300.0		1300		0.025		1300		input1
+77		1300.0		1300		0.019		1300		input1
+78		1300.0		1300		0.024		1300		input1
+79		1300.0		1300		0.03		1300		input1
+80		1300.0		1300		0.028		1300		input1
+81		1300.0		1300		0.033		1300		input1
+82		1300.0		1300		0.044		1300		input1
+83		1300.0		1300		0.042		1300		input1
+84		1300.0		1300		0.042		1300		input1
+85		1300.0		1300		0.042		1300		input1
+86		1300.0		1300		0.05		1300		input1
+87		1300.0		1300		0.042		1300		input1
+88		1300.0		1300		0.036		1300		input1
+89		1300.0		1300		0.042		1300		input1
+90		1300.0		1300		0.051		1300		input1
+91		1300.0		1300		0.039		1300		input1
+92		1300.0		1300		0.043		1300		input1
+93		1300.0		1300		0.046		1300		input1
+94		1300.0		1300		0.05		1300		input1
+95		1300.0		1300		0.044		1300		input1
+96		1300.0		1300		0.052		1300		input1
+97		1300.0		1300		0.045		1300		input1
+98		1300.0		1300		0.049		1300		input1
+99		1300.0		1300		0.046		1300		input1
+100		1300.0		1300		0.045		1300		input1
+101		1300.0		1300		0.043		1300		input1
+102		1300.0		1300		0.053		1300		input1
+103		1300.0		1300		0.047		1300		input1
+104		1300.0		1300		0.051		1300		input1
+105		1300.0		1300		0.052		1300		input1
+106		1300.0		1300		0.052		1300		input1
+107		1300.0		1300		0.055		1300		input1
+108		1300.0		1300		0.054		1300		input1
+109		1300.0		1300		0.049		1300		input1
+110		1300.0		1300		0.055		1300		input1
+111		1300.0		1300		0.055		1300		input1
+112		1300.0		1300		0.063		1300		input1
+113		1300.0		1300		0.06		1300		input1
+114		1300.0		1300		0.055		1300		input1
+115		1300.0		1300		0.06		1300		input1
+116		1300.0		1300		0.068		1300		input1
+117		1300.0		1300		0.055		1300		input1
+118		1300.0		1300		0.05		1300		input1
+119		1300.0		1300		0.062		1300		input1
+120		1300.0		1300		0.06		1300		input1
+121		1300.0		1300		0.059		1300		input1
+122		1300.0		1300		0.06		1300		input1
+123		1300.0		1300		0.072		1300		input1
+124		1300.0		1300		0.056		1300		input1
+125		1300.0		1300		0.074		1300		input1
+126		1356.0		1300		0.024		1300		input1
+127		1356.0		1300		0.022		1300		input1
+128		1356.0		1300		0.026		1300		input1
+129		1356.0		1300		0.023		1300		input1
+130		1356.0		1300		0.027		1300		input1
+131		1356.0		1300		0.021		1300		input1
+132		1356.0		1300		0.03		1300		input1
+133		1356.0		1300		0.027		1300		input1
+134		1356.0		1300		0.029		1300		input1
+135		1356.0		1297		0.035		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+136		1356.0		1297		0.034		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+137		1356.0		1297		0.034		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+138		1356.0		1297		0.036		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+139		1356.0		1297		0.037		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+140		1356.0		1297		0.046		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+141		1356.0		1297		0.042		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+142		1356.0		1297		0.048		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+143		1356.0		1297		0.048		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+144		1356.0		1297		0.046		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+145		1356.0		1297		0.044		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+146		1356.0		1297		0.052		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+147		1356.0		1297		0.04		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+148		1356.0		1297		0.042		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+149		1356.0		1297		0.044		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+150		1356.0		1297		0.045		1297		if_(ge(len_(input1), if_(or_(int2bool(False), not_(float2bool(max_(0, gt(len_(input1), True))))), 10, float2int(-1))), input1, wrap(0))
+151		1353.0		1296		0.05		1296		if_(ge(len_(input1), sub(len_(input1), float2int(mod(println_tap(True), float2int(neg(pos(do_print(div(2, len_(input1)), wrap(input1))))))))), input1, wrap(0))
+152		1353.0		1296		0.056		1296		if_(ge(len_(input1), sub(len_(input1), float2int(mod(println_tap(True), float2int(neg(pos(do_print(div(2, len_(input1)), wrap(input1))))))))), input1, wrap(0))
+153		1353.0		1296		0.053		1296		if_(ge(len_(input1), sub(len_(input1), float2int(mod(println_tap(True), float2int(neg(pos(do_print(div(2, len_(input1)), wrap(input1))))))))), input1, wrap(0))
+154		1353.0		1296		0.055		1296		if_(ge(len_(input1), sub(len_(input1), float2int(mod(println_tap(True), float2int(neg(pos(do_print(div(2, len_(input1)), wrap(input1))))))))), input1, wrap(0))
+155		1353.0		1296		0.05		1296		if_(ge(len_(input1), sub(len_(input1), float2int(mod(println_tap(True), float2int(neg(pos(do_print(div(2, len_(input1)), wrap(input1))))))))), input1, wrap(0))
+156		1353.0		0		0.051		0		map(lambda _0: max_(bool2int(println_tap(not_(ne(float2bool(0.5724738469524758), _0)))), _0), input1)
+Solution found.
+def negative_to_zero(input1):
+    return map(lambda _0: max_(bool2int(println_tap(not_(ne(float2bool(0.5724738469524758), _0)))), _0), input1)
+
+Simplifying genome of length 87.
+Simplified to length 85.
+Simplified to length 78.
+Simplified to length 75.
+Simplified to length 67.
+Simplified to length 60.
+Simplified to length 58.
+Simplified to length 53.
+Simplified to length 49.
+Simplified to length 39.
+Simplified to length 38.
+Simplified to length 35.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 13.
+Simplified to length 11.
+Simplified to length 10.
+Simplified genome: length=10 error=0
+def negative_to_zero(input1):
+    return map(lambda _0: max_(bool2int(not_(float2bool(0.5724738469524758))), _0), input1)
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

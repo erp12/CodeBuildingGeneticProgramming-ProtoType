@@ -1,5 +1,6 @@
 # Uncompressed Data
 *.csv
+*.txt
 
 # Editors
 .idea/

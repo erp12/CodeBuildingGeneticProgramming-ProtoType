@@ -1,0 +1,117 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11700000.0		1261		0.009		1261		print_tap(input1)
+2		1261.0		1261		0.008		1261		print_tap(input1)
+3		1261.0		1261		0.008		1261		print_tap(input1)
+4		1261.0		1261		0.008		1261		print_tap(input1)
+5		1261.0		1261		0.007		1261		print_tap(input1)
+6		1261.0		1261		0.01		1261		print_tap(input1)
+7		1261.0		1261		0.008		1261		print_tap(input1)
+8		1261.0		1261		0.009		1261		print_tap(input1)
+9		1261.0		1261		0.009		1261		print_tap(input1)
+10		1261.0		1261		0.009		1261		print_tap(input1)
+11		1261.0		1261		0.007		1261		print_tap(input1)
+12		1261.0		1261		0.006		1261		print_tap(input1)
+13		1261.0		1261		0.01		1261		print_tap(input1)
+14		1261.0		1261		0.008		1261		print_tap(input1)
+15		1261.0		1261		0.008		1261		print_tap(input1)
+16		1261.0		1261		0.006		1261		print_tap(input1)
+17		1261.0		1261		0.007		1261		print_tap(input1)
+18		1261.0		1261		0.008		1261		print_tap(input1)
+19		1261.0		1261		0.008		1261		print_tap(input1)
+20		1261.0		1261		0.006		1261		print_tap(input1)
+21		1261.0		1261		0.008		1261		print_tap(input1)
+22		1261.0		1261		0.008		1261		print_tap(input1)
+23		1261.0		1261		0.009		1261		print_tap(input1)
+24		1261.0		1261		0.008		1261		print_tap(input1)
+25		1261.0		1261		0.008		1261		print_tap(input1)
+26		1261.0		1261		0.008		1261		print_tap(input1)
+27		1261.0		1261		0.007		1261		print_tap(input1)
+28		1261.0		1261		0.009		1261		print_tap(input1)
+29		1261.0		1261		0.01		1261		print_tap(input1)
+30		1261.0		1261		0.007		1261		print_tap(input1)
+31		1261.0		1261		0.006		1261		print_tap(input1)
+32		1261.0		1261		0.01		1261		print_tap(input1)
+33		1261.0		1261		0.007		1261		print_tap(input1)
+34		1261.0		1261		0.008		1261		print_tap(input1)
+35		1261.0		1261		0.009		1261		print_tap(input1)
+36		1261.0		1261		0.006		1261		print_tap(input1)
+37		1261.0		1261		0.011		1261		print_tap(input1)
+38		1261.0		1261		0.008		1261		print_tap(input1)
+39		1261.0		1261		0.006		1261		print_tap(input1)
+40		1261.0		1261		0.006		1261		print_tap(input1)
+41		1261.0		1261		0.006		1261		print_tap(input1)
+42		1261.0		1261		0.006		1261		print_tap(input1)
+43		1261.0		1261		0.008		1261		print_tap(input1)
+44		1261.0		1261		0.006		1261		print_tap(input1)
+45		1261.0		1261		0.008		1261		print_tap(input1)
+46		1261.0		1261		0.007		1261		print_tap(input1)
+47		1261.0		1261		0.016		1261		print_tap(input1)
+48		1261.0		1261		0.017		1261		print_tap(input1)
+49		1261.0		1261		0.021		1261		print_tap(input1)
+50		1261.0		1261		0.014		1261		print_tap(input1)
+51		1261.0		1261		0.014		1261		print_tap(input1)
+52		1261.0		1261		0.015		1261		print_tap(input1)
+53		1261.0		1261		0.02		1261		print_tap(input1)
+54		1261.0		1261		0.015		1261		print_tap(input1)
+55		1261.0		1261		0.012		1261		print_tap(input1)
+56		1261.0		1261		0.014		1261		print_tap(input1)
+57		1261.0		1261		0.019		1261		print_tap(input1)
+58		1261.0		1261		0.018		1261		print_tap(input1)
+59		1261.0		1261		0.018		1261		print_tap(input1)
+60		1261.0		1261		0.015		1261		print_tap(input1)
+61		1261.0		1261		0.015		1261		print_tap(input1)
+62		1261.0		1261		0.015		1261		print_tap(input1)
+63		1261.0		1261		0.014		1261		print_tap(input1)
+64		1261.0		1261		0.018		1261		print_tap(input1)
+65		1261.0		1261		0.018		1261		print_tap(input1)
+66		1261.0		1261		0.021		1261		print_tap(input1)
+67		1261.0		1261		0.022		1261		print_tap(input1)
+68		1261.0		1261		0.023		1261		print_tap(input1)
+69		1261.0		1261		0.026		1261		print_tap(input1)
+70		1261.0		1261		0.027		1261		print_tap(input1)
+71		1261.0		1261		0.029		1261		print_tap(input1)
+72		1261.0		1261		0.026		1261		print_tap(input1)
+73		1261.0		1261		0.031		1261		print_tap(input1)
+74		1261.0		1261		0.033		1261		print_tap(input1)
+75		1261.0		1261		0.033		1261		print_tap(input1)
+76		1261.0		1261		0.028		1261		print_tap(input1)
+77		1261.0		1261		0.033		1261		print_tap(input1)
+78		1261.0		1261		0.037		1261		print_tap(input1)
+79		1261.0		1261		0.034		1261		print_tap(input1)
+80		1261.0		1224		0.041		1224		map(lambda _0: abs_(0), input1)
+81		1261.0		0		0.023		0		map(lambda _0: round_(abs_(_0), _0), input1)
+Solution found.
+def negative_to_zero(input1):
+    return map(lambda _0: round_(abs_(_0), _0), input1)
+
+Simplifying genome of length 59.
+Simplified to length 53.
+Simplified to length 47.
+Simplified to length 44.
+Simplified to length 40.
+Simplified to length 37.
+Simplified to length 36.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 29.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 21.
+Simplified to length 18.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 7.
+Simplified genome: length=7 error=0
+def negative_to_zero(input1):
+    return map(lambda _0: round_(_0, _0), input1)
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

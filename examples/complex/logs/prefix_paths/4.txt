@@ -1,0 +1,107 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		40000000.0		20000703.0		0.003		20000703.0		wrap(root)
+2		20000703.0		20000703.0		0.006		20000703.0		wrap(root)
+3		20000703.0		12301121.0		0.01		12301121.0		add(print_do(ne(root, False), wrap(do_print(root, println_tap(root)))), wrap(root))
+4		20000703.0		12301100.0		0.022		12301100.0		add(wrap(do_print(root, println_tap(root)).join(SimplePath(str_(10)))), wrap(root))
+5		20000703.0		6602224.0		0.046		6602224.0		add(wrap(do_print(root, println_tap(root))), add(wrap(SimplePath(str_(10))), wrap(root)))
+6		20000682.0		6602151.0		0.077		6602151.0		add(wrap(do_print(root, println_tap(root))), add(wrap(SimplePath(str_(lt(10, len_(wrap(0)))))), wrap(root)))
+7		20000703.0		6601397.0		0.079		6601397.0		add(add(wrap(root), wrap(do_print(root, println_tap(println_tap(root))).join(SimplePath(str_(1))))), wrap(root))
+8		20000673.0		6601397.0		0.086		6601397.0		add(add(wrap(root), wrap(do_print(root, println_tap(println_tap(root))).join(SimplePath(str_(1))))), wrap(root))
+9		20000673.0		6601397.0		0.084		6601397.0		add(add(wrap(root), wrap(do_print(root, println_tap(println_tap(root))).join(SimplePath(str_(1))))), wrap(root))
+10		20000673.0		2502251.0		0.086		2502251.0		add(add(wrap(root), add(wrap(do_print(root, println_tap(println_tap(print_do(root, 10))))), wrap(SimplePath(str_(ge(10, False)))))), wrap(root))
+11		12301946.0		2501679.0		0.095		2501679.0		add(add(wrap(root), add(wrap(do_print(root, println_tap(println_tap(print_do(root, 10))))), wrap(root))), wrap(root))
+12		20000673.0		2501679.0		0.084		2501679.0		add(add(wrap(root), add(wrap(do_print(root, println_tap(println_tap(print_do(root, 10))))), wrap(root))), wrap(root))
+13		20000673.0		2501679.0		0.085		2501679.0		add(add(wrap(root), add(wrap(do_print(root, println_tap(println_tap(print_do(root, 10))))), wrap(root))), wrap(root))
+14		20000658.0		2501679.0		0.095		2501679.0		add(add(wrap(root), add(wrap(do_print(root, println_tap(println_tap(print_do(root, 10))))), wrap(root))), wrap(root))
+15		20000654.0		2501679.0		0.101		2501679.0		add(add(wrap(root), add(wrap(do_print(root, println_tap(println_tap(print_do(root, 10))))), wrap(root))), wrap(root))
+16		12302839.5		2501675.0		0.09		2501675.0		add(add(wrap(root), add(wrap(do_print(root, println_tap(println_tap(root.basename().isidentifier())))), wrap(root.join(SimplePath(str_(10)))))), wrap(root))
+17		12301895.5		2501666.0		0.107		2501666.0		add(add(wrap(root), add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws()))))), wrap(root))
+18		20000653.0		2501666.0		0.095		2501666.0		add(add(wrap(root), add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws()))))), wrap(root))
+19		20000653.0		2501666.0		0.095		2501666.0		add(add(wrap(root), add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws()))))), wrap(root))
+20		20000658.0		2501666.0		0.118		2501666.0		add(add(wrap(root), add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws()))))), wrap(root))
+21		20000659.0		2501666.0		0.11		2501666.0		add(add(wrap(root), add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws()))))), wrap(root))
+22		20000654.0		2501657.0		0.109		2501657.0		add(println_tap(add(do_print(add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws())))), round_(neg(False), -1)), wrap(root))), wrap(root))
+23		20000654.0		2501657.0		0.12		2501657.0		add(println_tap(add(do_print(add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws())))), round_(neg(False), -1)), wrap(root))), wrap(root))
+24		20000658.0		2501657.0		0.119		2501657.0		add(println_tap(add(do_print(add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws())))), round_(neg(False), -1)), wrap(root))), wrap(root))
+25		20000703.0		2501657.0		0.126		2501657.0		add(println_tap(add(do_print(add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws())))), round_(neg(False), -1)), wrap(root))), wrap(root))
+26		20000659.0		2501657.0		0.129		2501657.0		add(println_tap(add(do_print(add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws())))), round_(neg(False), -1)), wrap(root))), wrap(root))
+27		20000703.0		2501657.0		0.124		2501657.0		add(println_tap(add(do_print(add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws())))), round_(neg(False), -1)), wrap(root))), wrap(root))
+28		20000703.0		2501657.0		0.154		2501657.0		add(println_tap(add(do_print(add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws())))), round_(neg(False), -1)), wrap(root))), wrap(root))
+29		20000682.0		2501657.0		0.142		2501657.0		add(println_tap(add(do_print(add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws())))), round_(neg(False), -1)), wrap(root))), wrap(root))
+30		20000703.0		2501657.0		0.151		2501657.0		add(println_tap(add(do_print(add(wrap(root), wrap(root.join(SimplePath(str_(10).strip_ws())))), round_(neg(False), -1)), wrap(root))), wrap(root))
+31		20000673.0		2501653.0		0.149		2501653.0		add(wrap(root), add(add(do_print(wrap(root), mod(-93, True)), wrap(root.join(SimplePath(getitem(str_(False), -1))))), wrap(root)))
+32		20000682.0		2501653.0		0.176		2501653.0		add(wrap(root), add(add(do_print(wrap(root), mod(-93, True)), wrap(root.join(SimplePath(getitem(str_(False), -1))))), wrap(root)))
+33		20000703.0		1630		0.152		1630		map(lambda _0: root, filenames)
+34		20000703.0		1630		0.124		1630		map(lambda _0: root, filenames)
+35		20000703.0		1630		0.122		1630		map(lambda _0: root, filenames)
+36		20000703.0		1630		0.127		1630		map(lambda _0: root, filenames)
+37		20000703.0		1630		0.132		1630		map(lambda _0: root, filenames)
+38		20000703.0		1630		0.13		1630		map(lambda _0: root, filenames)
+39		20000703.0		1630		0.134		1630		map(lambda _0: root, filenames)
+40		20000703.0		1630		0.11		1630		map(lambda _0: root, filenames)
+41		20000703.0		1630		0.103		1630		map(lambda _0: root, filenames)
+42		20000703.0		1630		0.113		1630		map(lambda _0: root, filenames)
+43		20000703.0		1630		0.11		1630		map(lambda _0: root, filenames)
+44		20000703.0		1630		0.104		1630		map(lambda _0: root, filenames)
+45		20000703.0		1630		0.105		1630		map(lambda _0: root, filenames)
+46		20000703.0		1630		0.097		1630		map(lambda _0: root, filenames)
+47		20000703.0		1630		0.093		1630		map(lambda _0: root, filenames)
+48		20000924.0		1630		0.084		1630		map(lambda _0: root, filenames)
+49		20000703.0		1630		0.087		1630		map(lambda _0: root, filenames)
+50		20000703.0		1630		0.088		1630		map(lambda _0: root, filenames)
+51		20000703.0		1630		0.087		1630		map(lambda _0: root, filenames)
+52		20000703.0		1630		0.076		1630		map(lambda _0: root, filenames)
+53		20000703.0		1630		0.087		1630		map(lambda _0: root, filenames)
+54		20000703.0		1630		0.089		1630		map(lambda _0: root, filenames)
+55		20000703.0		1630		0.086		1630		map(lambda _0: root, filenames)
+56		20000703.0		1630		0.08		1630		map(lambda _0: root, filenames)
+57		20000703.0		1630		0.07		1630		map(lambda _0: root, filenames)
+58		20000703.0		1630		0.08		1630		map(lambda _0: root, filenames)
+59		20000703.0		1630		0.09		1630		map(lambda _0: root, filenames)
+60		20000703.0		1630		0.095		1630		map(lambda _0: root, filenames)
+61		20000703.0		1630		0.093		1630		map(lambda _0: root, filenames)
+62		20000703.0		1630		0.09		1630		map(lambda _0: root, filenames)
+63		20000703.0		1630		0.091		1630		map(lambda _0: root, filenames)
+64		20000673.0		1630		0.091		1630		map(lambda _0: root, filenames)
+65		20000703.0		1630		0.079		1630		map(lambda _0: root, filenames)
+66		20000703.0		1630		0.084		1630		map(lambda _0: root, filenames)
+67		20000703.0		1630		0.078		1630		map(lambda _0: root, filenames)
+68		20000703.0		1630		0.076		1630		map(lambda _0: root, filenames)
+69		20000703.0		1630		0.07		1630		map(lambda _0: root, filenames)
+70		20000703.0		1630		0.077		1630		map(lambda _0: root, filenames)
+71		20000703.0		1630		0.092		1630		map(lambda _0: root, filenames)
+72		20000703.0		1630		0.081		1630		map(lambda _0: root, filenames)
+73		20000703.0		1630		0.085		1630		map(lambda _0: root, filenames)
+74		20000703.0		1630		0.094		1630		map(lambda _0: root, filenames)
+75		20000703.0		1630		0.079		1630		map(lambda _0: root, filenames)
+76		20000703.0		1630		0.078		1630		map(lambda _0: root, filenames)
+77		20000692.5		1549		0.08		1549		map(lambda _0: root.join(SimplePath(_0.lstrip_ws()).dirname()), filenames)
+78		20000703.0		0		0.082		0		map(lambda _0: root.join(SimplePath(_0.lstrip_ws())), filenames)
+Solution found.
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0.lstrip_ws())), filenames)
+Simplifying genome of length 70.
+Simplified to length 69.
+Simplified to length 63.
+Simplified to length 57.
+Simplified to length 55.
+Simplified to length 44.
+Simplified to length 37.
+Simplified to length 36.
+Simplified to length 34.
+Simplified to length 33.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 21.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0)), filenames)

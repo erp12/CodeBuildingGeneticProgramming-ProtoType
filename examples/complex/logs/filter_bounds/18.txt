@@ -1,0 +1,104 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		29100000.0		407		0.005		407		lst
+2		407.0		407		0.005		407		lst
+3		407.0		407		0.007		407		lst
+4		407.0		407		0.006		407		lst
+5		407.0		407		0.006		407		lst
+6		407.0		407		0.009		407		lst
+7		407.0		407		0.008		407		lst
+8		478.0		407		0.011		407		lst
+9		407.0		407		0.01		407		lst
+10		407.0		407		0.012		407		lst
+11		407.0		407		0.011		407		lst
+12		407.0		407		0.014		407		lst
+13		407.0		407		0.018		407		lst
+14		407.0		407		0.018		407		lst
+15		407.0		407		0.023		407		lst
+16		478.0		407		0.023		407		lst
+17		407.0		407		0.018		407		lst
+18		407.0		407		0.021		407		lst
+19		407.0		407		0.026		407		lst
+20		407.0		407		0.025		407		lst
+21		407.0		407		0.027		407		lst
+22		407.0		407		0.025		407		lst
+23		407.0		407		0.027		407		lst
+24		407.0		407		0.024		407		lst
+25		407.0		407		0.03		407		lst
+26		407.0		407		0.025		407		lst
+27		407.0		407		0.028		407		lst
+28		407.0		407		0.032		407		lst
+29		407.0		407		0.033		407		lst
+30		407.0		407		0.037		407		lst
+31		407.0		407		0.037		407		lst
+32		407.0		407		0.036		407		lst
+33		407.0		407		0.037		407		lst
+34		407.0		407		0.04		407		lst
+35		407.0		407		0.038		407		lst
+36		407.0		407		0.038		407		lst
+37		407.0		407		0.04		407		lst
+38		407.0		407		0.043		407		lst
+39		407.0		407		0.039		407		lst
+40		407.0		407		0.043		407		lst
+41		478.0		407		0.041		407		lst
+42		407.0		407		0.036		407		lst
+43		407.0		407		0.035		407		lst
+44		478.0		407		0.035		407		lst
+45		407.0		407		0.035		407		lst
+46		407.0		407		0.031		407		lst
+47		442.5		407		0.038		407		lst
+48		478.0		407		0.034		407		lst
+49		478.0		407		0.038		407		lst
+50		478.0		407		0.038		407		lst
+51		407.0		407		0.034		407		lst
+52		407.0		407		0.038		407		lst
+53		8200269.0		407		0.051		407		lst
+54		10500147.0		217		0.068		217		filter(lambda _0: le(_0, upper), lst)
+55		8300269.0		212		0.074		212		filter(lambda _0: le(lower, _0), lst)
+56		407.0		212		0.061		212		filter(lambda _0: le(lower, _0), lst)
+57		407.0		212		0.067		212		filter(lambda _0: le(lower, _0), lst)
+58		800224.0		212		0.073		212		filter(lambda _0: le(lower, _0), lst)
+59		407.0		212		0.058		212		filter(lambda _0: le(lower, _0), lst)
+60		100403.0		212		0.075		212		filter(lambda _0: le(lower, _0), lst)
+61		800224.0		212		0.076		212		filter(lambda _0: le(lower, _0), lst)
+62		800224.0		212		0.076		212		filter(lambda _0: le(lower, _0), lst)
+63		800224.0		212		0.075		212		filter(lambda _0: le(lower, _0), lst)
+64		1100228.0		212		0.075		212		filter(lambda _0: le(lower, _0), lst)
+65		800224.0		212		0.089		212		filter(lambda _0: le(lower, _0), lst)
+66		1100228.0		212		0.09		212		filter(lambda _0: le(lower, _0), lst)
+67		1100228.0		212		0.076		212		filter(lambda _0: le(lower, _0), lst)
+68		1100228.0		212		0.083		212		filter(lambda _0: le(lower, _0), lst)
+69		1100228.0		212		0.079		212		filter(lambda _0: le(lower, _0), lst)
+70		8500242.0		212		0.103		212		filter(lambda _0: le(lower, _0), lst)
+71		1100228.0		212		0.093		212		filter(lambda _0: le(lower, _0), lst)
+72		1100228.0		212		0.094		212		filter(lambda _0: le(lower, _0), lst)
+73		1100228.0		212		0.097		212		filter(lambda _0: le(lower, _0), lst)
+74		1100228.0		212		0.09		212		filter(lambda _0: le(lower, _0), lst)
+75		1100228.0		212		0.095		212		filter(lambda _0: le(lower, _0), lst)
+76		1100228.0		212		0.091		212		filter(lambda _0: le(lower, _0), lst)
+77		7700274.0		212		0.091		212		filter(lambda _0: le(lower, _0), lst)
+78		8500242.0		212		0.094		212		filter(lambda _0: le(lower, _0), lst)
+79		7850349.5		212		0.098		212		filter(lambda _0: le(lower, _0), lst)
+80		6050390.5		0		0.095		0		filter(lambda _0: and_(le(lower, _0), ge(upper, print_do(0.564693090515536, _0))), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: and_(le(lower, _0), ge(upper, print_do(0.564693090515536, _0))), lst)
+Simplifying genome of length 42.
+Simplified to length 38.
+Simplified to length 36.
+Simplified to length 33.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: and_(le(lower, _0), ge(upper, _0)), lst)

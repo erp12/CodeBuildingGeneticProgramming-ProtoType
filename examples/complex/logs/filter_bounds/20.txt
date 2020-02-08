@@ -1,0 +1,100 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		27400000.0		410		0.005		410		lst
+2		410.0		410		0.005		410		lst
+3		410.0		410		0.007		410		lst
+4		410.0		410		0.005		410		lst
+5		410.0		410		0.005		410		lst
+6		410.0		410		0.004		410		lst
+7		410.0		410		0.005		410		lst
+8		410.0		410		0.007		410		lst
+9		410.0		410		0.006		410		lst
+10		410.0		410		0.006		410		lst
+11		410.0		410		0.005		410		lst
+12		410.0		410		0.006		410		lst
+13		410.0		410		0.005		410		lst
+14		410.0		410		0.007		410		lst
+15		410.0		410		0.008		410		lst
+16		410.0		410		0.009		410		lst
+17		410.0		410		0.009		410		lst
+18		410.0		410		0.01		410		lst
+19		410.0		410		0.011		410		lst
+20		410.0		410		0.011		410		lst
+21		410.0		410		0.01		410		lst
+22		410.0		410		0.012		410		lst
+23		410.0		410		0.012		410		lst
+24		410.0		410		0.009		410		lst
+25		410.0		410		0.011		410		lst
+26		410.0		410		0.013		410		lst
+27		410.0		410		0.013		410		lst
+28		410.0		410		0.014		410		lst
+29		410.0		410		0.013		410		lst
+30		410.0		410		0.017		410		lst
+31		410.0		410		0.02		410		lst
+32		410.0		410		0.021		410		lst
+33		410.0		410		0.02		410		lst
+34		410.0		410		0.022		410		lst
+35		410.0		410		0.023		410		lst
+36		410.0		410		0.031		410		lst
+37		10900203.0		400		0.048		400		println_tap(filter(lambda _0: gt(upper, print_do(0.8680837150066643, lower)), lst))
+38		12900164.0		225		0.056		225		println_tap(filter(lambda _0: gt(ge(upper, print_do(0.8680837150066643, _0)), str_(0.46563644635561385).isupper()), lst))
+39		13500136.0		225		0.058		225		println_tap(filter(lambda _0: gt(ge(upper, print_do(0.8680837150066643, _0)), str_(0.46563644635561385).isupper()), lst))
+40		13500136.0		225		0.066		225		println_tap(filter(lambda _0: gt(ge(upper, print_do(0.8680837150066643, _0)), str_(0.46563644635561385).isupper()), lst))
+41		13500136.0		225		0.079		225		println_tap(filter(lambda _0: gt(ge(upper, print_do(0.8680837150066643, _0)), str_(0.46563644635561385).isupper()), lst))
+42		13700138.0		211		0.084		211		println_tap(filter(lambda _0: int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), lst))
+43		12900164.0		211		0.092		211		println_tap(filter(lambda _0: int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), lst))
+44		13600164.0		211		0.096		211		println_tap(filter(lambda _0: int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), lst))
+45		13000152.0		211		0.091		211		println_tap(filter(lambda _0: int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), lst))
+46		13100179.0		208		0.1		208		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(2, -1), _0)), lst))
+47		11500085.0		208		0.114		208		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(2, -1), _0)), lst))
+48		14100153.0		208		0.115		208		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(2, -1), _0)), lst))
+49		11500085.0		208		0.128		208		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(2, -1), _0)), lst))
+50		12900164.0		207		0.137		207		print_do(upper, filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(add(10, -1), _0)), lst))
+51		12200147.0		207		0.137		207		print_do(upper, filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(add(10, -1), _0)), lst))
+52		11500085.0		196		0.143		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+53		14600190.0		196		0.133		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+54		13100135.5		196		0.12		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+55		16100144.0		196		0.13		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+56		16100148.0		196		0.127		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+57		16100148.0		196		0.128		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+58		11200087.0		196		0.12		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+59		16450169.0		196		0.133		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+60		16100148.0		196		0.14		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+61		10900204.0		196		0.151		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+62		11100118.5		196		0.146		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+63		10950202.0		196		0.162		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+64		12200147.0		196		0.145		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+65		13950144.0		196		0.15		196		println_tap(filter(lambda _0: gt(int2bool(not_(gt(lower, print_do(0.8680837150066643, _0)))), eq(round_(int2float(9), -1), _0)), lst))
+66		11400182.0		0		0.164		0		filter(lambda _0: gt(not_(gt(lower, print_do(neg(0.8680837150066643), _0))), eq(ge(upper, _0), print_do(_0, False))), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: gt(not_(gt(lower, print_do(neg(0.8680837150066643), _0))), eq(ge(upper, _0), print_do(_0, False))), lst)
+Simplifying genome of length 75.
+Simplified to length 74.
+Simplified to length 71.
+Simplified to length 68.
+Simplified to length 67.
+Simplified to length 56.
+Simplified to length 52.
+Simplified to length 49.
+Simplified to length 48.
+Simplified to length 47.
+Simplified to length 41.
+Simplified to length 40.
+Simplified to length 36.
+Simplified to length 35.
+Simplified to length 34.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 14.
+Simplified genome: length=14 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: gt(not_(gt(lower, _0)), eq(ge(upper, _0), False)), lst)

@@ -1,0 +1,53 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		29400000.0		416		0.006		416		lst
+2		416.0		416		0.007		416		lst
+3		416.0		416		0.006		416		lst
+4		416.0		416		0.005		416		lst
+5		416.0		416		0.006		416		lst
+6		416.0		416		0.01		416		lst
+7		416.0		416		0.011		416		lst
+8		416.0		416		0.012		416		lst
+9		416.0		416		0.012		416		lst
+10		416.0		416		0.014		416		lst
+11		416.0		402		0.024		402		filter(lambda _0: ne(_0, 0), lst)
+12		9900243.0		402		0.034		402		filter(lambda _0: ne(_0, 0), lst)
+13		10200248.0		402		0.043		402		filter(lambda _0: ne(_0, 0), lst)
+14		10200248.0		402		0.042		402		filter(lambda _0: ne(_0, 0), lst)
+15		10600244.0		182		0.052		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+16		10200248.0		182		0.056		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+17		10600178.0		182		0.054		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+18		10600178.0		182		0.06		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+19		10600178.0		182		0.065		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+20		10400213.0		182		0.068		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+21		11400289.0		182		0.066		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+22		10600166.0		182		0.08		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+23		10400207.0		182		0.064		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+24		10600172.0		182		0.084		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+25		11800194.0		182		0.085		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+26		12800226.0		182		0.076		182		println_tap(filter(lambda _0: le(lower, _0), lst))
+27		12800226.0		0		0.082		0		filter(lambda _0: in_(wrap(le(lower, _0)), le(_0, upper)), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: in_(wrap(le(lower, _0)), le(_0, upper)), lst)
+Simplifying genome of length 46.
+Simplified to length 45.
+Simplified to length 44.
+Simplified to length 42.
+Simplified to length 40.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 29.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified genome: length=12 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: in_(wrap(le(lower, _0)), le(_0, upper)), lst)

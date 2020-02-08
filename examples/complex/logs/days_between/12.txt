@@ -1,0 +1,46 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		422458.0		241418		0.068		241418		mul(365, 10)
+2		387450.0		241418		0.044		241418		mul(365, 10)
+3		366977.0		241418		0.073		241418		mul(365, 10)
+4		387450.0		241418		0.094		241418		mul(365, 10)
+5		396584.0		241333		0.108		241333		add(mul(365, 10), do_print(float2int(dt1.month()), float2bool(mod(-98, print_do(str_(365).lower().isnumeric(), int2bool(int2bool(-1)))))))
+6		420911.0		241333		0.149		241333		add(mul(365, 10), do_print(float2int(dt1.month()), float2bool(mod(-98, print_do(str_(365).lower().isnumeric(), int2bool(int2bool(-1)))))))
+7		387450.0		241333		0.16		241333		add(mul(365, 10), do_print(float2int(dt1.month()), float2bool(mod(-98, print_do(str_(365).lower().isnumeric(), int2bool(int2bool(-1)))))))
+8		410878.0		240990		0.181		240990		mul(print_tap(add(365, dt2.second())), abs_(10))
+9		410878.0		241180		0.213		240990		mul(print_tap(add(365, dt2.second())), abs_(10))
+10		416858.0		241160		0.219		240990		mul(print_tap(add(365, dt2.second())), abs_(10))
+11		419769.0		241160		0.249		240990		mul(print_tap(add(365, dt2.second())), abs_(10))
+12		407318.0		240766		0.262		240766		abs_(mul(sub(365, print_do(10, float2int(dt1.minute()))), 10))
+13		419769.0		239948		0.279		239948		abs_(mul(sub(round_(365, sub(float2int(dt2.minute()), 10)), -98), 10))
+14		419471.0		239948		0.314		239948		abs_(mul(sub(round_(365, sub(float2int(dt2.minute()), 10)), -98), 10))
+15		420911.0		239948		0.343		239948		abs_(mul(sub(round_(365, sub(float2int(dt2.minute()), 10)), -98), 10))
+16		419298.0		241146		0.317		239948		abs_(mul(sub(round_(365, sub(float2int(dt2.minute()), 10)), -98), 10))
+17		418919.0		241146		0.339		239948		abs_(mul(sub(round_(365, sub(float2int(dt2.minute()), 10)), -98), 10))
+18		419571.0		241146		0.358		239948		abs_(mul(sub(round_(365, sub(float2int(dt2.minute()), 10)), -98), 10))
+19		419575.5		241146		0.339		239948		abs_(mul(sub(round_(365, sub(float2int(dt2.minute()), 10)), -98), 10))
+20		420558.0		240786		0.365		239948		abs_(mul(sub(round_(365, sub(float2int(dt2.minute()), 10)), -98), 10))
+21		420475.5		241146		0.348		239948		abs_(mul(sub(round_(365, sub(float2int(dt2.minute()), 10)), -98), 10))
+22		420911.0		241146		0.329		239948		abs_(mul(sub(round_(365, sub(float2int(dt2.minute()), 10)), -98), 10))
+23		399756.0		0		0.226		0		abs_(sub(dt1, print_tap(dt2)).days())
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(sub(dt1, print_tap(dt2)).days())
+Simplifying genome of length 37.
+Simplified to length 32.
+Simplified to length 31.
+Simplified to length 29.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="AceGP",
-    version="0.0.1",
+    version="0.0.2",
     author="Eddie Pantridge",
     description="A Genetic Programming system that accretes programs from a stack of expressions and type reification",
     packages=find_packages(exclude=["tests", "examples", "pytypes"]),

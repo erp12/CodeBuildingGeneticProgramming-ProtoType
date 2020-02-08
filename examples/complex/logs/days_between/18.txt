@@ -1,0 +1,64 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		351635.0		219507		0.066		219507		dt2.year()
+2		317015.0		218265		0.039		218265		add(dt1.year(), 49)
+3		287597.0		210901		0.051		210901		add(dt1.year(), 365)
+4		312513.0		209871		0.072		209871		mul(10, if_(not_(print_tap(True)), 1, 365))
+5		342501.0		205907		0.109		205907		mul(10, sub(if_(not_(print_tap(True)), 1, 365), 28))
+6		348835.0		205907		0.141		205907		mul(10, sub(if_(not_(print_tap(True)), 1, 365), 28))
+7		345189.0		205227		0.163		205227		mul(mod(89, 10), 365)
+8		346071.0		205227		0.19		205227		mul(mod(89, 10), 365)
+9		346414.0		203877		0.214		203877		mul(mod(89, 10), sub(365, 28))
+10		348523.5		203877		0.253		203877		mul(mod(89, 10), sub(365, 28))
+11		348570.0		203877		0.262		203877		mul(mod(89, 10), sub(365, 28))
+12		348519.0		203877		0.264		203877		mul(mod(89, 10), sub(365, 28))
+13		348255.0		203877		0.262		203877		mul(mod(89, 10), sub(365, 28))
+14		345927.0		203877		0.281		203877		mul(mod(89, 10), sub(365, 28))
+15		345999.0		203845		0.284		203845		mul(mod(89, 10), add(sub(365, 28), -1))
+16		346561.0		203845		0.28		203845		mul(mod(89, 10), add(sub(365, 28), -1))
+17		343653.0		203845		0.313		203845		mul(mod(89, 10), add(sub(365, 28), -1))
+18		345189.0		203827		0.32		203827		mul(59, min_(51, dt1.year()))
+19		341637.0		203827		0.325		203827		mul(59, min_(51, dt1.year()))
+20		342885.0		203827		0.349		203827		mul(59, min_(51, dt1.year()))
+21		342501.0		203827		0.332		203827		mul(59, min_(51, dt1.year()))
+22		345943.0		203827		0.351		203827		mul(59, min_(51, dt1.year()))
+23		342117.0		203827		0.333		203827		mul(59, min_(51, dt1.year()))
+24		342885.0		203827		0.331		203827		mul(59, min_(51, dt1.year()))
+25		334149.0		203827		0.351		203827		mul(59, min_(51, dt1.year()))
+26		341253.0		203827		0.332		203827		mul(59, min_(51, dt1.year()))
+27		345290.5		203827		0.337		203827		mul(59, min_(51, dt1.year()))
+28		339089.5		203827		0.315		203827		mul(59, min_(51, dt1.year()))
+29		342501.0		203827		0.319		203827		mul(59, min_(51, dt1.year()))
+30		341852.5		203827		0.361		203827		mul(59, min_(51, dt1.year()))
+31		332525.0		203827		0.357		203827		mul(59, min_(51, dt1.year()))
+32		327503.0		203827		0.357		203827		mul(59, min_(51, dt1.year()))
+33		342501.0		203827		0.347		203827		mul(59, min_(51, dt1.year()))
+34		334173.0		203827		0.372		203827		mul(59, min_(51, dt1.year()))
+35		341877.0		203827		0.364		203827		mul(59, min_(51, dt1.year()))
+36		342357.0		203827		0.381		203827		mul(59, min_(51, dt1.year()))
+37		341397.0		203827		0.354		203827		mul(59, min_(51, dt1.year()))
+38		339724.0		203827		0.338		203827		mul(59, min_(51, dt1.year()))
+39		298690.5		204577		0.246		203827		mul(59, min_(51, dt1.year()))
+40		348653.0		0		0.116		0		abs_(sub(dt1, dt2).days())
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(sub(dt1, dt2).days())
+Simplifying genome of length 37.
+Simplified to length 33.
+Simplified to length 30.
+Simplified to length 28.
+Simplified to length 26.
+Simplified to length 22.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

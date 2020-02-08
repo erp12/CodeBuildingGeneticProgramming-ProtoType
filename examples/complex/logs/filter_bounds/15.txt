@@ -1,0 +1,136 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		28400000.0		444		0.004		444		lst
+2		444.0		444		0.007		444		lst
+3		444.0		444		0.008		444		lst
+4		444.0		444		0.009		444		lst
+5		444.0		444		0.008		444		lst
+6		444.0		444		0.008		444		lst
+7		444.0		444		0.01		444		lst
+8		444.0		444		0.009		444		lst
+9		444.0		444		0.011		444		lst
+10		444.0		444		0.011		444		lst
+11		444.0		444		0.013		444		lst
+12		12100213.0		444		0.018		444		lst
+13		12100213.0		444		0.03		444		lst
+14		12100213.0		444		0.033		444		lst
+15		12100212.0		444		0.031		444		lst
+16		12100213.0		444		0.036		444		lst
+17		12100212.0		444		0.037		444		lst
+18		12100212.0		444		0.037		444		lst
+19		12100212.0		444		0.045		444		lst
+20		8900250.0		444		0.044		444		lst
+21		8900263.0		444		0.047		444		lst
+22		8700281.5		444		0.048		444		lst
+23		8700286.0		444		0.051		444		lst
+24		5200306.0		437		0.062		437		if_(do_print(ne(abs_(float2bool(-82)), lower), upper), lst, wrap(lower))
+25		5200306.0		435		0.059		435		if_(ne(do_print(abs_(float2bool(-82)), lower), upper), lst, wrap(lower))
+26		600412.0		435		0.063		435		if_(ne(do_print(abs_(float2bool(-82)), lower), upper), lst, wrap(lower))
+27		5200306.0		430		0.068		430		if_(ge(str_(upper).lstrip_ws().isalpha(), in_(wrap(lower), print_do(pos(False), println_tap(upper)))), lst, wrap(println_tap(upper)))
+28		600412.0		430		0.074		430		if_(ge(str_(upper).lstrip_ws().isalpha(), in_(wrap(lower), print_do(pos(False), println_tap(upper)))), lst, wrap(println_tap(upper)))
+29		5200305.0		430		0.075		430		if_(ge(str_(upper).lstrip_ws().isalpha(), in_(wrap(lower), print_do(pos(False), println_tap(upper)))), lst, wrap(println_tap(upper)))
+30		3800362.0		430		0.077		430		if_(ge(str_(upper).lstrip_ws().isalpha(), in_(wrap(lower), print_do(pos(False), println_tap(upper)))), lst, wrap(println_tap(upper)))
+31		3800362.0		430		0.087		430		if_(ge(str_(upper).lstrip_ws().isalpha(), in_(wrap(lower), print_do(pos(False), println_tap(upper)))), lst, wrap(println_tap(upper)))
+32		3800362.0		430		0.096		430		if_(ge(str_(upper).lstrip_ws().isalpha(), in_(wrap(lower), print_do(pos(False), println_tap(upper)))), lst, wrap(println_tap(upper)))
+33		4100344.0		430		0.097		430		if_(ge(str_(upper).lstrip_ws().isalpha(), in_(wrap(lower), print_do(pos(False), println_tap(upper)))), lst, wrap(println_tap(upper)))
+34		4100344.0		430		0.091		430		if_(ge(str_(upper).lstrip_ws().isalpha(), in_(wrap(lower), print_do(pos(False), println_tap(upper)))), lst, wrap(println_tap(upper)))
+35		3800362.0		430		0.09		430		if_(ge(str_(upper).lstrip_ws().isalpha(), in_(wrap(lower), print_do(pos(False), println_tap(upper)))), lst, wrap(println_tap(upper)))
+36		5200305.0		435		0.085		430		if_(ge(str_(upper).lstrip_ws().isalpha(), in_(wrap(lower), print_do(pos(False), println_tap(upper)))), lst, wrap(println_tap(upper)))
+37		7800336.0		412		0.102		412		if_(gt(upper, lower), lst, add(wrap(lower), wrap(lower)))
+38		8100270.0		412		0.109		412		if_(gt(upper, lower), lst, add(wrap(lower), wrap(lower)))
+39		8100269.0		259		0.11		259		filter(lambda _0: le(lower, _0), print_tap(lst))
+40		13000270.0		259		0.087		259		filter(lambda _0: le(lower, _0), print_tap(lst))
+41		13000243.0		223		0.092		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+42		28400000.0		223		0.067		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+43		28400000.0		223		0.06		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+44		18400184.0		223		0.064		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+45		18400184.0		223		0.066		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+46		18400184.0		223		0.064		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+47		18400184.0		223		0.075		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+48		18400184.0		223		0.068		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+49		18400184.0		223		0.075		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+50		20150149.0		223		0.07		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+51		18400184.0		223		0.072		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+52		18400184.0		223		0.079		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+53		18400184.0		223		0.079		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+54		18400184.0		223		0.081		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+55		18400184.0		223		0.089		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+56		18400184.0		223		0.085		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+57		16300172.0		223		0.093		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+58		18400184.0		223		0.09		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+59		15100150.0		223		0.095		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+60		18150198.0		223		0.105		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+61		16300172.0		223		0.104		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+62		15200166.5		223		0.115		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+63		18400184.0		223		0.114		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+64		18400184.0		223		0.107		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+65		12250248.0		223		0.119		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+66		12600210.0		223		0.124		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+67		12100212.0		223		0.112		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+68		13850226.0		223		0.107		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+69		12100213.0		223		0.095		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+70		11000274.0		223		0.108		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+71		12100212.0		223		0.111		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+72		15100150.0		223		0.114		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+73		12100212.0		223		0.103		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+74		10850276.0		223		0.117		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+75		9750231.5		223		0.109		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+76		12100213.0		223		0.106		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+77		11200229.5		223		0.111		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+78		12100213.0		223		0.106		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+79		11100228.5		223		0.119		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+80		12100275.0		223		0.128		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+81		8850273.5		223		0.117		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+82		12100213.0		223		0.115		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+83		11200183.0		223		0.113		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+84		10700278.0		223		0.113		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+85		12100213.0		223		0.115		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+86		12100212.0		223		0.115		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+87		11000274.0		223		0.124		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+88		12200245.5		223		0.134		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+89		11700182.0		223		0.132		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+90		11700182.0		223		0.125		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+91		12100212.0		223		0.127		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+92		12100212.0		223		0.121		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+93		9900206.0		223		0.12		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+94		8450258.0		223		0.134		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+95		8000160.0		223		0.135		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+96		9700256.0		223		0.145		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+97		8450260.0		223		0.158		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+98		1500024.0		223		0.104		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+99		1500024.0		223		0.112		223		filter(lambda _0: le(_0, upper), print_tap(lst))
+100		7200327.0		0		0.125		0		filter(lambda _0: ne(bool2int(lt(upper, _0)), not_(lt(_0, print_do(_0, lower)))), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: ne(bool2int(lt(upper, _0)), not_(lt(_0, print_do(_0, lower)))), lst)
+Simplifying genome of length 91.
+Simplified to length 82.
+Simplified to length 71.
+Simplified to length 70.
+Simplified to length 65.
+Simplified to length 60.
+Simplified to length 55.
+Simplified to length 46.
+Simplified to length 42.
+Simplified to length 41.
+Simplified to length 40.
+Simplified to length 39.
+Simplified to length 36.
+Simplified to length 33.
+Simplified to length 30.
+Simplified to length 29.
+Simplified to length 28.
+Simplified to length 26.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified genome: length=12 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: ne(lt(upper, _0), not_(lt(_0, lower))), lst)

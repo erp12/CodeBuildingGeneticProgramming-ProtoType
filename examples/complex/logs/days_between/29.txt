@@ -1,0 +1,92 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		414706.0		242522		0.079		242522		mul(1, mul(365, print_do(neg(-50), float2int(10))))
+2		380932.0		242514		0.065		242514		add(2, mul(365, print_do(neg(-50), float2int(10))))
+3		381772.0		242514		0.131		242514		add(2, mul(365, print_do(neg(-50), float2int(10))))
+4		396480.0		242452		0.16		242452		mul(add(2, 365), print_do(-50, float2int(10)))
+5		407953.0		242356		0.239		242356		mul(float2int(2), do_print(dt2.year(), dt1))
+6		409606.0		242238		0.252		242238		mul(2, print_do(sub(str_(mod(-1, round_(365, -1))).isalpha(), neg(-50)), dt1).year())
+7		409726.0		242236		0.286		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+8		409726.0		242236		0.293		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+9		411907.0		242236		0.276		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+10		409726.0		242238		0.312		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+11		413407.0		242238		0.314		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+12		409706.0		242238		0.319		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+13		407118.0		242238		0.32		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+14		409406.0		242238		0.302		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+15		411052.0		242238		0.336		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+16		410905.0		242238		0.294		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+17		407071.5		242238		0.314		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+18		404768.0		242238		0.349		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+19		404768.0		242246		0.353		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+20		409006.0		242384		0.362		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+21		405748.0		242238		0.352		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+22		407806.0		242384		0.342		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+23		403704.0		242238		0.346		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+24		402099.0		242392		0.349		242236		add(mul(2, dt1.year()), print_do(sub(str_(mod(-1, 365)).isalpha(), neg(-50)), -1))
+25		409661.5		241714		0.34		241714		mul(add(sub(365, dt2.second()), 33), 10)
+26		407022.0		242238		0.33		241714		mul(add(sub(365, dt2.second()), 33), 10)
+27		403808.0		242356		0.351		241714		mul(add(sub(365, dt2.second()), 33), 10)
+28		403756.0		242392		0.363		241714		mul(add(sub(365, dt2.second()), 33), 10)
+29		404768.0		242238		0.36		241714		mul(add(sub(365, dt2.second()), 33), 10)
+30		406826.0		242238		0.353		241714		mul(add(sub(365, dt2.second()), 33), 10)
+31		404768.0		242206		0.367		241714		mul(add(sub(365, dt2.second()), 33), 10)
+32		404768.0		241534		0.353		241534		mul(10, add(println_tap(365), dt2.hour()))
+33		404768.0		241534		0.387		241534		mul(10, add(println_tap(365), dt2.hour()))
+34		407610.0		241078		0.362		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+35		407806.0		241078		0.383		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+36		407610.0		241078		0.362		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+37		408962.0		241078		0.359		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+38		407806.0		241078		0.385		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+39		404768.0		241078		0.365		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+40		407610.0		241078		0.376		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+41		400798.0		241078		0.39		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+42		408797.5		241078		0.39		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+43		411595.5		241078		0.366		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+44		399273.0		241078		0.362		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+45		403354.0		241078		0.378		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+46		399386.0		241078		0.375		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+47		397762.0		241078		0.373		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+48		400424.0		241078		0.363		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+49		403354.0		241078		0.352		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+50		404105.0		241078		0.355		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+51		404105.0		241078		0.356		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+52		407314.0		241078		0.367		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+53		404866.0		241078		0.355		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+54		404105.0		241078		0.347		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+55		395669.5		241078		0.338		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+56		403109.0		241078		0.365		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+57		404768.0		241078		0.351		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+58		399658.0		241078		0.339		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+59		402864.0		241078		0.343		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+60		407708.0		241078		0.346		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+61		407610.0		241078		0.335		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+62		404768.0		241534		0.353		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+63		409375.5		241476		0.36		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+64		407806.0		241476		0.364		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+65		404964.0		241476		0.366		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+66		409747.0		241476		0.363		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+67		404716.0		241474		0.354		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+68		414165.5		241534		0.268		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+69		414606.0		242012		0.264		241078		add(println_tap(mul(10, println_tap(365))), mul(dt2.minute(), dt2.hour()))
+70		414606.0		0		0.102		0		abs_(sub(dt1, dt2).days())
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(sub(dt1, dt2).days())
+Simplifying genome of length 44.
+Simplified to length 36.
+Simplified to length 30.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

@@ -1,0 +1,136 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		30800000.0		462		0.004		462		lst
+2		462.0		462		0.007		462		lst
+3		462.0		462		0.01		462		lst
+4		13500228.0		462		0.013		462		lst
+5		13500228.0		462		0.02		462		lst
+6		8500317.0		462		0.027		462		lst
+7		8800280.0		259		0.036		259		filter(lambda _0: ge(upper, _0), lst)
+8		8500317.0		259		0.041		259		filter(lambda _0: ge(upper, _0), lst)
+9		8500317.0		259		0.047		259		filter(lambda _0: ge(upper, _0), lst)
+10		8500317.0		259		0.048		259		filter(lambda _0: ge(upper, _0), lst)
+11		8800280.0		254		0.051		254		filter(lambda _0: ge(_0, lower), lst)
+12		11600219.0		254		0.044		254		filter(lambda _0: ge(_0, lower), lst)
+13		11600219.0		254		0.058		254		filter(lambda _0: ge(_0, lower), lst)
+14		700256.0		254		0.053		254		filter(lambda _0: ge(_0, lower), lst)
+15		8150324.0		254		0.055		254		filter(lambda _0: ge(_0, lower), lst)
+16		700256.0		254		0.062		254		filter(lambda _0: ge(_0, lower), lst)
+17		700256.0		254		0.054		254		filter(lambda _0: ge(_0, lower), lst)
+18		700256.0		254		0.059		254		filter(lambda _0: ge(_0, lower), lst)
+19		6600359.0		254		0.064		254		filter(lambda _0: ge(_0, lower), lst)
+20		700256.0		254		0.059		254		filter(lambda _0: ge(_0, lower), lst)
+21		700256.0		254		0.051		254		filter(lambda _0: ge(_0, lower), lst)
+22		700256.0		254		0.059		254		filter(lambda _0: ge(_0, lower), lst)
+23		700256.0		254		0.061		254		filter(lambda _0: ge(_0, lower), lst)
+24		700256.0		254		0.064		254		filter(lambda _0: ge(_0, lower), lst)
+25		10100293.0		254		0.06		254		filter(lambda _0: ge(_0, lower), lst)
+26		700256.0		254		0.062		254		filter(lambda _0: ge(_0, lower), lst)
+27		700256.0		254		0.068		254		filter(lambda _0: ge(_0, lower), lst)
+28		700256.0		254		0.064		254		filter(lambda _0: ge(_0, lower), lst)
+29		8300294.0		254		0.067		254		filter(lambda _0: ge(_0, lower), lst)
+30		1200326.5		254		0.065		254		filter(lambda _0: ge(_0, lower), lst)
+31		11600155.0		254		0.062		254		filter(lambda _0: ge(_0, lower), lst)
+32		11600155.0		254		0.062		254		filter(lambda _0: ge(_0, lower), lst)
+33		8500317.0		254		0.072		254		filter(lambda _0: ge(_0, lower), lst)
+34		8500317.0		254		0.062		254		filter(lambda _0: ge(_0, lower), lst)
+35		11000155.0		254		0.058		254		filter(lambda _0: ge(_0, lower), lst)
+36		10800161.0		254		0.07		254		filter(lambda _0: ge(_0, lower), lst)
+37		10900163.5		254		0.064		254		filter(lambda _0: ge(_0, lower), lst)
+38		11600153.0		254		0.068		254		filter(lambda _0: ge(_0, lower), lst)
+39		11000155.0		254		0.068		254		filter(lambda _0: ge(_0, lower), lst)
+40		11700282.0		254		0.078		254		filter(lambda _0: ge(_0, lower), lst)
+41		10800172.0		254		0.075		254		filter(lambda _0: ge(_0, lower), lst)
+42		11050191.5		254		0.071		254		filter(lambda _0: ge(_0, lower), lst)
+43		11600187.0		254		0.066		254		filter(lambda _0: ge(_0, lower), lst)
+44		11000155.0		254		0.064		254		filter(lambda _0: ge(_0, lower), lst)
+45		6600359.0		254		0.064		254		filter(lambda _0: ge(_0, lower), lst)
+46		11600155.0		254		0.068		254		filter(lambda _0: ge(_0, lower), lst)
+47		11000155.0		254		0.066		254		filter(lambda _0: ge(_0, lower), lst)
+48		8500317.0		254		0.066		254		filter(lambda _0: ge(_0, lower), lst)
+49		11600155.0		254		0.069		254		filter(lambda _0: ge(_0, lower), lst)
+50		11600187.0		254		0.073		254		filter(lambda _0: ge(_0, lower), lst)
+51		11700282.0		254		0.067		254		filter(lambda _0: ge(_0, lower), lst)
+52		10700280.0		254		0.076		254		filter(lambda _0: ge(_0, lower), lst)
+53		8000354.0		254		0.072		254		filter(lambda _0: ge(_0, lower), lst)
+54		8300294.0		254		0.065		254		filter(lambda _0: ge(_0, lower), lst)
+55		10150293.0		254		0.072		254		filter(lambda _0: ge(_0, lower), lst)
+56		8800280.0		254		0.076		254		filter(lambda _0: ge(_0, lower), lst)
+57		8400305.5		254		0.075		254		filter(lambda _0: ge(_0, lower), lst)
+58		700256.0		254		0.084		254		filter(lambda _0: ge(_0, lower), lst)
+59		9500284.0		254		0.083		254		filter(lambda _0: ge(_0, lower), lst)
+60		8400305.5		254		0.08		254		filter(lambda _0: ge(_0, lower), lst)
+61		11100161.0		254		0.082		254		filter(lambda _0: ge(_0, lower), lst)
+62		8800280.0		254		0.086		254		filter(lambda _0: ge(_0, lower), lst)
+63		6750440.5		254		0.078		254		filter(lambda _0: ge(_0, lower), lst)
+64		8400305.5		254		0.088		254		filter(lambda _0: ge(_0, lower), lst)
+65		8800280.0		254		0.087		254		filter(lambda _0: ge(_0, lower), lst)
+66		10800172.0		254		0.081		254		filter(lambda _0: ge(_0, lower), lst)
+67		11100155.0		254		0.084		254		filter(lambda _0: ge(_0, lower), lst)
+68		11350204.0		254		0.077		254		filter(lambda _0: ge(_0, lower), lst)
+69		11400226.0		254		0.087		254		filter(lambda _0: ge(_0, lower), lst)
+70		11000155.0		254		0.08		254		filter(lambda _0: ge(_0, lower), lst)
+71		8800280.0		254		0.097		254		filter(lambda _0: ge(_0, lower), lst)
+72		10800231.0		254		0.095		254		filter(lambda _0: ge(_0, lower), lst)
+73		11100155.0		254		0.103		254		filter(lambda _0: ge(_0, lower), lst)
+74		11600155.0		254		0.108		254		filter(lambda _0: ge(_0, lower), lst)
+75		11850215.5		254		0.118		254		filter(lambda _0: ge(_0, lower), lst)
+76		11000250.0		254		0.124		254		filter(lambda _0: ge(_0, lower), lst)
+77		10600266.0		254		0.114		254		filter(lambda _0: ge(_0, lower), lst)
+78		11600155.0		254		0.118		254		filter(lambda _0: ge(_0, lower), lst)
+79		11600152.0		254		0.118		254		filter(lambda _0: ge(_0, lower), lst)
+80		11000155.0		254		0.137		254		filter(lambda _0: ge(_0, lower), lst)
+81		11050191.5		254		0.131		254		filter(lambda _0: ge(_0, lower), lst)
+82		11000155.0		254		0.138		254		filter(lambda _0: ge(_0, lower), lst)
+83		10500457.0		254		0.148		254		filter(lambda _0: ge(_0, lower), lst)
+84		11400253.5		254		0.149		254		filter(lambda _0: ge(_0, lower), lst)
+85		11100323.0		248		0.161		248		filter(lambda _0: ne(_0, if_(gt(print_tap(lower), _0), _0, sub(True, -6))), lst)
+86		11100239.0		246		0.159		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+87		11000190.0		246		0.165		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+88		11100208.5		246		0.153		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+89		11000155.0		246		0.168		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+90		11000158.0		246		0.151		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+91		12700136.0		246		0.149		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+92		10200285.0		246		0.149		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+93		11600219.0		246		0.153		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+94		11700282.0		246		0.154		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+95		11700218.5		246		0.166		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+96		11700155.0		246		0.152		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+97		11600187.0		246		0.162		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+98		11750249.5		246		0.159		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+99		11600152.0		246		0.166		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+100		10200287.0		246		0.138		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+101		12350254.0		246		0.163		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+102		10200285.0		246		0.157		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+103		10800275.0		246		0.17		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+104		11200238.5		246		0.171		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+105		13000147.0		246		0.16		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+106		11000155.0		246		0.145		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+107		11150241.0		246		0.153		246		filter(lambda _0: ne(_0, if_(gt(lower, _0), _0, ne(print_do(False, str_(upper).isalnum()), _0))), lst)
+108		1400029.0		0		0.092		0		filter(lambda _0: and_(ge(upper, _0), le(lower, _0)), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: and_(ge(upper, _0), le(lower, _0)), lst)
+Simplifying genome of length 43.
+Simplified to length 42.
+Simplified to length 41.
+Simplified to length 40.
+Simplified to length 38.
+Simplified to length 37.
+Simplified to length 36.
+Simplified to length 35.
+Simplified to length 33.
+Simplified to length 31.
+Simplified to length 28.
+Simplified to length 27.
+Simplified to length 24.
+Simplified to length 23.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 19.
+Simplified to length 16.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified genome: length=11 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: and_(ge(upper, _0), le(lower, _0)), lst)

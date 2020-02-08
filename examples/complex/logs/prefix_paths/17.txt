@@ -1,0 +1,64 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		35000000.0		15800705.0		0.002		15800705.0		wrap(root)
+2		15800705.0		15800705.0		0.004		15800705.0		wrap(root)
+3		15800705.0		15800705.0		0.004		15800705.0		wrap(root)
+4		15800705.0		15800705.0		0.004		15800705.0		wrap(root)
+5		15800705.0		15800705.0		0.004		15800705.0		wrap(root)
+6		15800705.0		15800705.0		0.004		15800705.0		wrap(root)
+7		15800705.0		15800705.0		0.004		15800705.0		wrap(root)
+8		15800705.0		15800705.0		0.004		15800705.0		wrap(root)
+9		15800705.0		15800705.0		0.004		15800705.0		wrap(root)
+10		15800705.0		15800705.0		0.004		15800705.0		wrap(root)
+11		15800705.0		15800705.0		0.005		15800705.0		wrap(root)
+12		15800705.0		1403		0.007		1403		map(lambda _0: root, filenames)
+13		15800705.0		1403		0.009		1403		map(lambda _0: root, filenames)
+14		15800705.0		1403		0.009		1403		map(lambda _0: root, filenames)
+15		1403.0		1403		0.014		1403		map(lambda _0: root, filenames)
+16		1833.0		1403		0.012		1403		map(lambda _0: root, filenames)
+17		1833.0		1403		0.012		1403		map(lambda _0: root, filenames)
+18		1833.0		1403		0.012		1403		map(lambda _0: root, filenames)
+19		1833.0		1403		0.01		1403		map(lambda _0: root, filenames)
+20		1833.0		1403		0.014		1403		map(lambda _0: root, filenames)
+21		2237.0		1403		0.017		1403		map(lambda _0: root, filenames)
+22		2237.0		1403		0.016		1403		map(lambda _0: root, filenames)
+23		2237.0		1403		0.019		1403		map(lambda _0: root, filenames)
+24		2237.0		1403		0.021		1403		map(lambda _0: root, filenames)
+25		2237.0		1403		0.021		1403		map(lambda _0: root, filenames)
+26		3557.0		1403		0.024		1403		map(lambda _0: root, filenames)
+27		2237.0		1403		0.03		1403		map(lambda _0: root, filenames)
+28		15800705.0		0		0.039		0		print_do(float2int(max_(root.isabs(), do_print(abs_(print_do(len_(filenames), -81)), 0))), map(lambda _0: root.join(SimplePath(print_do(filenames, _0))), filenames))
+Solution found.
+def prefix_files(root, filenames):
+    return print_do(float2int(max_(root.isabs(), do_print(abs_(print_do(len_(filenames), -81)), 0))), map(lambda _0: root.join(SimplePath(print_do(filenames, _0))), filenames))
+Simplifying genome of length 58.
+Simplified to length 56.
+Simplified to length 52.
+Simplified to length 49.
+Simplified to length 48.
+Simplified to length 47.
+Simplified to length 43.
+Simplified to length 42.
+Simplified to length 41.
+Simplified to length 39.
+Simplified to length 35.
+Simplified to length 34.
+Simplified to length 33.
+Simplified to length 29.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 25.
+Simplified to length 23.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 19.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified genome: length=8 error=0
+def prefix_files(root, filenames):
+    return map(lambda _0: root.join(SimplePath(_0)), filenames)

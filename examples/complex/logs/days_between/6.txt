@@ -1,0 +1,56 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		356641.0		220227		0.076		220227		dt1.year()
+2		220228.0		210146		0.04		210146		print_tap(pos(print_tap(sub(dt2.year(), pos(float2int(neg(int2float(365))))))))
+3		296438.0		210138		0.064		210138		print_tap(sub(10, pos(print_tap(add(sub(dt2.hour(), dt2.year()), pos(float2int(neg(int2float(365)))))))))
+4		355575.0		200463		0.132		200463		abs_(print_tap(pos(print_tap(pos(float2int(mul(10, int2float(365))))))))
+5		356541.0		200307		0.2		200307		print_tap(sub(2, pos(print_tap(sub(dt2.hour(), float2int(pos(float2int(mul(10, int2float(365))))))))))
+6		356541.0		198475		0.23		198475		print_tap(pos(print_tap(add(sub(dt2.hour(), float2int(365)), float2int(mul(10, int2float(365)))))))
+7		356541.0		198353		0.232		198353		print_tap(pos(abs_(sub(365, max_(neg(dt2.second()), pos(float2int(mul(10, 365))))))))
+8		356541.0		198125		0.245		198125		print_tap(mul(2, pos(sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365))))))))))
+9		356541.0		198125		0.289		198125		print_tap(mul(2, pos(sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365))))))))))
+10		356541.0		197935		0.288		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+11		356541.0		197935		0.303		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+12		356541.0		197954		0.276		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+13		356641.0		198037		0.303		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+14		356541.0		198037		0.296		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+15		356541.0		197954		0.325		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+16		356541.0		197954		0.291		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+17		356541.0		197954		0.294		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+18		356541.0		197950		0.282		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+19		356541.0		197950		0.306		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+20		356541.0		198231		0.309		197935		print_tap(mul(2, pos(mod(-55, sub(neg(dt1.year()), pos(println_tap(float2int(mul(10, neg(int2float(365)))))))))))
+21		356541.0		165661		0.296		165661		pos(neg(float2int(min_(sub(dt2, dt1).days(), add(str_(mod(add(-55, println_tap(pos(neg(int2float(1))))), dt2.month())).islower(), sub(pos(mul(10, mul(10, 2))), 365))))))
+22		356641.0		127284		0.211		127284		pos(neg(float2int(min_(sub(dt2, dt1).days(), add(str_(mod(add(-55, println_tap(pos(neg(int2float(1))))), dt2.month())).islower(), sub(pos(10), mul(div(10, 2), 365)))))))
+23		356541.0		100		0.181		100		abs_(mul(1, float2int(mul(sub(dt2, dt1).days(), ne(max_(add(str_(add(1, -55)).islower(), println_tap(pos(neg(int2float(1))))), dt2.month()), pos(int2float(365)))))))
+24		356541.0		32267		0.24		100		abs_(mul(1, float2int(mul(sub(dt2, dt1).days(), ne(max_(add(str_(add(1, -55)).islower(), println_tap(pos(neg(int2float(1))))), dt2.month()), pos(int2float(365)))))))
+25		356541.0		0		0.206		0		float2int(float2int(max_(abs_(sub(dt1, dt2).days()), add(sub(add(div(dt1.hour(), dt2.year()), println_tap(neg(int2float(int2bool(10))))), 1), bool2float(float2bool(int2float(365)))))))
+Solution found.
+def days_between(dt1, dt1):
+    return float2int(float2int(max_(abs_(sub(dt1, dt2).days()), add(sub(add(div(dt1.hour(), dt2.year()), println_tap(neg(int2float(int2bool(10))))), 1), bool2float(float2bool(int2float(365)))))))
+Simplifying genome of length 80.
+Simplified to length 67.
+Simplified to length 64.
+Simplified to length 56.
+Simplified to length 46.
+Simplified to length 45.
+Simplified to length 41.
+Simplified to length 27.
+Simplified to length 26.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

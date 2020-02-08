@@ -1,0 +1,31 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		347955.0		220022		0.077		220022		dt2.year()
+2		284991.0		209093		0.065		209093		mul(round_(58, dt2.second()), 41)
+3		284991.0		206063		0.089		206063		mul(58, max_(dt2.second(), 41))
+4		296585.0		202453		0.126		202453		mul(58, add(10, 41))
+5		321831.0		202453		0.15		202453		mul(58, add(10, 41))
+6		340693.0		202333		0.174		202333		mul(58, 57)
+7		318425.0		202041		0.189		202041		mul(58, add(-1, 57))
+8		315080.0		202041		0.216		202041		mul(58, add(-1, 57))
+9		334524.0		202041		0.241		202041		mul(58, add(-1, 57))
+10		338293.0		202041		0.253		202041		mul(58, add(-1, 57))
+11		322303.0		202041		0.256		202041		mul(58, add(-1, 57))
+12		340878.0		202041		0.273		202041		mul(58, add(-1, 57))
+13		322015.0		202041		0.267		202041		mul(58, add(-1, 57))
+14		340789.0		201983		0.284		201983		sub(mul(58, add(-1, 57)), 41)
+15		338982.0		100		0.23		100		abs_(sub(dt2, dt1).days())
+16		345171.0		0		0.107		0		abs_(round_(sub(dt1, dt2).days(), mul(round_(dt1.hour(), 41), 2)))
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(round_(sub(dt1, dt2).days(), mul(round_(dt1.hour(), 41), 2)))
+Simplifying genome of length 32.
+Simplified to length 24.
+Simplified to length 19.
+Simplified to length 15.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

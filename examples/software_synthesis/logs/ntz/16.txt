@@ -1,0 +1,76 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11700000.0		1358		0.01		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+2		1358.0		1358		0.012		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+3		1358.0		1358		0.008		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+4		1358.0		1358		0.01		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+5		1358.0		1358		0.011		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+6		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+7		1358.0		1358		0.008		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+8		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+9		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+10		1358.0		1358		0.012		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+11		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+12		1358.0		1358		0.008		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+13		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+14		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+15		1358.0		1358		0.007		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+16		1358.0		1358		0.006		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+17		1358.0		1358		0.008		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+18		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+19		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+20		1358.0		1358		0.007		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+21		1358.0		1358		0.01		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+22		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+23		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+24		1358.0		1358		0.008		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+25		1358.0		1358		0.01		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+26		1358.0		1358		0.006		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+27		1358.0		1358		0.007		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+28		1358.0		1358		0.01		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+29		1358.0		1358		0.009		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+30		1358.0		1358		0.008		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+31		1358.0		1358		0.007		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+32		1358.0		1358		0.011		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+33		1358.0		1358		0.008		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+34		1358.0		1358		0.011		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+35		1358.0		1358		0.006		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+36		1358.0		1358		0.006		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+37		1358.0		1358		0.008		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+38		1358.0		1358		0.007		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+39		1358.0		1358		0.007		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+40		1358.0		1358		0.011		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+41		1358.0		1358		0.008		1358		print_do(int2bool(float2bool(add(False, -1))), input1)
+42		1358.0		1273		0.007		1273		map(lambda _0: float2int(floordiv(0, 10)), input1)
+43		1358.0		1273		0.012		1273		map(lambda _0: float2int(floordiv(0, 10)), input1)
+44		1358.0		1273		0.017		1273		map(lambda _0: float2int(floordiv(0, 10)), input1)
+45		1358.0		1273		0.017		1273		map(lambda _0: float2int(floordiv(0, 10)), input1)
+46		1358.0		1273		0.021		1273		map(lambda _0: float2int(floordiv(0, 10)), input1)
+47		1358.0		0		0.029		0		map(lambda _0: float2int(round_(_0, _0)), print_tap(input1))
+Solution found.
+def negative_to_zero(input1):
+    return map(lambda _0: float2int(round_(_0, _0)), print_tap(input1))
+
+Simplifying genome of length 73.
+Simplified to length 65.
+Simplified to length 53.
+Simplified to length 46.
+Simplified to length 40.
+Simplified to length 38.
+Simplified to length 30.
+Simplified to length 26.
+Simplified to length 23.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 15.
+Simplified to length 12.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 7.
+Simplified genome: length=7 error=0
+def negative_to_zero(input1):
+    return map(lambda _0: round_(_0, _0), input1)
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

@@ -1,0 +1,65 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		371207.0		228706		0.072		228706		dt2.year()
+2		335871.0		206701		0.031		206701		mul(10, 365)
+3		304663.0		206701		0.043		206701		mul(10, 365)
+4		305784.0		206701		0.063		206701		mul(10, 365)
+5		335871.0		206701		0.101		206701		mul(10, 365)
+6		335871.0		206701		0.107		206701		mul(10, 365)
+7		335871.0		205365		0.148		205365		abs_(mul(365, add(pos(-1), 10)))
+8		335871.0		205365		0.201		205365		abs_(mul(365, add(pos(-1), 10)))
+9		335871.0		205365		0.234		205365		abs_(mul(365, add(pos(-1), 10)))
+10		340620.5		205365		0.273		205365		abs_(mul(365, add(pos(-1), 10)))
+11		338790.0		205365		0.287		205365		abs_(mul(365, add(pos(-1), 10)))
+12		340171.0		204635		0.311		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+13		339264.5		204635		0.326		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+14		338481.0		205340		0.339		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+15		341530.5		205340		0.337		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+16		360349.0		205267		0.395		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+17		360494.5		205275		0.39		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+18		363735.5		205340		0.424		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+19		361084.0		205267		0.389		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+20		352626.0		205267		0.419		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+21		356224.0		205267		0.415		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+22		340989.0		205172		0.434		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+23		360349.0		205172		0.431		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+24		359152.0		205172		0.436		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+25		359539.0		205172		0.422		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+26		364695.0		205172		0.431		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+27		357629.0		205172		0.444		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+28		365494.0		205172		0.425		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+29		358826.0		205172		0.41		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+30		360240.5		205172		0.441		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+31		365053.0		205172		0.415		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+32		351609.0		205172		0.405		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+33		364708.5		205172		0.433		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+34		360349.0		205172		0.443		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+35		346481.0		205172		0.449		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+36		343467.0		205289		0.441		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+37		362823.0		205291		0.435		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+38		362595.0		205291		0.428		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+39		353425.0		205340		0.439		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+40		366768.0		205342		0.426		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+41		360594.0		205340		0.45		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+42		358261.5		205319		0.416		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+43		358963.5		205282		0.425		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+44		370861.5		205289		0.315		204635		abs_(mul(mul(sub(365, add(dt1.day(), dt2.hour())), pos(bool2int(float2bool(14)))), 10))
+45		371819.0		201970		0.093		201970		max_(0, sub(dt1, dt2).days())
+46		369884.0		0		0.083		0		pos(abs_(sub(dt1, dt2).days()))
+Solution found.
+def days_between(dt1, dt1):
+    return pos(abs_(sub(dt1, dt2).days()))
+Simplifying genome of length 42.
+Simplified to length 37.
+Simplified to length 36.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 29.
+Simplified to length 23.
+Simplified to length 18.
+Simplified to length 11.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

@@ -1,0 +1,286 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		11700000.0		1486		0.009		1486		input1
+2		1486.0		1486		0.01		1486		input1
+3		1486.0		1486		0.013		1486		input1
+4		1486.0		1486		0.009		1486		input1
+5		1486.0		1486		0.016		1486		input1
+6		1486.0		1486		0.015		1486		input1
+7		1486.0		1486		0.016		1486		input1
+8		1486.0		1486		0.014		1486		input1
+9		1486.0		1486		0.022		1486		input1
+10		1486.0		1486		0.019		1486		input1
+11		1486.0		1486		0.015		1486		input1
+12		1486.0		1486		0.014		1486		input1
+13		1486.0		1486		0.019		1486		input1
+14		1486.0		1486		0.019		1486		input1
+15		1486.0		1486		0.018		1486		input1
+16		1486.0		1486		0.019		1486		input1
+17		1486.0		1486		0.019		1486		input1
+18		1486.0		1486		0.019		1486		input1
+19		1486.0		1486		0.018		1486		input1
+20		1486.0		1486		0.019		1486		input1
+21		1486.0		1486		0.021		1486		input1
+22		1486.0		1486		0.021		1486		input1
+23		1486.0		1486		0.017		1486		input1
+24		1486.0		1486		0.016		1486		input1
+25		1486.0		1486		0.018		1486		input1
+26		1486.0		1486		0.021		1486		input1
+27		1486.0		1486		0.024		1486		input1
+28		1486.0		1486		0.022		1486		input1
+29		1486.0		1486		0.031		1486		input1
+30		1486.0		1486		0.037		1486		input1
+31		1486.0		1486		0.027		1486		input1
+32		1486.0		1486		0.026		1486		input1
+33		1486.0		1486		0.028		1486		input1
+34		1486.0		1486		0.026		1486		input1
+35		1486.0		1486		0.024		1486		input1
+36		1486.0		1486		0.034		1486		input1
+37		1486.0		1486		0.027		1486		input1
+38		1486.0		1486		0.027		1486		input1
+39		1486.0		1486		0.026		1486		input1
+40		1486.0		1486		0.029		1486		input1
+41		1486.0		1486		0.029		1486		input1
+42		1486.0		1486		0.022		1486		input1
+43		1486.0		1486		0.029		1486		input1
+44		1486.0		1486		0.021		1486		input1
+45		1486.0		1486		0.032		1486		input1
+46		1486.0		1486		0.03		1486		input1
+47		1486.0		1486		0.032		1486		input1
+48		1486.0		1486		0.035		1486		input1
+49		1486.0		1486		0.033		1486		input1
+50		1486.0		1486		0.039		1486		input1
+51		1486.0		1486		0.036		1486		input1
+52		1486.0		1486		0.043		1486		input1
+53		1486.0		1486		0.04		1486		input1
+54		1486.0		1486		0.045		1486		input1
+55		1486.0		1486		0.05		1486		input1
+56		1486.0		1486		0.054		1486		input1
+57		1486.0		1486		0.053		1486		input1
+58		2489.0		1483		0.057		1483		if_(float2bool(mod(le(len_(input1), ge(10, 10)), 0.6472280413655733)), wrap(0), input1)
+59		2489.0		1483		0.056		1483		if_(float2bool(mod(le(len_(input1), ge(10, 10)), 0.6472280413655733)), wrap(0), input1)
+60		2536.0		1483		0.056		1483		if_(float2bool(mod(le(len_(input1), ge(10, 10)), 0.6472280413655733)), wrap(0), input1)
+61		2536.0		1483		0.051		1483		if_(float2bool(mod(le(len_(input1), ge(10, 10)), 0.6472280413655733)), wrap(0), input1)
+62		2488.0		1483		0.069		1483		if_(float2bool(mod(le(len_(input1), ge(10, 10)), 0.6472280413655733)), wrap(0), input1)
+63		2488.0		1483		0.083		1483		if_(float2bool(mod(le(len_(input1), ge(10, 10)), 0.6472280413655733)), wrap(0), input1)
+64		2524.0		1483		0.087		1483		if_(float2bool(mod(le(len_(input1), ge(10, 10)), 0.6472280413655733)), wrap(0), input1)
+65		2535.0		1483		0.091		1483		if_(float2bool(mod(le(len_(input1), ge(10, 10)), 0.6472280413655733)), wrap(0), input1)
+66		2535.0		1483		0.094		1483		if_(float2bool(mod(le(len_(input1), ge(10, 10)), 0.6472280413655733)), wrap(0), input1)
+67		2529.0		1482		0.086		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+68		2536.0		1482		0.095		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+69		2536.0		1482		0.091		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+70		2536.0		1482		0.086		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+71		2536.0		1482		0.081		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+72		2536.0		1482		0.089		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+73		2535.0		1482		0.09		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+74		2556.0		1482		0.09		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+75		2536.0		1482		0.087		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+76		2556.0		1482		0.105		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+77		2536.0		1482		0.095		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+78		2556.0		1482		0.101		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+79		2584.0		1482		0.098		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+80		2584.0		1482		0.08		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+81		2571.0		1482		0.09		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+82		2571.0		1482		0.09		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+83		2584.0		1482		0.093		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+84		2584.0		1482		0.1		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+85		2556.0		1482		0.102		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+86		2559.0		1482		0.105		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+87		2583.0		1482		0.109		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+88		2556.0		1482		0.11		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+89		2583.0		1482		0.105		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+90		2584.0		1482		0.114		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+91		2556.0		1482		0.113		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+92		2584.0		1482		0.129		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+93		2536.0		1482		0.117		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+94		2536.0		1482		0.127		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+95		2535.0		1482		0.122		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+96		2559.0		1482		0.135		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+97		2558.0		1482		0.125		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+98		2535.0		1482		0.129		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+99		2535.0		1482		0.146		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+100		2536.0		1482		0.138		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+101		2536.0		1482		0.14		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+102		2536.0		1482		0.137		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+103		2535.0		1482		0.132		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+104		2536.0		1482		0.155		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+105		2548.5		1482		0.135		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+106		2536.0		1482		0.157		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+107		2489.0		1482		0.158		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+108		2584.0		1482		0.157		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+109		2604.0		1482		0.148		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+110		2584.0		1482		0.152		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+111		2557.0		1482		0.153		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+112		2584.0		1482		0.15		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+113		2584.0		1482		0.149		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+114		2581.0		1482		0.162		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+115		2570.0		1482		0.159		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+116		2557.0		1482		0.165		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+117		2536.0		1482		0.163		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+118		2536.0		1482		0.158		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+119		2571.5		1482		0.148		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+120		2556.0		1482		0.171		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+121		2556.0		1482		0.17		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+122		2536.0		1482		0.163		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+123		2535.0		1482		0.151		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+124		2536.0		1482		0.149		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+125		2584.0		1482		0.134		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+126		2536.0		1482		0.136		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+127		2574.0		1482		0.137		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+128		2536.0		1482		0.128		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+129		2535.0		1482		0.147		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+130		2536.0		1482		0.138		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+131		2536.0		1482		0.153		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+132		2535.0		1482		0.15		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+133		2536.0		1482		0.13		1482		if_(float2bool(mod(eq(len_(input1), True), 2)), wrap(0), input1)
+134		2570.0		1481		0.142		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+135		2536.0		1481		0.132		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+136		2556.0		1481		0.146		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+137		2511.0		1481		0.138		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+138		2536.0		1481		0.143		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+139		2536.0		1481		0.16		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+140		2512.0		1481		0.15		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+141		2512.0		1481		0.15		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+142		2497.0		1481		0.152		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+143		2535.0		1481		0.158		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+144		2510.5		1481		0.154		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+145		2489.0		1481		0.144		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+146		2489.0		1481		0.141		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+147		2513.0		1481		0.136		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+148		2536.0		1481		0.124		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+149		2536.0		1481		0.133		1481		if_(print_do(-1, eq(len_(input1), not_(println_tap(in_(input1, bool2int(not_(float2bool(float2int(max_(str_(False).upper().isdigit(), False)))))))))), wrap(0), input1)
+150		2536.0		1480		0.124		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+151		2545.0		1480		0.142		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+152		2536.0		1480		0.149		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+153		2488.0		1480		0.139		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+154		2512.0		1480		0.144		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+155		2489.0		1480		0.156		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+156		2489.0		1481		0.142		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+157		2488.0		1482		0.147		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+158		2512.0		1482		0.137		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+159		2488.0		1482		0.128		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+160		2492.5		1482		0.148		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+161		2489.0		1481		0.141		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+162		2465.5		1481		0.14		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+163		2535.0		1481		0.129		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+164		2488.0		1481		0.13		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+165		2488.0		1481		0.137		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+166		2489.0		1481		0.141		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+167		2447.0		1481		0.143		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+168		2512.0		1481		0.147		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+169		2488.0		1481		0.129		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+170		2488.0		1481		0.128		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+171		2488.0		1481		0.132		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+172		2512.5		1481		0.129		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+173		2513.0		1481		0.136		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+174		2489.0		1481		0.131		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+175		2488.0		1481		0.13		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+176		2489.0		1481		0.13		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+177		2489.0		1481		0.128		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+178		2447.0		1481		0.145		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+179		2535.0		1481		0.141		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+180		2489.0		1481		0.145		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+181		2488.5		1481		0.136		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+182		2447.0		1481		0.135		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+183		2489.0		1480		0.14		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+184		2050.0		1480		0.138		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+185		2448.0		1480		0.131		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+186		2468.0		1480		0.13		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+187		2447.0		1480		0.13		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+188		2488.0		1480		0.132		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+189		2488.0		1480		0.122		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+190		2091.0		1480		0.121		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+191		2061.0		1480		0.145		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+192		2018.0		1480		0.14		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+193		2447.0		1480		0.131		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+194		1956.0		1480		0.131		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+195		2061.0		1480		0.135		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+196		2018.0		1480		0.155		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+197		2072.0		1480		0.139		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+198		1956.0		1480		0.132		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+199		2447.0		1480		0.141		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+200		2433.0		1480		0.131		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+201		2448.0		1480		0.153		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+202		1855.5		1480		0.15		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+203		2447.0		1480		0.137		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+204		2447.0		1480		0.15		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+205		2448.0		1480		0.139		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+206		2447.0		1480		0.129		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+207		2447.0		1480		0.127		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+208		2275.0		1480		0.138		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+209		2447.0		1480		0.144		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+210		2447.0		1480		0.161		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+211		2447.0		1480		0.15		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+212		2375.0		1480		0.163		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+213		2447.0		1480		0.159		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+214		2187.5		1480		0.168		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+215		2447.5		1480		0.156		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+216		2489.0		1480		0.146		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+217		2447.0		1480		0.149		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+218		2447.0		1480		0.156		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+219		2447.0		1480		0.153		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+220		2019.0		1480		0.155		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+221		2447.0		1480		0.155		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+222		2309.5		1480		0.141		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+223		2065.0		1480		0.142		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+224		2447.0		1480		0.151		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+225		2448.0		1480		0.147		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+226		2447.0		1480		0.154		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+227		2447.0		1480		0.159		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+228		2461.5		1480		0.141		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+229		2242.5		1480		0.137		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+230		2447.0		1480		0.147		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+231		2447.0		1480		0.159		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+232		1744.0		1480		0.134		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+233		2447.0		1480		0.143		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+234		1807.0		1480		0.137		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+235		2447.0		1480		0.134		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+236		2396.0		1480		0.148		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+237		2488.0		1480		0.129		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+238		2273.5		1480		0.132		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+239		2050.0		1480		0.13		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+240		2447.0		1480		0.13		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+241		2275.0		1480		0.132		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+242		2447.0		1480		0.145		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+243		2447.0		1480		0.138		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+244		2235.5		1480		0.142		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+245		2091.0		1480		0.134		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+246		2447.0		1480		0.139		1480		if_(float2bool(int2float(abs_(int2bool(print_tap(str_(input1).title().count(str_(abs_(max_(-44, add(in_(input1, int2bool(and_(False, False))), -1)))))))))), input1, wrap(0))
+247		2488.0		1246		0.151		1246		map(lambda _0: 0, input1)
+248		1487.0		0		0.094		0		map(lambda _0: max_(0, _0), input1)
+Solution found.
+def negative_to_zero(input1):
+    return map(lambda _0: max_(0, _0), input1)
+
+Simplifying genome of length 165.
+Simplified to length 151.
+Simplified to length 132.
+Simplified to length 126.
+Simplified to length 115.
+Simplified to length 102.
+Simplified to length 87.
+Simplified to length 82.
+Simplified to length 77.
+Simplified to length 67.
+Simplified to length 62.
+Simplified to length 51.
+Simplified to length 47.
+Simplified to length 43.
+Simplified to length 41.
+Simplified to length 28.
+Simplified to length 26.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 13.
+Simplified to length 12.
+Simplified to length 10.
+Simplified to length 9.
+Simplified to length 8.
+Simplified to length 7.
+Simplified genome: length=7 error=0
+def negative_to_zero(input1):
+    return map(lambda _0: max_(0, _0), input1)
+
+[0 0 0 ... 0 0 0]
+Final Test Error: 0

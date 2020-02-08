@@ -1,0 +1,52 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		420603.0		268344		0.072		268344		dt2.year()
+2		268512.0		229337		0.05		229337		mul(2, dt2.year())
+3		351853.0		229337		0.068		229337		mul(2, dt2.year())
+4		268512.0		229337		0.074		229337		mul(2, dt2.year())
+5		351853.0		229337		0.093		229337		mul(2, dt2.year())
+6		354877.0		229335		0.103		229335		add(mul(abs_(2), dt2.year()), neg(1))
+7		384925.0		229337		0.133		229335		add(mul(abs_(2), dt2.year()), neg(1))
+8		417768.0		229178		0.171		229178		add(mul(2, dt2.year()), neg(dt2.hour()))
+9		385019.0		229309		0.191		229178		add(mul(2, dt2.year()), neg(dt2.hour()))
+10		393251.0		229309		0.216		229178		add(mul(2, dt2.year()), neg(dt2.hour()))
+11		386583.0		227369		0.246		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+12		417717.0		227369		0.286		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+13		414603.0		227369		0.294		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+14		418703.0		227369		0.317		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+15		418114.5		227385		0.319		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+16		419038.0		227393		0.318		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+17		419333.0		229335		0.292		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+18		419603.0		229287		0.321		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+19		419333.0		229337		0.349		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+20		419723.0		229335		0.335		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+21		420353.0		227397		0.35		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+22		419303.0		227369		0.36		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+23		419254.0		227369		0.36		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+24		364120.0		227369		0.24		227369		add(mul(min_(dt2.day(), 2), print_do(neg(False), dt1).year()), -6)
+25		420503.0		100		0.086		100		abs_(sub(dt2, dt1).days())
+26		379244.5		100		0.063		100		abs_(sub(dt2, dt1).days())
+27		237167.0		0		0.077		0		abs_(sub(dt1, dt2).days())
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(sub(dt1, dt2).days())
+Simplifying genome of length 67.
+Simplified to length 51.
+Simplified to length 44.
+Simplified to length 40.
+Simplified to length 39.
+Simplified to length 38.
+Simplified to length 36.
+Simplified to length 35.
+Simplified to length 27.
+Simplified to length 20.
+Simplified to length 14.
+Simplified to length 13.
+Simplified to length 11.
+Simplified to length 10.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())

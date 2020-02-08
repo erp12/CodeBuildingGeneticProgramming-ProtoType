@@ -1,0 +1,150 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		30400000.0		440		0.005		440		lst
+2		440.0		440		0.005		440		lst
+3		440.0		440		0.007		440		lst
+4		440.0		440		0.007		440		lst
+5		440.0		440		0.007		440		lst
+6		440.0		440		0.008		440		lst
+7		440.0		440		0.009		440		lst
+8		440.0		440		0.009		440		lst
+9		440.0		440		0.013		440		lst
+10		440.0		440		0.011		440		lst
+11		496.0		440		0.013		440		lst
+12		440.0		440		0.017		440		lst
+13		440.0		440		0.015		440		lst
+14		496.0		440		0.015		440		lst
+15		440.0		440		0.016		440		lst
+16		496.0		440		0.019		440		lst
+17		496.0		440		0.018		440		lst
+18		440.0		440		0.019		440		lst
+19		440.0		440		0.02		440		lst
+20		440.0		440		0.015		440		lst
+21		496.0		440		0.018		440		lst
+22		496.0		440		0.022		440		lst
+23		440.0		440		0.027		440		lst
+24		440.0		440		0.019		440		lst
+25		440.0		440		0.02		440		lst
+26		496.0		440		0.021		440		lst
+27		440.0		440		0.021		440		lst
+28		440.0		440		0.018		440		lst
+29		496.0		440		0.019		440		lst
+30		496.0		440		0.018		440		lst
+31		496.0		440		0.016		440		lst
+32		496.0		440		0.017		440		lst
+33		440.0		440		0.018		440		lst
+34		440.0		440		0.018		440		lst
+35		440.0		440		0.022		440		lst
+36		496.0		440		0.022		440		lst
+37		440.0		440		0.023		440		lst
+38		440.0		440		0.021		440		lst
+39		440.0		440		0.023		440		lst
+40		440.0		440		0.027		440		lst
+41		496.0		411		0.028		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+42		960.0		411		0.046		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+43		585.5		411		0.045		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+44		1700408.0		411		0.058		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+45		1700408.0		411		0.059		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+46		2000437.0		411		0.072		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+47		2600348.0		411		0.08		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+48		2600348.0		411		0.077		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+49		2600348.0		411		0.078		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+50		2000426.0		411		0.086		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+51		2600348.0		411		0.095		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+52		2600348.0		411		0.091		411		if_(lt(lower, println_tap(upper)), lst, wrap(upper))
+53		9500284.0		243		0.097		243		filter(lambda _0: not_(neg(lt(upper, print_tap(_0)))), lst)
+54		12400378.5		243		0.095		243		filter(lambda _0: not_(neg(lt(upper, print_tap(_0)))), lst)
+55		11700277.0		243		0.088		243		filter(lambda _0: not_(neg(lt(upper, print_tap(_0)))), lst)
+56		11700277.0		229		0.09		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+57		11100319.0		229		0.094		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+58		9500280.0		229		0.079		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+59		11700277.0		229		0.08		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+60		8700247.0		229		0.084		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+61		700247.0		229		0.085		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+62		9000307.0		229		0.081		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+63		1650434.0		229		0.086		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+64		9200281.0		229		0.074		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+65		10700335.0		229		0.081		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+66		700247.0		229		0.082		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+67		2600348.0		229		0.086		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+68		850322.5		229		0.08		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+69		2600348.0		229		0.072		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+70		700247.0		229		0.079		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+71		700247.0		229		0.082		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+72		700247.0		229		0.083		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+73		700247.0		229		0.065		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+74		700247.0		229		0.064		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+75		4500386.0		229		0.063		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+76		700247.0		229		0.063		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+77		700247.0		229		0.068		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+78		700247.0		229		0.062		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+79		2150397.0		229		0.063		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+80		5400322.0		229		0.062		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+81		700247.0		229		0.065		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+82		700247.0		229		0.073		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+83		700247.0		229		0.071		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+84		700247.0		229		0.068		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+85		700247.0		229		0.066		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+86		700247.0		229		0.073		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+87		700247.0		229		0.076		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+88		5400322.0		229		0.067		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+89		700247.0		229		0.077		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+90		5050327.0		229		0.076		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+91		700247.0		229		0.076		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+92		700247.0		229		0.078		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+93		2600348.0		229		0.086		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+94		1500249.0		229		0.088		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+95		5400322.0		229		0.1		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+96		5400322.0		229		0.102		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+97		6600356.0		229		0.097		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+98		1300389.0		229		0.109		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+99		5800388.0		229		0.099		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+100		700247.0		229		0.097		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+101		7850420.5		229		0.099		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+102		6600356.0		229		0.105		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+103		7800330.0		229		0.1		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+104		6600356.0		229		0.105		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+105		1500258.0		229		0.107		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+106		7700358.5		229		0.109		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+107		5950319.5		229		0.109		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+108		11700277.0		229		0.105		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+109		8950273.5		229		0.107		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+110		11450301.5		229		0.119		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+111		10300237.0		229		0.115		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+112		11600245.0		229		0.116		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+113		11600311.0		229		0.122		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+114		12200245.0		229		0.13		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+115		13800309.0		229		0.113		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+116		5900348.0		229		0.111		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+117		9200277.0		229		0.114		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+118		5400322.0		229		0.114		229		filter(lambda _0: le(lower, print_tap(_0)), lst)
+119		1500258.0		0		0.113		0		filter(lambda _0: lt(int2bool(gt(lower, _0)), ne(print_tap(gt(_0, upper)), True)), lst)
+Solution found.
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: lt(int2bool(gt(lower, _0)), ne(print_tap(gt(_0, upper)), True)), lst)
+Simplifying genome of length 59.
+Simplified to length 56.
+Simplified to length 47.
+Simplified to length 46.
+Simplified to length 42.
+Simplified to length 41.
+Simplified to length 37.
+Simplified to length 36.
+Simplified to length 35.
+Simplified to length 33.
+Simplified to length 32.
+Simplified to length 30.
+Simplified to length 28.
+Simplified to length 25.
+Simplified to length 24.
+Simplified to length 22.
+Simplified to length 21.
+Simplified to length 20.
+Simplified to length 18.
+Simplified to length 17.
+Simplified to length 16.
+Simplified to length 15.
+Simplified to length 14.
+Simplified to length 13.
+Simplified genome: length=13 error=0
+def filter_bounds(lst, lower, upper):
+    return filter(lambda _0: lt(gt(lower, _0), ne(gt(_0, upper), True)), lst)

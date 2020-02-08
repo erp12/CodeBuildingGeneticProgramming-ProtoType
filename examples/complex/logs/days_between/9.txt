@@ -1,0 +1,62 @@
+Gen		Median		MAD		Best		Div		Run Best		Code
+1		374108.0		235723		0.071		235723		pos(dt1.year())
+2		235745.0		235723		0.038		235723		pos(dt1.year())
+3		236143.0		234047		0.045		234047		sub(dt1.year(), println_tap(-40))
+4		236143.0		220777		0.08		220777		sub(dt1.year(), mul(-40, 10))
+5		251835.0		220777		0.103		220777		sub(dt1.year(), mul(-40, 10))
+6		289357.0		207173		0.127		207173		sub(dt1.year(), mul(sub(println_tap(-40), 98), 10))
+7		289977.0		207173		0.201		207173		sub(dt1.year(), mul(sub(println_tap(-40), 98), 10))
+8		290914.0		206531		0.218		206531		sub(dt1.year(), mul(println_tap(do_print(dt2, 0).minute()), -40))
+9		292728.0		206531		0.265		206531		sub(dt1.year(), mul(println_tap(do_print(dt2, 0).minute()), -40))
+10		320020.0		206171		0.304		206171		add(sub(dt1.year(), mul(println_tap(do_print(dt2, False).minute()), -40)), sub(98, 10))
+11		333568.0		206531		0.351		206171		add(sub(dt1.year(), mul(println_tap(do_print(dt2, False).minute()), -40)), sub(98, 10))
+12		343780.0		203116		0.368		203116		mul(sub(dt2.hour(), -40), sub(do_print(74, 10), 0))
+13		339027.0		200970		0.384		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+14		333610.0		200970		0.368		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+15		343119.0		200970		0.398		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+16		342324.0		200970		0.389		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+17		342094.0		200970		0.397		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+18		338554.0		200970		0.399		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+19		343684.0		200970		0.412		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+20		344646.0		200970		0.403		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+21		341635.0		200970		0.379		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+22		338554.0		200970		0.388		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+23		343780.0		200970		0.422		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+24		343472.0		200970		0.397		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+25		345295.0		200970		0.415		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+26		342185.5		200970		0.392		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+27		347428.0		200970		0.406		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+28		339414.0		200970		0.398		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+29		342094.0		200970		0.401		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+30		339586.0		200970		0.403		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+31		342094.0		200970		0.401		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+32		356772.0		200970		0.417		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+33		342094.0		200970		0.385		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+34		361295.5		200970		0.405		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+35		355905.0		200970		0.394		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+36		356772.0		200970		0.405		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+37		347332.0		200970		0.397		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+38		347332.0		200970		0.408		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+39		358208.0		200970		0.409		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+40		357392.0		205271		0.394		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+41		339586.0		206531		0.383		200970		sub(mul(sub(dt2.hour(), -40), sub(74, 10)), print_tap(0))
+42		358208.0		35933		0.395		35933		sub(abs_(sub(sub(dt1, dt2).days(), 365)), dt1.day())
+43		373508.0		0		0.179		0		abs_(sub(dt1, dt2).days())
+Solution found.
+def days_between(dt1, dt1):
+    return abs_(sub(dt1, dt2).days())
+Simplifying genome of length 51.
+Simplified to length 39.
+Simplified to length 31.
+Simplified to length 30.
+Simplified to length 21.
+Simplified to length 16.
+Simplified to length 13.
+Simplified to length 10.
+Simplified to length 8.
+Simplified to length 7.
+Simplified to length 6.
+Simplified to length 5.
+Simplified genome: length=5 error=0
+def days_between(dt1, dt2):
+    return abs_(sub(dt1, dt2).days())
