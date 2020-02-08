@@ -1,11 +1,3 @@
-# AceGP
+# Code Building Genetic Programming
 
-## Solution Rates
-
-```
-Vector Average: 31/31   100%
-Number IO:      31/31   100%
-Smallest:       31/31   100%
-Median:         30/31    97%
-```
-
+This is a research prototype and should not be used in production.
